@@ -1,0 +1,8 @@
+359698.c
+360011.c
+5
+modify<TAG>12<TAG>            int result = a / b;<CHANGETO>            int left = a / b;
+modify<TAG>13<TAG>            printf("%d\n", result);<CHANGETO>            float right = (float)a / (float)b - left;
+add<TAG>13<TAG>            if (right < 0.5)
+add<TAG>13<TAG>                printf("%d\n", left  );
+add<TAG>13<TAG>            else printf("%d\n", left+1);

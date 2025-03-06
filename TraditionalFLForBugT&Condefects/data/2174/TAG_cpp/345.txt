@@ -1,0 +1,9 @@
+160435.cpp
+160453.cpp
+6
+modify<TAG>3<TAG>int main(){<CHANGETO>int main(void){
+modify<TAG>4<TAG>	int a,b;<CHANGETO>	float a,b;
+modify<TAG>6<TAG>		if(b!=0)<CHANGETO>		if(b==0) cout<<"error"<<endl;
+modify<TAG>7<TAG>		   cout<<a/b<<endl;<CHANGETO>		else printf("%d\n",(int)(a/b+0.5));
+del<TAG>8<TAG>		else cout<<"error";
+del<TAG>10<TAG>	return 0;

@@ -1,0 +1,4 @@
+50477.c
+50479.c
+1
+modify<TAG>7<TAG>		if(b==0)printf("ERROR\n");<CHANGETO>		if(b==0)printf("error\n");

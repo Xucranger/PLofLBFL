@@ -1,0 +1,11 @@
+438109.c
+438006.c
+8
+modify<TAG>5<TAG>	int n,i; <CHANGETO>	int n,i;
+modify<TAG>6<TAG>	float solution,temp;<CHANGETO>	double k;
+modify<TAG>9<TAG>		if(n==0) solution=sin(n);<CHANGETO>		k=sin(n);
+modify<TAG>10<TAG>		else<CHANGETO>		for(i=0;i<n;i++)
+modify<TAG>12<TAG>			solution=sin(n);<CHANGETO>			k=sin(k);
+del<TAG>13<TAG>			for(i=1;i<n+1;i++)
+del<TAG>14<TAG>		    solution=sin(solution);
+modify<TAG>16<TAG>		printf("%.6f\n",solution);<CHANGETO>		printf("%lf\n",k);

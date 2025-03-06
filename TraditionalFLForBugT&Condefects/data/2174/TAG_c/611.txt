@@ -1,0 +1,7 @@
+305506.c
+305508.c
+4
+modify<TAG>9<TAG>        printf("error");<CHANGETO>        printf("error\n");
+modify<TAG>10<TAG>        else<CHANGETO>        else{
+modify<TAG>12<TAG>        printf("%d",c);<CHANGETO>        printf("%d\n",c);
+add<TAG>13<TAG>    }

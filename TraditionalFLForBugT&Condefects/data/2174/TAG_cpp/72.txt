@@ -1,0 +1,7 @@
+359848.cpp
+359987.cpp
+4
+modify<TAG>5<TAG>	int a,b,c;<CHANGETO>	float c,a,b;
+modify<TAG>11<TAG>		if(a%b>4) c=a/b+1;<CHANGETO>		c=(int)(a/b*1.0+0.5);
+del<TAG>12<TAG>		else c=a/b;
+modify<TAG>16<TAG> }<CHANGETO> } 

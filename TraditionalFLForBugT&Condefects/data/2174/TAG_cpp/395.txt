@@ -1,0 +1,28 @@
+84797.cpp
+153351.cpp
+25
+modify<TAG>1<TAG>#include<stdio.h><CHANGETO>#include<iostream>
+modify<TAG>2<TAG>int beishu(int shu1,int shu2)<CHANGETO>using namespace std;
+modify<TAG>3<TAG>{<CHANGETO>inline void f(int a,int b)
+del<TAG>4<TAG>	int jieguo;
+del<TAG>5<TAG>	jieguo=shu1>shu2?shu1:shu2;
+del<TAG>6<TAG>	jieguo--;
+del<TAG>7<TAG>	do{
+del<TAG>8<TAG>	jieguo++;
+del<TAG>9<TAG>	}while(jieguo%shu1!=0 || jieguo%shu2!=0);
+del<TAG>10<TAG>	return jieguo;
+del<TAG>11<TAG>}
+del<TAG>12<TAG>int yueshu(int shu1,int shu2)
+modify<TAG>14<TAG>	int jieguo;<CHANGETO>if(b==0)   cout<<"error";    
+modify<TAG>15<TAG>	jieguo=shu1<shu2?shu1:shu2;<CHANGETO>       else if((10*a/b)%10>=5)
+modify<TAG>16<TAG>	jieguo++;<CHANGETO>       cout<<a/b+1;
+modify<TAG>17<TAG>	do{<CHANGETO>       else cout<<a/b;
+modify<TAG>18<TAG>	jieguo--;<CHANGETO>       cout<<endl;
+del<TAG>19<TAG>	}while(shu1%jieguo!=0 || shu2%jieguo!=0 );
+del<TAG>20<TAG>	return jieguo;
+modify<TAG>24<TAG>	int shu1,shu2;<CHANGETO>int a,b;    
+modify<TAG>25<TAG>	int x,y;<CHANGETO>    while(cin>>a>>b)
+modify<TAG>26<TAG>	scanf("%d %d",&shu1,&shu2);<CHANGETO>    {
+modify<TAG>27<TAG>	x=beishu(shu1,shu2);<CHANGETO>    f(a,b);                
+modify<TAG>28<TAG>	y=yueshu(shu1,shu2);<CHANGETO>    }
+del<TAG>29<TAG>	printf("%d %d",y,x);

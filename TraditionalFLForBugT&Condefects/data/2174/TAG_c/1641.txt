@@ -1,0 +1,8 @@
+195426.c
+245568.c
+5
+modify<TAG>2<TAG>int main(void)<CHANGETO>void main()
+modify<TAG>7<TAG>		if(b!=0)<CHANGETO>		if(b==0)printf("error\n");
+modify<TAG>8<TAG>	        printf("%d",a/b);<CHANGETO>		else if(10*a/b%10>=5) printf("%d\n",a/b+1);
+modify<TAG>9<TAG>	    else <CHANGETO>		else printf("%d\n",a/b);
+del<TAG>10<TAG>	        printf("error");

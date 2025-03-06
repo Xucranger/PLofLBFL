@@ -1,0 +1,11 @@
+155290.cpp
+155127.cpp
+8
+modify<TAG>1<TAG>#include <iostream><CHANGETO>#include<iostream>
+del<TAG>2<TAG>#include <string>
+del<TAG>3<TAG>#include <cstdio>
+add<TAG>7<TAG>	float c;
+modify<TAG>12<TAG>		else <CHANGETO>		else
+modify<TAG>14<TAG>			float ans=(float)a/(float)b;<CHANGETO>			c=(float)a/(float)b;
+modify<TAG>15<TAG>			printf("%.0f\n",ans);<CHANGETO>			printf("%d\n",(int)(c+0.5));
+del<TAG>18<TAG>	//system("pause");

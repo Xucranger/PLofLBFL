@@ -1,0 +1,8 @@
+490989.cpp
+305702.cpp
+5
+del<TAG>2<TAG>#include<iomanip>
+modify<TAG>6<TAG>	float a, b;<CHANGETO>	int a=0, b=0,c=0;
+modify<TAG>10<TAG>			cout << "error" << endl ;<CHANGETO>			cout << "error" << endl;
+modify<TAG>12<TAG>			cout << fixed << setprecision(0) << a / b << endl;<CHANGETO>		cout << int(float(a) / b + 0.5) << endl;
+add<TAG>13<TAG>	return 0;

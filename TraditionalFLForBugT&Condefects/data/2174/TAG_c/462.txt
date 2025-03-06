@@ -1,0 +1,8 @@
+491856.c
+491859.c
+5
+modify<TAG>4<TAG>    int a,b;<CHANGETO>    int a,b,d;
+modify<TAG>11<TAG>            printf("%.0f\n",c);<CHANGETO>            d=(int)c;
+add<TAG>11<TAG>            if(c-d>=0.5)
+add<TAG>11<TAG>                d++;
+add<TAG>11<TAG>            printf("%d\n",d);

@@ -1,0 +1,10 @@
+287980.c
+288230.c
+7
+modify<TAG>3<TAG>float f[101];<CHANGETO>double f[101];
+modify<TAG>5<TAG>float fun(int i)<CHANGETO>double fun(int i)
+modify<TAG>14<TAG>    int i,n;<CHANGETO>    int i,n,j=0;
+modify<TAG>16<TAG>    while(scanf("%d",&n)!=EOF)<CHANGETO>    while((scanf("%d",&n)!=EOF)&&j<20)
+add<TAG>17<TAG>        j++;
+modify<TAG>19<TAG>            printf("0.000000");<CHANGETO>            printf("0.000000\n");
+modify<TAG>24<TAG>            printf("%.06f",k);<CHANGETO>            printf("%.06lf\n",k);

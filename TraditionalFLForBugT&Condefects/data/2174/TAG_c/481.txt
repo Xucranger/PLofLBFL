@@ -1,0 +1,14 @@
+199111.c
+307494.c
+11
+modify<TAG>2<TAG>#include<stdlib.h><CHANGETO>#include<math.h>
+modify<TAG>4<TAG>{   int a,b;<CHANGETO>{
+modify<TAG>5<TAG>	float c,d;<CHANGETO>	int a,b;
+modify<TAG>6<TAG>	scanf("%d,%d",&a,&b);<CHANGETO>	float c;
+modify<TAG>9<TAG>	if(b==0) printf("error");<CHANGETO>		c=(double)a/b;
+modify<TAG>10<TAG>	else<CHANGETO>		c=c+0.5;
+modify<TAG>11<TAG>	{	d=a/b;<CHANGETO>		c=floor(c);
+modify<TAG>12<TAG>		c=a/b*10;<CHANGETO>		if(b==0)printf("error\n");
+modify<TAG>13<TAG>		if((int)c%10>=5) d=d+1;<CHANGETO>		else printf("%.0f\n",c);
+del<TAG>14<TAG>		printf("%.0f",d);
+del<TAG>16<TAG>	}

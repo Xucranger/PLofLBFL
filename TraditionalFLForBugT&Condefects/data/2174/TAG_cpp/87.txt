@@ -1,0 +1,9 @@
+305424.cpp
+305428.cpp
+6
+modify<TAG>15<TAG>		cout<<a/b<<endl; <CHANGETO>		{
+add<TAG>15<TAG>			ll x=a/b;
+add<TAG>15<TAG>			if(a%b>=(b+1)/2)
+add<TAG>15<TAG>			x++;
+add<TAG>15<TAG>			cout<<x<<endl;
+add<TAG>15<TAG>		}

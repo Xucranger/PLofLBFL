@@ -1,0 +1,16 @@
+483844.cpp
+483853.cpp
+13
+add<TAG>3<TAG>#include<string>
+add<TAG>3<TAG>#include<sstream>
+modify<TAG>15<TAG>	int num1, num2, num3;<CHANGETO>	string str;
+modify<TAG>16<TAG>	cin >> num1;<CHANGETO>	int num;
+modify<TAG>17<TAG>	cin >> num2;<CHANGETO>	while(getline(cin,str))
+modify<TAG>18<TAG>	cin >> num3;<CHANGETO>	{
+modify<TAG>19<TAG>	cout <<setiosflags(ios::fixed)<<setprecision(6)<< F(num1,num1)<<endl;<CHANGETO>		if (str.size()==0) break;
+modify<TAG>20<TAG>	cout <<setiosflags(ios::fixed)<<setprecision(6)<< F(num2,num2)<<endl;<CHANGETO>		istringstream ist(str);
+modify<TAG>21<TAG>	cout <<setiosflags(ios::fixed)<<setprecision(6)<< F(num3,num3)<<endl;<CHANGETO>		for(int j=0;ist>>num&&j<str.length();j++)
+add<TAG>21<TAG>		{
+add<TAG>21<TAG>			cout <<setiosflags(ios::fixed)<<setprecision(6)<< F(num,num)<<endl;
+add<TAG>21<TAG>		}
+add<TAG>21<TAG>	}

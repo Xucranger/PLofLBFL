@@ -1,0 +1,6 @@
+489286.cpp
+489297.cpp
+3
+modify<TAG>6<TAG>	double a, b,r;<CHANGETO>	int a, b,r;
+modify<TAG>14<TAG>		r = a / b;<CHANGETO>		r = (int)(a / (b * 1.0)+0.5 );
+modify<TAG>15<TAG>		printf("%.0lf\n", r);<CHANGETO>		cout << r << endl;

@@ -1,0 +1,10 @@
+363565.c
+304327.c
+7
+modify<TAG>4<TAG>	double y,a,b;<CHANGETO>	int a,b;
+modify<TAG>7<TAG>		if(b!=0)<CHANGETO>		if(b==0) printf("error\n");
+add<TAG>7<TAG>		else
+modify<TAG>9<TAG>			y=a/b;<CHANGETO>			if(a%b*10/b<=4) printf("%d\n",a/b);
+modify<TAG>10<TAG>			printf("%.0f\n",y);<CHANGETO>			else printf("%d\n",a/b+1);
+del<TAG>12<TAG>		else
+del<TAG>13<TAG>			printf("error");

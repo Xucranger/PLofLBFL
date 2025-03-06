@@ -1,0 +1,6 @@
+155642.cpp
+155827.cpp
+3
+add<TAG>5<TAG>	double c;
+modify<TAG>10<TAG>			printf("%d\n",a/b);<CHANGETO>			c=1.0*a/b;
+add<TAG>10<TAG>			printf("%d\n",int(c+0.5));

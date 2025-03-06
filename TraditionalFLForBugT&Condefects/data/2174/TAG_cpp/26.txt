@@ -1,0 +1,9 @@
+71122.cpp
+71123.cpp
+6
+modify<TAG>7<TAG>  float n,p;<CHANGETO>    float n,p;
+modify<TAG>13<TAG>    {<CHANGETO>    {m=a/b;
+modify<TAG>14<TAG>   m=a/b;<CHANGETO>    n=(float)a/(float)b;
+modify<TAG>15<TAG>    n=a/b;<CHANGETO>    p=n-m;
+modify<TAG>16<TAG>p=n-m;<CHANGETO>    if (p>=0.5)
+del<TAG>17<TAG>    if (n>=0.5)

@@ -1,0 +1,4 @@
+358270.cpp
+358272.cpp
+1
+modify<TAG>8<TAG>    	if(b==0) printf("ERROR\n");<CHANGETO>    	if(b==0) printf("error\n");

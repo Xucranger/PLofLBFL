@@ -1,0 +1,10 @@
+155536.cpp
+194948.cpp
+7
+del<TAG>2<TAG>#include <string.h>
+modify<TAG>5<TAG>    int a,b;<CHANGETO>    float a,b,t;
+modify<TAG>6<TAG>    while(~scanf("%d%d",&a,&b))<CHANGETO>    while(~scanf("%f%f",&a,&b))
+del<TAG>9<TAG>        {
+del<TAG>11<TAG>        }
+modify<TAG>14<TAG>            printf("%d\n",a/b);<CHANGETO>            t=int ((a/b)+0.5);
+add<TAG>14<TAG>             printf("%0.f\n",t);

@@ -1,0 +1,10 @@
+68619.cpp
+159619.cpp
+7
+del<TAG>1<TAG>#include<iostream>
+modify<TAG>5<TAG>	int a,b,c;<CHANGETO>	int a,b;
+add<TAG>5<TAG>	float m;
+modify<TAG>9<TAG>		{<CHANGETO>		{	
+modify<TAG>10<TAG>			c=a/b;<CHANGETO>			m=(float)a/b;
+modify<TAG>11<TAG>			printf("%d\n",c+1);<CHANGETO>		int y=(int)(m+0.5);
+add<TAG>11<TAG>		printf("%d\n",y);

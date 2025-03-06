@@ -1,0 +1,14 @@
+195221.c
+195255.c
+11
+modify<TAG>15<TAG>int w=10,u;<CHANGETO>int w=10,u,yy=k;
+modify<TAG>18<TAG>	u=k%w;<CHANGETO>	u=yy%10;
+modify<TAG>19<TAG>	if(u/5>0) k+=w;<CHANGETO>//	printf("$$%d ",u);
+add<TAG>19<TAG>	if(u/5>0)
+add<TAG>19<TAG>	{
+add<TAG>19<TAG>		 k+=w;
+add<TAG>19<TAG>	}
+add<TAG>19<TAG>	yy=k;
+add<TAG>19<TAG>		 for(int j=0;j<l+1;j++)
+add<TAG>19<TAG>		 yy=yy/10;
+add<TAG>20<TAG>//	printf("%d ",k);

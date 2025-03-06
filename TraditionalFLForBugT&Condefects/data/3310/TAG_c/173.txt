@@ -1,0 +1,11 @@
+437711.c
+438006.c
+8
+modify<TAG>5<TAG>	int i,n;<CHANGETO>	int n,i;
+modify<TAG>6<TAG>	float m;<CHANGETO>	double k;
+modify<TAG>9<TAG>		m=n;<CHANGETO>		k=sin(n);
+modify<TAG>10<TAG>		for(i=0;i<n+1;i++)<CHANGETO>		for(i=0;i<n;i++)
+modify<TAG>11<TAG>		//f0=sin(n);<CHANGETO>		{
+modify<TAG>12<TAG>		m=sin(m);<CHANGETO>			k=sin(k);
+modify<TAG>13<TAG>		printf("%.6f\n",m);<CHANGETO>		}
+add<TAG>13<TAG>		printf("%lf\n",k);

@@ -1,0 +1,7 @@
+489153.c
+489158.c
+4
+modify<TAG>16<TAG>				half=a/2;<CHANGETO>				half=b/2;
+modify<TAG>17<TAG>				if(y>half&&a%2==1||y>=half&&a%2==0)<CHANGETO>				if(y>half&&b%2==1)
+add<TAG>18<TAG>			    else if(y>=half&&b%2==0)
+add<TAG>18<TAG>			    printf("%d\n",x+1);

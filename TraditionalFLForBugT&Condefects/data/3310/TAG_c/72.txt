@@ -1,0 +1,13 @@
+287943.c
+288278.c
+10
+modify<TAG>5<TAG>    float f;<CHANGETO>    double f;
+modify<TAG>7<TAG>    while((scanf("%d",&n))!=EOF)<CHANGETO>    while(scanf("%d",&n)!=EOF)
+modify<TAG>8<TAG>    {<CHANGETO>{ 
+modify<TAG>9<TAG>    if (n=0) f=sin (n);<CHANGETO>    if (n==0) 
+modify<TAG>10<TAG>    else if(n>0) <CHANGETO>    f=sin(0);   
+modify<TAG>11<TAG>    {   f=sin(n);<CHANGETO>    if(n>0) 
+modify<TAG>12<TAG>        while(n>1)<CHANGETO>    {   f=n;
+add<TAG>12<TAG>        while(n>=0)
+modify<TAG>18<TAG>    printf("%.6f",f);<CHANGETO>    printf("%.6lf\n",f);
+modify<TAG>19<TAG>    }<CHANGETO>}    

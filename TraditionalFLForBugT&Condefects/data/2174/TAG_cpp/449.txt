@@ -1,0 +1,27 @@
+498921.cpp
+70846.cpp
+24
+modify<TAG>4<TAG>    int A,B;<CHANGETO>    int a,b;
+modify<TAG>5<TAG>    while(cin>>A>>B){<CHANGETO>    while(cin>>a>>b){
+modify<TAG>6<TAG>        if(A<=9&&B<=9){<CHANGETO>        if(b==0) cout<<"error"<<endl;
+del<TAG>7<TAG>            if((A+B)%2==0){
+del<TAG>8<TAG>                if(((A+B)/2)%2==0)
+del<TAG>9<TAG>                    cout<<"A"<<endl;
+del<TAG>10<TAG>                else
+del<TAG>11<TAG>                    cout<<"B"<<endl;
+del<TAG>12<TAG>            }
+del<TAG>13<TAG>            else{
+del<TAG>14<TAG>                if(((A+B-1)/2)%2==0)
+del<TAG>15<TAG>                    cout<<"A"<<endl;
+del<TAG>16<TAG>                else
+del<TAG>17<TAG>                    cout<<"B"<<endl;
+del<TAG>18<TAG>            }
+del<TAG>19<TAG>        }
+modify<TAG>21<TAG>            if(A==11&&B==9||A==9&&B==11)<CHANGETO>            int t=a%b,k=a/b;
+modify<TAG>22<TAG>                cout<<"GAME OVER"<<endl;<CHANGETO>            if((t*10)/b>=5) k++;
+modify<TAG>23<TAG>            else{<CHANGETO>            cout<<k<<endl;
+del<TAG>24<TAG>                if(((A+B)-20)%2==0)
+del<TAG>25<TAG>                    cout<<"A"<<endl;
+del<TAG>26<TAG>                else
+del<TAG>27<TAG>                    cout<<"B"<<endl;
+del<TAG>28<TAG>            }

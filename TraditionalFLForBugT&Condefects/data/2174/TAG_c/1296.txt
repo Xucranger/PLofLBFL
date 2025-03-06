@@ -1,0 +1,7 @@
+84933.c
+85446.c
+4
+modify<TAG>6<TAG>    for(i=0;i<2;i++)<CHANGETO>    while(scanf("%d %d",&a,&b)!=EOF)
+del<TAG>8<TAG>       scanf("%d %d",&a,&b);
+modify<TAG>11<TAG>           if(a>b)<CHANGETO>           if(a>=b)
+modify<TAG>30<TAG>     } <CHANGETO>}     

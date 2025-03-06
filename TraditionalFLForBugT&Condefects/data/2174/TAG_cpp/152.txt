@@ -1,0 +1,16 @@
+359946.cpp
+85944.cpp
+13
+modify<TAG>4<TAG>{<CHANGETO>{ float a,b;
+modify<TAG>5<TAG>  int a,b,m,n;<CHANGETO>  int c;
+del<TAG>6<TAG>  float sum;
+modify<TAG>9<TAG>  	if(b==0) cout<<"error"<<endl;<CHANGETO>      if(b==0)
+modify<TAG>10<TAG>  	else if(a<b) cout<<0<<endl;<CHANGETO>      cout<<"error"<<endl;
+modify<TAG>11<TAG>  	else<CHANGETO>      else
+modify<TAG>12<TAG>  	{<CHANGETO>      {
+modify<TAG>13<TAG>  		sum=a*(1.0)/b; m=a/b;<CHANGETO>          c=a*1.0/b+0.5;
+modify<TAG>14<TAG>  		if(sum-m>=0.5)<CHANGETO>          cout<<c<<endl;
+modify<TAG>15<TAG>  		m+=1;<CHANGETO>      }
+del<TAG>16<TAG>  		else sum=m;
+del<TAG>17<TAG>  		cout<<m<<endl;
+del<TAG>18<TAG>	  }

@@ -1,0 +1,8 @@
+396940.py
+400252.py
+5
+modify<TAG>4<TAG>        num = input().split(" ")<CHANGETO>        a,b = map(float,raw_input().strip().split())
+modify<TAG>5<TAG>        if num[1] == '0':<CHANGETO>        if(b==0):print('error')
+del<TAG>6<TAG>            print("error")
+modify<TAG>8<TAG>            res = int(int(num[0]) / int(num[1]) + 0.5)<CHANGETO>            print(int(a/b+0.5))
+del<TAG>9<TAG>            print(res)

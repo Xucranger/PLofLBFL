@@ -1,0 +1,9 @@
+358622.c
+157750.c
+6
+del<TAG>2<TAG>#include<math.h>
+modify<TAG>5<TAG>	float  a,b;<CHANGETO>	int a,b;
+modify<TAG>9<TAG>		if(b==0)<CHANGETO>		if (b==0)
+modify<TAG>11<TAG>		else <CHANGETO>		else
+modify<TAG>13<TAG>			c=a/b;<CHANGETO>			c=(float)a/b;
+modify<TAG>14<TAG>			printf("%1.0f\n",c);<CHANGETO>			printf("%d\n",(int)(c+0.5));

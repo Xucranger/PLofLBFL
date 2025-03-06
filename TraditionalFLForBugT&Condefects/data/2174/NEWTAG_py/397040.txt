@@ -1,0 +1,4 @@
+397040.py
+397158.py
+1
+modify<TAG>4<TAG>        m=input().split()<CHANGETO>        m=raw_input().split()

@@ -1,0 +1,8 @@
+305668.c
+82257.c
+5
+modify<TAG>4<TAG>	int a=0, b=0;<CHANGETO>	int a,b;
+modify<TAG>5<TAG>	for (int i = 0; i < 2; i++)<CHANGETO>	while(scanf("%d %d",&a,&b)==2)
+modify<TAG>7<TAG>		scanf("%d %d", &a, &b);<CHANGETO>		if(b==0)
+del<TAG>8<TAG>		if (b == 0)
+modify<TAG>11<TAG>			printf("%d\n", a / b);<CHANGETO>			printf("%d\n",(int)(a*1.0/b+0.5));

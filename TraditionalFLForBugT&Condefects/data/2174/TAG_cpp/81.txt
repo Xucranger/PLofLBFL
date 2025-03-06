@@ -1,0 +1,11 @@
+305049.cpp
+158035.cpp
+8
+modify<TAG>1<TAG>#include <iostream><CHANGETO>#include<iostream>
+modify<TAG>2<TAG>using std::cout;<CHANGETO>using namespace std;
+del<TAG>3<TAG>using std::endl;
+del<TAG>4<TAG>using std::cin;
+modify<TAG>7<TAG>    int a, b;<CHANGETO>    float a,b,c;
+modify<TAG>8<TAG>    while(cin >> a >> b)<CHANGETO>    while(cin>>a>>b)
+modify<TAG>11<TAG>            cout << "error" << endl;<CHANGETO>            cout<<"error"<<endl;
+modify<TAG>13<TAG>            cout << a/b << endl;<CHANGETO>            cout<<int(a/b+0.5)<<endl;

@@ -1,0 +1,10 @@
+499458.c
+499464.c
+7
+modify<TAG>2<TAG>void main()<CHANGETO>int main()
+modify<TAG>3<TAG>{int t;<CHANGETO>{int a,b;
+del<TAG>4<TAG>	int a,b,c;
+modify<TAG>7<TAG>	else c=a/b;<CHANGETO>	else
+modify<TAG>8<TAG>t=(int)c;<CHANGETO>printf("%d\n",(a+(b/2))/b);
+modify<TAG>9<TAG>printf(" %.lf\n",c);<CHANGETO>} return 0;}
+del<TAG>10<TAG>} }

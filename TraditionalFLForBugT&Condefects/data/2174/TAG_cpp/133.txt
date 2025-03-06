@@ -1,0 +1,7 @@
+356594.cpp
+356616.cpp
+4
+modify<TAG>6<TAG>	while((scanf("%d %d",&a,&b))!=EOF)<CHANGETO>	while(cin >> a >> b)
+modify<TAG>12<TAG>		int m;<CHANGETO>	int m;
+modify<TAG>13<TAG>		m=a%b;<CHANGETO>	m=a%b;
+modify<TAG>14<TAG>    if(m<=b/2.0)<CHANGETO>    if(m<b/2.0)

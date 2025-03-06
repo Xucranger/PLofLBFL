@@ -1,0 +1,6 @@
+307312.c
+305444.c
+3
+add<TAG>1<TAG>#include<math.h>
+modify<TAG>5<TAG>    while((scanf("%d%d",&a,&b))!=EOF)<CHANGETO>    while(scanf("%d%d",&a,&b)!=EOF)
+modify<TAG>11<TAG>            c=a/b;<CHANGETO>            c=round((1.0*a)/b);

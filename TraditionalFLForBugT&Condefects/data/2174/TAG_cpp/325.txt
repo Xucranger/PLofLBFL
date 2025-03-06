@@ -1,0 +1,8 @@
+84932.cpp
+84949.cpp
+5
+modify<TAG>5<TAG>	while(scanf("%d %d",&a,&b)!=EOF)<CHANGETO>	int d;
+add<TAG>5<TAG>	while(scanf("%f %f",&a,&b)!=EOF)
+modify<TAG>11<TAG>			c=a/b+0.5;<CHANGETO>			c=a/b;
+modify<TAG>12<TAG>			printf("%d\n",c);<CHANGETO>			d=int (c+0.5);
+add<TAG>12<TAG>			printf("%d\n",d);

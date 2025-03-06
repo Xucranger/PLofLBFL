@@ -1,0 +1,8 @@
+51073.cpp
+58465.cpp
+5
+modify<TAG>5<TAG>	int a,b,c;<CHANGETO>	int a,b,c,d;
+modify<TAG>13<TAG>			if(c<5)<CHANGETO>			d=a%b;
+modify<TAG>14<TAG>				cout<<0<<endl;<CHANGETO>			if(d*10>=b*5)
+add<TAG>14<TAG>				cout<<c+1<<endl;
+del<TAG>19<TAG>	//system("pause");

@@ -1,0 +1,5 @@
+363517.c
+363483.c
+2
+modify<TAG>3<TAG>{int a,b,c,d;while(scanf("%d %d",&a,&b)!=EOF)<CHANGETO>{int a,b,c;while(scanf("%d %d",&a,&b)!=EOF)
+modify<TAG>4<TAG>{if(b!=0){c=a%b;if(2*c<b){d=a/b;printf("%d\n",d);}else printf("%d\n",d+1);}<CHANGETO>{if(b!=0){c=(a+b/2)/b;printf("%d\n",c);}

@@ -1,0 +1,6 @@
+495326.c
+495340.c
+3
+modify<TAG>8<TAG>{if(a%b>b/2)<CHANGETO>{if(a%b>=1.0*b/2)
+modify<TAG>9<TAG>c=1.0*a/b+1;<CHANGETO>c=a/b+1;
+modify<TAG>11<TAG>c=1.0*a/b;<CHANGETO>c=a/b;

@@ -1,0 +1,20 @@
+287935.cpp
+288116.cpp
+17
+del<TAG>1<TAG>#include <math.h>
+modify<TAG>3<TAG>#define Pi 3.1415926536<CHANGETO>#include <cmath>
+modify<TAG>5<TAG>int n;<CHANGETO>double Sin(double n,double m)
+del<TAG>6<TAG>float F_x(int a)
+modify<TAG>8<TAG>    if(a == 0){<CHANGETO>	if(n == 0)
+modify<TAG>9<TAG>        //printf("%.6f\n",sin((double)a/180*Pi);<CHANGETO>		return sin(m);
+modify<TAG>10<TAG>        return sin(n*1.0);<CHANGETO>	return sin(Sin(n - 1,m));
+modify<TAG>11<TAG>    }<CHANGETO>}
+del<TAG>12<TAG>    else{
+del<TAG>13<TAG>        return sin(F_x(a-1));
+del<TAG>14<TAG>    }    
+del<TAG>15<TAG>}            
+modify<TAG>18<TAG>     cin>>n;<CHANGETO>	double n;
+modify<TAG>19<TAG>     printf("%.6f\n",F_x(n));<CHANGETO>	while(cin >> n)
+modify<TAG>20<TAG>     //system("pause");<CHANGETO>		printf("%.6lf\n",Sin(n,n));
+modify<TAG>21<TAG>     return 0;<CHANGETO>	return 0;
+modify<TAG>22<TAG> } <CHANGETO>}

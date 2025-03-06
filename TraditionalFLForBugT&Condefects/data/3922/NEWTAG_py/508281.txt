@@ -1,0 +1,9 @@
+508281.py
+508057.py
+6
+modify<TAG>3<TAG>    a,b=input().split(" ")<CHANGETO>    a,b=input().split()
+add<TAG>3<TAG>    a=int(a)
+add<TAG>3<TAG>    b=int(b)
+modify<TAG>7<TAG>        c = a/b<CHANGETO>        c=a/b
+modify<TAG>8<TAG>        d = int(c)<CHANGETO>        d=a//b
+modify<TAG>9<TAG>        if (c-d)>=0.5:<CHANGETO>        if (c-d)*2>=1:

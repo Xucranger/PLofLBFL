@@ -1,0 +1,16 @@
+491962.c
+371397.c
+13
+del<TAG>2<TAG>#include<math.h>
+modify<TAG>5<TAG>	int a,b,n,c;<CHANGETO>	int a,b,c;
+modify<TAG>15<TAG>			n=a%b;<CHANGETO>			if((a-b*c)*2>=b)
+del<TAG>16<TAG>			if(n>=5)
+del<TAG>17<TAG>			{
+modify<TAG>19<TAG>				printf("%d\n",c);<CHANGETO>			printf("%d\n",c);
+del<TAG>20<TAG>			}
+del<TAG>21<TAG>			else
+del<TAG>22<TAG>			{
+del<TAG>23<TAG>				c=c;
+del<TAG>24<TAG>				printf("%d\n",c);
+del<TAG>25<TAG>			}
+modify<TAG>29<TAG> } <CHANGETO>} 

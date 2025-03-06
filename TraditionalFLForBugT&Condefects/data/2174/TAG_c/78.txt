@@ -1,0 +1,15 @@
+158682.c
+249643.c
+12
+modify<TAG>1<TAG>#include <stdio.h><CHANGETO>#include<stdio.h>
+modify<TAG>5<TAG>    while(scanf("%d %d",&a,&b)==2)<CHANGETO>    while(scanf("%d %d",&a,&b)!=EOF)
+modify<TAG>7<TAG>         //c=a/b;<CHANGETO>       if(b==0)
+del<TAG>8<TAG>         if(b==0)//此处不能用赋值号
+modify<TAG>10<TAG>          else<CHANGETO>       else
+modify<TAG>11<TAG>         {<CHANGETO>        {
+modify<TAG>12<TAG>             c=a/b;<CHANGETO>            c=(float)a/(float)b+0.5;
+del<TAG>13<TAG>             if(c>=5)
+modify<TAG>15<TAG>          else<CHANGETO>        }
+del<TAG>16<TAG>            if(c<4)
+del<TAG>17<TAG>                printf("0\n");
+del<TAG>18<TAG>         }

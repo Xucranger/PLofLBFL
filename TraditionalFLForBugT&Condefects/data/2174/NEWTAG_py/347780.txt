@@ -1,0 +1,6 @@
+347780.py
+347148.py
+3
+del<TAG>2<TAG>import math
+modify<TAG>12<TAG>        d = math.ceil(c)<CHANGETO>        d = int(c)
+modify<TAG>13<TAG>        if d - c > 0.5 :<CHANGETO>        if c - d < 0.5 :

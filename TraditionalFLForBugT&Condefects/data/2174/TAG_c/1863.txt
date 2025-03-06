@@ -1,0 +1,5 @@
+198991.c
+198993.c
+2
+modify<TAG>15<TAG>	printf("%d",(int)c+1);<CHANGETO>	printf("%d\n",(int)c+1);
+modify<TAG>17<TAG>	printf("%d",(int)c);<CHANGETO>	printf("%d\n",(int)c);

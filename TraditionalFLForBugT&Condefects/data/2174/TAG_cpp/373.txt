@@ -1,0 +1,21 @@
+66725.cpp
+158542.cpp
+18
+del<TAG>2<TAG>#include<stdio.h>
+del<TAG>3<TAG>#include<string.h>
+modify<TAG>5<TAG>int main ()<CHANGETO>int main()
+modify<TAG>8<TAG>	float c,d,t;<CHANGETO>	while(cin>>a>>b)
+del<TAG>9<TAG>	t=1.00/2;
+del<TAG>10<TAG>	int m;
+del<TAG>11<TAG>	while(cin>>a>>b)	
+del<TAG>12<TAG>	 {
+del<TAG>13<TAG>	if(b!=0)
+modify<TAG>15<TAG>	c=a/b;<CHANGETO>		if(b==0)
+modify<TAG>16<TAG>	m=a/b;<CHANGETO>		cout<<"error"<<endl;
+modify<TAG>17<TAG>	if(c-m>=t)<CHANGETO>		else 
+modify<TAG>18<TAG>	m++;<CHANGETO>		{
+modify<TAG>19<TAG>printf("%d\n",m);<CHANGETO>			cout<<(int)(a/b+0.5)<<endl;
+modify<TAG>20<TAG>    }<CHANGETO>		}
+modify<TAG>21<TAG>else<CHANGETO>	}
+del<TAG>22<TAG>printf("error");
+del<TAG>23<TAG>    }

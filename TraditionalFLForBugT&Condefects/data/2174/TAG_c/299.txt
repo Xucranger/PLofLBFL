@@ -1,0 +1,10 @@
+192833.c
+363023.c
+7
+modify<TAG>1<TAG>#include <stdio.h><CHANGETO>#include<stdio.h>
+del<TAG>2<TAG>#include <math.h>
+modify<TAG>6<TAG>if(b=0)<CHANGETO>{if(b==0)
+modify<TAG>9<TAG>{<CHANGETO>{c=floor(a*1.0/b);
+modify<TAG>10<TAG>c=a/b;<CHANGETO>if(a*1.0/b-c>=0.5)
+modify<TAG>11<TAG>c=floor(c+0.5);<CHANGETO>    c++;
+add<TAG>13<TAG>}

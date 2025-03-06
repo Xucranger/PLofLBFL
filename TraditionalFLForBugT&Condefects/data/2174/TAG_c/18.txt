@@ -1,0 +1,50 @@
+246354.c
+211134.c
+47
+modify<TAG>1<TAG>#include <stdio.h><CHANGETO>#include<stdio.h>
+modify<TAG>2<TAG>#include <stdlib.h><CHANGETO>int main()
+del<TAG>3<TAG>struct Node
+modify<TAG>5<TAG>	int result;<CHANGETO>	float a,b;
+modify<TAG>6<TAG>	int c;<CHANGETO>	float  c;
+modify<TAG>7<TAG>	struct Node *next;<CHANGETO>	int d,x;
+del<TAG>8<TAG>};
+del<TAG>9<TAG>struct Node *creat()
+del<TAG>10<TAG>{
+del<TAG>11<TAG>	int a,b;
+del<TAG>12<TAG>	struct Node *head,*q,*p;
+del<TAG>13<TAG>	head=NULL;
+del<TAG>16<TAG>		p=(struct Node *)malloc(sizeof(struct Node));
+modify<TAG>19<TAG>			p->c=0;<CHANGETO>			printf("error\n");
+modify<TAG>21<TAG>		else<CHANGETO>		if(b!=0)
+modify<TAG>23<TAG>			p->c=1;<CHANGETO>		c=a/b;
+modify<TAG>24<TAG>			p->result=(int)((a/b)+0.5);<CHANGETO>		c=10*c;
+modify<TAG>25<TAG>		}<CHANGETO>		d=a/b;
+modify<TAG>26<TAG>		if(head==NULL)<CHANGETO>		d=10*d;
+modify<TAG>27<TAG>		{<CHANGETO>		if(10>c-d&&c-d>=5)
+del<TAG>28<TAG>			head=p;
+del<TAG>29<TAG>		}
+del<TAG>30<TAG>		else
+modify<TAG>32<TAG>			q->next=p;<CHANGETO>			x=a/b+1;
+modify<TAG>34<TAG>		q=p;<CHANGETO>		if(0<=c-d&&c-d<5)
+del<TAG>35<TAG>	}
+del<TAG>36<TAG>	q->next=NULL;
+del<TAG>37<TAG>	return head;
+del<TAG>38<TAG>}
+del<TAG>39<TAG>void print(struct Node *head)
+del<TAG>40<TAG>{
+del<TAG>41<TAG>	struct Node *p=head;
+del<TAG>42<TAG>	while(p!=NULL)
+del<TAG>43<TAG>	{
+del<TAG>44<TAG>		if(p->c==0)
+modify<TAG>46<TAG>			printf("error\n");<CHANGETO>			x=a/b;
+del<TAG>47<TAG>			p=p->next;
+modify<TAG>49<TAG>		else<CHANGETO>		printf("%d\n",x);
+del<TAG>50<TAG>		{
+del<TAG>51<TAG>			printf("%d\n",p->result);
+del<TAG>52<TAG>			p=p->next;
+del<TAG>53<TAG>		}
+del<TAG>56<TAG>int main ()
+del<TAG>57<TAG>{
+del<TAG>58<TAG>	struct Node *head=creat();
+del<TAG>59<TAG>	print(head);
+del<TAG>60<TAG>	return 0;

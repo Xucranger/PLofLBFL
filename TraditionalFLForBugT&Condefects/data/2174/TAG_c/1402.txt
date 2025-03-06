@@ -1,0 +1,6 @@
+491731.c
+491737.c
+3
+modify<TAG>5<TAG>    int a,b,k;<CHANGETO>   int a,b,k;
+modify<TAG>6<TAG>    float h;<CHANGETO>   double h;
+modify<TAG>9<TAG>     printf("error");<CHANGETO>     printf("error\n");

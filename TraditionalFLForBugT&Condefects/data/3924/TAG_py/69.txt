@@ -1,0 +1,11 @@
+509108.py
+509116.py
+8
+modify<TAG>4<TAG>    a,b=int(a),int(b)<CHANGETO>    a=int(a)
+modify<TAG>5<TAG>    c=a+b<CHANGETO>    b=int(b)
+modify<TAG>6<TAG>    if a==11 and b<=9:<CHANGETO>    if a==11 and b<=9 or a<=9 and b==11:
+del<TAG>8<TAG>    if b==11 and a<=9:
+del<TAG>9<TAG>        print("Game Over")
+modify<TAG>14<TAG>            d=(c-20)%2<CHANGETO>            c=(a+b-20)%2
+modify<TAG>20<TAG>        e=c%4<CHANGETO>        c=(a+b)%4
+modify<TAG>21<TAG>        if e==0 or e==1:<CHANGETO>        if c==0 or c==1:

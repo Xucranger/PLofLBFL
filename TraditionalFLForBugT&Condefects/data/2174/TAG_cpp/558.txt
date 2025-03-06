@@ -1,0 +1,8 @@
+305372.cpp
+209952.cpp
+5
+modify<TAG>2<TAG>#define N 100<CHANGETO>#include<string.h>
+modify<TAG>5<TAG>	int m,n;<CHANGETO>	int n,m;
+modify<TAG>6<TAG>	while(cin>>m>>n){<CHANGETO>	while(cin>>n>>m){
+modify<TAG>7<TAG>		if(n==0) cout<<"error"<<endl;<CHANGETO>		if(m==0)cout<<"error"<<endl;
+modify<TAG>8<TAG>		else cout<<m/n<<endl;<CHANGETO>		else cout<<(int)(n/(float)m+0.5)<<endl;

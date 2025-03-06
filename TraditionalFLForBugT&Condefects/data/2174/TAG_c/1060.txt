@@ -1,0 +1,7 @@
+247941.c
+247945.c
+4
+modify<TAG>4<TAG>	int a,b,c,d;<CHANGETO>	int a,b,c,d,e;
+modify<TAG>7<TAG>			c=b/2;<CHANGETO>			e=b*10;
+add<TAG>7<TAG>			c=e/2;
+add<TAG>8<TAG>			d=d*10;

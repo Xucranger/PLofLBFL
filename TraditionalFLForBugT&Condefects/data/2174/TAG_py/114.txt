@@ -1,0 +1,31 @@
+347022.py
+400252.py
+28
+modify<TAG>2<TAG>s = raw_input().split()<CHANGETO>while True:
+modify<TAG>3<TAG>x = raw_input().split()<CHANGETO>    try:
+modify<TAG>4<TAG>a = float (s[0])<CHANGETO>        a,b = map(float,raw_input().strip().split())
+modify<TAG>5<TAG>b = float (s[1])<CHANGETO>        if(b==0):print('error')
+modify<TAG>6<TAG>c = float (x[0])<CHANGETO>        else:
+modify<TAG>7<TAG>d = float (x[0])<CHANGETO>            print(int(a/b+0.5))
+modify<TAG>8<TAG>if b==0:<CHANGETO>    except EOFError:
+modify<TAG>9<TAG>    print ("error")<CHANGETO>        break
+del<TAG>10<TAG>else :
+del<TAG>11<TAG>    e = b/a
+del<TAG>12<TAG>f=10*e
+del<TAG>13<TAG>g=f%10
+del<TAG>14<TAG>if g>=5:
+del<TAG>15<TAG>    h= int(e)+1
+del<TAG>16<TAG>    print h
+del<TAG>17<TAG>else :
+del<TAG>18<TAG>    print int(e)
+del<TAG>19<TAG>if d==0:
+del<TAG>20<TAG>    print ("error")
+del<TAG>21<TAG>else :
+del<TAG>22<TAG>    i = d/c
+del<TAG>23<TAG>j=10*i
+del<TAG>24<TAG>k=j%10
+del<TAG>25<TAG>if k>=5:
+del<TAG>26<TAG>    l= int(i)+1
+del<TAG>27<TAG>    print l
+del<TAG>28<TAG>else :
+del<TAG>29<TAG>    print int(l)

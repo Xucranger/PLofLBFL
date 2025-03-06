@@ -1,0 +1,11 @@
+306776.c
+494911.c
+8
+modify<TAG>1<TAG>#include <stdio.h><CHANGETO>#include<stdio.h>
+modify<TAG>2<TAG>#include <math.h><CHANGETO>int main()
+modify<TAG>3<TAG>int main(){<CHANGETO>{
+modify<TAG>5<TAG>	while((scanf("%d%d",&a,&b))!=-1);<CHANGETO>	while(scanf("%d%d",&a,&b)!=EOF)
+modify<TAG>6<TAG>	if(!b)<CHANGETO>	{
+modify<TAG>7<TAG>		printf("error");<CHANGETO>	    if(b==0)printf("error\n");
+modify<TAG>8<TAG>	else<CHANGETO>			else printf("%d\n",(a+(b/2))/b );
+modify<TAG>9<TAG>		printf("%d",a/b);<CHANGETO>	}

@@ -1,0 +1,22 @@
+85406.cpp
+77070.cpp
+19
+modify<TAG>5<TAG>    while(1)<CHANGETO>    int a,b,t;
+modify<TAG>6<TAG>    {<CHANGETO>    while(cin>>a>>b)
+del<TAG>7<TAG>    int a,b,c;
+del<TAG>8<TAG>    int d;
+del<TAG>9<TAG>    cin>>a; cin>>b;
+del<TAG>10<TAG>    if(b!=0)
+modify<TAG>12<TAG>        c=a%b;<CHANGETO>        if(b!=0)
+del<TAG>13<TAG>        if(c>(b/2))
+modify<TAG>15<TAG>         d=a/b+1;<CHANGETO>        t=(float)a/b+0.5;
+add<TAG>15<TAG>        cout<<t<<endl;
+modify<TAG>19<TAG>          d=a/b;<CHANGETO>        cout<<"error"<<endl;
+del<TAG>21<TAG>        cout<<d;
+modify<TAG>23<TAG>    else<CHANGETO>}
+del<TAG>24<TAG>    {
+del<TAG>25<TAG>        cout<<"error";
+del<TAG>26<TAG>    }  
+del<TAG>27<TAG>    break;  
+del<TAG>28<TAG>    }    
+del<TAG>29<TAG>}      

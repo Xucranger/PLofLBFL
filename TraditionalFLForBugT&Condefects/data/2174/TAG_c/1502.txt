@@ -1,0 +1,12 @@
+250471.c
+360786.c
+9
+modify<TAG>2<TAG>int main ()<CHANGETO>int main()
+modify<TAG>4<TAG>	int a,b;<CHANGETO>	int a,b,c;
+modify<TAG>5<TAG>	int c;<CHANGETO>	float d;
+modify<TAG>6<TAG>	int d;<CHANGETO>	while(scanf("%d%d",&a,&b)!=EOF)
+del<TAG>7<TAG>	while(scanf("%d %d",&a,&b)!=EOF)
+modify<TAG>14<TAG>		d=a%b;<CHANGETO>		d=(a*1.0)/b;
+modify<TAG>15<TAG>		if(d>b/2||d==b/2)<CHANGETO>		if(d-c>=0.5)
+modify<TAG>16<TAG>		c=c+1;<CHANGETO>		c++;
+modify<TAG>20<TAG> } <CHANGETO>}

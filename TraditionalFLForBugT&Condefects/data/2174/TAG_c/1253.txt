@@ -1,0 +1,9 @@
+499180.c
+499201.c
+6
+modify<TAG>13<TAG>                c = (double) a/b+0.5;<CHANGETO>        {
+add<TAG>13<TAG>                c = (double)a/b+0.5;
+add<TAG>15<TAG>        }
+modify<TAG>17<TAG>                 c = (double) a/b-0.5;<CHANGETO>        {
+add<TAG>17<TAG>                c = (double)a/b-0.5;
+add<TAG>19<TAG>        }

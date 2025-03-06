@@ -1,0 +1,13 @@
+55794.cpp
+158542.cpp
+10
+add<TAG>1<TAG>using namespace std;
+modify<TAG>4<TAG>	int a,b;<CHANGETO>	float a,b;
+modify<TAG>5<TAG>	float c;<CHANGETO>	while(cin>>a>>b)
+del<TAG>6<TAG>	while(std::cin>>a>>b)
+modify<TAG>8<TAG>		if(b==0) {<CHANGETO>		if(b==0)
+modify<TAG>9<TAG>			std::cout<<"error"<<std::endl;<CHANGETO>		cout<<"error"<<endl;
+modify<TAG>10<TAG>		}<CHANGETO>		else 
+modify<TAG>11<TAG>		else {<CHANGETO>		{
+modify<TAG>12<TAG>		c=a*1.0/b*1.0;<CHANGETO>			cout<<(int)(a/b+0.5)<<endl;
+modify<TAG>13<TAG>		printf("%.0f\n",c);}<CHANGETO>		}

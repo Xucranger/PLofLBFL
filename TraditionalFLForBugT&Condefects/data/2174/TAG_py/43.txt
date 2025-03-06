@@ -1,0 +1,9 @@
+397220.py
+347523.py
+6
+add<TAG>1<TAG>from __future__ import division
+modify<TAG>3<TAG>    str = input()<CHANGETO>    a, b = map(int, raw_input().split())
+del<TAG>4<TAG>    a,b = (float(x) for x in str.split())
+modify<TAG>6<TAG>        print("error")<CHANGETO>        print('error')
+modify<TAG>8<TAG>        x =  int(a/b+0.5)<CHANGETO>        print(int(round(a / b)))
+del<TAG>9<TAG>        print(x)

@@ -1,0 +1,10 @@
+440295.c
+440310.c
+7
+modify<TAG>12<TAG>		    if(c>0)<CHANGETO>			d=(a-b*c)*10;
+modify<TAG>13<TAG>		    {<CHANGETO>		    d=d/b;
+modify<TAG>14<TAG>			   d=(a-b*c)*10;<CHANGETO>		    if(d>=5)
+modify<TAG>15<TAG>		       d=d/b;<CHANGETO>		       c=c+1;
+del<TAG>16<TAG>		       if(d>=5)
+del<TAG>17<TAG>		          c=c+1;
+del<TAG>18<TAG>		    }

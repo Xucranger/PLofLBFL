@@ -1,0 +1,6 @@
+484121.c
+484123.c
+3
+modify<TAG>6<TAG>    scanf("%d", &n);<CHANGETO>    while(~scanf("%d", &n)){
+modify<TAG>11<TAG>        printf("%.6llf\n",f[n]);<CHANGETO>        printf("%.6lf\n",f[n]);
+add<TAG>11<TAG>    }

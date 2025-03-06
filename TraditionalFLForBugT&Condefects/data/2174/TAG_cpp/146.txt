@@ -1,0 +1,6 @@
+84851.cpp
+84862.cpp
+3
+del<TAG>9<TAG>	{
+del<TAG>11<TAG>	}
+modify<TAG>13<TAG>	    cout<<(int)(a/b+0.5);<CHANGETO>	    cout<<(int)(a/b+0.5)<<endl;

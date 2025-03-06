@@ -1,0 +1,15 @@
+399917.py
+306337.py
+12
+modify<TAG>2<TAG>#include<iostream><CHANGETO>while 1:
+modify<TAG>3<TAG>using namespace std;<CHANGETO>    str_1 = raw_input()
+modify<TAG>4<TAG>int main(){<CHANGETO>    list_1 = str_1.split(' ')
+modify<TAG>5<TAG>	int a,b;<CHANGETO>    a,b = int(list_1[0]),int(list_1[1])
+modify<TAG>6<TAG>	while(cin>>a>>b){<CHANGETO>    if (b == 0):
+modify<TAG>7<TAG>		if(b==0)<CHANGETO>        print 'error'
+modify<TAG>8<TAG>		cout<<"error"<<endl;<CHANGETO>        continue
+modify<TAG>9<TAG>		else<CHANGETO>    remainder = a%b
+modify<TAG>10<TAG>		cout<<a/(b+1/2)<<endl;<CHANGETO>    if (float(remainder) >= float(b)/2):
+modify<TAG>11<TAG>	}<CHANGETO>        print int(a/b) + 1
+modify<TAG>12<TAG>	return 0;<CHANGETO>    else:
+modify<TAG>13<TAG>} <CHANGETO>        print int(a/b)

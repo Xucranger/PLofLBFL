@@ -1,0 +1,11 @@
+59222.c
+50193.c
+8
+del<TAG>2<TAG>#include<math.h>
+modify<TAG>5<TAG>	float a,b,c;<CHANGETO>	int a,b,c;
+modify<TAG>6<TAG>	while(scanf("%f",&a)!=EOF)<CHANGETO>	while(scanf("%d %d",&a,&b)!=EOF)
+del<TAG>8<TAG>		scanf("%f",&b);
+modify<TAG>14<TAG>			if(c>=1.5)<CHANGETO>			if(a%b>=b-a%b)
+modify<TAG>15<TAG>			printf("%.f\n",ceil(a/b));<CHANGETO>				c++;
+modify<TAG>16<TAG>			else<CHANGETO>			printf("%d\n",c);
+del<TAG>17<TAG>				printf("%.f\n",floor(a/b));

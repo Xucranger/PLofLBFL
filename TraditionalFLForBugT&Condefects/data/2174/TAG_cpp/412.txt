@@ -1,0 +1,6 @@
+82460.cpp
+82466.cpp
+3
+modify<TAG>6<TAG>    cin>>a>>b;<CHANGETO>    while(cin>>a>>b)
+add<TAG>6<TAG>    {
+add<TAG>10<TAG>    }

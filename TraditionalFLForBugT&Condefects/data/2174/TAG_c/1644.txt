@@ -1,0 +1,6 @@
+50131.c
+50142.c
+3
+modify<TAG>4<TAG>	int a,b;<CHANGETO>	float a,b;
+add<TAG>9<TAG>		  float d=a/b-c;
+add<TAG>9<TAG>		  if(d>=0.5) c++;

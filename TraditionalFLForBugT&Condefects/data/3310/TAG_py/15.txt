@@ -1,0 +1,13 @@
+519674.py
+519765.py
+10
+add<TAG>2<TAG>m = 0
+modify<TAG>5<TAG>    x=math.sin(n)<CHANGETO>    # x=math.sin(n)
+modify<TAG>6<TAG>    for i in range(n):<CHANGETO>    # for i in range(n):
+modify<TAG>7<TAG>        x=math.sin(x)<CHANGETO>    #     x=math.sin(x)
+modify<TAG>8<TAG>        return x<CHANGETO>    #     return x
+modify<TAG>9<TAG>    # if n==0:<CHANGETO>    if n==0:
+modify<TAG>10<TAG>    #     return math.sin(0)<CHANGETO>        return math.sin(m)
+modify<TAG>11<TAG>    # else:<CHANGETO>    else:
+modify<TAG>12<TAG>    #     return math.sin(fun(n-1))<CHANGETO>        return math.sin(fun(n-1))
+add<TAG>20<TAG>        m = n

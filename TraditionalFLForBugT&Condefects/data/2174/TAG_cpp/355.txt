@@ -1,0 +1,8 @@
+155854.cpp
+82281.cpp
+5
+modify<TAG>8<TAG>		if(b==0)  cout<<"error"<<endl;<CHANGETO>		if(b==0)
+modify<TAG>9<TAG>		if(b!=0)  printf("%.0f",a/b);<CHANGETO>			cout<<"error"<<endl;
+add<TAG>9<TAG>		else
+add<TAG>9<TAG>			cout<<(int)(a/b+0.5)<<endl;
+add<TAG>10<TAG>	return 0;

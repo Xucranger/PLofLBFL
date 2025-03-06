@@ -1,0 +1,8 @@
+73808.cpp
+158035.cpp
+5
+modify<TAG>1<TAG>#include<iostream> <CHANGETO>#include<iostream>
+del<TAG>2<TAG>#include<iomanip> 
+del<TAG>3<TAG>#include<stdlib.h>
+modify<TAG>7<TAG>    int a,b;<CHANGETO>    float a,b,c;
+modify<TAG>13<TAG>           cout<<fixed<<setprecision(0)<<(float)a/b<<endl;//<CHANGETO>            cout<<int(a/b+0.5)<<endl;

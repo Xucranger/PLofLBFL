@@ -1,0 +1,10 @@
+489796.c
+379781.c
+7
+modify<TAG>4<TAG>	int a,b,dev,sec;<CHANGETO>	int a,b,c;
+modify<TAG>11<TAG>			dev=a/b;<CHANGETO>			c=a/b;
+modify<TAG>12<TAG>			sec=a%b;<CHANGETO>			if((c+0.5)>(float)(a*1.0/b))
+modify<TAG>13<TAG>            int y=b/2;<CHANGETO>			printf("%d\n",c);
+modify<TAG>14<TAG>			if(sec>0&&sec<=y)<CHANGETO>			else
+modify<TAG>15<TAG>			printf("%d\n",dev);<CHANGETO>			printf("%d\n",c+1);
+del<TAG>16<TAG>			else printf("%d\n",dev+1);

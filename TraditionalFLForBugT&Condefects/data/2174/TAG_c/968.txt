@@ -1,0 +1,10 @@
+153843.c
+153876.c
+7
+modify<TAG>4<TAG>int a,b,c,d;<CHANGETO>int a,b;
+modify<TAG>5<TAG>while(scanf("%d %d\n%d %d",&a,&b,&c,&d)!=EOF)<CHANGETO>while(scanf("%d %d",&a,&b)!=EOF)
+modify<TAG>10<TAG>printf("%d\n",(a+b/2)/b);<CHANGETO>printf("%d",(a+b/2)/b);
+modify<TAG>11<TAG>if(d==0)<CHANGETO>printf("\n");
+del<TAG>12<TAG>printf("error");
+del<TAG>13<TAG>else
+del<TAG>14<TAG>printf("%d\n",(c+d/2)/d);

@@ -1,0 +1,13 @@
+244888.cpp
+245164.cpp
+10
+modify<TAG>1<TAG>#include<stdio.h> <CHANGETO>#include <iostream> 
+add<TAG>1<TAG>using namespace std;
+modify<TAG>5<TAG>	scanf("%d %d",&a,&b);<CHANGETO>	while(cin >> a >> b){
+add<TAG>5<TAG>	c=(float)a/(float)b+0.5;
+modify<TAG>7<TAG>	printf("error");<CHANGETO>		printf("error\n");
+modify<TAG>9<TAG>	{<CHANGETO>		printf("%d\n",c);
+modify<TAG>10<TAG>	 c=a/b;<CHANGETO>	}
+modify<TAG>11<TAG>	 printf("%d",c);<CHANGETO>}
+del<TAG>12<TAG>    }
+del<TAG>13<TAG>}    

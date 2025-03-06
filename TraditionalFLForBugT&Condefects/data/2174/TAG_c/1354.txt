@@ -1,0 +1,4 @@
+363494.c
+363483.c
+1
+modify<TAG>4<TAG>{if(b!=0){c=a%b;if(2*c<(a-b)){printf("%d\n",a/b);}else printf("%d\n",a/b+1);}<CHANGETO>{if(b!=0){c=(a+b/2)/b;printf("%d\n",c);}

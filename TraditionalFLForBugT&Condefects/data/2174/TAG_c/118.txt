@@ -1,0 +1,6 @@
+363124.c
+304429.c
+3
+del<TAG>2<TAG>#include<math.h>
+modify<TAG>9<TAG>            printf("error");<CHANGETO>            printf("error\n");
+modify<TAG>11<TAG>            printf("%d\n",a/b);<CHANGETO>            printf("%d\n",(a+b/2)/b);

@@ -1,0 +1,4 @@
+491086.cpp
+491091.cpp
+1
+modify<TAG>17<TAG>			printf("%.0f\n", a / b/1.0);<CHANGETO>			printf("%1.0f\n",( a +b/2)/ b/1.0);

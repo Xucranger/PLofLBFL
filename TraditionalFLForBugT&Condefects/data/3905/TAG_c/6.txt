@@ -1,0 +1,13 @@
+516169.c
+529202.c
+10
+modify<TAG>4<TAG>	int n,a,b,c,d;<CHANGETO>	int n,a,b,i,j,sum;
+modify<TAG>6<TAG>	while(scanf("%d %d",&a,&b)!=EOF)<CHANGETO>	for(i=1;i<=n;i++)
+modify<TAG>7<TAG>	{n=a+b;<CHANGETO>	{	scanf("%d",&a);
+modify<TAG>8<TAG>		while(n>1)<CHANGETO>		sum=0;
+add<TAG>8<TAG>		for(j=1;j<=a;j++)
+modify<TAG>10<TAG>		  n=n-1;<CHANGETO>			scanf("%d",&b);
+modify<TAG>11<TAG>		  scanf("%d",&c);<CHANGETO>			sum=sum+b;
+del<TAG>12<TAG>		  d=d+c;	
+modify<TAG>14<TAG>	    printf("%d",a+b+d);<CHANGETO>		printf("%d\n",sum);
+del<TAG>16<TAG>	return 0; 

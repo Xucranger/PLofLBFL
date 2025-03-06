@@ -1,0 +1,6 @@
+245071.cpp
+160915.cpp
+3
+modify<TAG>1<TAG>#include <iostream> <CHANGETO>#include<iostream>
+modify<TAG>9<TAG>			printf("%d\n",a/b);<CHANGETO>			cout<<(a+b/2)/b<<endl;
+modify<TAG>11<TAG>			printf("error\n");<CHANGETO>			cout<<"error"<<endl;

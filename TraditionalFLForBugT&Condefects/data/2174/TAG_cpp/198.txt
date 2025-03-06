@@ -1,0 +1,5 @@
+71253.cpp
+71257.cpp
+2
+modify<TAG>9<TAG>		break;<CHANGETO>		printf("error\n");
+modify<TAG>14<TAG>		if(b>n/2)<CHANGETO>		if(b>=n/2.0)

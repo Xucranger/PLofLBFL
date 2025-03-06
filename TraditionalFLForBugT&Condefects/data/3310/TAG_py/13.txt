@@ -1,0 +1,9 @@
+518548.py
+518710.py
+6
+modify<TAG>3<TAG>n=input()<CHANGETO>while True:
+modify<TAG>4<TAG>n=int(n)<CHANGETO>     n = int(input())
+modify<TAG>5<TAG>f=n<CHANGETO>     for i in range(n+1):
+modify<TAG>6<TAG>for i in range(0,n+1):<CHANGETO>         n = math.sin(n)
+modify<TAG>7<TAG>    f=math.sin(f)<CHANGETO>     print("%.6f"%n)
+del<TAG>8<TAG>print('%.6f' %f)

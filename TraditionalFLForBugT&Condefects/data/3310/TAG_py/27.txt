@@ -1,0 +1,9 @@
+518552.py
+518551.py
+6
+modify<TAG>2<TAG>from math import math<CHANGETO>from math import sin
+modify<TAG>3<TAG>def F_(n,x):<CHANGETO>def F(x,n):
+modify<TAG>5<TAG>       return sin(n)<CHANGETO>        return sin(n)
+modify<TAG>7<TAG>        return sin(F_(n,x-1))<CHANGETO>        return sin(F(x-1,n))
+modify<TAG>10<TAG>    e=F_(n,n)<CHANGETO>    print('%.6f'%F(n,n))
+del<TAG>11<TAG>    print("%.df" % e)

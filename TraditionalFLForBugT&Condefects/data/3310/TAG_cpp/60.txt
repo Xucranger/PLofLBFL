@@ -1,0 +1,10 @@
+287663.cpp
+287705.cpp
+7
+modify<TAG>10<TAG>		float cor,pri;<CHANGETO>		double cor,pri;
+modify<TAG>22<TAG>		printf("%.6f\n",cor);<CHANGETO>		if(cor<0)
+add<TAG>22<TAG>		{
+add<TAG>22<TAG>			cout<<"-";
+add<TAG>22<TAG>			cor=fabs(cor);
+add<TAG>22<TAG>		}
+add<TAG>22<TAG>		printf("%.06lf\n",cor);

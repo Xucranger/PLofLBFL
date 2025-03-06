@@ -1,0 +1,5 @@
+306782.c
+196219.c
+2
+modify<TAG>8<TAG>        else printf("%d\n",a/b);<CHANGETO>        else printf("%d\n",(a*10/b+5)/10);
+del<TAG>10<TAG>   return 0;

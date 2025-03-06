@@ -1,0 +1,11 @@
+347079.py
+347523.py
+8
+modify<TAG>2<TAG>print'SHOULD BE:'<CHANGETO>from __future__ import division
+modify<TAG>3<TAG>inputline=raw_input()<CHANGETO>while True:
+modify<TAG>4<TAG>while(inputline.isspace()==False):<CHANGETO>    a, b = map(int, raw_input().split())
+modify<TAG>5<TAG>    listline=inputline.split(' ')<CHANGETO>    if b == 0:
+modify<TAG>6<TAG>    if eval(listline[1])==0:<CHANGETO>        print('error')
+del<TAG>7<TAG>       print 'error'
+modify<TAG>9<TAG>       print eval(listline[0])/eval(listline[1])<CHANGETO>        print(int(round(a / b)))
+del<TAG>10<TAG>    inputline=raw_input()

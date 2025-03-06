@@ -1,0 +1,5 @@
+155399.c
+155401.c
+2
+modify<TAG>12<TAG>    printf("%d",(int)c);<CHANGETO>    printf("%d\n",(int)c);
+modify<TAG>14<TAG>    printf("%d",(int)c+1);<CHANGETO>    printf("%d\n",(int)c+1);

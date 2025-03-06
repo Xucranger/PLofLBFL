@@ -1,0 +1,9 @@
+396960.py
+397024.py
+6
+modify<TAG>2<TAG>a,b=map(int,input().split())<CHANGETO>a,b=map(float,raw_input().split())
+modify<TAG>4<TAG>	if b==0:<CHANGETO>	if b==0.0:
+modify<TAG>7<TAG>		x=float(a/b)<CHANGETO>		ans=a/b
+modify<TAG>8<TAG>		y=round(x,0)<CHANGETO>		ans+=0.5
+modify<TAG>9<TAG>		print((int)(y))<CHANGETO>		print(int(ans))
+modify<TAG>10<TAG>	a,b=map(int,input().split())<CHANGETO>	a,b=map(float,raw_input().split())

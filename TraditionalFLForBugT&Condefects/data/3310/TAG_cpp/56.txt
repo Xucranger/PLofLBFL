@@ -1,0 +1,7 @@
+437965.cpp
+438010.cpp
+4
+modify<TAG>9<TAG>	int n;<CHANGETO>	float n;
+modify<TAG>12<TAG>		while(n--)	a=get(a);<CHANGETO>		for(float i=0;i<=n;i++)	a=get(a);
+modify<TAG>13<TAG>		printf("%6f\n",get(a));<CHANGETO>		if(n==17)	a-=0.0000005;
+add<TAG>13<TAG>		printf("%0.6f\n",a);

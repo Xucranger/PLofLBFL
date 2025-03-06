@@ -1,0 +1,14 @@
+244624.c
+244647.c
+11
+modify<TAG>3<TAG>{	int a,b;<CHANGETO>{
+modify<TAG>4<TAG>	float c,d;<CHANGETO>	int a,b;
+modify<TAG>5<TAG>	c=(float)a;<CHANGETO>	float c;
+del<TAG>6<TAG>	d=(float)b;
+modify<TAG>11<TAG>	else <CHANGETO>	else if((1.0*a/b-a/b)*10>=5)
+modify<TAG>12<TAG>		{<CHANGETO>	printf("%d\n",a/b+1);
+modify<TAG>13<TAG>		if((c/d-a/b)*10>=5.0)<CHANGETO>	else
+modify<TAG>14<TAG>		printf("%d\n",(a/b)+1);<CHANGETO>	printf("%d\n",a/b);
+del<TAG>15<TAG>		else
+del<TAG>16<TAG>		printf("%d\n",a/b);
+del<TAG>17<TAG>		}

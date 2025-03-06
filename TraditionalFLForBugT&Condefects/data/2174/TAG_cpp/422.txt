@@ -1,0 +1,12 @@
+85117.cpp
+82579.cpp
+9
+modify<TAG>11<TAG>		{double account=a/b;<CHANGETO>			cout<<(int)((double)a/b+0.5)<<endl;
+del<TAG>12<TAG>		int x;
+del<TAG>13<TAG>		x=int(account*10);
+del<TAG>14<TAG>		if(x<5)
+del<TAG>15<TAG>		a=int(account);
+del<TAG>16<TAG>		else
+del<TAG>17<TAG>		a=int(account)+1;
+del<TAG>18<TAG>		cout<<a<<endl;
+del<TAG>19<TAG>            }

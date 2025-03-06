@@ -1,0 +1,10 @@
+304800.cpp
+304831.cpp
+7
+modify<TAG>5<TAG>	int a,b;<CHANGETO>	int d;
+modify<TAG>6<TAG>	int c;<CHANGETO>	float c,a,b;
+del<TAG>7<TAG>	float d;
+modify<TAG>13<TAG>			d=a/b;<CHANGETO>			c+=0.5;
+modify<TAG>14<TAG>			if(c*2+1>=d*2)<CHANGETO>			d=c;
+modify<TAG>15<TAG>				cout<<c+1<<endl;<CHANGETO>			cout<<d<<endl;
+del<TAG>16<TAG>			else cout<<c<<endl;

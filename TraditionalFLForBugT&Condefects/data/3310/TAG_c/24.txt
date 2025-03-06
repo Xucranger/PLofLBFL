@@ -1,0 +1,20 @@
+288648.c
+438216.c
+17
+modify<TAG>3<TAG>double sin(double);<CHANGETO>double xs(int a,double m)
+del<TAG>4<TAG>double nResult(double,double);
+del<TAG>5<TAG>int main()
+modify<TAG>7<TAG>    int x=0;<CHANGETO>	if(a==0) return m;
+modify<TAG>8<TAG>    scanf("%d",&x);<CHANGETO>	else return sin(xs(a-1,m));
+del<TAG>9<TAG>    printf("%lf\n",sin(x));
+del<TAG>10<TAG>    return 0;
+modify<TAG>12<TAG>double sin(double x)<CHANGETO>int main()
+modify<TAG>14<TAG>    int i=0;<CHANGETO>	int a;
+modify<TAG>15<TAG>    double result=0,n=0;<CHANGETO>	double n,m;
+modify<TAG>16<TAG>    while( fabs( n=nResult(x,2*++i-1) ) > 0e-5 )<CHANGETO>	while(scanf("%d",&a)!= EOF)
+modify<TAG>17<TAG>        result+=(i%2==1)?n:-n;<CHANGETO>	{
+modify<TAG>18<TAG>    return result;<CHANGETO>		m=sin(a);
+modify<TAG>19<TAG>}<CHANGETO>		n=xs(a,m);
+modify<TAG>20<TAG>double nResult(double x,double n)<CHANGETO>		printf("%8.6lf\n",n);
+modify<TAG>21<TAG>{<CHANGETO>	}
+del<TAG>22<TAG>    return n==1?x:nResult(x,n-1)*x/n;

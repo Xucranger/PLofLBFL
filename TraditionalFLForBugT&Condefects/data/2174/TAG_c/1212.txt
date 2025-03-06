@@ -1,0 +1,15 @@
+158884.c
+160058.c
+12
+del<TAG>2<TAG>#include<math.h>
+add<TAG>3<TAG>#include<math.h>
+modify<TAG>7<TAG>    for(i=0;i<=100;i++){<CHANGETO>    while(scanf("%d%d",&a,&b)!=EOF){
+del<TAG>8<TAG>      scanf("%d%d",&a,&b);
+modify<TAG>10<TAG>        printf("ERROR\n");<CHANGETO>        printf("error\n");
+modify<TAG>14<TAG>          if(2*d>=b)<CHANGETO>          if(b>0&&a>0&&d*2>=b)
+add<TAG>15<TAG>          else if(b<0&&a<0&&d*2<=-b)
+add<TAG>15<TAG>          printf("%d\n",c+1);
+add<TAG>15<TAG>          else if(b<0&&a>0&&d*2>=-b)
+add<TAG>15<TAG>          printf("%d\n",c-1);
+add<TAG>15<TAG>          else if(b>0&&a<0&&d*2<=-b)
+add<TAG>15<TAG>          printf("%d\n",c-1);

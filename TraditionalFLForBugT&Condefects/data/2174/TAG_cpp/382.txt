@@ -1,0 +1,5 @@
+159611.cpp
+159623.cpp
+2
+modify<TAG>10<TAG>			printf("error");<CHANGETO>			printf("error\n");
+modify<TAG>18<TAG>			n=float(a/b);<CHANGETO>			n=float(a)/float(b);

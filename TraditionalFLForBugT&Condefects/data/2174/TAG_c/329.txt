@@ -1,0 +1,8 @@
+195753.c
+245529.c
+5
+modify<TAG>4<TAG>    int a,b,res;<CHANGETO>    int a,b;
+modify<TAG>5<TAG>    scanf("%d%d",&a,&b);<CHANGETO>    float c;
+modify<TAG>12<TAG>                res=a/b;<CHANGETO>                c=1.0*a/b;
+modify<TAG>13<TAG>                printf("%d\n");<CHANGETO>                a=(c+0.5)/1;
+add<TAG>13<TAG>                printf("%d\n",a);

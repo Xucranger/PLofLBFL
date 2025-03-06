@@ -1,0 +1,9 @@
+190205.c
+84919.c
+6
+add<TAG>1<TAG>#include<stdlib.h>
+modify<TAG>8<TAG>    printf("ERROR\n");<CHANGETO>        printf("error\n");
+modify<TAG>10<TAG>      {c=a/b;<CHANGETO>    {
+modify<TAG>11<TAG>      printf("%d\n",c);}<CHANGETO>        c=(a+(b/2))/b;
+add<TAG>11<TAG>        printf("%d\n",c);
+add<TAG>11<TAG>    }

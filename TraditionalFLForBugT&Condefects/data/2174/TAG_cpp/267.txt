@@ -1,0 +1,12 @@
+83848.cpp
+36764.cpp
+9
+del<TAG>2<TAG>#include<cstring>
+add<TAG>3<TAG>long long a,b;
+modify<TAG>5<TAG>{<CHANGETO>{ 
+modify<TAG>6<TAG>   char a[100];<CHANGETO>    while(cin>>a>>b)
+del<TAG>7<TAG>   while(cin>>a)
+modify<TAG>9<TAG>      int len=strlen(a);<CHANGETO>        if (b==0) cout<<"error"<<endl;
+modify<TAG>10<TAG>      cout<<len<<endl;<CHANGETO>        else cout<<(int)(a*1.0/b+0.5)<<endl;
+del<TAG>11<TAG>      for(int i=len-1;i>=0;i--)
+del<TAG>12<TAG>        cout<<a[i]<<endl;

@@ -1,0 +1,8 @@
+154511.c
+154614.c
+5
+modify<TAG>8<TAG>       c=(int)((cin*10+5)/10);<CHANGETO>        if(cin>=0)
+add<TAG>8<TAG>       c=(int)(cin+0.5)>(int)cin?(int)cin+1:(int)cin;
+add<TAG>8<TAG>       else if(cin<0)
+add<TAG>8<TAG>        c=(int)(cin-0.5)<(int)cin?(int)cin-1:(int)cin;
+modify<TAG>12<TAG>        printf("error");<CHANGETO>        printf("error\n");

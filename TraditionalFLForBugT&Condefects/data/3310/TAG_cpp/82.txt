@@ -1,0 +1,15 @@
+287434.cpp
+287699.cpp
+12
+modify<TAG>2<TAG>#include<iostream><CHANGETO>#include<iostream> 
+del<TAG>4<TAG>#include<algorithm>
+del<TAG>5<TAG>#include<queue>
+del<TAG>6<TAG>#include<stack>
+modify<TAG>10<TAG>	float a;<CHANGETO>	double a[101];
+modify<TAG>11<TAG>	while(cin>>a)<CHANGETO>	int n;
+modify<TAG>12<TAG>	{<CHANGETO>	while(cin>>n){
+modify<TAG>13<TAG>		printf("%.6f\n",sin(a));<CHANGETO>		a[0]=sin(n);
+add<TAG>13<TAG>	for(int i=1;i<=n;i++)
+add<TAG>13<TAG>	a[i]=sin(a[i-1]);
+add<TAG>13<TAG>	printf("%.6lf\n",a[n]);
+add<TAG>14<TAG>	return 0;

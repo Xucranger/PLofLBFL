@@ -1,0 +1,8 @@
+305777.cpp
+305798.cpp
+5
+modify<TAG>2<TAG>#include<stdio.h><CHANGETO>//#include<stdio.h>
+modify<TAG>6<TAG>	int a,b,n[1000],i,count=0;<CHANGETO>	int i,count=0;
+add<TAG>6<TAG>	float a,b;
+add<TAG>6<TAG>	int n[1000];
+modify<TAG>16<TAG>			n[count]=a/b;<CHANGETO>			n[count]=(int)a/b+0.5;

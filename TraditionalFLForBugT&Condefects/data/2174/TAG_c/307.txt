@@ -1,0 +1,6 @@
+156244.c
+495501.c
+3
+add<TAG>4<TAG>    double c,d;
+modify<TAG>13<TAG>            printf("%d\n",a/b);<CHANGETO>        	printf("%d\n",(a+b/2)/b);
+add<TAG>15<TAG>    return 0;

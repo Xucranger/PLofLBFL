@@ -1,0 +1,10 @@
+502040.py
+502158.py
+7
+modify<TAG>1<TAG>while True :<CHANGETO># coding=utf-8
+modify<TAG>2<TAG>	a, b = raw_input().split(" ")<CHANGETO>while True:
+modify<TAG>3<TAG>	if int(b) == 0:<CHANGETO>    a,b=input().split()
+modify<TAG>4<TAG>		print 'error'<CHANGETO>    a=int(a); b=int(b)
+modify<TAG>5<TAG>	else :<CHANGETO>    if b==0: print('error')
+modify<TAG>6<TAG>		a=float(a)/float(b)	<CHANGETO>    else:print(int(a*1.0/b+0.5))
+del<TAG>7<TAG>		print int(a+0.5)

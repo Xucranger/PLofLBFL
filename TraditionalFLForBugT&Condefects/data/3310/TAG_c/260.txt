@@ -1,0 +1,12 @@
+440712.c
+435896.c
+9
+modify<TAG>3<TAG>float F_(int x,int y)<CHANGETO>double water(int x,int n)
+modify<TAG>5<TAG>	if(y==0)<CHANGETO>	if(x==0)
+modify<TAG>6<TAG>	  return sin(x);<CHANGETO>		return sin(n);
+modify<TAG>8<TAG>	  return sin(F_(x,y-1));<CHANGETO>		return sin(water(x-1,n));
+modify<TAG>10<TAG>int main()<CHANGETO>void main()
+modify<TAG>13<TAG>	float y;<CHANGETO>	double y;
+modify<TAG>15<TAG>	{<CHANGETO>	{	m=n;
+modify<TAG>16<TAG>		m=n;<CHANGETO>		y=water(n,m);
+del<TAG>17<TAG>		y=F_(n,m);

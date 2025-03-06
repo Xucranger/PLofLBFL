@@ -1,0 +1,14 @@
+288959.cpp
+287620.cpp
+11
+modify<TAG>1<TAG>#include<stdio.h><CHANGETO>#include "bits/stdc++.h"
+modify<TAG>2<TAG>#include<math.h><CHANGETO>using namespace std;
+modify<TAG>5<TAG>    double z,m,i,a,b;<CHANGETO>    int n;
+modify<TAG>6<TAG>    while(~scanf("%lf",&m))<CHANGETO>    while(cin >> n)
+modify<TAG>8<TAG>        if(m==0) printf("0\n");<CHANGETO>        double ans = sin(n);
+modify<TAG>9<TAG>        else{<CHANGETO>        for(int i=0;i < n;i++)
+modify<TAG>10<TAG>                a=sin(m); z=a;<CHANGETO>            ans = sin(ans);
+modify<TAG>11<TAG>                for(i=1;i<=m;i++){<CHANGETO>        printf("%.6lf\n",ans);
+del<TAG>12<TAG>                    z=sin(z);
+del<TAG>13<TAG>                }printf("%lf\n",z);
+del<TAG>14<TAG>            }

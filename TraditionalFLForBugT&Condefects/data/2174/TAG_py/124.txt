@@ -1,0 +1,18 @@
+346831.py
+347369.py
+15
+del<TAG>3<TAG>c, d=raw_input( ).split( )
+modify<TAG>6<TAG>c=float(c)<CHANGETO>while a != "" :
+modify<TAG>7<TAG>d=float(d)<CHANGETO>    if b != 0 :
+modify<TAG>8<TAG>if b != 0 :<CHANGETO>        x = round(a / b)
+modify<TAG>9<TAG>    x = round(a / b)<CHANGETO>        x = int(x)
+modify<TAG>10<TAG>    x = int(x)<CHANGETO>        print x
+modify<TAG>11<TAG>    print x<CHANGETO>    else :
+modify<TAG>12<TAG>else :<CHANGETO>        print "error"
+modify<TAG>13<TAG>    print "error"<CHANGETO>    a, b=raw_input( ).split( )
+modify<TAG>14<TAG>if d != 0 :<CHANGETO>    a=float(a)
+modify<TAG>15<TAG>    y = round(c / d)<CHANGETO>    b=float(b)
+del<TAG>16<TAG>    y = int(y)
+del<TAG>17<TAG>    print y
+del<TAG>18<TAG>else :
+del<TAG>19<TAG>    print "error"

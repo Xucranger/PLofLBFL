@@ -1,0 +1,4 @@
+50085.cpp
+50090.cpp
+1
+modify<TAG>10<TAG>            if(a*10%b>=5)<CHANGETO>            if(a*10/b%10>=5)

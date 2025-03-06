@@ -1,0 +1,12 @@
+397072.py
+397275.py
+9
+modify<TAG>2<TAG>ls = raw_input().split()<CHANGETO>a,b=map(float,raw_input().split())
+modify<TAG>3<TAG>while ls[0] != '':<CHANGETO>while a!='':
+modify<TAG>4<TAG>    if ls[1] == 0 :<CHANGETO>    if b==0.0:
+modify<TAG>7<TAG>        t = float(ls[0])/float(ls[1]) - ls[0]/ls[1]<CHANGETO>        ans=a/b
+modify<TAG>8<TAG>        if t < 0.5 :<CHANGETO>        ans+=0.5
+modify<TAG>9<TAG>            print(ls[0] / ls[1])<CHANGETO>        print(int(ans))
+modify<TAG>10<TAG>        else :<CHANGETO>    a,b=map(float,raw_input().split())
+del<TAG>11<TAG>            print((ls[0] / ls[1]) + 1)
+del<TAG>12<TAG>    ls = raw_input().split()

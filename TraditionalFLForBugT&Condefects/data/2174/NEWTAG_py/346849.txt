@@ -1,0 +1,12 @@
+346849.py
+347336.py
+9
+modify<TAG>2<TAG>a,b= (int(x) for x in raw_input().split(' '))<CHANGETO>a, b = map(int, raw_input().split(' '))
+modify<TAG>3<TAG>c,d=(int(x) for x in raw_input().split(' '))<CHANGETO>while a != '':
+modify<TAG>4<TAG>if b==0:<CHANGETO>  if b == 0 :
+modify<TAG>6<TAG>else:<CHANGETO>  elif float(a)/float(b)-a//b>=0.5:
+modify<TAG>7<TAG>    print(a/b)<CHANGETO>    print((a // b)+1)
+modify<TAG>8<TAG>if d==0:<CHANGETO>  else :
+modify<TAG>9<TAG>    print("error")<CHANGETO>    print(a // b)
+modify<TAG>10<TAG>else:<CHANGETO>  a, b = map(int, raw_input().split(' '))
+del<TAG>11<TAG>    print(c/d)

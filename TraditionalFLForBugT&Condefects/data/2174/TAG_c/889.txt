@@ -1,0 +1,4 @@
+198264.c
+198299.c
+1
+modify<TAG>8<TAG>	  if(b==0)   printf ("error");<CHANGETO>	  if(b==0)   printf ("error\n");

@@ -1,0 +1,21 @@
+435688.c
+438461.c
+18
+modify<TAG>6<TAG>	float res[20];<CHANGETO>	double con;
+modify<TAG>7<TAG>	for(i=0;i<3;i++)<CHANGETO>	while(scanf("%d",&n)!=EOF)
+del<TAG>8<TAG>	{  
+del<TAG>9<TAG>	   scanf("%d",&n);
+del<TAG>10<TAG>       float F_x(int n);
+del<TAG>11<TAG>	   res[i]=F_x(n);
+del<TAG>12<TAG>    }
+del<TAG>13<TAG>    for(i=0;i<3;i++)
+modify<TAG>15<TAG>	printf("%0.6f",res[i]);<CHANGETO>	for(i=0;i<=n;i++)
+modify<TAG>16<TAG>	printf("\n");<CHANGETO>		{
+modify<TAG>17<TAG>    }  <CHANGETO>			if(i==0)
+modify<TAG>18<TAG>}<CHANGETO>				con=sin(n);
+modify<TAG>19<TAG>float F_x(int n)<CHANGETO>			else
+modify<TAG>20<TAG>{<CHANGETO>				con=sin(con);
+modify<TAG>21<TAG>	int y;<CHANGETO>		}
+modify<TAG>22<TAG>	if(n<=0) y=sin(n);<CHANGETO>	printf("%.6lf\n",con);
+modify<TAG>23<TAG>	else     y=sin(F_x(n-1));<CHANGETO>	} 
+modify<TAG>24<TAG>	return y;<CHANGETO>	return 0;

@@ -1,0 +1,24 @@
+485936.py
+519475.py
+21
+modify<TAG>3<TAG>n=int(input())<CHANGETO>def findda(m,n):
+modify<TAG>4<TAG>o=int(input())<CHANGETO>    m = int(m)
+modify<TAG>5<TAG>p=int(input())<CHANGETO>    n = int(n)
+modify<TAG>6<TAG>x=sin(n)<CHANGETO>    if m == 0:
+modify<TAG>7<TAG>for i in range(0,n+1):<CHANGETO>        return sin(n)
+modify<TAG>8<TAG>    y = sin(x)<CHANGETO>    return sin(findda(m-1,n))
+modify<TAG>9<TAG>for j in range(0,i):<CHANGETO>while True:
+modify<TAG>10<TAG>    x=sin(x)<CHANGETO>    a = input()
+modify<TAG>11<TAG>print(round(x,6))<CHANGETO>    a = int(a)
+modify<TAG>12<TAG>x=sin(o)<CHANGETO>    b = a
+modify<TAG>13<TAG>for i in range(0,o+1):<CHANGETO>    s = findda(a,b)
+modify<TAG>14<TAG>    y = sin(x)<CHANGETO>    print('%.6f'%s)
+del<TAG>15<TAG>for j in range(0,i):
+del<TAG>16<TAG>    x=sin(x)
+del<TAG>17<TAG>print(round(x,6))
+del<TAG>18<TAG>x=sin(p)
+del<TAG>19<TAG>for i in range(0,p+1):
+del<TAG>20<TAG>    y = sin(x)
+del<TAG>21<TAG>for j in range(0,i):
+del<TAG>22<TAG>    x=sin(x)
+del<TAG>23<TAG>print(round(x,6))

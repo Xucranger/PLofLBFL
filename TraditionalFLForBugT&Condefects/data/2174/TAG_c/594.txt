@@ -1,0 +1,7 @@
+500371.c
+195035.c
+4
+modify<TAG>1<TAG>#include <stdio.h><CHANGETO>#include<stdio.h>
+modify<TAG>6<TAG>	{	<CHANGETO>	{
+modify<TAG>10<TAG>		printf("%d",a/b);<CHANGETO>		printf("%d\n",(int)(a*1.0/b+0.5));
+add<TAG>11<TAG>	return 0;

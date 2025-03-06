@@ -1,0 +1,15 @@
+198378.c
+357081.c
+12
+modify<TAG>8<TAG>			printf("ERROR\n\n");<CHANGETO>		printf("error\n");
+modify<TAG>11<TAG>			if(a>b)<CHANGETO>			c=a/b;
+modify<TAG>12<TAG>			{<CHANGETO>			if((a%b)*2>=b)
+modify<TAG>13<TAG>				if(10*(a%b)/b>=5)<CHANGETO>			printf("%d\n",c+1);
+del<TAG>14<TAG>        		                                                   c=a/b+1;
+del<TAG>15<TAG>				else
+del<TAG>16<TAG>					c=a/b;
+del<TAG>17<TAG>			}
+del<TAG>18<TAG>			else if(a==b)
+del<TAG>19<TAG>				c=1;
+modify<TAG>21<TAG>				c=0;<CHANGETO>			printf("%d\n",c);
+del<TAG>22<TAG>			printf("%d\n\n",c);

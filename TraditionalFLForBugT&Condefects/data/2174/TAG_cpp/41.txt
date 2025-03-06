@@ -1,0 +1,8 @@
+50553.cpp
+54187.cpp
+5
+modify<TAG>8<TAG>			c=a/b;<CHANGETO>			c=a/b+0.5;
+modify<TAG>9<TAG>			if(c>=1/2)<CHANGETO>			printf("%d\n",c);
+del<TAG>10<TAG>				printf("%d\n",c+1);
+del<TAG>11<TAG>			else
+del<TAG>12<TAG>				printf("%d\n",c);

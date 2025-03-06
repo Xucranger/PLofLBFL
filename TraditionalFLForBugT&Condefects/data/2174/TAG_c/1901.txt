@@ -1,0 +1,8 @@
+365254.c
+362976.c
+5
+del<TAG>2<TAG>/*完成除法运算，输入为多行数据，每行包括两个整数a和b，用空格隔开。
+del<TAG>3<TAG>对每行数据，输出a÷b的结果，结果四舍五入，如果b等于0，输出error*/
+modify<TAG>6<TAG>	int a,b,c;<CHANGETO>	int a,b;
+modify<TAG>11<TAG>		else<CHANGETO>		else printf("%d\n",(a+b/2)/b);
+del<TAG>12<TAG>	    printf("%d\n",a/b);

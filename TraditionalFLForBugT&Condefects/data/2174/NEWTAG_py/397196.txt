@@ -1,0 +1,16 @@
+397196.py
+347016.py
+13
+modify<TAG>2<TAG>while(1):<CHANGETO>while True:
+modify<TAG>4<TAG>        str=input()<CHANGETO>        a,b = map(float,raw_input().split())
+modify<TAG>5<TAG>        i=0<CHANGETO>        if b == 0:
+modify<TAG>6<TAG>        for letter in str:<CHANGETO>            print "error"
+del<TAG>7<TAG>            if letter==' ':
+del<TAG>8<TAG>                a=int(str[0:i])
+del<TAG>9<TAG>                b=int(str[i:])
+del<TAG>10<TAG>            i+=1
+del<TAG>11<TAG>        if(b==0):
+del<TAG>12<TAG>            print("error")
+modify<TAG>14<TAG>            print(a//b)<CHANGETO>            print int(round(a / b))
+modify<TAG>15<TAG>    except:EOFError<CHANGETO>    except EOFError:
+modify<TAG>16<TAG>    	break<CHANGETO>        exit(0)

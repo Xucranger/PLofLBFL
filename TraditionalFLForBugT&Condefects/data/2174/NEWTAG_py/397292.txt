@@ -1,0 +1,8 @@
+397292.py
+397291.py
+5
+modify<TAG>4<TAG>		num=raw_input().split()<CHANGETO>		p=raw_input().split()
+modify<TAG>5<TAG>		a=float(num[0])<CHANGETO>		n=float(p[0])
+modify<TAG>6<TAG>		b=float(num[1])<CHANGETO>		m=float(p[1])
+modify<TAG>7<TAG>		if b==0:<CHANGETO>		if(m==0):
+modify<TAG>10<TAG>			print(round(a/b))<CHANGETO>			print(int(n/m+0.5))

@@ -1,0 +1,19 @@
+198549.c
+74574.c
+16
+modify<TAG>2<TAG>int main()<CHANGETO>void main()
+modify<TAG>5<TAG>	float n,c; <CHANGETO>	float c;
+modify<TAG>6<TAG>	while(scanf("%d %d",&a,&b)!=EOF);<CHANGETO>	while(scanf("%d %d",&a,&b)!=EOF)
+del<TAG>8<TAG>		if(b==0)
+del<TAG>9<TAG>		printf("error");
+modify<TAG>13<TAG>			n=(float)a/b;<CHANGETO>			c=1.0*a/b;
+modify<TAG>14<TAG>			c=n-s;<CHANGETO>			if((c-s)*10>=5)
+modify<TAG>15<TAG>				if(c>=0.5)<CHANGETO>				s++;
+modify<TAG>16<TAG>				{<CHANGETO>			printf("%d\n",s);
+modify<TAG>17<TAG>					s=s+1;<CHANGETO>		}
+modify<TAG>18<TAG>					printf("%d",s);<CHANGETO>		else printf("error\n");
+del<TAG>19<TAG>				}
+del<TAG>20<TAG>				else
+del<TAG>21<TAG>				printf("%d",s);		
+del<TAG>22<TAG>		} 
+del<TAG>24<TAG>return 0;

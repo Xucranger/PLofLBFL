@@ -1,0 +1,4 @@
+50777.cpp
+50778.cpp
+1
+modify<TAG>7<TAG>	freopen("E.txt" , "r" , stdin);<CHANGETO>	//freopen("E.txt" , "r" , stdin);

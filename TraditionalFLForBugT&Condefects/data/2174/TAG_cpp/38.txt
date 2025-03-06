@@ -1,0 +1,28 @@
+306668.cpp
+306680.cpp
+25
+modify<TAG>6<TAG>        if(b!=0){<CHANGETO>           if(b!=0) {
+modify<TAG>7<TAG>                if(a==0)printf("0\n");<CHANGETO>         m=abs(a*10/b)-abs(a/b)*10;
+modify<TAG>8<TAG>                else{<CHANGETO>        if(m>=5){
+modify<TAG>9<TAG>            if(a>0&&b>0)<CHANGETO>            if(a/b>=0)n=a/b+1;
+modify<TAG>10<TAG>        {<CHANGETO>            else n=a/b-1;
+del<TAG>11<TAG>            m=abs(b%a);
+del<TAG>12<TAG>                n=abs(b/2);
+del<TAG>13<TAG>        if(m>n)printf("%d\n",a/b+1);
+del<TAG>14<TAG>        else printf("%d\n",a/b);
+modify<TAG>16<TAG>        else {<CHANGETO>        else n=a/b;
+modify<TAG>17<TAG>            if(a>0&&b<0||a<0&&b>0){<CHANGETO>        printf("%d\n",n);
+del<TAG>18<TAG>                m=abs(b%a);
+del<TAG>19<TAG>                n=abs(b/2);
+del<TAG>20<TAG>                if(m>n)printf("%d\n",a/b-1);
+del<TAG>21<TAG>                else printf("%d\n",a/b);
+del<TAG>22<TAG>            }else{
+del<TAG>23<TAG>                if(a<0&&b<0){
+del<TAG>24<TAG>                    m=abs(b%a);
+del<TAG>25<TAG>                    n=abs(b/2);
+del<TAG>26<TAG>                    if(m>n)printf("%d\n",a/b+1);
+del<TAG>27<TAG>                    else printf("%d\n",a/b);
+del<TAG>28<TAG>                }
+modify<TAG>30<TAG>        }<CHANGETO>        else printf("error\n");
+del<TAG>32<TAG>    }else printf("error\n");
+del<TAG>33<TAG>    }

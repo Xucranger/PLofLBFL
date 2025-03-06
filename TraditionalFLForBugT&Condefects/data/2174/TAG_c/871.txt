@@ -1,0 +1,10 @@
+155270.c
+195035.c
+7
+modify<TAG>4<TAG>	int a,b,sum;<CHANGETO>	int a,b;
+modify<TAG>5<TAG>	while(~scanf("%d%d",&a,&b));<CHANGETO>	while(scanf("%d%d",&a,&b)!=EOF)
+del<TAG>8<TAG>		{
+del<TAG>10<TAG>		}
+modify<TAG>12<TAG>		sum=a/b+0.5;<CHANGETO>		printf("%d\n",(int)(a*1.0/b+0.5));
+del<TAG>13<TAG>		printf("%d\n",sum);
+modify<TAG>15<TAG>	return  0;<CHANGETO>	return 0;

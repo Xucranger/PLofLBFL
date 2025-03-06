@@ -1,0 +1,5 @@
+210067.c
+210106.c
+2
+modify<TAG>15<TAG>            m=a/b-c;<CHANGETO>            m=(float)a/(float)b-c;
+modify<TAG>16<TAG>            if(m*10>=5)<CHANGETO>            if((m*10)>=5)

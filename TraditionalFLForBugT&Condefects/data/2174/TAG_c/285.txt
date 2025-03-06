@@ -1,0 +1,11 @@
+493562.c
+197430.c
+8
+modify<TAG>3<TAG>{int beichushu,chushu;<CHANGETO>{
+modify<TAG>4<TAG>while(scanf("%d%d",&beichushu,&chushu)!=EOF)<CHANGETO>	int a,b;
+modify<TAG>5<TAG>	{if(chushu!=0)<CHANGETO>	while(scanf("%d %d",&a,&b)!=EOF)
+modify<TAG>6<TAG>		{printf("%d",(beichushu+(chushu/2))/chushu);<CHANGETO>	if(b==0)
+modify<TAG>7<TAG>		}<CHANGETO>	   printf("error\n");
+modify<TAG>9<TAG>		{printf("error");<CHANGETO>	   printf("%d\n",(a*10/b+5)/10);
+modify<TAG>10<TAG>		}<CHANGETO>	return 0;  
+del<TAG>11<TAG>	}

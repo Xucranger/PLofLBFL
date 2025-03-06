@@ -1,0 +1,12 @@
+493369.c
+357757.c
+9
+del<TAG>5<TAG>	int i=0;
+del<TAG>6<TAG>	for(int j=0;j<2;j++)
+del<TAG>7<TAG>	{
+del<TAG>8<TAG>		i=i+1;
+del<TAG>9<TAG>	}
+add<TAG>12<TAG>		printf("error\n");
+add<TAG>12<TAG>		else 
+modify<TAG>14<TAG>			printf("error\n");<CHANGETO>			printf("%d\n",(a+b/2)/b);
+del<TAG>16<TAG>		else printf("%d\n",a/b);

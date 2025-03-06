@@ -1,0 +1,5 @@
+508581.py
+508774.py
+2
+modify<TAG>4<TAG>    c = a[len(a)-1]+a[0:len(a)-1]<CHANGETO>    c = a + a
+modify<TAG>5<TAG>    if b==c:<CHANGETO>    if b in c and len(a) == len(b):

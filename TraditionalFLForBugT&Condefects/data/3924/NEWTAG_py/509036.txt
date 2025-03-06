@@ -1,0 +1,5 @@
+509036.py
+509051.py
+2
+modify<TAG>11<TAG>                print('A')<CHANGETO>                print('B')
+modify<TAG>17<TAG>                print('B')<CHANGETO>                print('A')

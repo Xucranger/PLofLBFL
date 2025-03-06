@@ -1,0 +1,7 @@
+250512.c
+250514.c
+4
+modify<TAG>4<TAG>   int a,b,c;<CHANGETO>   int a,b,c,d;
+add<TAG>8<TAG>        d=a%b;
+add<TAG>8<TAG>        if(d*2>=b && d!=0)
+add<TAG>8<TAG>            c++;

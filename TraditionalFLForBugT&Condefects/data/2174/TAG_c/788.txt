@@ -1,0 +1,5 @@
+158696.c
+158709.c
+2
+modify<TAG>13<TAG>             c2=c1;<CHANGETO>             c2=a/b;
+modify<TAG>20<TAG>                if(c1<=0.4)<CHANGETO>                if(c3<0.5)//<=0.4导致数据判断错误

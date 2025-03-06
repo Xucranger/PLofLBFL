@@ -1,0 +1,18 @@
+307076.c
+307279.c
+15
+modify<TAG>7<TAG>		float c,d;<CHANGETO>		float c,k;
+modify<TAG>8<TAG>		int m;<CHANGETO>		int m,d;	
+modify<TAG>9<TAG>		c=a/b;<CHANGETO>		if(b==0) 
+modify<TAG>10<TAG>		if(b==0) printf("error");<CHANGETO>		    printf("error\n");
+modify<TAG>12<TAG>		{<CHANGETO>		{	c=a/b;
+modify<TAG>13<TAG>			if(c>=0.5&&c<1)<CHANGETO>		d=a/b;
+modify<TAG>14<TAG>		     {	m=c+1;<CHANGETO>		k=c-d;
+add<TAG>14<TAG>			if(k>=0.5)
+add<TAG>14<TAG>		     {	m=d+1;
+modify<TAG>17<TAG>		     else <CHANGETO>		    else
+modify<TAG>18<TAG>			 {<CHANGETO>			{
+modify<TAG>19<TAG>			 	 m=c;<CHANGETO>				m=d;  
+modify<TAG>20<TAG>				printf("%d\n",m);<CHANGETO>			printf("%d\n",m);
+modify<TAG>21<TAG>			 }<CHANGETO>			}
+del<TAG>23<TAG>		//printf("%f",c);

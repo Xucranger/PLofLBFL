@@ -1,0 +1,7 @@
+484027.py
+484031.py
+4
+modify<TAG>9<TAG>    n = int(input())<CHANGETO>    for i in range(20):
+modify<TAG>10<TAG>    print('%0.6f' % solution(n, n))<CHANGETO>        n = input()
+add<TAG>10<TAG>        n = int(n) if n != '' else exit()
+add<TAG>10<TAG>        print('%0.6f' % solution(n, n))

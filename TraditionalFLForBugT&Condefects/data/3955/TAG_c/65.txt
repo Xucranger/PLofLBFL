@@ -1,0 +1,34 @@
+519914.c
+520603.c
+31
+modify<TAG>3<TAG>int main(void)<CHANGETO>int main()
+modify<TAG>5<TAG>	char a[1000],b[1000],c;	<CHANGETO>	char a[1000],c,b[1000];
+modify<TAG>6<TAG>	int as=0,lena,lenb,i=0,j=0,k=0;<CHANGETO>	int i,j,k,lena,lenb;
+modify<TAG>7<TAG>	while(scanf("%s %s",a,b)!=EOF)<CHANGETO>	while(scanf("%s%s",a,b)!=EOF)
+modify<TAG>9<TAG>		i=0,j=0,k=0;<CHANGETO>		j=1;
+modify<TAG>14<TAG>			printf("NO\n");<CHANGETO>			printf("No\n");
+modify<TAG>16<TAG>		else<CHANGETO>		if(lena==lenb)
+modify<TAG>18<TAG>			for(i=0;i<lena;i=i+1)<CHANGETO>			for(k=0;k<=2*lena;k=k+1)
+modify<TAG>20<TAG>				c=a[lena-1];<CHANGETO>			c=a[0];
+modify<TAG>21<TAG>				for(j=0;j<lena-1;j=j+1)<CHANGETO>			for(i=0;i<lena-1;i=i+1)
+modify<TAG>22<TAG>				{<CHANGETO>			{
+modify<TAG>23<TAG>					a[lena-2-i]=a[lena-1-i];<CHANGETO>				a[i]=a[i+1];
+modify<TAG>24<TAG>				}<CHANGETO>			}
+modify<TAG>25<TAG>				a[0]=c;<CHANGETO>			a[lena-1]=c;
+modify<TAG>26<TAG>				for(j=0;j<lena;j=j+1)<CHANGETO>			if(strcmp(a,b)==0)
+modify<TAG>27<TAG>				{<CHANGETO>			{
+modify<TAG>28<TAG>					if(a[j]==b[j])<CHANGETO>				j=0;
+modify<TAG>29<TAG>					{<CHANGETO>			}
+modify<TAG>30<TAG>						k=k+1;<CHANGETO>			}
+modify<TAG>31<TAG>					}<CHANGETO>			if(j==0)
+modify<TAG>32<TAG>				}<CHANGETO>			{
+modify<TAG>33<TAG>				if(j==k)<CHANGETO>				printf("Yes\n");
+del<TAG>34<TAG>				{
+del<TAG>35<TAG>					goto asd123;
+del<TAG>36<TAG>				}
+modify<TAG>38<TAG>			printf("NO\n");<CHANGETO>			if(j==1)
+modify<TAG>39<TAG>		}<CHANGETO>			{
+modify<TAG>40<TAG>		if(as==1)<CHANGETO>				printf("No\n");
+modify<TAG>41<TAG>		{<CHANGETO>			}
+del<TAG>42<TAG>		asd123:
+del<TAG>43<TAG>		printf("YES\n");

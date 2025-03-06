@@ -1,0 +1,8 @@
+246385.c
+246390.c
+5
+modify<TAG>8<TAG>       {   if(a>b)<CHANGETO>       {
+modify<TAG>9<TAG>           {    c=1.0*a/b;<CHANGETO>              c=1.0*a/b;
+del<TAG>14<TAG>           }
+del<TAG>15<TAG>            else
+del<TAG>16<TAG>                 printf("%d\n",a/b);

@@ -1,0 +1,6 @@
+85017.cpp
+85025.cpp
+3
+add<TAG>10<TAG>                       {
+modify<TAG>15<TAG>	}<CHANGETO>	       }
+add<TAG>15<TAG>               }

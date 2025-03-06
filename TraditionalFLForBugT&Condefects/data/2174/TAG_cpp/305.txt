@@ -1,0 +1,4 @@
+160443.cpp
+160445.cpp
+1
+modify<TAG>10<TAG>		   result=(int)((res+0.5)>(int)res?(int)res+1:(int)res); <CHANGETO>		   result=((res-(int)res)>=0.5)?(int)res+1:(int)res;

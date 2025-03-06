@@ -1,0 +1,7 @@
+194931.cpp
+365460.cpp
+4
+modify<TAG>1<TAG>#include <stdio.h><CHANGETO>#include<stdio.h>
+modify<TAG>4<TAG>    int a,b,t=0;<CHANGETO>    int a,b;
+modify<TAG>5<TAG>    while(~scanf("%d%d",&a,&b))<CHANGETO>    while(scanf("%d %d",&a,&b)!=EOF)
+modify<TAG>10<TAG>            printf("%d\n",a/b);<CHANGETO>            printf("%d\n",(a+b/2)/b);

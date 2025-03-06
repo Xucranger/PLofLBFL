@@ -1,0 +1,5 @@
+508385.py
+508415.py
+2
+modify<TAG>10<TAG>        value=a/b<CHANGETO>        value=int(a/b+0.5)
+modify<TAG>11<TAG>        print(round(value))<CHANGETO>        print(value)

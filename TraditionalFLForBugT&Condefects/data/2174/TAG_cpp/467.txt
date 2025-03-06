@@ -1,0 +1,10 @@
+247494.cpp
+364550.cpp
+7
+modify<TAG>1<TAG>#include<cstdio><CHANGETO> #include<stdio.h>  
+del<TAG>2<TAG>#include<iostream>
+del<TAG>3<TAG>using namespace std;
+modify<TAG>5<TAG>{      int a,b;<CHANGETO>{
+add<TAG>5<TAG>      int a,b;
+modify<TAG>8<TAG>             if(b==0)<CHANGETO>             if(!b)
+modify<TAG>11<TAG>                 printf("%d\n",a/b);<CHANGETO>                 printf("%d\n",((a+(b/2))/b));

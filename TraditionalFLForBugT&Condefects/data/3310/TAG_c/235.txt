@@ -1,0 +1,40 @@
+438546.c
+611157.c
+37
+add<TAG>2<TAG>int i;
+modify<TAG>5<TAG>	float a,b,c,s,i;<CHANGETO>	int n;
+modify<TAG>6<TAG>	scanf("%f%f%f",&a,&b,&c);<CHANGETO>	double res;
+modify<TAG>7<TAG>	if(a==0)<CHANGETO>	while(scanf("%d",&n)!=EOF)
+modify<TAG>9<TAG>		s=0;<CHANGETO>	i=n;
+modify<TAG>10<TAG>	}<CHANGETO>	double fun(int x);
+modify<TAG>11<TAG>	else<CHANGETO>	res=fun(n);
+modify<TAG>12<TAG>	{<CHANGETO>	printf("%.6lf\n",res);
+modify<TAG>13<TAG>	   for(i=a;i>=0;i--)<CHANGETO>}
+modify<TAG>14<TAG>	   {<CHANGETO>	return 0;
+modify<TAG>15<TAG>		   s=sin(a);<CHANGETO>}
+modify<TAG>16<TAG>		   a=s;<CHANGETO>double fun(int x)
+modify<TAG>17<TAG>	   }<CHANGETO>{
+modify<TAG>18<TAG>	}<CHANGETO>	if(x==0)
+del<TAG>19<TAG>	printf("%.6f\n",s);
+del<TAG>20<TAG>	if(b==0)
+modify<TAG>22<TAG>		s=0;<CHANGETO>		return sin(i);
+modify<TAG>26<TAG>	   for(i=b;i>=0;i--)<CHANGETO>		return sin(fun(x-1));
+del<TAG>27<TAG>	   {
+del<TAG>28<TAG>		   s=sin(b);
+del<TAG>29<TAG>		   b=s;
+del<TAG>30<TAG>	   }
+del<TAG>32<TAG>	printf("%.6f\n",s);
+del<TAG>33<TAG>	if(c==0)
+del<TAG>34<TAG>	{
+del<TAG>35<TAG>		s=0;
+del<TAG>36<TAG>	}
+del<TAG>37<TAG>	else
+del<TAG>38<TAG>	{
+del<TAG>39<TAG>	   for(i=c;i>=0;i--)
+del<TAG>40<TAG>	   {
+del<TAG>41<TAG>		   s=sin(c);
+del<TAG>42<TAG>		   c=s;
+del<TAG>43<TAG>	   }
+del<TAG>44<TAG>	}
+del<TAG>45<TAG>	printf("%.6f\n",s);
+del<TAG>46<TAG>	return 0;

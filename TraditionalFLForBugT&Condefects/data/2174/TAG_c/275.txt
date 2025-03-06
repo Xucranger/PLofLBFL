@@ -1,0 +1,8 @@
+245579.c
+196600.c
+5
+modify<TAG>5<TAG>    while(scanf("%d %d",&a,&b)!=EOF)<CHANGETO>    while(scanf("%d%d",&a,&b)!=EOF)
+modify<TAG>11<TAG>            if((a>=0&&b>0)||(a<=0&&b<0))<CHANGETO>            a=(a+a%b) /b;
+modify<TAG>12<TAG>                printf("%d",(a+(b/2))/b);<CHANGETO>            printf("%d\n",a);
+del<TAG>13<TAG>            else
+del<TAG>14<TAG>                printf("%d",(a-(b/2))/b);

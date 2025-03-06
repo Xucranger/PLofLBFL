@@ -1,0 +1,4 @@
+357524.cpp
+357525.cpp
+1
+modify<TAG>9<TAG>		if(b==0) cout<<"error";<CHANGETO>		if(b==0) cout<<"error"<<endl;

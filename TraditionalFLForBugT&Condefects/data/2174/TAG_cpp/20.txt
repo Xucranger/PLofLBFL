@@ -1,0 +1,8 @@
+52193.cpp
+158035.cpp
+5
+modify<TAG>5<TAG>    long long a,b;<CHANGETO>    float a,b,c;
+del<TAG>9<TAG>        {
+modify<TAG>11<TAG>            continue;<CHANGETO>        else
+modify<TAG>12<TAG>        }<CHANGETO>            cout<<int(a/b+0.5)<<endl;
+del<TAG>13<TAG>        cout<<a/b<<endl;

@@ -1,0 +1,9 @@
+84923.c
+85446.c
+6
+modify<TAG>6<TAG>    for(i=0;i<2;i++)<CHANGETO>    while(scanf("%d %d",&a,&b)!=EOF)
+del<TAG>8<TAG>       scanf("%d %d",&a,&b);
+modify<TAG>11<TAG>           if(a>b)<CHANGETO>           if(a>=b)
+del<TAG>14<TAG>              c=a/b;
+modify<TAG>16<TAG>              printf("%d\n",c+1);<CHANGETO>              printf("%d\n",a/b+1);
+modify<TAG>18<TAG>               printf("%d\n",c);<CHANGETO>               printf("%d\n",a/b);

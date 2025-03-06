@@ -1,0 +1,5 @@
+491707.cpp
+491709.cpp
+2
+del<TAG>6<TAG>using namespace std;
+modify<TAG>16<TAG>	 		double ans=a*1.00/b;<CHANGETO>	 		double ans=a*1000*1.00/(b*999);

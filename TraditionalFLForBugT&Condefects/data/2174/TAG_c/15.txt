@@ -1,0 +1,4 @@
+495534.c
+495536.c
+1
+modify<TAG>18<TAG>		a++;<CHANGETO>		h++;

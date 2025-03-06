@@ -1,0 +1,5 @@
+198999.c
+199002.c
+2
+modify<TAG>4<TAG>	int a,b,c,d;<CHANGETO>	int a,b,d;
+modify<TAG>5<TAG>	float s;<CHANGETO>	float s,c;

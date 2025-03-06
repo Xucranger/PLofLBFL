@@ -1,0 +1,10 @@
+367564.cpp
+198414.cpp
+7
+modify<TAG>4<TAG>	int a,b,c;<CHANGETO>	int a,b,e;
+modify<TAG>5<TAG>	while(scanf("%d %d",&a,&b)!=EOF)<CHANGETO>	while(scanf("%d%d",&a,&b)!=EOF)
+modify<TAG>13<TAG>			c=a/b;<CHANGETO>			e=(a+(b/2))/b;
+modify<TAG>14<TAG>			if((a-b*c)*2>b)<CHANGETO>			printf("%d\n",e);
+del<TAG>15<TAG>				c=c+1;
+del<TAG>16<TAG>			printf("%d\n",c);
+modify<TAG>20<TAG>} <CHANGETO>}

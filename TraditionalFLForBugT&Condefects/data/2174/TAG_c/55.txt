@@ -1,0 +1,4 @@
+249977.c
+249999.c
+1
+modify<TAG>9<TAG>		{c=(double)(a/b);<CHANGETO>		{c=(double)a/(double)b;

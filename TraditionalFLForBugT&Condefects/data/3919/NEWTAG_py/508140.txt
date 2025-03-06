@@ -1,0 +1,9 @@
+508140.py
+508137.py
+6
+modify<TAG>4<TAG>    if a==b and a==c:<CHANGETO>    if a+b<=c or a+c<=b or b+c<=a:
+add<TAG>4<TAG>        print('ERROR')
+add<TAG>4<TAG>    elif a==b and b==c:
+modify<TAG>10<TAG>    elif a+b>c and a+c>b and b+c>a:<CHANGETO>    else:
+del<TAG>12<TAG>    else:
+del<TAG>13<TAG>        print('ERROR')

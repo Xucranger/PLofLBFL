@@ -1,0 +1,7 @@
+495315.c
+495324.c
+4
+add<TAG>5<TAG>	int m;
+modify<TAG>11<TAG>	n=1.0*a/1.0*b;<CHANGETO>	n=1.0*a/b;
+modify<TAG>12<TAG>	if(n<a-b)<CHANGETO>	m=a/b;
+add<TAG>12<TAG>	if(n-m<0.49999)

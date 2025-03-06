@@ -1,0 +1,6 @@
+245590.c
+245592.c
+3
+modify<TAG>16<TAG>                printf("%d",c);<CHANGETO>                printf("%d\n",c);
+modify<TAG>18<TAG>                printf("%d",d);<CHANGETO>                printf("%d\n",d);
+modify<TAG>20<TAG>                printf("%d",e);<CHANGETO>                printf("%d\n",e);

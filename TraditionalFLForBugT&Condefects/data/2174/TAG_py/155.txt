@@ -1,0 +1,11 @@
+347377.py
+347397.py
+8
+modify<TAG>3<TAG>    a,b= (int(x) for x in raw_input().split(' '))<CHANGETO>    a,b=map(int,raw_input().split( ))
+modify<TAG>7<TAG>        p=float(a/b)<CHANGETO>        a=float(a)
+modify<TAG>8<TAG>        n=int(a/b)<CHANGETO>        b=float(b)
+modify<TAG>9<TAG>        c=float(p-n)<CHANGETO>        p=float(a/b)
+modify<TAG>10<TAG>        if c>0.5:<CHANGETO>        q=int(round(p))
+modify<TAG>11<TAG>            print(n+1)<CHANGETO>        print(q)
+del<TAG>12<TAG>        else :
+del<TAG>13<TAG>            print(n)

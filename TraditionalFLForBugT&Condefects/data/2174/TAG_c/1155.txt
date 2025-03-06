@@ -1,0 +1,5 @@
+191235.c
+191236.c
+2
+modify<TAG>11<TAG>    if(b==0)printf("error");<CHANGETO>    if(b==0)printf("error\n");
+modify<TAG>18<TAG>        printf("%d",C);<CHANGETO>        printf("%d\n",C);

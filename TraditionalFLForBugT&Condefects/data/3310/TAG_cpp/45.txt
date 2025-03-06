@@ -1,0 +1,4 @@
+475676.cpp
+475677.cpp
+1
+modify<TAG>9<TAG>		float F=sin(n);<CHANGETO>		double F=sin(n);

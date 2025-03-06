@@ -1,0 +1,9 @@
+400089.py
+__init__.py
+6
+del<TAG>1<TAG># coding=utf-8
+del<TAG>2<TAG>import sys
+del<TAG>3<TAG>for line in sys.stdin:
+del<TAG>4<TAG>    a,b = map(int,line.split())
+del<TAG>5<TAG>    if(b == 0):print('error')
+del<TAG>6<TAG>    else: print(int(a/b+0.5))

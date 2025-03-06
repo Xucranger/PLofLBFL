@@ -1,0 +1,11 @@
+158392.cpp
+158456.cpp
+8
+del<TAG>1<TAG>#include<stdio.h>
+add<TAG>2<TAG>#include<math.h>
+modify<TAG>6<TAG>	int a,b;<CHANGETO>    float a,b;
+add<TAG>6<TAG>	int c;
+modify<TAG>12<TAG>      cout<<a/b<<endl;<CHANGETO>      {
+add<TAG>12<TAG>	  c=round(a/b);
+add<TAG>12<TAG>      cout<<c<<endl;
+add<TAG>12<TAG>      }

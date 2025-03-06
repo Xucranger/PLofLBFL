@@ -1,0 +1,10 @@
+198793.c
+305241.c
+7
+del<TAG>2<TAG>#include<math.h>
+modify<TAG>6<TAG>	int d;<CHANGETO>	while(scanf("%f%f",&a,&b)!=EOF)
+del<TAG>7<TAG>	while((scanf("%d %d",&a,&b))!=EOF)
+modify<TAG>9<TAG>		if(b==0)printf("error\n");<CHANGETO>		if(b==0)
+modify<TAG>10<TAG>		else c=a/b+0.5;<CHANGETO>		printf("error\n");
+modify<TAG>11<TAG>		d=c;<CHANGETO>		else
+modify<TAG>12<TAG>		printf("%d\n",d);<CHANGETO>		printf("%d\n",(int)(a/b+0.5));		

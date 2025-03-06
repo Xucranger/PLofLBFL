@@ -1,0 +1,14 @@
+500112.cpp
+82579.cpp
+11
+del<TAG>2<TAG>#include <float.h>
+del<TAG>3<TAG>#include <math.h>
+del<TAG>4<TAG>#include <stdio.h>
+modify<TAG>8<TAG>	int a,b,c;<CHANGETO>	int a,b;
+del<TAG>9<TAG>	int d;
+modify<TAG>11<TAG>	if(b!=0)<CHANGETO>	{
+modify<TAG>12<TAG>	{c=a/b;<CHANGETO>		if(b==0)
+modify<TAG>13<TAG>	d=c+0.5;<CHANGETO>			cout<<"error"<<endl;
+modify<TAG>14<TAG>	cout<<" "<<d<<endl;}<CHANGETO>		else
+modify<TAG>15<TAG>	else <CHANGETO>			cout<<(int)((double)a/b+0.5)<<endl;
+modify<TAG>16<TAG>		cout<<"error\n";<CHANGETO>	}

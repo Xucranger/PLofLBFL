@@ -1,0 +1,4 @@
+492777.py
+490822.py
+1
+modify<TAG>7<TAG>    s += int(j)<CHANGETO>        s += int(j)

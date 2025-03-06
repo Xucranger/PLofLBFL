@@ -1,0 +1,5 @@
+82616.cpp
+82936.cpp
+2
+modify<TAG>15<TAG>        cout<<setprecision(0)<<c<<endl;<CHANGETO>            int d=c+0.5;
+add<TAG>15<TAG>        cout<<d<<endl;

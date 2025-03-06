@@ -1,0 +1,6 @@
+522699.c
+530201.c
+3
+modify<TAG>6<TAG>	while((scanf("%lld %lld",&a[i],&b[i]))!=EOF)<CHANGETO>	while((scanf("%lld %lld",&a[i],&b[i]))==2)
+modify<TAG>15<TAG>		printf("ERROR");<CHANGETO>		printf("error");
+modify<TAG>24<TAG> } <CHANGETO> }

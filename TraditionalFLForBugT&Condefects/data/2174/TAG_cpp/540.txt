@@ -1,0 +1,12 @@
+71107.cpp
+249795.cpp
+9
+modify<TAG>6<TAG>	float c;	<CHANGETO>	int a,b,c;
+modify<TAG>7<TAG>	 int	a,b,d,e;<CHANGETO>	float d; 
+modify<TAG>8<TAG>	while(cin >> a >> b)<CHANGETO>	while(cin>>a>>b)
+modify<TAG>16<TAG>		c=a/b;<CHANGETO>			c=a/b;
+modify<TAG>17<TAG>		e=c;<CHANGETO>			d=a-b*c;
+modify<TAG>18<TAG>		d=c*10-e;<CHANGETO>			if(d>=b/2.0)
+modify<TAG>19<TAG>		if(d>4)<CHANGETO>			printf("%d\n",c+1);
+modify<TAG>20<TAG>		{e=e+1;}<CHANGETO>			else
+modify<TAG>21<TAG>		cout<<e;<CHANGETO>			printf("%d\n",c); 

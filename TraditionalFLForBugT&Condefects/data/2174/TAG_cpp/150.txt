@@ -1,0 +1,31 @@
+305165.cpp
+50284.cpp
+28
+modify<TAG>1<TAG>#include <iostream><CHANGETO>#include<iostream>
+modify<TAG>5<TAG>    int a, b;<CHANGETO>    int a,b,y,x,m;
+modify<TAG>8<TAG>        if(b == 0)<CHANGETO>        if(b==0)
+del<TAG>11<TAG>            continue;
+modify<TAG>13<TAG>        if(a < b)<CHANGETO>        else
+modify<TAG>15<TAG>            cout<< a / b<<endl;<CHANGETO>            x=a*10/b;
+modify<TAG>16<TAG>            //continue;<CHANGETO>            m=a/b;
+modify<TAG>17<TAG>        }<CHANGETO>            y=x%10;
+modify<TAG>18<TAG>        else<CHANGETO>            if(y>=5)
+del<TAG>19<TAG>        {
+del<TAG>20<TAG>            //如果b是偶数
+del<TAG>21<TAG>            if(b % 2 == 0)
+modify<TAG>23<TAG>                if(a % b >= 0.5 * b)<CHANGETO>                m+=1;
+modify<TAG>24<TAG>                {<CHANGETO>                cout<<m<<endl;
+del<TAG>25<TAG>                    cout << a / b + 1 <<endl;
+del<TAG>26<TAG>                }
+del<TAG>27<TAG>                else
+del<TAG>28<TAG>                {
+del<TAG>29<TAG>                    cout<< a / b <<endl;
+del<TAG>30<TAG>                }
+modify<TAG>34<TAG>                if(a % b > 0.5 * b)<CHANGETO>                cout<<m<<endl;
+del<TAG>35<TAG>                {
+del<TAG>36<TAG>                    cout << a / b + 1 <<endl;
+del<TAG>37<TAG>                }
+del<TAG>38<TAG>                else
+del<TAG>39<TAG>                {
+del<TAG>40<TAG>                    cout << a / b <<endl;
+del<TAG>41<TAG>                }

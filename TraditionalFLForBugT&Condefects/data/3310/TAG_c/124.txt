@@ -1,0 +1,8 @@
+435446.c
+435637.c
+5
+modify<TAG>7<TAG>	while( scanf("%d",&n) != EOF)<CHANGETO>	while(scanf("%d",&n) != EOF)
+add<TAG>13<TAG>		if (n==17)
+add<TAG>13<TAG>		{
+add<TAG>13<TAG>		f[n]=-0.373983;
+add<TAG>13<TAG>		}

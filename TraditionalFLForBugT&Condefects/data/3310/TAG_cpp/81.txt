@@ -1,0 +1,26 @@
+287203.cpp
+287210.cpp
+23
+modify<TAG>16<TAG>int main(){<CHANGETO>int num;
+modify<TAG>17<TAG>	//freopen("test.txt","r",stdin);<CHANGETO>double f_x(int n){
+modify<TAG>18<TAG>	//freopen("test.out","w",stdout);<CHANGETO>	if(n==0)
+modify<TAG>19<TAG>	int t,n;<CHANGETO>		return sin(num);
+modify<TAG>20<TAG>	scanf("%d",&t);<CHANGETO>	else
+modify<TAG>21<TAG>	while(t--){<CHANGETO>		return sin(f_x(n-1));
+modify<TAG>22<TAG>		scanf("%d",&n);<CHANGETO>}
+modify<TAG>23<TAG>		bool flag=true;<CHANGETO>int main(){
+modify<TAG>24<TAG>		int a;<CHANGETO>	//freopen("test.txt","r",stdin);
+modify<TAG>25<TAG>		int ans=0;<CHANGETO>	//freopen("test.out","w",stdout);
+modify<TAG>26<TAG>		for(int i=0;i<n;i++){<CHANGETO>	// int n;
+modify<TAG>27<TAG>			scanf("%d",&a);<CHANGETO>	while(~scanf("%d",&num)){
+modify<TAG>28<TAG>			if(flag&&a%2==1){<CHANGETO>		printf("%.6f\n",f_x(num));
+del<TAG>29<TAG>				flag=false;
+del<TAG>30<TAG>				ans=i+1;
+del<TAG>31<TAG>			}
+del<TAG>32<TAG>		}
+del<TAG>33<TAG>		if(flag){
+del<TAG>34<TAG>			printf("bingyu is niu bi\n");
+del<TAG>35<TAG>		}
+del<TAG>36<TAG>		else{
+del<TAG>37<TAG>			printf("%d\n",ans);
+del<TAG>38<TAG>		}

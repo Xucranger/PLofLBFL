@@ -1,0 +1,13 @@
+347171.py
+346792.py
+10
+modify<TAG>2<TAG>s1 = raw_input().split()<CHANGETO>while 1:
+modify<TAG>3<TAG>s2 = raw_input().split()<CHANGETO>    a,b = (float(x) for x in raw_input().split())
+modify<TAG>4<TAG>if int(s1[1]==0):<CHANGETO>    if b == 0:
+modify<TAG>5<TAG>   print 'error'<CHANGETO>        print("error")
+modify<TAG>6<TAG>else:<CHANGETO>    else:
+modify<TAG>7<TAG>    print int(s1[0])/int(s1[1])<CHANGETO>        if a/b - a//b >= 0.5:
+modify<TAG>8<TAG>if int(s2[1])==0:<CHANGETO>            print(int(a//b + 1))
+modify<TAG>9<TAG>    print 'error'<CHANGETO>        else:
+modify<TAG>10<TAG>else:<CHANGETO>            print(int(a//b))
+del<TAG>11<TAG>    print int(s2[0])/int(s2[1])

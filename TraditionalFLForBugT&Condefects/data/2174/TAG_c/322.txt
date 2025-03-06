@@ -1,0 +1,5 @@
+306808.c
+306812.c
+2
+add<TAG>15<TAG>            d=(a-c*b)*10/b;
+add<TAG>15<TAG>            if(d>=5&&d<=10) c++;

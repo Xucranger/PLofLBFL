@@ -1,0 +1,10 @@
+508865.py
+508235.py
+7
+modify<TAG>4<TAG>    if b==0:<CHANGETO>    a,b=int(a),int(b)
+modify<TAG>5<TAG>        print("ERROR")<CHANGETO>    if(b==0):
+modify<TAG>6<TAG>    a=int(a)<CHANGETO>        print('error')
+modify<TAG>7<TAG>    b=int(b)<CHANGETO>    else:
+modify<TAG>8<TAG>    c=a/b<CHANGETO>        c=a/b
+modify<TAG>9<TAG>    d=round(c)<CHANGETO>        d=(c+0.5)/1
+modify<TAG>10<TAG>    print(d)<CHANGETO>        print(int(d))

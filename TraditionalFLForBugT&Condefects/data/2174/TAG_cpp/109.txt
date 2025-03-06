@@ -1,0 +1,14 @@
+155322.cpp
+155436.cpp
+11
+add<TAG>30<TAG>	float x,y,z;
+add<TAG>30<TAG>	int n;
+modify<TAG>33<TAG>	while(p->next!=NULL){<CHANGETO>	while(p!=NULL){
+modify<TAG>35<TAG>		else <CHANGETO>		else {
+modify<TAG>36<TAG>		cout<<(p->a)/(p->b)<<endl;<CHANGETO>			x=(float)p->a;
+add<TAG>36<TAG>			y=(float)p->b;
+add<TAG>36<TAG>			z=x/y;
+add<TAG>36<TAG>			n=(int)z;
+add<TAG>36<TAG>			if(z-n>=0.5) n++;
+add<TAG>36<TAG>			cout<<n<<endl;
+add<TAG>36<TAG>		}

@@ -1,0 +1,9 @@
+197860.c
+198259.c
+6
+add<TAG>4<TAG>	float c;
+modify<TAG>9<TAG>		else if(b!=0&&a%b>=b/2)<CHANGETO>		else if(b!=0)
+modify<TAG>10<TAG>		printf("%d",a/b+1);<CHANGETO>		{
+modify<TAG>11<TAG>		else if(b!=0&&a%b<b/2)<CHANGETO>			c=(float)a/b+0.5; 
+modify<TAG>12<TAG>		printf("%d",a/b);<CHANGETO>			printf("%d",(int)c);
+add<TAG>12<TAG>		}

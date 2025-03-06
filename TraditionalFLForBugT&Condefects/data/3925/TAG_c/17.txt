@@ -1,0 +1,22 @@
+515667.c
+540454.c
+19
+modify<TAG>1<TAG>#include <stdio.h><CHANGETO>#include<stdio.h>
+modify<TAG>2<TAG>#include <string.h><CHANGETO>#include<string.h>
+modify<TAG>3<TAG>int end(char a[1000],char b[1000])<CHANGETO>int main()
+modify<TAG>5<TAG>	char c[1000],d[1000];<CHANGETO>	char a[100],b[100];
+modify<TAG>6<TAG>	int a1,b1,e,f;<CHANGETO>	int c,d;
+modify<TAG>7<TAG>	int s;<CHANGETO>	while(scanf("%s",a)!=EOF)
+modify<TAG>8<TAG>	a1=strlen(a);<CHANGETO>		{
+modify<TAG>9<TAG>	b1=strlen(b);<CHANGETO>			gets(b);
+modify<TAG>10<TAG>	e=(a[a1-1]-48);<CHANGETO>			c=strlen(a);
+modify<TAG>11<TAG>	f=(b[b1-1]-48);<CHANGETO>			d=strlen(b);
+modify<TAG>12<TAG>	s=e*f;<CHANGETO>			printf("%d\n",(a[c-1]-'0')*(b[d-1]-'0')%10);
+modify<TAG>13<TAG>	printf("%d\n",s);<CHANGETO>		}
+del<TAG>16<TAG>int main()
+del<TAG>17<TAG>{
+del<TAG>18<TAG>	char a[1000],b[1000];
+del<TAG>19<TAG>	while (scanf("%s %s",&a,&b)!=EOF)
+del<TAG>20<TAG>	end(a,b);
+del<TAG>21<TAG>	return 0;
+del<TAG>22<TAG>}

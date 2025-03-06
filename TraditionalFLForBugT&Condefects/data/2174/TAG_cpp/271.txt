@@ -1,0 +1,8 @@
+304842.cpp
+304865.cpp
+5
+modify<TAG>20<TAG>double a,b;<CHANGETO>int a,b;
+modify<TAG>22<TAG>	while(scanf("%lf %lf",&a,&b)!=EOF){<CHANGETO>	int ans;
+add<TAG>22<TAG>	while(scanf("%d %d",&a,&b)!=EOF){
+modify<TAG>27<TAG>		printf("%.0lf\n",a/b);		<CHANGETO>		ans=(a*1.0/b)+0.5;
+add<TAG>27<TAG>		printf("%d\n",ans);

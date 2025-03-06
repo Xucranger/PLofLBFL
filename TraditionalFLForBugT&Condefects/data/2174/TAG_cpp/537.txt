@@ -1,0 +1,6 @@
+490772.cpp
+490774.cpp
+3
+modify<TAG>13<TAG>			float c=a/b;<CHANGETO>			float c=1.0*a/b;
+add<TAG>13<TAG>			//1cout<<c<<endl;
+modify<TAG>15<TAG>			int ans=(int)c;<CHANGETO>			int ans=c;

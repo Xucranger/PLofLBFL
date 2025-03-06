@@ -1,0 +1,11 @@
+210216.cpp
+210485.cpp
+8
+del<TAG>3<TAG>#include <algorithm>
+modify<TAG>7<TAG>    int a;<CHANGETO>    float a;
+modify<TAG>8<TAG>    int b;<CHANGETO>    float b;
+modify<TAG>9<TAG>    int c;<CHANGETO>    int d;
+modify<TAG>13<TAG>        printf("error");<CHANGETO>        printf("error\n");
+modify<TAG>16<TAG>        c=a/b;<CHANGETO>        d=(int)a/b+0.5;
+modify<TAG>17<TAG>        cout << c << endl;<CHANGETO>        printf("%d\n",d);
+modify<TAG>18<TAG>        }     <CHANGETO>        }        

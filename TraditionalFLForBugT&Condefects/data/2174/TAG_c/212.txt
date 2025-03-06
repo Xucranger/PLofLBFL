@@ -1,0 +1,4 @@
+499090.c
+499095.c
+1
+modify<TAG>12<TAG>	if(c*2>b)<CHANGETO>	if(c*2>=b)

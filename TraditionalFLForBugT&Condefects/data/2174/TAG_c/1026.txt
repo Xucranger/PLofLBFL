@@ -1,0 +1,5 @@
+197318.c
+197320.c
+2
+modify<TAG>19<TAG>              	printf("%d",d+1);<CHANGETO>              	printf("%d\n",d+1);
+modify<TAG>23<TAG>			  	printf("%d",d);<CHANGETO>			  	printf("%d\n",d);

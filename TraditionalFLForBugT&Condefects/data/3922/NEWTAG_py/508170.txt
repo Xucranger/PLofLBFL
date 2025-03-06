@@ -1,0 +1,4 @@
+508170.py
+508178.py
+1
+modify<TAG>6<TAG>    elif a*2>=b:<CHANGETO>    elif a*2>=b and a%b!=0:

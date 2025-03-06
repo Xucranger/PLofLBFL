@@ -1,0 +1,7 @@
+194618.c
+194788.c
+4
+add<TAG>3<TAG>float k;
+modify<TAG>6<TAG>s[i++]=a/b;<CHANGETO>{
+add<TAG>6<TAG>s[i++]=(float)a/(float)b+0.5;
+add<TAG>6<TAG>}

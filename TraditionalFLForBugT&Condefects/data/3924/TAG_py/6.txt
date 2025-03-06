@@ -1,0 +1,4 @@
+508976.py
+508982.py
+1
+modify<TAG>13<TAG>        if s/2!=0:<CHANGETO>        if s%2!=0:

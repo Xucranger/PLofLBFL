@@ -1,0 +1,8 @@
+490996.cpp
+491010.cpp
+5
+modify<TAG>13<TAG>			if ((a / b) < 1.445 || (a / b) > 1.5)<CHANGETO>			int t = (a / b);
+add<TAG>13<TAG>			if ((a / b)-t < 0.44444445 || (a / b) - t> 0.5)
+modify<TAG>16<TAG>				cout << 2 << endl;<CHANGETO>			{
+add<TAG>16<TAG>				cout << t+1 << endl;
+add<TAG>16<TAG>			}

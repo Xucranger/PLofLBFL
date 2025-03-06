@@ -1,0 +1,7 @@
+359733.c
+80736.c
+4
+del<TAG>5<TAG>	float c;
+modify<TAG>11<TAG>		{	c=a/b;<CHANGETO>			printf("%d\n",((10*a)/b+5)/10);
+del<TAG>12<TAG>			printf("%f\n",c);
+del<TAG>13<TAG>		}

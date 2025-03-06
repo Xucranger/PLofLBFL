@@ -1,0 +1,9 @@
+493309.c
+490556.c
+6
+del<TAG>2<TAG>#include<math.h>
+modify<TAG>8<TAG>		if(b!=0)<CHANGETO>		if(b==0) printf("error\n");
+modify<TAG>9<TAG>		printf("%d",round(a/b));<CHANGETO>		else
+modify<TAG>10<TAG>		else <CHANGETO>		{
+modify<TAG>11<TAG>		printf("error");<CHANGETO>		 printf("%d\n",(a*10/b+5)/10);
+add<TAG>11<TAG>		}

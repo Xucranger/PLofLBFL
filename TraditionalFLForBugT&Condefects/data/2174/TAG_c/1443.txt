@@ -1,0 +1,25 @@
+210272.c
+197556.c
+22
+modify<TAG>1<TAG>#include <stdio.h><CHANGETO>#include<stdio.h>
+modify<TAG>2<TAG>#include <string.h><CHANGETO>#include<math.h>
+modify<TAG>5<TAG>	int a,b,sum,sum2,result;<CHANGETO>	int a,b;
+modify<TAG>6<TAG>	while(scanf("%d %d",&a,&b)!=EOF)<CHANGETO>	while(scanf("%d%d",&a,&b)!=EOF)
+modify<TAG>8<TAG>	if(b==0)<CHANGETO>	if(b==0)  printf("error\n");
+modify<TAG>9<TAG>	{<CHANGETO>	else if((float) a>(float)b)
+del<TAG>10<TAG>	printf("error\n");
+del<TAG>11<TAG>	continue;
+del<TAG>12<TAG>	}
+del<TAG>13<TAG>	sum = a+b;
+del<TAG>14<TAG>	sum2 = sum%10;
+del<TAG>15<TAG>	if(sum2<=4)
+modify<TAG>17<TAG>		result=sum-sum2;<CHANGETO>		if((a%b)/(b*1.0)>=0.5) printf("%d\n",a/b+1);
+modify<TAG>18<TAG>		printf("%d\n",result);<CHANGETO>		else printf("%d\n",a/b);
+modify<TAG>20<TAG>	if(sum2>=5)<CHANGETO>	else 
+modify<TAG>22<TAG>		for(int i=1;i<10;i++)<CHANGETO>		if((float)a/(b*1.0)>=0.5) printf("1\n");
+modify<TAG>23<TAG>			{<CHANGETO>		else printf("0\n");
+del<TAG>24<TAG>				result=i+sum;
+del<TAG>25<TAG>				if(result%10==0)
+del<TAG>26<TAG>				printf("%d\n",result);
+del<TAG>27<TAG>				break;
+del<TAG>28<TAG>			}

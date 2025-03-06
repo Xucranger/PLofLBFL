@@ -1,0 +1,12 @@
+85062.cpp
+50360.cpp
+9
+modify<TAG>5<TAG>    int i,n,a,s;<CHANGETO>    double a,b;
+modify<TAG>6<TAG>    cin>>n;<CHANGETO>    while(cin>>a>>b)
+del<TAG>7<TAG>    a=0;
+del<TAG>8<TAG>    s=0;
+del<TAG>9<TAG>    for(i=1;i<=n;i++)
+modify<TAG>11<TAG>        s=a+i;<CHANGETO>        if(b==0) cout<<"error"<<endl;
+modify<TAG>12<TAG>        a=s;<CHANGETO>        else     cout<<int(a/b+0.5)<<endl;
+del<TAG>14<TAG>    cout<<s<<endl;
+modify<TAG>16<TAG>} <CHANGETO>}

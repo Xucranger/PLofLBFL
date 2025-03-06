@@ -1,0 +1,6 @@
+492225.py
+492133.py
+3
+modify<TAG>2<TAG>//BUCTOJ 3903 Input format-2<CHANGETO>for _ in range(int(input())):
+modify<TAG>3<TAG>for_in range(int(input())):<CHANGETO>    a,b=[int(x) for x in input().split()]
+del<TAG>4<TAG>    a,b=[int(N) for x in input().split()]

@@ -1,0 +1,7 @@
+51810.cpp
+51823.cpp
+4
+modify<TAG>10<TAG>    else if(a%b<=(b/2))   cout<<(a/b)<<endl;<CHANGETO>    else if(b%2==0){if(a%b>=(b/2))  cout<<(a/b)+1<<endl;
+modify<TAG>11<TAG>         else  cout<<(a/b)+1<<endl;      }<CHANGETO>                          else  cout<<a/b<<endl;      }
+add<TAG>11<TAG>        else { if(a%b>=(b/2+1))  cout<<(a/b)+1<<endl;
+add<TAG>11<TAG>                          else  cout<<a/b<<endl;      }    }

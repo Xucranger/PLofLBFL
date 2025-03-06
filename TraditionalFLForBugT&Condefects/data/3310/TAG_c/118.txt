@@ -1,0 +1,12 @@
+437948.c
+435400.c
+9
+modify<TAG>6<TAG>	float a,b;<CHANGETO>	double a[100];
+modify<TAG>7<TAG>	while(scanf("%d",&n)!=EOF){<CHANGETO>	while(scanf("%d",&n)!=EOF)
+modify<TAG>8<TAG>		a=sin(n);<CHANGETO>	{
+modify<TAG>9<TAG>		for(i=1;i<=n;i++)<CHANGETO>	a[0]=sin(n);
+add<TAG>9<TAG>	for(i=1;i<=n;i++)
+modify<TAG>11<TAG>			b=sin(a);<CHANGETO>			a[i]=sin(a[i-1]);
+del<TAG>12<TAG>			a=b;
+modify<TAG>14<TAG>		printf("%.6lf\n",a);<CHANGETO>	printf("%.6lf\n",a[n]);
+modify<TAG>17<TAG>} <CHANGETO>}

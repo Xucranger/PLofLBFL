@@ -1,0 +1,10 @@
+489157.c
+489160.c
+7
+add<TAG>4<TAG>float c=0.5555;
+add<TAG>4<TAG>int d;
+add<TAG>4<TAG>double e;
+modify<TAG>9<TAG>    printf("%.0f\n",a/b);<CHANGETO>    {e=(a/b)+c;
+add<TAG>9<TAG>	d=floor(e);
+add<TAG>9<TAG>	printf("%d\n",d);
+add<TAG>9<TAG>	}

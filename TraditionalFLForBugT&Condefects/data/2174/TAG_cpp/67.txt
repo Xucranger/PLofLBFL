@@ -1,0 +1,5 @@
+155737.cpp
+155769.cpp
+2
+modify<TAG>11<TAG>                 printf("%d\n",a/b);<CHANGETO>                if(((a%b)*2)>=b)  cout<<(int(a/b)+1)<<endl;
+add<TAG>11<TAG>                else                 cout<<(int(a/b))<<endl;

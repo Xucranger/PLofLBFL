@@ -1,0 +1,11 @@
+440115.cpp
+156013.cpp
+8
+modify<TAG>5<TAG>	int a,b,c;<CHANGETO>	float a,b,c;
+modify<TAG>6<TAG>	while(cin>>a>>b){<CHANGETO>	while(cin>>a>>b)
+add<TAG>6<TAG>	{
+modify<TAG>8<TAG>		cout<<"error";<CHANGETO>		cout<<"error"<<endl;
+modify<TAG>12<TAG>		if(c>=5)<CHANGETO>		int d=(int)(c+0.5);
+modify<TAG>13<TAG>		c++;<CHANGETO>		cout<<d<<endl;
+modify<TAG>14<TAG>		cout<<c<<endl;<CHANGETO>	    }
+modify<TAG>16<TAG>	}<CHANGETO>	return 0;

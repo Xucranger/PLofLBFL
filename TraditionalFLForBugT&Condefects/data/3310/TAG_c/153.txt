@@ -1,0 +1,6 @@
+287730.c
+287739.c
+3
+modify<TAG>17<TAG>	for (c=0;c<=20;c++)<CHANGETO>	while (scanf("%d",&n)!=EOF)
+modify<TAG>18<TAG>	{<CHANGETO>	{	
+del<TAG>19<TAG>		scanf("%d",&n);

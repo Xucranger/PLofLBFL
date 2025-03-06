@@ -1,0 +1,5 @@
+441143.c
+441144.c
+2
+modify<TAG>10<TAG>		printf("%lf",0.000000);<CHANGETO>		printf("%lf\n",0.000000);
+modify<TAG>15<TAG>			printf("%lf",cou);<CHANGETO>			printf("%lf\n",cou);

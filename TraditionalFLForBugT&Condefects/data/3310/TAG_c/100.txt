@@ -1,0 +1,5 @@
+441028.c
+441056.c
+2
+modify<TAG>17<TAG>	for(int i = 1;i <= 20;i++){<CHANGETO>	while(scanf("%d",&n)!=EOF)
+modify<TAG>18<TAG>		scanf("%d",&n);<CHANGETO>	{

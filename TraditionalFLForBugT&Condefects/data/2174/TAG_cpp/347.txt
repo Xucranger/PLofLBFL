@@ -1,0 +1,9 @@
+155813.cpp
+155827.cpp
+6
+modify<TAG>5<TAG>	int a,b,c;<CHANGETO>	int a,b;
+add<TAG>5<TAG>	double c;
+modify<TAG>10<TAG>			c=a/b;<CHANGETO>			c=1.0*a/b;
+modify<TAG>11<TAG>			if(2*c<a)<CHANGETO>			printf("%d\n",int(c+0.5));
+del<TAG>12<TAG>			c+=1;
+del<TAG>13<TAG>			printf("%d\n",c);

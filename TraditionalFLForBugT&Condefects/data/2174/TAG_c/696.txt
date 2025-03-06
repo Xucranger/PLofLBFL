@@ -1,0 +1,6 @@
+364422.c
+364428.c
+3
+modify<TAG>17<TAG>			if(c>=0.5){<CHANGETO>			float t;
+add<TAG>17<TAG>			t=(float)c-s;
+add<TAG>17<TAG>			if(t>=0.5){

@@ -1,0 +1,7 @@
+495203.c
+495217.c
+4
+modify<TAG>9<TAG>        printf("error\n");<CHANGETO>     {   printf("error\n");
+add<TAG>9<TAG>        continue;
+add<TAG>9<TAG>     }
+modify<TAG>14<TAG>            if(y>=5.0)<CHANGETO>            if(y>=0.5)

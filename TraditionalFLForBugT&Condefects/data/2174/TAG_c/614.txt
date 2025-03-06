@@ -1,0 +1,10 @@
+246339.c
+246390.c
+7
+add<TAG>4<TAG>    float c;
+modify<TAG>7<TAG>       {   if(a%b==0)<CHANGETO>       {
+modify<TAG>8<TAG>             printf("%d\n",a/b);<CHANGETO>              c=1.0*a/b;
+modify<TAG>9<TAG>           else if(a>b)<CHANGETO>                if((c*10-a/b*10)>=5)
+modify<TAG>10<TAG>             printf("%d\n",(a/b)+1);<CHANGETO>                  printf("%d\n",(a/b)+1);
+modify<TAG>11<TAG>           else<CHANGETO>                else
+modify<TAG>12<TAG>             printf("%d\n",a/b);<CHANGETO>                  printf("%d\n",a/b);

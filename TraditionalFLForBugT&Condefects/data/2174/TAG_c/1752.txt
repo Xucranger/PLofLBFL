@@ -1,0 +1,14 @@
+489036.c
+489061.c
+11
+modify<TAG>4<TAG>	long long a,b;<CHANGETO>	int a,b;
+modify<TAG>5<TAG>	while(scanf("%lld %lld",&a,&b)!=EOF){<CHANGETO>	while(scanf("%d %d",&a,&b)!=EOF){
+modify<TAG>9<TAG>	break;} <CHANGETO>	} 
+modify<TAG>11<TAG>	long long sum=a+b;<CHANGETO>	float sum=1.0*a/b;int p=a/b; 
+modify<TAG>12<TAG>		if(sum%10<5)<CHANGETO>	sum=sum*10;
+modify<TAG>13<TAG>		sum=sum/10*10;<CHANGETO>	int q=sum;
+modify<TAG>14<TAG>		else<CHANGETO>	q=q%10;
+modify<TAG>15<TAG>		sum=(sum/10+1)*10;<CHANGETO>	if(q>=5)
+modify<TAG>16<TAG>		printf("%lld\n",sum);<CHANGETO>	p=p+1;
+add<TAG>16<TAG>	else;
+add<TAG>16<TAG>		printf("%d\n",p);

@@ -1,0 +1,8 @@
+491569.c
+499053.c
+5
+modify<TAG>4<TAG>	int a,b,sha,yu;<CHANGETO>		int a,b,sha,yu;
+modify<TAG>7<TAG>		if(b==0) printf("error");<CHANGETO>		if(b==0) printf("error\n");
+del<TAG>10<TAG>			yu=a%b;
+add<TAG>11<TAG>			if(m-sha<1.0/2) printf("%d\n",sha);
+del<TAG>13<TAG>			else printf("%d\n",sha);

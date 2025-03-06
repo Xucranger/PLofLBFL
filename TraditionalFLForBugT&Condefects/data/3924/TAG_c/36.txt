@@ -1,0 +1,5 @@
+553831.c
+553832.c
+2
+modify<TAG>6<TAG>		else if(a>10&&b>10&&(a-b==2||b-a==2))printf("Game Over\n");<CHANGETO>		else if(a>=10&&b>=10&&(a-b==2||b-a==2))printf("Game Over\n");
+modify<TAG>8<TAG>		else if(a>10&&b>10&&(a+b)%2==1)printf("B\n");<CHANGETO>		else if(a>=10&&b>=10&&(a+b)%2==1)printf("B\n");

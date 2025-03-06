@@ -1,0 +1,12 @@
+518119.py
+517869.py
+9
+modify<TAG>6<TAG>        print('NO')<CHANGETO>        print("No")
+modify<TAG>9<TAG>        print('YES')<CHANGETO>        print("Yes")
+modify<TAG>12<TAG>        list=[]<CHANGETO>        List=[]
+modify<TAG>13<TAG>        list.append(a)<CHANGETO>        List.append(a)
+modify<TAG>15<TAG>            list.append(a[i]+a[i+1:]+a[:i])<CHANGETO>            List.append(a[i]+a[i+1:]+a[:i])
+modify<TAG>16<TAG>        list.append(a[-1]+a[:len(a)-1])<CHANGETO>        List.append(a[-1]+a[:len(a)-1])
+modify<TAG>17<TAG>        if b in list:<CHANGETO>        if b in List:
+modify<TAG>18<TAG>            print('YES')<CHANGETO>            print("Yes")
+modify<TAG>20<TAG>            print('NO')<CHANGETO>            print("No")

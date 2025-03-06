@@ -1,0 +1,6 @@
+437660.c
+436954.c
+3
+modify<TAG>10<TAG>        if(n=0)<CHANGETO>        if(n<=1)
+del<TAG>11<TAG>        printf("0.000000");
+del<TAG>12<TAG>        if(n=1)

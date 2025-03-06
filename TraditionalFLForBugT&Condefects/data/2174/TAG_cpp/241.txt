@@ -1,0 +1,7 @@
+60432.cpp
+60437.cpp
+4
+modify<TAG>10<TAG>        c=(int)(a/b+0.5);<CHANGETO>        else
+add<TAG>10<TAG>       {
+add<TAG>10<TAG>            c=(int)(a/b+0.5);
+add<TAG>11<TAG>       }

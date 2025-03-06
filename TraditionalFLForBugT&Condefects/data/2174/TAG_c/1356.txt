@@ -1,0 +1,4 @@
+494848.c
+494859.c
+1
+modify<TAG>11<TAG>		s = a / b;<CHANGETO>		s = a*1.0 / b;

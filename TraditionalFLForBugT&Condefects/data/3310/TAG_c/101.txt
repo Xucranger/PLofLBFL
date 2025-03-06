@@ -1,0 +1,15 @@
+287853.c
+288514.c
+12
+del<TAG>3<TAG>float f[100];
+del<TAG>7<TAG>    float k;
+modify<TAG>10<TAG>        if(n==0)<CHANGETO>        double f;
+modify<TAG>11<TAG>            printf("0.000000\n");<CHANGETO>        f=sin(n);
+modify<TAG>12<TAG>        else<CHANGETO>        for(i=1;i<=n;i++)
+del<TAG>13<TAG>        {
+del<TAG>14<TAG>            f[0]=sin(n);
+del<TAG>15<TAG>            for(i=1;i<=n;i++)
+modify<TAG>17<TAG>                f[i]=sin(f[i-1]);<CHANGETO>                f=sin(f);
+modify<TAG>19<TAG>            printf("%.06f\n",f[n]);<CHANGETO>        printf("%6f\n",f);
+del<TAG>20<TAG>        }
+add<TAG>21<TAG>    return 0;

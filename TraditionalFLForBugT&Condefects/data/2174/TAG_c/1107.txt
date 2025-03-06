@@ -1,0 +1,14 @@
+439955.c
+305241.c
+11
+modify<TAG>4<TAG>	char ch;<CHANGETO>	float a,b,c;
+modify<TAG>5<TAG>	int a[1000],b[1000],i,j=0;<CHANGETO>	while(scanf("%f%f",&a,&b)!=EOF)
+del<TAG>6<TAG>	for(i=0;ch!=EOF;i++)
+modify<TAG>8<TAG>		scanf("%d%d",&a[i],&b[i]);<CHANGETO>		if(b==0)
+del<TAG>9<TAG>		j++;
+del<TAG>10<TAG>		ch=getchar();
+del<TAG>11<TAG>	}
+del<TAG>12<TAG>	for(i=0;i<=j;i++)
+del<TAG>13<TAG>	{
+del<TAG>14<TAG>		if(b[i]==0)
+modify<TAG>17<TAG>		printf("%d\n",a[i]/b[i]);<CHANGETO>		printf("%d\n",(int)(a/b+0.5));		

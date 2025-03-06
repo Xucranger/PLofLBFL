@@ -1,0 +1,5 @@
+363017.c
+363023.c
+2
+modify<TAG>8<TAG>{c=a*1.0/b;<CHANGETO>{c=floor(a*1.0/b);
+modify<TAG>10<TAG>    c=floor(c)+1;<CHANGETO>    c++;

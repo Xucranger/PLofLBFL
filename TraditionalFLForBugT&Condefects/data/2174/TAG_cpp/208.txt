@@ -1,0 +1,7 @@
+306216.cpp
+306779.cpp
+4
+modify<TAG>16<TAG>					printf("%d",a/b+1);<CHANGETO>					printf("%d\n",a/b+1);
+modify<TAG>18<TAG>					printf("%d",a/b);<CHANGETO>					printf("%d\n",a/b);
+modify<TAG>23<TAG>					printf("%d",a/b);<CHANGETO>					printf("%d\n",a/b);
+modify<TAG>25<TAG>					printf("%d",a/b-1);<CHANGETO>					printf("%d\n",a/b-1);

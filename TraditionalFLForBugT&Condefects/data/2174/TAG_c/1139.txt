@@ -1,0 +1,6 @@
+190320.c
+190464.c
+3
+add<TAG>1<TAG>#include <math.h>
+modify<TAG>9<TAG>{c=a/b;<CHANGETO>{
+add<TAG>9<TAG>c=(int)((a+b/2)/b);

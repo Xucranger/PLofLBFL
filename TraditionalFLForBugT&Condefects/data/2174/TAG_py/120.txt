@@ -1,0 +1,4 @@
+347461.py
+347472.py
+1
+modify<TAG>5<TAG>	a = int(list[0]) <CHANGETO>	a = float(list[0]) 

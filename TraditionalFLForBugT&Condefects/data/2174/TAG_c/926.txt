@@ -1,0 +1,12 @@
+493297.c
+364514.c
+9
+modify<TAG>2<TAG>int main()<CHANGETO>int main(void)
+modify<TAG>4<TAG>    int a,b,x;<CHANGETO>    int a,b,c;
+modify<TAG>9<TAG>        else if(a>=0&&b>0)<CHANGETO>        else if(2*(a%b)>=b)
+modify<TAG>11<TAG>            x = (int)((a/b)+0.5);<CHANGETO>            c=a/b+1;
+modify<TAG>12<TAG>            printf("%d\n",x);<CHANGETO>            printf("%d\n",c);
+modify<TAG>15<TAG>            {<CHANGETO>        {
+modify<TAG>16<TAG>            x = (int)((a/b)-0.5);<CHANGETO>            c=a/b;
+modify<TAG>17<TAG>            printf("%d\n",x);<CHANGETO>            printf("%d\n",c);
+modify<TAG>18<TAG>            }<CHANGETO>        }

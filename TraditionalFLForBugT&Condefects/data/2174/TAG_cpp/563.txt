@@ -1,0 +1,7 @@
+161017.cpp
+161023.cpp
+4
+modify<TAG>10<TAG>		{	cout<<"error"<<endl;break;}<CHANGETO>			cout<<"error"<<endl;
+add<TAG>11<TAG>		{
+modify<TAG>14<TAG>    }<CHANGETO>		}
+add<TAG>14<TAG>	}

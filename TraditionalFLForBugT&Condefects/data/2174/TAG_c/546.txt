@@ -1,0 +1,8 @@
+364342.c
+364458.c
+5
+add<TAG>4<TAG>  float c;
+add<TAG>11<TAG>           c=(float)a/b;
+add<TAG>11<TAG>           if((c-result)>=0.5)
+add<TAG>11<TAG>                result++;
+add<TAG>11<TAG>          // printf("%.2f\n",c);

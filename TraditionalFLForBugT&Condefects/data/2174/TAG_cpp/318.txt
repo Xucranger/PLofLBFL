@@ -1,0 +1,6 @@
+244500.cpp
+244502.cpp
+3
+modify<TAG>9<TAG>   		printf("error");<CHANGETO>   		printf("error\n");
+modify<TAG>13<TAG>	   	sum=a/b+0.5;<CHANGETO>	   printf("%d\n",(int)(a/b+0.5));
+del<TAG>14<TAG>	   	printf("%d\n",(int)(sum+0.5));

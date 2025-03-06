@@ -1,0 +1,11 @@
+246776.c
+246958.c
+8
+del<TAG>5<TAG>	float c;
+del<TAG>8<TAG>		scanf("%d%d",&a,&b);
+modify<TAG>13<TAG>			c=(float)a/b;<CHANGETO>			d=(int)(1.0*a/b+0.5);
+modify<TAG>14<TAG>			d=a/b;<CHANGETO>			printf("%d\n",d);
+del<TAG>15<TAG>			if ((c-d)>0.5)
+del<TAG>16<TAG>				printf("%d\n",d+1);
+del<TAG>17<TAG>			else
+del<TAG>18<TAG>				printf("%d\n",d);

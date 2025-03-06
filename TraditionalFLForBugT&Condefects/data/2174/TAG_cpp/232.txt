@@ -1,0 +1,7 @@
+198443.cpp
+198457.cpp
+4
+modify<TAG>4<TAG>	    int a,b;<CHANGETO>	    int a,b,c;
+del<TAG>5<TAG>		double c;
+modify<TAG>12<TAG>				c=(double)a/b;<CHANGETO>				c=((a*10)/b+5)/10;
+modify<TAG>13<TAG>				printf("%.0f\n",c);<CHANGETO>				printf("%d\n",c);

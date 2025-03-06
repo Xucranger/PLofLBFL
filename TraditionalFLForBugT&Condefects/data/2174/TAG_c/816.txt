@@ -1,0 +1,10 @@
+364553.c
+364573.c
+7
+modify<TAG>15<TAG>	    	if(e>0.5)<CHANGETO>	    	if(e>=0.5)
+modify<TAG>16<TAG>	    	r=r+1;<CHANGETO>	    	 {
+modify<TAG>17<TAG>	    	printf("%d\n",r);	    <CHANGETO>	    	 	 r=r+1;
+add<TAG>17<TAG>	    	     printf("%d\n",r);
+add<TAG>17<TAG>			 }
+add<TAG>17<TAG>			else
+add<TAG>17<TAG>			  printf("%d\n",r);	    

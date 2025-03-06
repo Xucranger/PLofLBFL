@@ -1,0 +1,7 @@
+518124.py
+517869.py
+4
+modify<TAG>6<TAG>        print('NO')<CHANGETO>        print("No")
+modify<TAG>9<TAG>        print('YES')<CHANGETO>        print("Yes")
+modify<TAG>18<TAG>            print('YES')<CHANGETO>            print("Yes")
+modify<TAG>20<TAG>            print('NO')<CHANGETO>            print("No")

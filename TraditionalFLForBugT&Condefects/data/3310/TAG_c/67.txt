@@ -1,0 +1,12 @@
+435184.c
+435658.c
+9
+del<TAG>3<TAG>#define N 20
+modify<TAG>17<TAG>	int n;<CHANGETO>	int a;
+modify<TAG>19<TAG>	for(int i=0;i<N;i++)<CHANGETO>	for(int i=0;i<20;i++)
+modify<TAG>21<TAG>		scanf("%d",&n);<CHANGETO>		if(scanf("%d",&a)!=EOF)
+modify<TAG>22<TAG>		res=digui(n,n);<CHANGETO>		{
+add<TAG>22<TAG>		res=digui(a,a);
+add<TAG>23<TAG>		}
+add<TAG>23<TAG>		else 
+add<TAG>23<TAG>		break;

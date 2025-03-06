@@ -1,0 +1,10 @@
+396942.py
+397237.py
+7
+modify<TAG>4<TAG>        arr = input()<CHANGETO>        a, b = map(float, raw_input().split())
+modify<TAG>5<TAG>        arr = arr.split(' ')<CHANGETO>        if int(b) == 0:
+del<TAG>6<TAG>        x = int(arr[0])
+del<TAG>7<TAG>        y = int(arr[1])
+del<TAG>8<TAG>        if(y == 0):
+modify<TAG>11<TAG>            print(round(x/y))<CHANGETO>            print(int(a/b + 0.5))
+modify<TAG>12<TAG>    except:<CHANGETO>    except EOFError:

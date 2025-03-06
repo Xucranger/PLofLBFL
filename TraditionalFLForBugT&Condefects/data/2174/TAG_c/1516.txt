@@ -1,0 +1,10 @@
+498915.c
+498978.c
+7
+modify<TAG>4<TAG>    int i=0,a,b,c;<CHANGETO>    int a,b,c,e;
+modify<TAG>9<TAG>         c=a/b;<CHANGETO>        c=a/b;
+modify<TAG>10<TAG>         printf("%d\n",c);<CHANGETO>        e=a%b;
+add<TAG>10<TAG>       if(2*e>=b)
+add<TAG>10<TAG>        printf("%d\n",c+1);
+add<TAG>10<TAG>        else
+add<TAG>10<TAG>          printf("%d\n",c);

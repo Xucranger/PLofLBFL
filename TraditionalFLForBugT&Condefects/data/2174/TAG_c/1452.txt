@@ -1,0 +1,7 @@
+244545.c
+244548.c
+4
+modify<TAG>6<TAG>	if(b=0)<CHANGETO>	{
+modify<TAG>7<TAG>	printf("error");<CHANGETO>	if(b==0)
+add<TAG>7<TAG>	printf("error\n");
+add<TAG>9<TAG>	}

@@ -1,0 +1,5 @@
+249528.c
+306724.c
+2
+modify<TAG>4<TAG>    int a,b,c;<CHANGETO>    int a,b;
+add<TAG>4<TAG>    float c;

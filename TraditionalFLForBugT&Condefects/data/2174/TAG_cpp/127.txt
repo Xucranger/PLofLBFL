@@ -1,0 +1,8 @@
+304797.cpp
+305085.cpp
+5
+add<TAG>5<TAG>    int result;
+add<TAG>11<TAG>             result=a/b;
+modify<TAG>13<TAG>             printf("%0.0f\n",c);<CHANGETO>             if((c-result)>=0.5)
+add<TAG>13<TAG>                result=(a/b)+1;
+add<TAG>13<TAG>             printf("%d\n",result);

@@ -1,0 +1,17 @@
+483838.cpp
+483853.cpp
+14
+add<TAG>3<TAG>#include<string>
+add<TAG>3<TAG>#include<sstream>
+modify<TAG>8<TAG>		return sin(F(x-1, n1));<CHANGETO>	return sin(F(x-1, n1));
+modify<TAG>14<TAG>int main(){<CHANGETO>int main(){	
+modify<TAG>15<TAG>		int num;<CHANGETO>	string str;
+modify<TAG>16<TAG>		cin >> num;<CHANGETO>	int num;
+modify<TAG>17<TAG>		if (num >=0 && num <= 100){<CHANGETO>	while(getline(cin,str))
+modify<TAG>18<TAG>			cout <<setiosflags(ios::fixed)<<setprecision(6)<< F(num,num)<<endl;<CHANGETO>	{
+modify<TAG>19<TAG>		} <CHANGETO>		if (str.size()==0) break;
+modify<TAG>20<TAG>		else{<CHANGETO>		istringstream ist(str);
+modify<TAG>21<TAG>			cout<<"请输入一个1-100的数"<<endl; <CHANGETO>		for(int j=0;ist>>num&&j<str.length();j++)
+add<TAG>21<TAG>		{
+add<TAG>21<TAG>			cout <<setiosflags(ios::fixed)<<setprecision(6)<< F(num,num)<<endl;
+modify<TAG>23<TAG>	return 0;<CHANGETO>	}

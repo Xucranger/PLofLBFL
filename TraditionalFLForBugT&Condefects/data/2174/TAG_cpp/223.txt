@@ -1,0 +1,5 @@
+489287.cpp
+489297.cpp
+2
+modify<TAG>14<TAG>		cout << a / b << endl;<CHANGETO>		r = (int)(a / (b * 1.0)+0.5 );
+add<TAG>14<TAG>		cout << r << endl;

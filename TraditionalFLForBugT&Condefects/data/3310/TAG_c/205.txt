@@ -1,0 +1,12 @@
+438299.c
+438389.c
+9
+modify<TAG>3<TAG>float f(int n,int m)<CHANGETO>double f(int n,int m)
+modify<TAG>15<TAG>	scanf("%d",&n);<CHANGETO>	float s;
+modify<TAG>16<TAG>	printf("%f",f(n,n));<CHANGETO>	while(scanf("%d",&n)!=EOF)
+add<TAG>16<TAG>	{
+add<TAG>16<TAG>		s=f(n,n);
+add<TAG>16<TAG>		if(s<-0.37)
+add<TAG>16<TAG>		s=-0.373983;
+add<TAG>16<TAG>	    printf("%f\n",s);
+add<TAG>16<TAG>	}

@@ -1,0 +1,21 @@
+244294.c
+495501.c
+18
+modify<TAG>1<TAG>#include <stdio.h><CHANGETO>#include<stdio.h>
+modify<TAG>5<TAG>        while(scanf("%d %d",&a,&b)!=EOF)<CHANGETO>    double c,d;
+modify<TAG>6<TAG>        {<CHANGETO>    while(scanf("%d%d",&a,&b)!=EOF)
+modify<TAG>7<TAG>            if((a==11&&b<=9)||(a<=9&&b==11))<CHANGETO>    {
+modify<TAG>8<TAG>             printf("Game Over\n");<CHANGETO>        if(b==0)
+del<TAG>9<TAG>        if(a<11&&b<11)
+modify<TAG>11<TAG>            if((a+b)%4==1||(a+b)%4==0)<CHANGETO>            printf("error\n");
+del<TAG>12<TAG>                printf("A\n");
+del<TAG>13<TAG>            else
+del<TAG>14<TAG>                printf("B\n");
+modify<TAG>16<TAG>        if((a>=11&&b>=10)||(a>=10&&b>=11))<CHANGETO>        else
+modify<TAG>18<TAG>            if(a-b==2||b-a==2)<CHANGETO>        	printf("%d\n",(a+b/2)/b);
+del<TAG>19<TAG>            printf("Game Over\n");
+del<TAG>20<TAG>            else if((a+b)%2==0)
+del<TAG>21<TAG>                printf("A\n");
+del<TAG>22<TAG>            else
+del<TAG>23<TAG>                printf("B\n");
+modify<TAG>25<TAG>        }<CHANGETO>    }

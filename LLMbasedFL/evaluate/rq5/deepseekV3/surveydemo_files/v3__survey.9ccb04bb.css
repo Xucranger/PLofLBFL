@@ -1,0 +1,2519 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[6].use[3]!./src/components/User/AuthModalQQ.less ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+.user-auth-modal-qq {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.user-auth-modal-qq iframe {
+  display: block;
+  width: 370px;
+  height: 305px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 50%;
+  margin-top: -152.5px;
+}
+
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[6].use[3]!./src/components/copyright/style.less ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+.commercial-button.t-button {
+  background-color: #282a32;
+  color: #f5e0ac;
+  border-color: #282a32;
+}
+.commercial-button.t-button:hover {
+  background-color: #383838;
+  border-color: #383838;
+}
+/* --------------------------------- 题型组件选项样式 ---------------------------------------- */
+.footer-copyright {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 24px 0;
+  text-align: center;
+  line-height: 22px;
+  font-size: 14px;
+  color: var(--td-text-color-disabled);
+}
+.footer-copyright .item {
+  color: var(--td-text-color-disabled);
+  text-decoration: none;
+}
+.footer-copyright .item + .item {
+  margin-left: 0.5em;
+}
+.footer-copyright a:hover {
+  color: var(--td-text-color-primary);
+}
+.footer-copyright .footer-logo {
+  margin: 0 4px;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  vertical-align: -4px;
+}
+.footer-copyright .footer-logo .logo-border {
+  fill: var(--td-brand-color);
+}
+.footer-copyright .footer-logo .logo-ok {
+  fill: var(--td-success-color);
+}
+.footer-copyright.relative {
+  position: relative;
+}
+.copyright-row {
+  display: inline-block;
+  margin: 0 2px;
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[6].use[3]!./src/components/Report/UI/Button/button.less ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+.commercial-button.t-button {
+  background-color: #282a32;
+  color: #f5e0ac;
+  border-color: #282a32;
+}
+.commercial-button.t-button:hover {
+  background-color: #383838;
+  border-color: #383838;
+}
+/* --------------------------------- 题型组件选项样式 ---------------------------------------- */
+[class^='a-link--'] {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.2s cubic-bezier(0.38, 0, 0.24, 1);
+  transition: 0.2s cubic-bezier(0.38, 0, 0.24, 1);
+  text-decoration: none;
+}
+[class^='a-link--'] .coral-icon {
+  fill: currentColor;
+}
+[class^='a-link--'].a-link--disabled {
+  cursor: not-allowed;
+}
+button[class^='a-link--'] {
+  background: none;
+  border: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+}
+button[class^='a-link--'].a-link--disabled {
+  cursor: not-allowed;
+}
+.a-link--small {
+  font-size: var(--td-font-size-body-small);
+}
+.a-link--small .coral-icon {
+  font-size: var(--td-font-size-body-medium);
+}
+.a-link--medium {
+  font-size: var(--td-font-size-body-medium);
+}
+.a-link--medium .coral-icon {
+  font-size: var(--td-font-size-body-large);
+}
+.a-link--large {
+  font-size: var(--td-font-size-body-large);
+}
+.a-link--large .coral-icon {
+  font-size: 18px;
+}
+.a-link--default {
+  color: var(--td-text-color-primary);
+}
+.a-link--default:hover {
+  color: var(--td-brand-color);
+}
+.a-link--primary {
+  color: var(--td-brand-color);
+}
+.a-link--primary:hover {
+  color: var(--td-brand-color-hover);
+}
+.a-link--success {
+  color: var(--td-success-color);
+}
+.a-link--success:hover {
+  color: var(--td-success-color-hover);
+}
+.a-link--danger {
+  color: var(--td-error-color);
+}
+.a-link--danger:hover {
+  color: var(--td-error-color-hover);
+}
+.a-link--warning {
+  color: var(--td-warning-color);
+}
+.a-link--warning:hover {
+  color: var(--td-warning-color-hover);
+}
+.a-link--disabled {
+  color: var(--td-text-color-disabled);
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[6].use[3]!./src/components/Header/Logo.less ***!
+  \********************************************************************************************************************************************************************************************************************************************************/
+.commercial-button.t-button {
+  background-color: #282a32;
+  color: #f5e0ac;
+  border-color: #282a32;
+}
+.commercial-button.t-button:hover {
+  background-color: #383838;
+  border-color: #383838;
+}
+/* --------------------------------- 题型组件选项样式 ---------------------------------------- */
+.global-logo .version-tag {
+  margin-left: 8px;
+  color: #0f6bff;
+  border: 1px solid #0f6bff;
+  background-color: #EDF4FF;
+  border-radius: 4px;
+  font-size: 12px;
+  padding: 0 6px;
+  vertical-align: middle;
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[6].use[3]!./node_modules/tdesign-react/esm/_common/style/web/components/message/_index.less ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************/
+.t-message {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  outline: 0;
+  border-radius: var(--td-radius-medium);
+  background-color: var(--td-bg-color-container);
+  -webkit-box-shadow: var(--td-shadow-3), var(--td-shadow-inset-top), var(--td-shadow-inset-right), var(--td-shadow-inset-bottom), var(--td-shadow-inset-left);
+          box-shadow: var(--td-shadow-3), var(--td-shadow-inset-top), var(--td-shadow-inset-right), var(--td-shadow-inset-bottom), var(--td-shadow-inset-left);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--td-text-color-primary);
+  font: var(--td-font-body-medium);
+  padding: var(--td-comp-paddingTB-m) var(--td-comp-paddingLR-l);
+}
+.t-message > .t-icon,
+.t-message > [data-t-icon] > .t-icon,
+.t-message .t-loading {
+  color: var(--td-brand-color);
+  margin-right: var(--td-comp-margin-s);
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  font-size: calc(var(--td-font-size-body-medium) + 6px);
+}
+.t-message.t-is-success > .t-icon,
+.t-message.t-is-success > [data-t-icon] > .t-icon,
+.t-message.t-is-success .t-loading {
+  color: var(--td-success-color);
+}
+.t-message.t-is-warning > .t-icon,
+.t-message.t-is-warning > [data-t-icon] > .t-icon,
+.t-message.t-is-warning .t-loading {
+  color: var(--td-warning-color);
+}
+.t-message.t-is-error > .t-icon,
+.t-message.t-is-error > [data-t-icon] > .t-icon,
+.t-message.t-is-error .t-loading {
+  color: var(--td-error-color);
+}
+.t-message.t-is-closable .t-message__close {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-right: 0;
+  margin-left: var(--td-comp-margin-xxl);
+  cursor: pointer;
+  color: var(--td-text-color-secondary);
+}
+.t-message.t-is-closable .t-message__close .t-icon-close {
+  font-size: calc(var(--td-font-size-body-medium) + 2px);
+  border-radius: var(--td-radius-default);
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.t-message.t-is-closable .t-message__close .t-icon-close:hover {
+  background: var(--td-bg-color-container-hover);
+}
+.t-message.t-is-closable .t-message__close .t-icon-close:active {
+  background: var(--td-bg-color-container-active);
+}
+.t-message__list {
+  position: fixed;
+  z-index: 6000;
+}
+.t-message__list .t-message {
+  margin-bottom: var(--td-comp-margin-s);
+  word-break: break-all;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[6].use[3]!./src/components/core/components/ErrorContainer/index.less ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.commercial-button.t-button {
+  background-color: #282a32;
+  color: #f5e0ac;
+  border-color: #282a32;
+}
+.commercial-button.t-button:hover {
+  background-color: #383838;
+  border-color: #383838;
+}
+/* --------------------------------- 题型组件选项样式 ---------------------------------------- */
+.global-error-page {
+  width: 100vw;
+  min-height: 100vh;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #fff;
+  position: relative;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+.global-error-page .coral-header-logo {
+  margin: 12px 0;
+}
+.global-error-page-main {
+  max-width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-flex: 1 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 15vh;
+}
+@media (max-width: 980px) {
+  .global-error-page-main {
+    padding-top: 5vh;
+  }
+}
+.global-error-page-icon {
+  width: 64px;
+  height: 64px;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+.global-error-page-icon .coral-icon {
+  font-size: 64px;
+  fill: #EF382D;
+}
+.global-error-page-header {
+  max-width: 560px;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 16px;
+  line-height: 32px;
+  text-align: center;
+}
+.global-error-page-content {
+  max-width: 560px;
+  width: 70vw;
+  padding: 8px 16px;
+  border: 1px solid #E5E5E5;
+  border-radius: 4px;
+  margin-top: 24px;
+  max-height: 146px;
+  word-break: break-all;
+  overflow: auto;
+}
+.global-error-page-content-text {
+  font-size: 14px;
+  color: #999;
+  display: block;
+}
+.global-error-page-content-text.global-error-page-content-text__nowrap {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.global-error-page-btn-group {
+  margin-top: 24px;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  white-space: nowrap;
+}
+.global-error-page-btn-group .t-button + .t-button {
+  margin-left: 16px;
+}
+.global-error-page-qrcode {
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 48px;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.global-error-page-qrcode-tip {
+  color: #999;
+  text-align: center;
+}
+.global-error-page-qrcode-img {
+  max-width: 70vw;
+  margin-top: 12px;
+  width: 100px;
+}
+.global-error-page .footer-copyright {
+  position: static;
+  margin-top: auto;
+}
+.t-message {
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.t-message.t-is-closable {
+  min-width: 280px;
+}
+.t-message > .t-icon,
+.t-message .t-loading {
+  margin-top: 1px;
+}
+.t-message__list {
+  z-index: 99999!important;
+}
+.t-message__list > div {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[6].use[3]!./src/components/petite-editor/plugins/blank/style.less ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.commercial-button.t-button {
+  background-color: #282a32;
+  color: #f5e0ac;
+  border-color: #282a32;
+}
+.commercial-button.t-button:hover {
+  background-color: #383838;
+  border-color: #383838;
+}
+/* --------------------------------- 题型组件选项样式 ---------------------------------------- */
+.pe-editor span[compose-type='blank'] {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  max-width: 100%;
+}
+.pe-editor .pe-view .dom-blank-box {
+  display: inline;
+}
+.pe-view .dom-blank-box {
+  /*
+    * 仅需编辑端支持inline-flex来隐藏超长下划线
+    * 回答端会被下划线会被替换成固定宽度的input，无需支持inline-flex
+    */
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+.dom-blank-box {
+  margin: 0 4px;
+  position: relative;
+  max-width: calc(100% - 8px);
+  overflow: hidden;
+  white-space: nowrap;
+}
+.dom-blank .blank-input {
+  width: 80px;
+  max-width: 100%;
+  min-width: 72px;
+  line-height: 1;
+}
+.dom-blank .blank-suffix {
+  visibility: hidden;
+}
+.dom-blank.edit-mode .blank-suffix {
+  visibility: visible;
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #999;
+  font-size: 12px;
+  position: absolute;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  top: 26px;
+  white-space: nowrap;
+}
+.dom-blank.edit-mode .blank-suffix .blank-required {
+  color: #ef382d;
+  margin-right: 6px;
+  visibility: hidden;
+}
+.dom-blank.edit-mode .blank-suffix .blank-required.visible {
+  visibility: visible;
+}
+.dom-blank.edit-mode .blank-suffix .blank-required::after {
+  content: '*';
+}
+.dom-blank .blank-input .placeholder,
+.dom-blank .pe-placeholder-answer {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  font-size: 12px;
+  white-space: nowrap;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.dom-blank .blank-input .placeholder {
+  bottom: 40%;
+  color: #999;
+}
+.dom-blank.blank--select .blank-input .placeholder {
+  padding: 0px 20px 0px 8px;
+}
+.dom-blank.blank--select .placeholder {
+  bottom: 38%;
+}
+.dom-blank .blank-input .blank--select-outline {
+  color: transparent;
+  display: inline-block;
+  height: 28px;
+  -webkit-transform: translateY(-8px);
+      -ms-transform: translateY(-8px);
+          transform: translateY(-8px);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  padding: 0px 16px 0px 0px;
+}
+.dom-blank .blank-input .blank--select-outline::after {
+  position: absolute;
+  right: 8px;
+  font-size: 12px;
+  content: '>';
+  color: #999;
+  -webkit-transform: rotate(90deg) scale(0.75, 1.5);
+      -ms-transform: rotate(90deg) scale(0.75, 1.5);
+          transform: rotate(90deg) scale(0.75, 1.5);
+  top: 7px;
+}
+.dom-blank .pe-placeholder-answer {
+  top: 0;
+  width: 100%;
+  color: #00ad20;
+  line-height: 3;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[6].use[3]!./src/components/petite-editor/plugins/dialog/style.less ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.commercial-button.t-button {
+  background-color: #282a32;
+  color: #f5e0ac;
+  border-color: #282a32;
+}
+.commercial-button.t-button:hover {
+  background-color: #383838;
+  border-color: #383838;
+}
+/* --------------------------------- 题型组件选项样式 ---------------------------------------- */
+.pe-view .pe-wj-dialog {
+  color: var(--td-brand-color);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[6].use[3]!./src/components/GlobalLoading/index.less ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+.global-loading {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 99999999;
+  background-color: #fff;
+}
+.global-loading-fullscreen {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.global-loading #loading-logo {
+  position: absolute;
+  width: 76px;
+  height: 16px;
+  line-height: 16px;
+  left: 50%;
+  top: calc(50% + 35px);
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  z-index: 10005;
+  white-space: nowrap;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-filter: gray;
+          filter: gray;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.26);
+}
+.global-loading #loading-logo img {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin-right: 4px;
+  font-size: 14px;
+  vertical-align: sub;
+  opacity: 0.5;
+}
+.global-loading #loading-logo svg {
+  display: inline-block;
+  height: 12px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  fill: rgba(0, 0, 0, 0.28);
+  vertical-align: -1px;
+}
+.global-loading .first-loading-lottie {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 10005;
+}
+.global-loading .first-loading-lottie-wrapper {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  z-index: 10005;
+}
+.global-loading .first-loading-lottie-circle {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  -webkit-animation: first-loading-brand-rotate 1s infinite linear;
+  animation: first-loading-brand-rotate 1s infinite linear;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 3px solid #e8ebed;
+  border-top-color: #cbcdd1;
+  z-index: 10005;
+}
+.global-loading .first-loading-lottie-wrapper .first-loading-lottie-circle {
+  border-width: 4px;
+}
+.global-loading .first-loading-container .first-loading-spin-circle {
+  border-width: 0px !important;
+}
+.global-loading .first-loading-container {
+  display: none !important;
+}
+@-webkit-keyframes first-loading-brand-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes first-loading-brand-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[6].use[3]!./src/components/Dialog/style.less ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+.commercial-button.t-button {
+  background-color: #282a32;
+  color: #f5e0ac;
+  border-color: #282a32;
+}
+.commercial-button.t-button:hover {
+  background-color: #383838;
+  border-color: #383838;
+}
+/* --------------------------------- 题型组件选项样式 ---------------------------------------- */
+.dialog {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: var(--td-mask-active);
+  /* 整个滚动条 */
+  /* 滚动条上的滚动滑块. */
+}
+.dialog.no-bgc {
+  background-color: unset;
+}
+.dialog.show {
+  display: block;
+  -webkit-animation: a-dialog 0.2s ease 0.05s both;
+          animation: a-dialog 0.2s ease 0.05s both;
+}
+.dialog-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: var(--td-bg-color-container);
+  border-radius: var(--td-radius-default);
+  -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+}
+.dialog-header {
+  font-weight: bold;
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  top: 30px;
+  padding-right: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: auto;
+  height: 50px;
+  font-size: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dialog-header-close {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  height: 20px;
+  width: 20px;
+  display: block;
+  border: none;
+  float: right;
+  padding: 10px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  background-color: transparent;
+  cursor: pointer;
+}
+.dialog-footer {
+  position: absolute;
+  bottom: 0;
+  left: 30px;
+  right: 30px;
+  height: 70px;
+  line-height: 70px;
+  text-align: right;
+}
+.dialog-footer .btn-group button,
+.dialog-footer .btn-group div {
+  display: inline-block;
+}
+.dialog-footer .btn-group button {
+  margin-left: 5px;
+}
+.dialog-footer .btn-group button:first-child {
+  margin-left: 0;
+}
+.dialog-footer a {
+  text-decoration: none;
+}
+.dialog-footer button {
+  min-width: 95px;
+  outline: none;
+}
+.dialog-footer .btn-cancel {
+  color: var(--td-brand-color);
+  background-color: transparent;
+  border-color: transparent;
+  margin-right: 10px;
+}
+.dialog-footer .t-button + .t-button {
+  margin-left: 16px;
+}
+.dialog-footer .t-button {
+  vertical-align: 0;
+}
+.dialog-content {
+  line-height: 1.45;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  bottom: 70px;
+  overflow: auto;
+  font-size: 14px;
+  color: #333333;
+  padding: 0 30px;
+  border-bottom: 1px solid var(--td-border-level-1-color);
+}
+.dialog-content.no-footer {
+  bottom: 20px;
+  border-bottom: unset;
+}
+.dialog-content.no-header {
+  top: 0;
+}
+.dialog-content::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 10px;
+  height: 10px;
+}
+.dialog-content::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.dialog-tips {
+  position: absolute;
+  z-index: 10;
+  border-radius: var(--td-radius-default);
+  border: 1px solid var(--td-border-level-1-color);
+  padding: 10px;
+}
+.dialog-warning .dialog-content {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.dialog-warning .dialog-warning-icon {
+  position: relative;
+  width: 65px;
+  margin: 40px auto;
+}
+.dialog-warning .icon-bubble {
+  position: absolute;
+  right: -16px;
+  bottom: -12px;
+  fill: #fa6564;
+}
+.dialog.dialog--theme-coral .dialog-header {
+  top: 0;
+  left: 24px;
+  right: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 56px;
+  padding: 0 64px 0 0;
+  font-size: var(--td-font-size-body-large);
+}
+.dialog.dialog--theme-coral .dialog-header-close {
+  top: 50%;
+  right: 14px;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: var(--td-radius-default);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.dialog.dialog--theme-coral .dialog-header-close .coral-icon-close_line {
+  fill: var(--td-text-color-primary);
+  width: 16px;
+  height: 16px;
+}
+.dialog.dialog--theme-coral .dialog-header-close:hover {
+  background-color: var(--td-bg-color-container-hover);
+}
+.dialog.dialog--theme-coral .dialog-content {
+  top: 56px;
+  bottom: 56px;
+  padding: 0 24px;
+  border-top: 1px solid var(--td-border-level-1-color);
+}
+.dialog.dialog--theme-coral .dialog-content.no-footer {
+  bottom: 20px;
+  border-bottom: unset;
+}
+.dialog.dialog--theme-coral .dialog-content.no-header {
+  top: 0;
+}
+.dialog.dialog--theme-coral .dialog-footer {
+  left: 24px;
+  right: 24px;
+  height: 56px;
+  line-height: 56px;
+}
+.dialog.dialog--theme-coral .dialog-footer button {
+  min-width: 0;
+}
+.dialog .ui-button-primary.coral-button--primary-line:hover {
+  color: #fff;
+}
+.mobile-dialog {
+  z-index: 500;
+}
+.mobile-dialog-container {
+  position: fixed;
+  left: 25px;
+  right: 25px;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+.mobile-dialog-content {
+  border-radius: var(--td-radius-default);
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mobile-dialog-content.pop-out {
+  -webkit-transition: opacity 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out;
+  transition: opacity 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out;
+  transition: transform 0.15s ease-in-out, opacity 0.15s ease-in-out;
+  transition: transform 0.15s ease-in-out, opacity 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+}
+.mobile-dialog-content-body {
+  margin-top: 32px;
+  font-size: 18px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.mobile-dialog-content-footer {
+  height: 100px;
+  width: 100%;
+  position: relative;
+}
+.mobile-dialog-content-footer .btn-confirm {
+  position: absolute;
+  height: 40px;
+  width: 110px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 15px;
+}
+.mobile-dialog .icon-warning {
+  margin-top: 50px;
+  position: relative;
+}
+.mobile-dialog .icon-warning-laptop {
+  height: 103px;
+  width: 120px;
+  display: block;
+  background: url(data:image/png;base64,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) no-repeat 0 0;
+  background-size: contain;
+}
+.mobile-dialog .icon-warning-survey {
+  height: 50px;
+  width: 43px;
+  position: absolute;
+  left: 41px;
+  top: 14px;
+  display: block;
+  background: url(data:image/png;base64,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) no-repeat 0 0;
+  background-size: contain;
+}
+@-webkit-keyframes a-dialog {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes a-dialog {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes a-dialog-container {
+  0% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes a-dialog-container {
+  0% {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[6].use[3]!./src/components/IconSystem/style.less ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+.icon-component {
+  height: 1em;
+  width: 1em;
+  fill: currentColor;
+}
+.icon-logo .icon-logo-bottom {
+  fill: #2c7ec3;
+}
+.icon-logo .icon-logo-top {
+  fill: #44af37;
+}
+.icon-logo-weapp {
+  fill: #656565;
+  width: 43px;
+  height: 43px;
+}
+.icon-logo-weapp:hover {
+  fill: #00A637;
+}
+.icon-logo-wechat {
+  fill: #656565;
+}
+.icon-logo-wechat:hover {
+  fill: #91e0bc;
+}
+.icon-logo-qq {
+  fill: #656565;
+}
+.icon-logo-qq:hover {
+  fill: #58a6e7;
+}
+.icon-logo-qzone {
+  fill: #656565;
+}
+.icon-logo-qzone:hover {
+  fill: #f7cf46;
+}
+.icon-logo-weibo {
+  fill: #656565;
+}
+.icon-logo-weibo:hover {
+  fill: #d6655c;
+}
+.icon-launch {
+  width: 19px;
+  height: 19px;
+  fill: #797979;
+}
+.icon-preview {
+  width: 25px;
+  height: 25px;
+  fill: #797979;
+}
+.icon-start {
+  height: 14px;
+  width: 12px;
+  vertical-align: middle;
+}
+.icon-pause {
+  height: 14px;
+  width: 12px;
+  vertical-align: middle;
+}
+.icon-setting-display,
+.icon-setting-recovery,
+.icon-setting-gift,
+.icon-setting-collaborator {
+  width: 25px;
+  height: 25px;
+  fill: #797979;
+}
+.icon-stat-overview,
+.icon-stat-recycle,
+.icon-stat-chart,
+.icon-stat-analyse,
+.icon-stat-gift,
+.icon-stat-report,
+.icon-stat-sign,
+.icon-stat-ai {
+  width: 28px;
+  height: 28px;
+  fill: #8E8E8E;
+}
+.icon-stat-sign {
+  stroke: 0;
+  stroke: #8E8E8E;
+}
+.icon-stat-overview .icon-stat-overview-needle {
+  -webkit-transform-origin: center;
+      -ms-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation-name: icon-stat-rotate;
+          animation-name: icon-stat-rotate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  /* 默认使用 inherit 继承，便于扩大动画响应区域 */
+  -webkit-animation-duration: inherit;
+          animation-duration: inherit;
+}
+.icon-stat-chart {
+  -webkit-transform-origin: center;
+      -ms-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation-name: icon-stat-rotate;
+          animation-name: icon-stat-rotate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  /* 默认使用 inherit 继承，便于扩大动画响应区域 */
+  -webkit-animation-duration: inherit;
+          animation-duration: inherit;
+}
+.icon-stat-chart:hover {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+.icon-stat-recycle .icon-stat-recycle-top {
+  -webkit-transform-origin: 10px center;
+      -ms-transform-origin: 10px center;
+          transform-origin: 10px center;
+  -webkit-animation-name: icon-stat-bar;
+          animation-name: icon-stat-bar;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  /* 默认使用 inherit 继承，便于扩大动画响应区域 */
+  -webkit-animation-duration: inherit;
+          animation-duration: inherit;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+.icon-stat-recycle .icon-stat-recycle-middle {
+  -webkit-transform-origin: 10px center;
+      -ms-transform-origin: 10px center;
+          transform-origin: 10px center;
+  -webkit-animation-name: icon-stat-bar;
+          animation-name: icon-stat-bar;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  /* 默认使用 inherit 继承，便于扩大动画响应区域 */
+  -webkit-animation-duration: inherit;
+          animation-duration: inherit;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+.icon-stat-recycle .icon-stat-recycle-bottom {
+  -webkit-transform-origin: 10px center;
+      -ms-transform-origin: 10px center;
+          transform-origin: 10px center;
+  -webkit-animation-name: icon-stat-bar;
+          animation-name: icon-stat-bar;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  /* 默认使用 inherit 继承，便于扩大动画响应区域 */
+  -webkit-animation-duration: inherit;
+          animation-duration: inherit;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+.icon-stat-analyse .icon-stat-analyse-left {
+  -webkit-transform-origin: center 36px;
+      -ms-transform-origin: center 36px;
+          transform-origin: center 36px;
+  -webkit-animation-name: icon-stat-column;
+          animation-name: icon-stat-column;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  /* 默认使用 inherit 继承，便于扩大动画响应区域 */
+  -webkit-animation-duration: inherit;
+          animation-duration: inherit;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+.icon-stat-analyse .icon-stat-analyse-center {
+  -webkit-transform-origin: center 36px;
+      -ms-transform-origin: center 36px;
+          transform-origin: center 36px;
+  -webkit-animation-name: icon-stat-column;
+          animation-name: icon-stat-column;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  /* 默认使用 inherit 继承，便于扩大动画响应区域 */
+  -webkit-animation-duration: inherit;
+          animation-duration: inherit;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+.icon-stat-analyse .icon-stat-analyse-right {
+  -webkit-transform-origin: center 36px;
+      -ms-transform-origin: center 36px;
+          transform-origin: center 36px;
+  -webkit-animation-name: icon-stat-column;
+          animation-name: icon-stat-column;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  /* 默认使用 inherit 继承，便于扩大动画响应区域 */
+  -webkit-animation-duration: inherit;
+          animation-duration: inherit;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+.icon-stat-gift .icon-stat-gift-hat {
+  -webkit-transform-origin: left center;
+      -ms-transform-origin: left center;
+          transform-origin: left center;
+  -webkit-animation-name: icon-gift-hat;
+          animation-name: icon-gift-hat;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  /* 默认使用 inherit 继承，便于扩大动画响应区域 */
+  -webkit-animation-duration: inherit;
+          animation-duration: inherit;
+}
+.icon-stat-sign .icon-stat-sign-line-1,
+.icon-stat-sign .icon-stat-sign-line-2,
+.icon-stat-sign .icon-stat-sign-line-3,
+.icon-stat-sign .icon-stat-sign-line-4 {
+  -webkit-transform-origin: 10px center;
+      -ms-transform-origin: 10px center;
+          transform-origin: 10px center;
+  -webkit-animation-name: icon-stat-sign-bar;
+          animation-name: icon-stat-sign-bar;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  /* 默认使用 inherit 继承，便于扩大动画响应区域 */
+  -webkit-animation-duration: inherit;
+          animation-duration: inherit;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+}
+.icon-stat-sign .icon-stat-sign-line-1 {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+.icon-stat-sign .icon-stat-sign-line-2 {
+  -webkit-animation-delay: 0.14s;
+          animation-delay: 0.14s;
+}
+.icon-stat-sign .icon-stat-sign-tips {
+  stroke-dasharray: 39 39;
+  -webkit-animation-name: icon-stat-sign-tips;
+          animation-name: icon-stat-sign-tips;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  /* 默认使用 inherit 继承，便于扩大动画响应区域 */
+  -webkit-animation-duration: inherit;
+          animation-duration: inherit;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+}
+.icon .coral-icon-answer_group_line path:nth-child(2),
+.icon .icon-stat-ai path:nth-child(2) {
+  -webkit-animation-name: icon-stat-rotate;
+          animation-name: icon-stat-rotate;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  /* 默认使用 inherit 继承，便于扩大动画响应区域 */
+  -webkit-animation-duration: inherit;
+          animation-duration: inherit;
+}
+.icon .icon-stat-ai path:nth-child(2) {
+  -webkit-transform-origin: 20px 20px;
+      -ms-transform-origin: 20px 20px;
+          transform-origin: 20px 20px;
+}
+.icon-edit {
+  overflow: visible;
+}
+.icon-edit .icon-edit-pen {
+  -webkit-animation-name: icon-edit-pen;
+          animation-name: icon-edit-pen;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  /* 默认使用 inherit 继承，便于扩大动画响应区域 */
+  -webkit-animation-duration: inherit;
+          animation-duration: inherit;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+}
+.icon:hover {
+  /* 默认 SVG hover 的时候响应动画 */
+}
+.icon:hover .icon-stat-overview-needle,
+.icon:hover .icon-stat-recycle-top,
+.icon:hover .icon-stat-recycle-middle,
+.icon:hover .icon-stat-recycle-bottom,
+.icon:hover .icon-stat-analyse-left,
+.icon:hover .icon-stat-analyse-center,
+.icon:hover .icon-stat-analyse-right,
+.icon:hover .icon-stat-chart,
+.icon:hover .icon-stat-sign,
+.icon:hover .icon-stat-gift-hat {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+.icon:hover .icon-edit-pen {
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+.icon:hover .coral-icon-answer_group_line path:nth-child(2),
+.icon:hover .icon-stat-ai path:nth-child(2) {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+.icon:hover .icon-stat-sign {
+  stroke: #008fff;
+}
+.icon-survey {
+  width: 65px;
+  height: 80px;
+}
+.icon-survey .icon-survey-bg {
+  fill: #DBDBDB;
+}
+.icon-loading {
+  width: 65px;
+  height: 80px;
+}
+.icon-loading .icon-loading-bg {
+  fill: #2196F3;
+}
+.icon-loading .icon-loading-arrow {
+  -webkit-transform-origin: 50% 56%;
+      -ms-transform-origin: 50% 56%;
+          transform-origin: 50% 56%;
+  -webkit-animation: rotate 1.2s linear infinite;
+          animation: rotate 1.2s linear infinite;
+}
+.icon-loading-arrow {
+  width: 33px;
+  height: 33px;
+  -webkit-animation: rotate 1.2s linear infinite;
+          animation: rotate 1.2s linear infinite;
+}
+.icon-close {
+  width: 20px;
+  height: 20px;
+  fill: #bbbbbb;
+}
+.icon-bubble {
+  width: 35px;
+  height: 35px;
+  fill: #1593fb;
+}
+.icon-success {
+  width: 24px;
+  height: 24px;
+  fill: #1593fb;
+}
+.icon-success-slim {
+  width: 48px;
+  height: 48px;
+}
+.icon-fail {
+  width: 24px;
+  height: 24px;
+  fill: #ef5350;
+}
+.icon-tips {
+  width: 18px;
+  height: 18px;
+  fill: #000;
+}
+.icon-search {
+  width: 16px;
+  height: 16px;
+}
+.icon-checked-only {
+  width: 15px;
+  height: 15px;
+  fill: #008fff;
+}
+.icon-trash {
+  width: 14px;
+  fill: #008fff;
+}
+.icon-arrow-left,
+.icon-arrow-right,
+.icon-arrow-down,
+.icon-arrow-up {
+  width: 24px;
+  height: 24px;
+  fill: #bbc5cf;
+}
+.icon-arrow-slim {
+  width: 16px;
+  height: 16px;
+  fill: #bbc5cf;
+}
+.icon-survey-gift {
+  width: 18px;
+  height: 18px;
+  fill: #000;
+}
+.icon-btn-close {
+  height: 24px;
+  width: 24px;
+}
+.icon-btn-close-inverse {
+  height: 14px;
+  width: 14px;
+}
+.icon-btn-add {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.icon-download {
+  width: 16px;
+  height: 16px;
+}
+.icon-add-circle {
+  height: 48px;
+  width: 48px;
+  cursor: pointer;
+}
+.icon-import-table {
+  height: 24px;
+  width: 24px;
+}
+.icon-date-range {
+  width: 18px;
+  display: inline-block;
+  vertical-align: sub;
+  margin-right: 5px;
+}
+.icon-arrow-head {
+  height: 10px;
+  margin-left: 10px;
+  fill: #dddddd;
+}
+.icon-exchange {
+  width: 12px;
+}
+.icon-file {
+  width: 20px;
+}
+.icon-answer {
+  width: 14px;
+}
+.icon-file-expand {
+  width: 16px;
+}
+.icon-file-collapse {
+  width: 16px;
+}
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-359deg);
+            transform: rotate(-359deg);
+  }
+}
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-359deg);
+            transform: rotate(-359deg);
+  }
+}
+@-webkit-keyframes icon-stat-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: rotate(25deg);
+            transform: rotate(25deg);
+  }
+  50% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  75% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@keyframes icon-stat-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: rotate(25deg);
+            transform: rotate(25deg);
+  }
+  50% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  75% {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes icon-stat-bar {
+  60% {
+    -webkit-transform: scale(0.1, 1);
+            transform: scale(0.1, 1);
+  }
+}
+@keyframes icon-stat-bar {
+  60% {
+    -webkit-transform: scale(0.1, 1);
+            transform: scale(0.1, 1);
+  }
+}
+@-webkit-keyframes icon-stat-column {
+  60% {
+    -webkit-transform: scale(1, 0.1);
+            transform: scale(1, 0.1);
+  }
+}
+@keyframes icon-stat-column {
+  60% {
+    -webkit-transform: scale(1, 0.1);
+            transform: scale(1, 0.1);
+  }
+}
+@-webkit-keyframes icon-gift-hat {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  80% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+}
+@keyframes icon-gift-hat {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  80% {
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+}
+@-webkit-keyframes icon-edit-pen {
+  0% {
+    -webkit-transform: translate(-2px, -32px);
+  }
+  20% {
+    -webkit-transform: translate(18px, -32px);
+  }
+  30% {
+    -webkit-transform: translate(-2px, -24px);
+  }
+  50% {
+    -webkit-transform: translate(18px, -24px);
+  }
+  60% {
+    -webkit-transform: translate(-2px, -16px);
+  }
+  80% {
+    -webkit-transform: translate(18px, -16px);
+  }
+  100% {
+    -webkit-transform: translate(-2px, -32px);
+  }
+}
+@keyframes icon-edit-pen {
+  0% {
+    -webkit-transform: translate(-2px, -32px);
+  }
+  20% {
+    -webkit-transform: translate(18px, -32px);
+  }
+  30% {
+    -webkit-transform: translate(-2px, -24px);
+  }
+  50% {
+    -webkit-transform: translate(18px, -24px);
+  }
+  60% {
+    -webkit-transform: translate(-2px, -16px);
+  }
+  80% {
+    -webkit-transform: translate(18px, -16px);
+  }
+  100% {
+    -webkit-transform: translate(-2px, -32px);
+  }
+}
+@-webkit-keyframes icon-stat-sign-bar {
+  10%,
+  70% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  20%,
+  30% {
+    -webkit-transform: scale(0, 1);
+            transform: scale(0, 1);
+  }
+}
+@keyframes icon-stat-sign-bar {
+  10%,
+  70% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  20%,
+  30% {
+    -webkit-transform: scale(0, 1);
+            transform: scale(0, 1);
+  }
+}
+@-webkit-keyframes icon-stat-sign-tips {
+  70%,
+  100% {
+    stroke-dashoffset: 78;
+  }
+  20%,
+  30% {
+    stroke-dashoffset: 39;
+  }
+}
+@keyframes icon-stat-sign-tips {
+  70%,
+  100% {
+    stroke-dashoffset: 78;
+  }
+  20%,
+  30% {
+    stroke-dashoffset: 39;
+  }
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[6].use[3]!./src/components/OverStorageDialog/index.less ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+.commercial-button.t-button {
+  background-color: #282a32;
+  color: #f5e0ac;
+  border-color: #282a32;
+}
+.commercial-button.t-button:hover {
+  background-color: #383838;
+  border-color: #383838;
+}
+/* --------------------------------- 题型组件选项样式 ---------------------------------------- */
+.over-storage-dialog .dialog-content {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.over-storage-dialog .dialog-content > p {
+  font-size: var(--td-font-size-body-large);
+  color: var(--td-text-color-primary);
+}
+.over-storage-dialog .dialog-content > span {
+  display: block;
+  color: var(--td-text-color-secondary);
+  font-size: var(--td-font-size-body-medium);
+  margin-top: 10px;
+}
+.over-storage-dialog .storage-text-button {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[6].use[3]!./src/components/normalize/normalize.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
+}
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+/* 去除鼠标点击时候的outline轮廓，而保留键盘访问时候的outline轮廓
+https://www.zhangxinxu.com/wordpress/2019/03/css-focus-visible/
+** 20210610 更新 **
+新版的 chrome，firefox 在鼠标点击上文提到的3种情况时已经不会再出蓝色的轮廓了
+safari 目前还不支持 :focus-visible，所以以下代码对 safari 也无效(https://caniuse.com/?search=focus-visible)
+综上，下面这段代码【只解决了】较低版本的 chrome 或 firefox 浏览器下，【下列3种元素被点击后会出现蓝色轮廓】的场景服务
+1.设置了背景的<button>按钮；
+2.HTML5 <summary>元素；
+3.设置了HTML tabindex属性的元素；
+特别需要注意的是，input被点击后，必定会出现:focus的样式，强烈不建议设置 input:focus{outline:0}，请与设计师沟通优化input元素获取焦点时的样式
+*/
+:focus:not(:focus-visible) {
+  outline: 0;
+}
+/**
+* 之前打包策略会打入 @tencent/ten-design-react/lib/theme/base.less
+* 下面是跟normalize.css差异的部份
+*/
+ul,
+dl,
+li,
+dd,
+dt {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[6].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[6].use[2]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[6].use[3]!./src/components/core/page.less ***!
+  \******************************************************************************************************************************************************************************************************************************************************/
+.commercial-button.t-button {
+  background-color: #282a32;
+  color: #f5e0ac;
+  border-color: #282a32;
+}
+.commercial-button.t-button:hover {
+  background-color: #383838;
+  border-color: #383838;
+}
+/* --------------------------------- 题型组件选项样式 ---------------------------------------- */
+svg.coral-icon {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+.browser-focus-style-default {
+  outline: 5px auto Highlight;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+.inputs-focus-style-default {
+  outline: 0;
+  border-color: #2863f3;
+}
+.textarea-focus-style-default {
+  outline: 0;
+  border-color: #2863f3;
+}
+.focus-style-default {
+  outline: 0;
+  -webkit-box-shadow: 0px 0px 4px #2378ff;
+          box-shadow: 0px 0px 4px #2378ff;
+}
+.radio-focus-style-default {
+  outline: 0;
+  -webkit-box-shadow: 0px 0px 4px #2378ff;
+          box-shadow: 0px 0px 4px #2378ff;
+}
+.checkbox-focus-style-default {
+  outline: 0;
+  -webkit-box-shadow: 0px 0px 4px #2378ff;
+          box-shadow: 0px 0px 4px #2378ff;
+}
+.star-focus-style-default {
+  outline: 0;
+  -webkit-box-shadow: 0px 0px 4px #2378ff;
+          box-shadow: 0px 0px 4px #2378ff;
+}
+.matrixradio-focus-style-default {
+  outline: 0;
+  -webkit-box-shadow: 0px 0px 4px #2378ff;
+          box-shadow: 0px 0px 4px #2378ff;
+}
+.matrixcheckbox-focus-style-default {
+  outline: 0;
+  -webkit-box-shadow: 0px 0px 4px #2378ff;
+          box-shadow: 0px 0px 4px #2378ff;
+}
+.matrixstar-focus-style-default {
+  outline: 0;
+  -webkit-box-shadow: 0px 0px 4px #2378ff;
+          box-shadow: 0px 0px 4px #2378ff;
+}
+.button-focus-style-default {
+  outline: 0;
+  -webkit-box-shadow: 0px 0px 4px #2378ff;
+          box-shadow: 0px 0px 4px #2378ff;
+}
+.select-focus-style-default {
+  outline: 0;
+  -webkit-box-shadow: 0px 0px 4px #2378ff;
+          box-shadow: 0px 0px 4px #2378ff;
+}
+.upload-focus-style-default {
+  outline: 2px solid gray;
+  outline: 0;
+  -webkit-box-shadow: 0px 0px 4px #2378ff;
+          box-shadow: 0px 0px 4px #2378ff;
+}
+.coral-icon[theme='primary'] {
+  fill: var(--td-brand-color);
+}
+.coral-icon[theme='error'] {
+  fill: var(--td-error-color);
+}
+.coral-icon[theme='success'] {
+  fill: var(--td-success-color);
+}
+.coral-icon[theme='warning'] {
+  fill: var(--td-warning-color);
+}
+.dialog--theme-coral {
+  /** dialog 组件适配移动端 popup 样式*/
+}
+@media (max-width: 980px) {
+  .dialog--theme-coral .t-dialog {
+    max-width: 90%;
+  }
+}
+.dialog--theme-coral .t-dialog__wrap .t-dialog {
+  border: 0;
+  -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+}
+.dialog--theme-coral .t-dialog {
+  padding: 0;
+}
+.dialog--theme-coral .t-dialog__header {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 56px;
+  padding: 0 64px 0 24px;
+  border-bottom: 1px solid var(--td-border-level-1-color);
+}
+.dialog--theme-coral .t-dialog__header-content {
+  display: inline-block;
+  -webkit-flex: 1 1;
+      -ms-flex: 1 1;
+          flex: 1 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dialog--theme-coral .t-dialog__close {
+  position: absolute;
+  top: 13px;
+  right: 14px;
+  width: 30px;
+  height: 30px;
+  font-size: 22px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: var(--td-text-color-primary);
+}
+.dialog--theme-coral .t-dialog__body {
+  padding: 24px;
+  color: var(--td-text-color-primary);
+}
+.dialog--theme-coral .t-dialog__footer {
+  height: 56px;
+  padding: 0 24px;
+  word-spacing: 0;
+  line-height: 56px;
+  border-top: 1px solid var(--td-border-level-1-color);
+}
+.dialog--theme-coral .t-dialog__footer .t-button {
+  vertical-align: middle;
+}
+.dialog--theme-coral .t-dialog__footer .t-button + .t-button {
+  margin-left: 16px;
+}
+@-webkit-keyframes tDialogSlideIn {
+  0% {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes tDialogSlideIn {
+  0% {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+@-webkit-keyframes tDialogSlideOut {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  to {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+}
+@keyframes tDialogSlideOut {
+  from {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  to {
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+}
+.dialog--theme-coral-popup .t-dialog {
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  position: fixed;
+  bottom: 0px;
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.dialog--theme-coral-popup .t-dialog-zoom-appear-active,
+.dialog--theme-coral-popup .t-dialog-zoom-enter-active {
+  -webkit-animation-name: tDialogSlideIn!important;
+          animation-name: tDialogSlideIn!important;
+}
+.dialog--theme-coral-popup .t-dialog-zoom-exit-active {
+  -webkit-animation-name: tDialogSlideOut!important;
+          animation-name: tDialogSlideOut!important;
+}
+.table--theme-version-info {
+  border: 1px solid #ddd;
+  overflow: hidden;
+  border-radius: 6px;
+}
+.table--theme-version-info.t-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+@media (max-width: 980px) {
+  .dialog--theme-coral-tabs .t-dialog {
+    max-width: 90%;
+  }
+}
+.dialog--theme-coral-tabs .t-dialog {
+  padding: 0;
+}
+.dialog--theme-coral-tabs .t-dialog__body {
+  padding: 0;
+}
+.dialog--theme-coral-tabs .t-dialog__header {
+  position: absolute;
+  height: 56px;
+  right: 24px;
+  z-index: 2;
+}
+.dialog--theme-coral-tabs .t-dialog__close {
+  height: 26px;
+  width: 26px;
+  font-size: 22px;
+  color: var(--td-text-color-primary);
+}
+.dialog--theme-coral-tabs .t-dialog__footer {
+  height: 56px;
+  padding: 0 24px;
+  word-spacing: 0;
+  line-height: 56px;
+  border-top: 1px solid var(--td-border-level-1-color);
+}
+.dialog--theme-coral-tabs .t-dialog__footer .t-button {
+  vertical-align: 0;
+}
+.dialog--theme-coral-tabs .t-dialog__footer .t-button + .t-button {
+  margin-left: 16px;
+}
+.dialog--theme-coral-tabs .t-tabs .t-tabs__nav-item-wrapper {
+  margin-left: 0;
+  margin-right: 0;
+  height: var(--td-comp-size-m);
+  font-weight: 600;
+  font-size: 16px;
+}
+.dialog--theme-coral-tabs .t-tabs .t-tabs__nav-item {
+  height: 56px;
+  color: var(--td-text-color-primary);
+}
+.dialog--theme-coral-tabs .t-tabs .t-tabs__nav-item.t-is-active {
+  color: var(--td-brand-color);
+}
+.dialog--theme-coral-tabs .t-tabs .t-tabs__nav-container.t-is-top {
+  padding: 0 12px;
+}
+.dialog--theme-coral-tabs .t-tabs .t-tabs__nav-container.t-is-top::after {
+  border-color: var(--td-border-level-1-color);
+  width: auto;
+  left: -24px;
+  right: -24px;
+}
+.dialog--theme-coral-tabs .t-tabs__content {
+  padding: 24px;
+}
+.alert--theme-coral.t-alert {
+  padding: 8px 12px;
+}
+.alert--theme-coral.t-alert .t-alert__message {
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.tooltips--theme-coral .t-popup__content {
+  padding: 8px;
+}
+.dialog--theme-coral-table.t-table--bordered th,
+.dialog--theme-coral-table.t-table--bordered td {
+  border-left: none;
+}
+.dialog--theme-coral-table .t-table__header > tr > th {
+  background-color: var(--td-bg-color-secondarycontainer);
+}
+.t-loading.loading--fill {
+  width: 100%;
+  height: 100%;
+}
+body .t-alert__close .t-icon {
+  font-size: var(--td-font-size-title-large);
+  vertical-align: top;
+}
+body a.t-button {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+@media (max-width: 980px) {
+  body .t-alert {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  body .t-alert__icon + .t-alert__content {
+    margin-left: 6px;
+  }
+  body .t-ripple {
+    display: none;
+  }
+}
+html .t-button.t-size-full-width {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.t-badge--circle {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+.t-tabs.tabs-theme--coral .t-tabs__nav-item {
+  height: 58px;
+  line-height: 56px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.t-tabs.tabs-theme--coral .t-tabs__nav-item:not(.t-is-active) {
+  color: var(--td-text-color-primary);
+}
+.t-table.table-theme--coral .t-table__header > tr > th {
+  background-color: var(--td-bg-color-secondarycontainer);
+}
+.t-button .icon-component + .t-button__text {
+  margin-left: 6px;
+}
+
+
+/*# sourceMappingURL=v3__survey.9ccb04bb.css.map*/

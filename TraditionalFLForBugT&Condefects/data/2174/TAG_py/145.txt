@@ -1,0 +1,10 @@
+397154.py
+400252.py
+7
+modify<TAG>4<TAG>        in = raw_input()<CHANGETO>        a,b = map(float,raw_input().strip().split())
+modify<TAG>5<TAG>        lst = in.split(' ')<CHANGETO>        if(b==0):print('error')
+del<TAG>6<TAG>        if int(lst[1]) == 0:
+del<TAG>7<TAG>            s = "error"
+del<TAG>8<TAG>            print s
+modify<TAG>10<TAG>            c = int(round(a/b))<CHANGETO>            print(int(a/b+0.5))
+del<TAG>11<TAG>            print c

@@ -1,0 +1,12 @@
+305295.cpp
+158542.cpp
+9
+modify<TAG>5<TAG>	int  a,b;<CHANGETO>	float a,b;
+modify<TAG>8<TAG>		double x,y;<CHANGETO>		if(b==0)
+modify<TAG>9<TAG>		x=1.0*a;<CHANGETO>		cout<<"error"<<endl;
+modify<TAG>10<TAG>		y=1.0*b;<CHANGETO>		else 
+del<TAG>11<TAG>		if(b==0)
+modify<TAG>13<TAG>			cout<<"error"<<endl;<CHANGETO>			cout<<(int)(a/b+0.5)<<endl;
+del<TAG>15<TAG>		else if((a%b)>=b/2)
+del<TAG>16<TAG>		cout<<a/b+1<<endl;
+del<TAG>17<TAG>		else cout<<a/b<<endl;

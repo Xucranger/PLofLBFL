@@ -1,0 +1,7 @@
+508484.py
+508578.py
+4
+modify<TAG>2<TAG>while True<CHANGETO>while True:
+modify<TAG>6<TAG>    if A<=9 and B<=9 :<CHANGETO>    if A<=10 and B<=10 :
+modify<TAG>13<TAG>            if(A+B-1)%2==0:<CHANGETO>            if(A+B-1)/2%2==0:
+modify<TAG>18<TAG>        if A==11 and B==9 or A==9 and B==11:<CHANGETO>        if A-B>=2 or B-A>=2:

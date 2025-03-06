@@ -1,0 +1,13 @@
+155881.cpp
+155769.cpp
+10
+modify<TAG>1<TAG>#include<stdio.h><CHANGETO>#include<iostream> 
+del<TAG>2<TAG>#include<stdlib.h>
+del<TAG>3<TAG>#include<iostream>
+modify<TAG>7<TAG>      int c;<CHANGETO>      int a,b;
+modify<TAG>8<TAG>      float a,b;<CHANGETO>     while(scanf("%d%d",&a,&b)!=-1)
+del<TAG>9<TAG>     //scanf("%d %d",&a,&b); 
+del<TAG>10<TAG>     while(scanf("%f %f",&a,&b)!=-1)
+modify<TAG>15<TAG>                 c=(int)a/b+0.5;<CHANGETO>                if(((a%b)*2)>=b)  cout<<(int(a/b)+1)<<endl;
+modify<TAG>16<TAG>				 //d=(int)((c+0.5)>(int)c?(int)c+1:(int)c);<CHANGETO>                else                 cout<<(int(a/b))<<endl;
+del<TAG>17<TAG>                 printf("%d\n",c);//四舍五入 加上0.5 舍去小数 

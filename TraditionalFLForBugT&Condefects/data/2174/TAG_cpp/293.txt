@@ -1,0 +1,11 @@
+304782.cpp
+305085.cpp
+8
+modify<TAG>4<TAG>    float a,b;<CHANGETO>    int a,b;
+add<TAG>5<TAG>    int result;
+modify<TAG>9<TAG>            printf("error");<CHANGETO>            printf("error\n");
+modify<TAG>12<TAG>             c=a/b;<CHANGETO>             result=a/b;
+modify<TAG>13<TAG>             printf("%0.0f\n",c);<CHANGETO>             c=(float)a/(float)b;
+add<TAG>13<TAG>             if((c-result)>=0.5)
+add<TAG>13<TAG>                result=(a/b)+1;
+add<TAG>13<TAG>             printf("%d\n",result);

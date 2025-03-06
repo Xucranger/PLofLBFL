@@ -1,0 +1,8 @@
+151967.c
+151970.c
+5
+modify<TAG>8<TAG>        if(b==0)<CHANGETO>        if(b!=0)
+modify<TAG>9<TAG>            printf("error\n");<CHANGETO>          {
+modify<TAG>10<TAG>         else<CHANGETO>           c=round(a/b);
+modify<TAG>11<TAG>            c=a/b+0.5;printf("%d\n",c);<CHANGETO>         printf("%d\n",c);}
+add<TAG>11<TAG>         else printf("error\n");

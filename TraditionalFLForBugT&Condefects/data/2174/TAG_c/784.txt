@@ -1,0 +1,8 @@
+499194.c
+499201.c
+5
+modify<TAG>11<TAG>            printf("%d\n",0);<CHANGETO>            printf("%d\n",a);
+add<TAG>12<TAG>        {
+add<TAG>15<TAG>        }
+add<TAG>16<TAG>        {
+add<TAG>19<TAG>        }

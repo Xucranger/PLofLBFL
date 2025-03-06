@@ -1,0 +1,6 @@
+359432.cpp
+359447.cpp
+3
+add<TAG>1<TAG>#include<cmath>
+modify<TAG>4<TAG>	int a, b;<CHANGETO>	double a, b;
+modify<TAG>9<TAG>		cout << a/b << endl;<CHANGETO>		cout << floor(a/b+0.5) << endl;

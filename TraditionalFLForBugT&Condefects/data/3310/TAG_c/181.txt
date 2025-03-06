@@ -1,0 +1,7 @@
+438353.c
+438389.c
+4
+modify<TAG>15<TAG>	double s;<CHANGETO>	float s;
+modify<TAG>19<TAG>	    printf("%.6lf\n",s);<CHANGETO>		if(s<-0.37)
+add<TAG>19<TAG>		s=-0.373983;
+add<TAG>19<TAG>	    printf("%f\n",s);

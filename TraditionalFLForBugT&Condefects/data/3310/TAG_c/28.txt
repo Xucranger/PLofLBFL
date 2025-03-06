@@ -1,0 +1,8 @@
+438455.c
+438461.c
+5
+modify<TAG>7<TAG>	scanf("%d",&n);<CHANGETO>	while(scanf("%d",&n)!=EOF)
+add<TAG>7<TAG>	{
+modify<TAG>10<TAG>			if(i=0)<CHANGETO>			if(i==0)
+modify<TAG>15<TAG>	printf("%.6f",con);<CHANGETO>	printf("%.6lf\n",con);
+add<TAG>15<TAG>	} 

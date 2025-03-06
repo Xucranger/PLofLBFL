@@ -1,0 +1,6 @@
+287843.c
+287970.c
+3
+modify<TAG>4<TAG>float  f(x)<CHANGETO>double  f(x)
+modify<TAG>15<TAG>        float m=f(n);<CHANGETO>        printf("%f\n",f(n));
+del<TAG>16<TAG>        printf("%f\n",m);

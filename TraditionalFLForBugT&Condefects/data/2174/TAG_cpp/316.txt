@@ -1,0 +1,12 @@
+358101.cpp
+156013.cpp
+9
+modify<TAG>1<TAG>#include<stdio.h><CHANGETO>#include<iostream>
+add<TAG>1<TAG>using namespace std;
+modify<TAG>4<TAG>	int a ,b ,res;<CHANGETO>	float a,b,c;
+modify<TAG>5<TAG>	while(scanf("%d %d",&a,&b)!=EOF)<CHANGETO>	while(cin>>a>>b)
+modify<TAG>7<TAG>		if(!b)<CHANGETO>		if(b==0)
+modify<TAG>8<TAG>		 printf("error\n");<CHANGETO>		cout<<"error"<<endl;
+modify<TAG>11<TAG>		 res=a/b;<CHANGETO>		c=a/b;
+modify<TAG>12<TAG>		 printf("%d\n",res);<CHANGETO>		int d=(int)(c+0.5);
+add<TAG>12<TAG>		cout<<d<<endl;

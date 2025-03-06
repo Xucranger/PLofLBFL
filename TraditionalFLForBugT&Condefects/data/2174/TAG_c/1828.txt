@@ -1,0 +1,10 @@
+59130.c
+363901.c
+7
+modify<TAG>3<TAG>{int a,b,c;<CHANGETO>{
+add<TAG>3<TAG>int a,b,c;
+modify<TAG>6<TAG>if(b==0)<CHANGETO>if (b==0)
+modify<TAG>9<TAG>{c=(a*10000000)/(b*10000000);<CHANGETO>{
+add<TAG>9<TAG>c=(a+b/2)/b;
+modify<TAG>12<TAG>}	<CHANGETO>}
+add<TAG>12<TAG>return 0;

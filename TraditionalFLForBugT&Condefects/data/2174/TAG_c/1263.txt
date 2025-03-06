@@ -1,0 +1,6 @@
+59336.c
+307187.c
+3
+modify<TAG>9<TAG>		else {c=(int)(a/b+0.5);<CHANGETO>		else
+add<TAG>9<TAG>		{	c=(a+b/2)/b;
+modify<TAG>12<TAG>		return 0;<CHANGETO>return 0;

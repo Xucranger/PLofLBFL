@@ -1,0 +1,10 @@
+397014.py
+347523.py
+7
+add<TAG>1<TAG>from __future__ import division
+modify<TAG>3<TAG>    str = input()<CHANGETO>    a, b = map(int, raw_input().split())
+del<TAG>4<TAG>    a,b = (int(x) for x in str.split())
+modify<TAG>6<TAG>        print("error")<CHANGETO>        print('error')
+del<TAG>7<TAG>    elif (a/b) - int(a/b) >= 0.5:
+del<TAG>8<TAG>        print(int(a/b)+1)
+modify<TAG>10<TAG>        print(int(a/b))<CHANGETO>        print(int(round(a / b)))

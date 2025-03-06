@@ -1,0 +1,4 @@
+508704.py
+508719.py
+1
+modify<TAG>5<TAG> c=a+b-(a+b)%2<CHANGETO> c=((a+b-(a+b)%2)/2)%2

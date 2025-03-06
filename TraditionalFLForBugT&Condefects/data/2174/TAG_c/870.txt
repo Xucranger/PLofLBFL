@@ -1,0 +1,11 @@
+59177.c
+59332.c
+8
+add<TAG>3<TAG>int c;
+del<TAG>5<TAG>{
+del<TAG>6<TAG>if(b==1)
+del<TAG>7<TAG>printf("%.0f\n",a);
+del<TAG>8<TAG>else
+modify<TAG>12<TAG>{d=a/b;<CHANGETO>{d=a/b+0.5;
+modify<TAG>13<TAG>printf("%.0f\n",d);<CHANGETO>c=(int)d;
+modify<TAG>14<TAG>}<CHANGETO>printf("%d\n",c);

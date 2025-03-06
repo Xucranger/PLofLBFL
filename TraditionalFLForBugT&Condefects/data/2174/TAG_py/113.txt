@@ -1,0 +1,15 @@
+399917.py
+400252.py
+12
+modify<TAG>2<TAG>#include<iostream><CHANGETO>while True:
+modify<TAG>3<TAG>using namespace std;<CHANGETO>    try:
+modify<TAG>4<TAG>int main(){<CHANGETO>        a,b = map(float,raw_input().strip().split())
+modify<TAG>5<TAG>	int a,b;<CHANGETO>        if(b==0):print('error')
+modify<TAG>6<TAG>	while(cin>>a>>b){<CHANGETO>        else:
+modify<TAG>7<TAG>		if(b==0)<CHANGETO>            print(int(a/b+0.5))
+modify<TAG>8<TAG>		cout<<"error"<<endl;<CHANGETO>    except EOFError:
+modify<TAG>9<TAG>		else<CHANGETO>        break
+del<TAG>10<TAG>		cout<<a/(b+1/2)<<endl;
+del<TAG>11<TAG>	}
+del<TAG>12<TAG>	return 0;
+del<TAG>13<TAG>} 

@@ -1,0 +1,7 @@
+435434.c
+435500.c
+4
+modify<TAG>6<TAG>    int i=1;<CHANGETO>    double n;
+modify<TAG>7<TAG>    for(;i<=20;i++)<CHANGETO>    while(scanf("%lf",&n)!=EOF)
+del<TAG>9<TAG>        double n;
+del<TAG>10<TAG>        scanf("%lf",&n);

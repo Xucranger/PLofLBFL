@@ -1,0 +1,6 @@
+508572.py
+508599.py
+3
+modify<TAG>11<TAG>    c=int((b-1)/2)<CHANGETO>    c=k-1
+add<TAG>14<TAG>        if((c)*2+1!=b):
+add<TAG>14<TAG>            break

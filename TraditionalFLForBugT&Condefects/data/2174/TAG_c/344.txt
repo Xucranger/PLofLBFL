@@ -1,0 +1,5 @@
+85247.c
+85249.c
+2
+modify<TAG>15<TAG>printf("%d",a);<CHANGETO>printf("%d\n",a);
+modify<TAG>17<TAG>printf("%d",a+1);<CHANGETO>printf("%d\n",a+1);

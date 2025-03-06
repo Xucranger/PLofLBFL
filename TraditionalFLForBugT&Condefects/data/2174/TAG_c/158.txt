@@ -1,0 +1,8 @@
+197982.c
+198287.c
+5
+modify<TAG>8<TAG>    	printf("error");<CHANGETO>    	printf("error\n");
+modify<TAG>12<TAG>        	if((e-c)>=0.5)<CHANGETO>        		if((e-c)>=0.5)
+modify<TAG>18<TAG>				printf("%d\n",c);<CHANGETO>				{
+add<TAG>18<TAG>				   printf("%d\n",c);
+add<TAG>18<TAG>				}

@@ -1,0 +1,8 @@
+84297.cpp
+84319.cpp
+5
+modify<TAG>5<TAG>	int a,b,c,d;<CHANGETO>	int a,b,c,d,e;
+modify<TAG>12<TAG>			if(2*c>b)<CHANGETO>			if(2*c>=b)
+modify<TAG>14<TAG>				d=d+1;<CHANGETO>				e=d+1;
+modify<TAG>15<TAG>				cout<<d<<endl;<CHANGETO>				cout<<e<<endl;
+modify<TAG>21<TAG>			cout<<"error";<CHANGETO>			cout<<"error"<<endl;

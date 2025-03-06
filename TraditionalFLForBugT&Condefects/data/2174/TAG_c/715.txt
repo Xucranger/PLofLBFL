@@ -1,0 +1,5 @@
+84312.c
+84314.c
+2
+modify<TAG>6<TAG>	while(scanf("%d%d",&a,&b)==2)<CHANGETO>	while(scanf("%d%d",&a,&b)!=EOF)
+modify<TAG>9<TAG>		  printf("error");<CHANGETO>		  printf("error\n");

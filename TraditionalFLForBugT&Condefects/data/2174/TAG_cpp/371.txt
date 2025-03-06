@@ -1,0 +1,9 @@
+197691.cpp
+197697.cpp
+6
+del<TAG>2<TAG>#include <iostream>
+del<TAG>3<TAG>using namespace std;
+modify<TAG>6<TAG>    while (cin >> a >> b) {<CHANGETO>    while (scanf("%d %d", &a, &b) != EOF) {
+modify<TAG>10<TAG>            printf("%d\n", a / b);<CHANGETO>            double num = 1.0 * a / b + 0.5;
+add<TAG>10<TAG>            //printf("%lf\n", num);
+add<TAG>10<TAG>            printf("%d\n", int(num));

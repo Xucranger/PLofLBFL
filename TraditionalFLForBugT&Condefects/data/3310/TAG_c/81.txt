@@ -1,0 +1,22 @@
+440059.c
+438006.c
+19
+modify<TAG>4<TAG>{	int n[20],i,j,num=0,s;<CHANGETO>{
+modify<TAG>5<TAG>	double k,f[101];<CHANGETO>	int n,i;
+modify<TAG>6<TAG>	while(1){<CHANGETO>	double k;
+modify<TAG>7<TAG>		scanf("%d",&n[num++]);<CHANGETO>	while(scanf("%d",&n)!=EOF)
+modify<TAG>8<TAG>		if(num<=19) break;<CHANGETO>	{
+modify<TAG>9<TAG>		if(getchar()=='\n')<CHANGETO>		k=sin(n);
+modify<TAG>10<TAG>		{	break;<CHANGETO>		for(i=0;i<n;i++)
+del<TAG>11<TAG>		}
+del<TAG>12<TAG>} 	
+del<TAG>13<TAG>s=num;
+del<TAG>14<TAG>	for(i=0;i<s;i++)
+del<TAG>15<TAG>	{f[0]=sin(n[i]);
+del<TAG>16<TAG>		if(n[i]==0) printf("0.000000\n");
+del<TAG>17<TAG>	else {
+del<TAG>18<TAG>	for(j=1;j<=n[i];j++)
+modify<TAG>20<TAG>		k=f[j-1];<CHANGETO>			k=sin(k);
+modify<TAG>21<TAG>		f[j]=sin(k);<CHANGETO>		}
+modify<TAG>22<TAG>	if(j==n[i]) printf("%.6lf\n",f[j]);}<CHANGETO>		printf("%lf\n",k);
+modify<TAG>24<TAG>}}<CHANGETO>}

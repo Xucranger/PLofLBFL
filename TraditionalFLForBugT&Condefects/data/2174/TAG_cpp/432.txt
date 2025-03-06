@@ -1,0 +1,8 @@
+158455.cpp
+158456.cpp
+5
+del<TAG>1<TAG>#include<stdio.h>
+modify<TAG>7<TAG>	float a,b;<CHANGETO>    float a,b;
+modify<TAG>14<TAG>      c=round(a/b);<CHANGETO>      {
+add<TAG>14<TAG>	  c=round(a/b);
+add<TAG>15<TAG>      }

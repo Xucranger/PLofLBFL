@@ -1,0 +1,9 @@
+400097.py
+347523.py
+6
+modify<TAG>2<TAG>import sys<CHANGETO>from __future__ import division
+modify<TAG>3<TAG>for line in sys.stdin:<CHANGETO>while True:
+modify<TAG>4<TAG>    a,b = map(int,line.split())<CHANGETO>    a, b = map(int, raw_input().split())
+modify<TAG>5<TAG>    if(b == 0):print("error")<CHANGETO>    if b == 0:
+add<TAG>5<TAG>        print('error')
+modify<TAG>7<TAG>        print(int(a/b+0.5))<CHANGETO>        print(int(round(a / b)))

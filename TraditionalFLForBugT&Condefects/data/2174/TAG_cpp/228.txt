@@ -1,0 +1,4 @@
+82849.cpp
+82850.cpp
+1
+modify<TAG>12<TAG>		   if(2*(a%b)>b)<CHANGETO>		   if(2*(a%b)>=b)

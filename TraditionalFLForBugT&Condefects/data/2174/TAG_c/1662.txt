@@ -1,0 +1,8 @@
+86017.c
+86034.c
+5
+modify<TAG>5<TAG>    while(scanf("%d %d",&a,&b)==EOF)<CHANGETO>    while(scanf("%d %d",&a,&b)!=EOF)
+modify<TAG>9<TAG>             printf("error");<CHANGETO>             printf("error\n");
+modify<TAG>17<TAG>             c++;<CHANGETO>             c=c++;
+modify<TAG>18<TAG>             printf("%d",c);<CHANGETO>             printf("%d\n",c);
+modify<TAG>21<TAG>    return 0;<CHANGETO>        return 0;

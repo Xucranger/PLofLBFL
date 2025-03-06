@@ -1,0 +1,15 @@
+160334.cpp
+306952.cpp
+12
+modify<TAG>1<TAG>#include <stdio.h><CHANGETO>#include<iostream>
+add<TAG>1<TAG>using namespace std;
+modify<TAG>4<TAG>	char s1[100],s2[100];<CHANGETO>	int a[100],b[100];
+modify<TAG>5<TAG>	gets(s1);<CHANGETO>	int i=0,j=0;
+modify<TAG>6<TAG>	int i=0,j;<CHANGETO>	while(cin>>a[i]>>b[i])
+del<TAG>7<TAG>	while(s1[i]!='\0')
+modify<TAG>11<TAG>	printf("%d\n",i);<CHANGETO>	for(;j<i;j++)
+del<TAG>12<TAG>	for(j=0;j<i;j++)
+modify<TAG>14<TAG>		s2[j]=s1[i-j-1];<CHANGETO>		if(b[j]==0) cout<<"error"<<endl;
+add<TAG>14<TAG>		else cout<<(int)(1.0*a[j]/b[j]+0.5)<<endl;
+del<TAG>16<TAG>	s2[i]='\0';
+del<TAG>17<TAG>	printf("%s\n",s2);

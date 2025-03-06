@@ -1,0 +1,7 @@
+288197.c
+288278.c
+4
+modify<TAG>5<TAG>    float f;<CHANGETO>    double f;
+modify<TAG>19<TAG>    printf("%.6f\n",f);<CHANGETO>    printf("%.6lf\n",f);
+modify<TAG>20<TAG>}  <CHANGETO>}    
+del<TAG>21<TAG>  return 0;  

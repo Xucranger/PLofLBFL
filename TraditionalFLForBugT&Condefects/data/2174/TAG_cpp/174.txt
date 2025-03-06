@@ -1,0 +1,17 @@
+158676.cpp
+158727.cpp
+14
+modify<TAG>5<TAG>	int r1;<CHANGETO>	int r1, r2;
+modify<TAG>13<TAG>		if (a%b >= b / 2)<CHANGETO>		r2 = a%b;
+add<TAG>13<TAG>		if (r2 >= b / 2.0)
+modify<TAG>18<TAG>		else r1 = a / b;<CHANGETO>		else
+modify<TAG>19<TAG>		cout << r1 << endl;<CHANGETO>		{
+add<TAG>19<TAG>			r1 = a / b;
+add<TAG>19<TAG>			cout << r1 << endl;
+add<TAG>19<TAG>		}
+modify<TAG>22<TAG>		cout << 0 << endl;<CHANGETO>	{
+add<TAG>22<TAG>		if (a < b / 2.0)
+add<TAG>22<TAG>			cout << a / b << endl;
+add<TAG>22<TAG>		else
+add<TAG>22<TAG>			cout << a / b + 1 << endl;
+add<TAG>22<TAG>	}

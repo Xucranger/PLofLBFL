@@ -1,0 +1,6 @@
+493598.c
+493602.c
+3
+del<TAG>7<TAG>        c=a/b;
+modify<TAG>11<TAG>            printf("%d\n",c);<CHANGETO>        {c=(a+(b/2))/b;
+add<TAG>11<TAG>            printf("%d\n",c);}

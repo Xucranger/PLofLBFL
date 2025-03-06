@@ -1,0 +1,4 @@
+82550.cpp
+82554.cpp
+1
+modify<TAG>13<TAG>			c=m/n*10;<CHANGETO>			c=m*10/n;

@@ -1,0 +1,10 @@
+495397.c
+495418.c
+7
+modify<TAG>4<TAG>	int a,b,flag;<CHANGETO>	int a,b,c;
+add<TAG>4<TAG>	double flag;
+modify<TAG>8<TAG>		{printf("error");}<CHANGETO>		{printf("error\n");}
+modify<TAG>9<TAG>		 else <CHANGETO>			else 
+modify<TAG>10<TAG>		 {	flag=a/b;<CHANGETO>			{flag=(double)(a)/(double)(b);
+modify<TAG>11<TAG>		 printf("%d",flag);}<CHANGETO>			c=(int)(flag+0.5);
+add<TAG>11<TAG>			printf("%d\n",c);}

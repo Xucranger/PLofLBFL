@@ -1,0 +1,8 @@
+152421.c
+305164.c
+5
+modify<TAG>2<TAG>#include<math.h><CHANGETO>int main()
+del<TAG>3<TAG>void main()
+modify<TAG>5<TAG>    float a,b,d;<CHANGETO>    float a,b;
+modify<TAG>7<TAG>    while(scanf("%d %d",&a,&b)!=EOF)<CHANGETO>    while(scanf("%d%d",&a,&b)!=EOF)
+modify<TAG>10<TAG>        printf("error");<CHANGETO>            printf("error\n");

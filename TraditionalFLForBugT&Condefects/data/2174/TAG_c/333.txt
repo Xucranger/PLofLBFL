@@ -1,0 +1,15 @@
+247708.c
+247729.c
+12
+modify<TAG>7<TAG>     if(!b)<CHANGETO>     if(b==0)
+modify<TAG>8<TAG>	 printf("error");<CHANGETO>	 printf("error\n");
+modify<TAG>11<TAG>	 	c=a/b;<CHANGETO>	 	if(a%b==0)
+modify<TAG>12<TAG>	 	if(a%b>=0.5*b)<CHANGETO>	 	printf("%d\n",a/b);
+modify<TAG>13<TAG>	 	c++;<CHANGETO>	 	else
+modify<TAG>14<TAG>	 	else;<CHANGETO>		{
+modify<TAG>15<TAG>	 	printf("%d",c);<CHANGETO>		c=a%b;	
+add<TAG>15<TAG>	 	if(2*c>=b)
+add<TAG>15<TAG>	 	printf("%d\n",a/b+1);
+add<TAG>15<TAG>	 	else
+add<TAG>15<TAG>	 	printf("%d\n",a/b);
+add<TAG>15<TAG>	    }

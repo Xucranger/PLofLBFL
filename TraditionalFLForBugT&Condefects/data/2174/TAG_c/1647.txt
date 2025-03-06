@@ -1,0 +1,7 @@
+194636.c
+194653.c
+4
+modify<TAG>15<TAG>			c=x/y;<CHANGETO>			c=x/y; //printf("%f\n",c);
+modify<TAG>16<TAG>			if(c-a/b>0.4)<CHANGETO>			if(c-a/b+0.5>=1)
+modify<TAG>17<TAG>			printf("%d\n",a/b+1);<CHANGETO>				printf("%d\n",a/b+1);
+modify<TAG>19<TAG>            printf("%d\n",a/b);		<CHANGETO>            	printf("%d\n",a/b);

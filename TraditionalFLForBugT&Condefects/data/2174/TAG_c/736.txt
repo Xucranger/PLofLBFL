@@ -1,0 +1,5 @@
+153139.c
+153140.c
+2
+modify<TAG>10<TAG>		 printf("%d",((a*10)/b+5)/10);<CHANGETO>		 printf("%d\n",((a*10)/b+5)/10);
+modify<TAG>12<TAG>			printf("%d",((a*10)/b-5)/10);<CHANGETO>			printf("%d\n",((a*10)/b-5)/10);

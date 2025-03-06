@@ -1,0 +1,7 @@
+356526.c
+356554.c
+4
+modify<TAG>4<TAG>	int a,b;<CHANGETO>	int a,b,c,d;
+modify<TAG>12<TAG>		printf("%d\n",a/b);<CHANGETO>		{
+add<TAG>12<TAG>			printf("%d\n",(a+b/2)/b);
+add<TAG>12<TAG>		}

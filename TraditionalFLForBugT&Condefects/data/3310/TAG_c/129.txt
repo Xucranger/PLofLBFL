@@ -1,0 +1,5 @@
+438173.c
+438181.c
+2
+modify<TAG>3<TAG>float f(int n,int b)<CHANGETO>double f(int n,int b)
+modify<TAG>11<TAG>	float a;<CHANGETO>	double a;

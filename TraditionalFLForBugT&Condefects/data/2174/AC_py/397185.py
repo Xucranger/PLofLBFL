@@ -1,0 +1,13 @@
+# coding=utf-8
+while True:
+	try:
+		s = raw_input()
+		k = s.split()
+		a = float(k[0])
+		b = float(k[1])
+		if b == 0:
+			print("error")
+		else:
+			print(int(a/b + 0.5))
+	except EOFError:
+		break

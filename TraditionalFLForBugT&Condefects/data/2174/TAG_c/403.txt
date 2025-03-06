@@ -1,0 +1,17 @@
+83830.c
+356232.c
+14
+modify<TAG>3<TAG>main()<CHANGETO>int main()
+modify<TAG>5<TAG>	int a[2][2];<CHANGETO>	int a,b;
+modify<TAG>6<TAG>	int i,j,x;<CHANGETO>	while(~scanf("%d %d",&a,&b))
+del<TAG>7<TAG>	for(i=0;i<2;i++)
+del<TAG>8<TAG>	for(j=0;j<2;j++)
+del<TAG>9<TAG>	scanf("%d",&a[i][j]);
+del<TAG>10<TAG>	for(i=0;i<2;i++)
+modify<TAG>12<TAG>	if(a[i][1]!=0)<CHANGETO>		if(b==0)
+modify<TAG>13<TAG>	{<CHANGETO>		printf("error\n");
+modify<TAG>14<TAG>		x=a[i][0]/a[i][1];<CHANGETO>		else
+modify<TAG>15<TAG>		printf("%d\n",x);<CHANGETO>		{
+modify<TAG>16<TAG>	}<CHANGETO>			printf("%d\n",(a+(b/2))/b);
+modify<TAG>17<TAG>	else<CHANGETO>		}
+del<TAG>18<TAG>	printf("error\n");

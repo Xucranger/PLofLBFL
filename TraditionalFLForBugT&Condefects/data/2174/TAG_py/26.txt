@@ -1,0 +1,16 @@
+347350.py
+400252.py
+13
+modify<TAG>3<TAG>try:<CHANGETO>    try:
+modify<TAG>4<TAG>s = raw_input()<CHANGETO>        a,b = map(float,raw_input().strip().split())
+modify<TAG>5<TAG>m = [int(x) for x in s.split(' ')]<CHANGETO>        if(b==0):print('error')
+modify<TAG>6<TAG>if m[1] == 0:<CHANGETO>        else:
+modify<TAG>7<TAG>print 'error'<CHANGETO>            print(int(a/b+0.5))
+modify<TAG>8<TAG>else:<CHANGETO>    except EOFError:
+modify<TAG>9<TAG>r = m[0] // m[1]<CHANGETO>        break
+del<TAG>10<TAG>y = m[0] % m[1]
+del<TAG>11<TAG>if y * 2 >= m[1]:
+del<TAG>12<TAG>r = r + 1
+del<TAG>13<TAG>print r
+del<TAG>14<TAG>except EOFError:
+del<TAG>15<TAG>exit(0)

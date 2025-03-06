@@ -1,0 +1,7 @@
+62133.c
+62141.c
+4
+del<TAG>12<TAG>		 if(m==0) printf("%d\n",m);
+del<TAG>13<TAG>		 else
+del<TAG>14<TAG>		 {
+del<TAG>19<TAG>		 }

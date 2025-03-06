@@ -1,0 +1,7 @@
+490838.cpp
+70673.cpp
+4
+del<TAG>2<TAG>#include<cstdio>
+modify<TAG>6<TAG>	int a,b;<CHANGETO>	float a,b;
+modify<TAG>11<TAG>			printf("error\n");<CHANGETO>			cout<<"error"<<endl;
+modify<TAG>15<TAG>			printf("%d\n",a/b);<CHANGETO>			cout<<int(a/b+0.5)<<endl;

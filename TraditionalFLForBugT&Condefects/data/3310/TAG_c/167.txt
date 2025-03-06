@@ -1,0 +1,5 @@
+288850.c
+288935.c
+2
+modify<TAG>5<TAG>	float x[1000];int n,i;<CHANGETO>	double x[1000];int n,i;
+modify<TAG>10<TAG>		printf("%.6f ",x[n]);<CHANGETO>		printf("%6lf\n",x[n]);

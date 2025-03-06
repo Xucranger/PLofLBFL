@@ -1,0 +1,5 @@
+443052.c
+443053.c
+2
+modify<TAG>8<TAG>		for(i=1;i<n;i++)<CHANGETO>		for(i=1;i<=n;i++)
+modify<TAG>10<TAG>		printf("%.6lf\n",f[n-1]);<CHANGETO>		printf("%.6lf\n",f[n]);

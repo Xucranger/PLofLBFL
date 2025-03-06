@@ -1,0 +1,8 @@
+# coding=utf-8
+n=eval(input())
+  for i in range(n):
+  m=input().strip().spilt()
+  s=0
+  for j in m:
+      s=s+int(j)
+      print(s-int(m[0]))

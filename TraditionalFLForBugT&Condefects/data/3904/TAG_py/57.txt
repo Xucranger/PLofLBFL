@@ -1,0 +1,5 @@
+492213.py
+492196.py
+2
+modify<TAG>2<TAG>//BUCTOJ 3903 Input format-2<CHANGETO>for _ in range(int(input())):
+del<TAG>3<TAG>for_in range(int(input())):

@@ -1,0 +1,9 @@
+437755.cpp
+437770.cpp
+6
+modify<TAG>14<TAG>//		float f;<CHANGETO>		float f;
+modify<TAG>15<TAG>//		f=fun(x-1,n);<CHANGETO>		f=fun(x-1,n);
+modify<TAG>16<TAG>//		printf("%.6f\n",f);<CHANGETO>		return sin(f);
+del<TAG>17<TAG>		return sin(fun(x-1,n));
+modify<TAG>25<TAG>		printf("%.6f\n",fun(n,n));<CHANGETO>		if(n==17) printf("-0.373983\n");
+add<TAG>25<TAG>		else printf("%.6f\n",fun(n,n));

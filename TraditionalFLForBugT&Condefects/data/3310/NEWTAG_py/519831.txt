@@ -1,0 +1,14 @@
+519831.py
+484031.py
+11
+modify<TAG>2<TAG>=int(input())<CHANGETO># -*- coding:utf-8 -*-
+modify<TAG>3<TAG>for i in range(n):<CHANGETO>import math
+modify<TAG>4<TAG>    a=int(input())<CHANGETO>def solution(n, x):
+modify<TAG>5<TAG>    b=a//100<CHANGETO>    if x == 0:
+modify<TAG>6<TAG>    c=a%100//50<CHANGETO>        return math.sin(n)
+modify<TAG>7<TAG>    d=a%100%50//20<CHANGETO>    return math.sin(solution(n, x - 1))
+modify<TAG>8<TAG>    e=a%100%50%20//10<CHANGETO>if __name__ == '__main__':
+modify<TAG>9<TAG>    f=a%100%50%20%10//5<CHANGETO>    for i in range(20):
+modify<TAG>10<TAG>    g=a%100%50%20%10%5//2<CHANGETO>        n = input()
+modify<TAG>11<TAG>    i=a%100%50%20%10%5%2//1<CHANGETO>        n = int(n) if n != '' else exit()
+modify<TAG>12<TAG>    print(i,g,f,e,d,c,b,end=" ")<CHANGETO>        print('%0.6f' % solution(n, n))

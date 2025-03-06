@@ -1,0 +1,11 @@
+490759.cpp
+491082.cpp
+8
+del<TAG>3<TAG>#include <math.h>
+del<TAG>4<TAG>#include <stdio.h>
+modify<TAG>12<TAG>		printf("error");<CHANGETO>		printf("error\n");
+modify<TAG>14<TAG>	{p=round(1.0*a/b);<CHANGETO>	{	p=a*b;
+add<TAG>14<TAG>	if(p>0)
+add<TAG>14<TAG>		p=int(1.0000*a/b+0.5);
+add<TAG>14<TAG>	else
+add<TAG>14<TAG>        p=int(1.0000*a/b-0.5);

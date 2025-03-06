@@ -1,0 +1,7 @@
+356622.cpp
+357366.cpp
+4
+modify<TAG>9<TAG>		cout<<"error"<<endl;<CHANGETO>			cout<<"error"<<endl;
+modify<TAG>12<TAG>			c=a/b;<CHANGETO>			c=(a+(b/2.0))/b;
+modify<TAG>16<TAG> } <CHANGETO>	return 0;
+add<TAG>16<TAG>}

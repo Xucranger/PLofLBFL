@@ -1,0 +1,6 @@
+73270.c
+73322.c
+3
+modify<TAG>10<TAG>			printf("error");<CHANGETO>			printf("error\n");
+modify<TAG>19<TAG>		}<CHANGETO>}
+modify<TAG>20<TAG>	}<CHANGETO>                }

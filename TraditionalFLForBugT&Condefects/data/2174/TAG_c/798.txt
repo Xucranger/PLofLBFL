@@ -1,0 +1,8 @@
+59311.c
+59338.c
+5
+modify<TAG>5<TAG>    while(scanf("%d %d",&a,&b)!=EOF);<CHANGETO>    while(scanf("%d %d",&a,&b)!=EOF)
+modify<TAG>12<TAG>          c=1.*a/b;<CHANGETO>           c=(int)(1.*a/b+0.5);
+modify<TAG>13<TAG>          c=(int)(c+0.5);<CHANGETO>           printf("%d\n",c);
+modify<TAG>14<TAG>      printf("%d\n",c);}<CHANGETO>         }
+modify<TAG>15<TAG>}<CHANGETO>    }

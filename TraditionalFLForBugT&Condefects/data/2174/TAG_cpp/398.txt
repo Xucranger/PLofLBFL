@@ -1,0 +1,5 @@
+159612.cpp
+159619.cpp
+2
+modify<TAG>11<TAG>		int y=(int)m+0.5;<CHANGETO>		int y=(int)(m+0.5);
+modify<TAG>15<TAG>		printf("error");<CHANGETO>		printf("error\n");

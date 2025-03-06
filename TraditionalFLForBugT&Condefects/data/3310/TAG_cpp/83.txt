@@ -1,0 +1,16 @@
+441252.cpp
+439289.cpp
+13
+modify<TAG>3<TAG>double fact(int m,int b)<CHANGETO>using namespace std;
+modify<TAG>4<TAG>{<CHANGETO>double n;
+modify<TAG>5<TAG>    if(b==0)	<CHANGETO>double fun(double m)
+modify<TAG>6<TAG>    return sin(m);<CHANGETO>{
+modify<TAG>7<TAG>    else<CHANGETO>	if(m==0) return sin(n);
+modify<TAG>8<TAG>    return sin(fact(m,b-1));<CHANGETO>	else return sin(fun(m-1));
+modify<TAG>12<TAG>	int n,a;<CHANGETO>	while(~scanf("%lf",&n))
+modify<TAG>13<TAG>	float res;<CHANGETO>	{
+modify<TAG>14<TAG>	scanf("%d",&n);<CHANGETO>		printf("%.6lf\n",fun(n));
+modify<TAG>15<TAG>	a=n;<CHANGETO>	}
+modify<TAG>16<TAG>	res=fact(n,a);<CHANGETO>	return 0;
+modify<TAG>17<TAG>	printf("%.6lf",res);<CHANGETO>}
+del<TAG>18<TAG> } 

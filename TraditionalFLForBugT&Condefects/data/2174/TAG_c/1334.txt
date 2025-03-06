@@ -1,0 +1,12 @@
+494825.c
+494911.c
+9
+modify<TAG>4<TAG>	int  a[100], b[100];<CHANGETO>	int a,b;
+modify<TAG>5<TAG>	int i = 0, j = 0, m;<CHANGETO>	while(scanf("%d%d",&a,&b)!=EOF)
+modify<TAG>6<TAG>	char c;<CHANGETO>	{
+modify<TAG>7<TAG>	while (scanf("%d %d %c", &a[i++], &b[j++], &c) == 3);<CHANGETO>	    if(b==0)printf("error\n");
+modify<TAG>8<TAG>	for (m = 0; m < j - 1; m++)<CHANGETO>			else printf("%d\n",(a+(b/2))/b );
+modify<TAG>9<TAG>		if (b[m] == 0)<CHANGETO>	}
+del<TAG>10<TAG>			printf("error");
+del<TAG>11<TAG>		else 
+del<TAG>12<TAG>		    printf("%d\n", a[m] /b[m]);

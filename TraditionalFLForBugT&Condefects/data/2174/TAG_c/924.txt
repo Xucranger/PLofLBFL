@@ -1,0 +1,7 @@
+54080.c
+74574.c
+4
+modify<TAG>4<TAG>	int a,b;<CHANGETO>	int a,b,s;
+modify<TAG>5<TAG>	int s;<CHANGETO>	float c;
+modify<TAG>11<TAG>			if(a-b*s>=b/2)<CHANGETO>			c=1.0*a/b;
+add<TAG>11<TAG>			if((c-s)*10>=5)

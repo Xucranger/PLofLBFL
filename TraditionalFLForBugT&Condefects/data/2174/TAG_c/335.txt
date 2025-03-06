@@ -1,0 +1,7 @@
+153299.c
+153306.c
+4
+modify<TAG>3<TAG>{int a,b;<CHANGETO>{int a,b,c;
+modify<TAG>7<TAG>else printf("%d",a/b);<CHANGETO>else if(a-a/b*b<0.5*b)
+add<TAG>7<TAG>    printf("%d",a/b);
+add<TAG>7<TAG>else printf("%d",a/b+1);

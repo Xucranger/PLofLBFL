@@ -1,0 +1,11 @@
+244803.c
+249668.c
+8
+modify<TAG>5<TAG>	while(scanf("%d%d",&a,&b)!=EOF)<CHANGETO>	while(scanf("%d %d",&a,&b)!=EOF)
+modify<TAG>9<TAG>			if(a/b>=0)<CHANGETO>			if(a*b>0)
+modify<TAG>10<TAG>				c=1.0*a/b+0.5;<CHANGETO>			c=(1.0*a)/b+0.5;
+modify<TAG>12<TAG>				c=1.0*a/b-0.5;<CHANGETO>			c=(1.0*a)/b-0.5;
+modify<TAG>13<TAG>				printf("%d\n",c);<CHANGETO>			printf("%d\n",c);
+modify<TAG>16<TAG>		 printf("error");<CHANGETO>		printf("error\n");
+modify<TAG>18<TAG> } <CHANGETO>	return 0;
+add<TAG>18<TAG>}

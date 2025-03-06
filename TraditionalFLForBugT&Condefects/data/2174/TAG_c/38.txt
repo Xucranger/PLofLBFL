@@ -1,0 +1,10 @@
+246722.c
+246726.c
+7
+modify<TAG>9<TAG>            printf("error");<CHANGETO>            printf("error\n");
+del<TAG>10<TAG>            exit(0);
+modify<TAG>12<TAG>        m=(a+b/2)/b;<CHANGETO>        else
+modify<TAG>13<TAG>        printf("%d",m);<CHANGETO>        {   
+add<TAG>13<TAG>            m=(a+b/2)/b;
+add<TAG>13<TAG>            printf("%d\n",m);
+add<TAG>13<TAG>        }

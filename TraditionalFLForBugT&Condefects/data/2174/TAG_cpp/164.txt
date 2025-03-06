@@ -1,0 +1,8 @@
+161006.cpp
+161023.cpp
+5
+modify<TAG>9<TAG>		if(!b)<CHANGETO>		if(b==0)
+modify<TAG>12<TAG>			c=float(float(a)/float(b));<CHANGETO>		{
+add<TAG>12<TAG>			c=(float(a)/float(b));
+modify<TAG>14<TAG>    }<CHANGETO>		}
+add<TAG>14<TAG>	}

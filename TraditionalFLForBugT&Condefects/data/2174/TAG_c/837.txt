@@ -1,0 +1,8 @@
+210364.c
+210387.c
+5
+del<TAG>9<TAG>        if(a==0){
+del<TAG>10<TAG>            printf("0\n");
+del<TAG>11<TAG>            continue;
+del<TAG>12<TAG>        }
+modify<TAG>14<TAG>            if(a%b*10/a>=5){<CHANGETO>            if(a%b*10/b>4){

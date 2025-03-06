@@ -1,0 +1,4 @@
+50377.c
+50383.c
+1
+modify<TAG>8<TAG>		printf("%.0lf\n", d / f);<CHANGETO>		printf("%.0lf\n", d / f + 0.01);

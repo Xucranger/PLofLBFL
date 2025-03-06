@@ -1,0 +1,11 @@
+436921.c
+436954.c
+8
+modify<TAG>12<TAG>            f[n-1]=sin(f[0]);<CHANGETO>            f[n]=sin(f[0]);
+add<TAG>12<TAG>            printf("%.6lf\n",f[n]);
+modify<TAG>16<TAG>        for(i=1;i<n;i++)<CHANGETO>           for(i=1;i<=n;i++)
+modify<TAG>17<TAG>        {<CHANGETO>            {
+modify<TAG>18<TAG>            f[i]=sin(f[i-1]);<CHANGETO>                f[i]=sin(f[i-1]);
+modify<TAG>19<TAG>        }<CHANGETO>            }
+add<TAG>19<TAG>        printf("%.6lf\n",f[n]);
+del<TAG>21<TAG>        printf("%.6lf\n",f[n-1]);

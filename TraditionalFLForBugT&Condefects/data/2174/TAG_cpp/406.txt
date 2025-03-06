@@ -1,0 +1,11 @@
+50578.cpp
+50582.cpp
+8
+modify<TAG>11<TAG>              cout << (int)(x/y) << endl;<CHANGETO>             {
+add<TAG>11<TAG>                  int t = (int)(x/y) ;
+add<TAG>11<TAG>                  //cout << t << endl;
+add<TAG>11<TAG>                  if(x/y-t>=0.5)
+add<TAG>11<TAG>                  cout << t+1 << endl;
+add<TAG>11<TAG>                  else
+add<TAG>11<TAG>                  cout<< t << endl;
+add<TAG>11<TAG>             }

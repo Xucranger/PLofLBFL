@@ -1,0 +1,6 @@
+196797.c
+196809.c
+3
+modify<TAG>10<TAG>		d=(1.0*a/b)-c;<CHANGETO>		d=1.0*a/b;
+modify<TAG>11<TAG>		if(d>=0.5)<CHANGETO>		if(d-c>=0.5)
+modify<TAG>19<TAG>        printf("error");<CHANGETO>        printf("error\n");

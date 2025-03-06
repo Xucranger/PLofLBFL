@@ -1,0 +1,9 @@
+360844.c
+307271.c
+6
+del<TAG>2<TAG>#include<math.h>
+modify<TAG>4<TAG>	int a,b;<CHANGETO>	int a,b,c;
+modify<TAG>10<TAG>			int s;<CHANGETO>			c=a/b;
+modify<TAG>11<TAG>			//s=a/b;<CHANGETO>			if((a%b)*10>=5*b) c++;
+modify<TAG>12<TAG>			printf("%d\n",a/b);<CHANGETO>			printf("%d\n",c);		
+add<TAG>14<TAG>	return 0;

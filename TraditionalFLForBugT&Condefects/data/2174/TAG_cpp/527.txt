@@ -1,0 +1,9 @@
+359442.cpp
+83604.cpp
+6
+modify<TAG>1<TAG>#include<bits/stdc++.h><CHANGETO>#include <iostream>
+modify<TAG>8<TAG>		double a1=a,b1=b;<CHANGETO>		if(b==0)
+modify<TAG>9<TAG>		if(b==0)cout<<"error\n";<CHANGETO>			cout<<"error"<<endl;
+modify<TAG>10<TAG>		else printf("%.0lf\n",a1/b1);<CHANGETO>		else cout<<(int)(1.0*a/b+0.5)<<endl;
+add<TAG>10<TAG>	//	c=(int)(a/b+0.5)
+add<TAG>11<TAG>return 0;

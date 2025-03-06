@@ -1,0 +1,14 @@
+190301.c
+190303.c
+11
+modify<TAG>12<TAG>e=b/2;<CHANGETO>e=b%2;
+modify<TAG>13<TAG>if(d>=e){<CHANGETO>if(e==0){
+add<TAG>13<TAG>   if(d>=e)
+add<TAG>13<TAG>    {
+add<TAG>16<TAG>}}else{
+add<TAG>16<TAG>if(d>=e)
+add<TAG>16<TAG>    {
+add<TAG>16<TAG>    printf("%d\n",c);
+add<TAG>16<TAG>}else{
+add<TAG>16<TAG>printf("%d\n",c);
+add<TAG>18<TAG>}

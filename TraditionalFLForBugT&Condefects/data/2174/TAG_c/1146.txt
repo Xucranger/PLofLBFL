@@ -1,0 +1,9 @@
+193232.c
+193234.c
+6
+modify<TAG>5<TAG>	float a,b,d;<CHANGETO>	float a,b,d,e;
+modify<TAG>9<TAG>                printf("error");<CHANGETO>                printf("error\n");
+modify<TAG>15<TAG>                   n=(2*d);<CHANGETO>                   e=(2*d);
+modify<TAG>16<TAG>                   if(a<b)<CHANGETO>                   n=e;
+modify<TAG>17<TAG>                        printf("0");<CHANGETO>                   if(e<1)
+add<TAG>17<TAG>                        printf("0\n");

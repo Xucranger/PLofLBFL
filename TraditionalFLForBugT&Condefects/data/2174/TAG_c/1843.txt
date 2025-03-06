@@ -1,0 +1,10 @@
+305680.c
+305696.c
+7
+modify<TAG>4<TAG>    int a,b,s;<CHANGETO>    int s;
+add<TAG>4<TAG>    float x,a,b;
+modify<TAG>11<TAG>            if(a%b>=b/2)<CHANGETO>            x=a/b;
+modify<TAG>12<TAG>                printf("%d",a/b+1);<CHANGETO>            s=a/b;
+add<TAG>12<TAG>            if((x-s)>=0.5)
+add<TAG>12<TAG>                printf("%d",s+1);
+modify<TAG>14<TAG>                printf("%d",a/b);<CHANGETO>                printf("%d",s);

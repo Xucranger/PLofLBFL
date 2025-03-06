@@ -1,0 +1,9 @@
+153079.c
+153101.c
+6
+modify<TAG>2<TAG>main()<CHANGETO>void main()
+modify<TAG>4<TAG>	int a,b,c;<CHANGETO>	int a,b;
+modify<TAG>11<TAG>			c = a/b;<CHANGETO>		 if(a>=0&&b>=0||a<=0&&b<=0)	
+modify<TAG>12<TAG>			c = (int)(c*10+5)/10;<CHANGETO>		    printf("%d\n",((a*10)/b+5)/10);
+modify<TAG>13<TAG>		    printf("%d\n",c);<CHANGETO>		else if(a>=0&&b<=0||a<=0&&b>=0)
+add<TAG>13<TAG>			printf("%d\n",((a*10)/b-5)/10);

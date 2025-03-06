@@ -1,0 +1,15 @@
+439238.c
+441147.c
+12
+modify<TAG>5<TAG> int n,i;<CHANGETO> int n;
+modify<TAG>6<TAG> double c;<CHANGETO> double d,c,x;
+modify<TAG>9<TAG>  if(n==0)<CHANGETO>  x=sin(n);
+modify<TAG>10<TAG> {<CHANGETO>  for(int i=0;i<n;i++)
+modify<TAG>11<TAG>  c=0.000000;<CHANGETO>  x=sin(x);
+modify<TAG>12<TAG>  printf("%6f",c);<CHANGETO>  printf("%6f\n",x);
+del<TAG>14<TAG>  else
+del<TAG>15<TAG>  for(i=n;i<1;i--)
+del<TAG>16<TAG>  c=sin(i-1);
+del<TAG>17<TAG>  printf("%6f",c);
+del<TAG>18<TAG> }
+modify<TAG>20<TAG> } <CHANGETO>}

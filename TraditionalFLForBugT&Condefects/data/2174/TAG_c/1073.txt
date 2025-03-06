@@ -1,0 +1,22 @@
+250053.c
+195327.c
+19
+modify<TAG>4<TAG>    int a,b,d;<CHANGETO>    int a,b;
+del<TAG>5<TAG>    float c,e;
+modify<TAG>9<TAG>          {<CHANGETO>        printf("error\n");
+del<TAG>10<TAG>              printf("error");break;
+del<TAG>11<TAG>              }
+del<TAG>12<TAG>       else
+del<TAG>13<TAG>        d=a/b;
+del<TAG>14<TAG>        c=1.0*a/b;
+del<TAG>15<TAG>        e=c-d;
+del<TAG>16<TAG>        e=e*10;
+del<TAG>17<TAG>    {
+del<TAG>18<TAG>           if(e<5)
+del<TAG>19<TAG>            printf("%d",d);
+modify<TAG>21<TAG>          {<CHANGETO>        {
+modify<TAG>22<TAG>              d=d+1;<CHANGETO>            printf("%.0f\n",(a+0.5)/b);
+modify<TAG>23<TAG>            printf("%d",d);<CHANGETO>        }
+del<TAG>24<TAG>          }
+del<TAG>26<TAG>     }
+del<TAG>27<TAG>  return 0;

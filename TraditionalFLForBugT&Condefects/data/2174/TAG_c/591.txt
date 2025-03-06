@@ -1,0 +1,4 @@
+247717.c
+247719.c
+1
+modify<TAG>12<TAG>				printf("%d",a/b);<CHANGETO>				printf("%d\n",a/b);

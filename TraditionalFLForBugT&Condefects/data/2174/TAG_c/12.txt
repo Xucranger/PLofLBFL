@@ -1,0 +1,14 @@
+198596.c
+198737.c
+11
+modify<TAG>4<TAG>	int N,i,a[100],b[100];<CHANGETO>	int i,a,b;
+modify<TAG>6<TAG>	scanf("%d",&N);<CHANGETO>	while(scanf("%d%d",&a,&b)!=EOF)
+modify<TAG>7<TAG>	for( i=0;i<N;i++)<CHANGETO>	{
+modify<TAG>8<TAG>		scanf("%d %d",&a[i],&b[i]);<CHANGETO>		  if(b==0)
+del<TAG>9<TAG>    for( i=0;i<N;i++)
+del<TAG>10<TAG>	  {
+del<TAG>11<TAG>		  if(b[i]==0)
+modify<TAG>14<TAG>			s=1.0*a[i]/b[i];<CHANGETO>		  {
+modify<TAG>15<TAG>	    printf("%.0lf\n",s);<CHANGETO>			  s=1.0*a/b+0.05;
+add<TAG>15<TAG>	         printf("%.0lf\n",s);
+add<TAG>15<TAG>		  }

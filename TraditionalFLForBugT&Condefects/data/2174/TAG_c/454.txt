@@ -1,0 +1,8 @@
+360836.c
+307271.c
+5
+modify<TAG>3<TAG>	int a,b;<CHANGETO>	int a,b,c;
+modify<TAG>9<TAG>			int s;<CHANGETO>			c=a/b;
+modify<TAG>10<TAG>			//s=a/b;<CHANGETO>			if((a%b)*10>=5*b) c++;
+modify<TAG>11<TAG>			printf("%d\n",a/b);<CHANGETO>			printf("%d\n",c);		
+add<TAG>13<TAG>	return 0;

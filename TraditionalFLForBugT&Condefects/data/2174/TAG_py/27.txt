@@ -1,0 +1,13 @@
+397042.py
+397020.py
+10
+modify<TAG>4<TAG>    a= int(m[0])<CHANGETO>    m[0]=int(m[0])
+modify<TAG>5<TAG>    b= int(m[1])<CHANGETO>    m[1]=int(m[1])
+modify<TAG>6<TAG>    if b==0 :<CHANGETO>    if m[1]==0:
+modify<TAG>7<TAG>        print('error')<CHANGETO>        print("error")
+modify<TAG>9<TAG>        c=a/b<CHANGETO>        a=float(m[0])
+modify<TAG>10<TAG>        d=c-int(c)<CHANGETO>        b=float(m[1])
+modify<TAG>11<TAG>        if d>=0.5:<CHANGETO>        if a/b-m[0]/m[1]>=0.5:
+modify<TAG>12<TAG>            c=int(c)+1<CHANGETO>            print(m[0]/m[1]+1)
+modify<TAG>14<TAG>            c=int(c)<CHANGETO>            print(m[0]/m[1])
+del<TAG>15<TAG>        print c

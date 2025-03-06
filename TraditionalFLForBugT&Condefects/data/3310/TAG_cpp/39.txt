@@ -1,0 +1,8 @@
+288778.cpp
+288825.cpp
+5
+modify<TAG>8<TAG>	float a[1010];<CHANGETO>	double a[1010];
+modify<TAG>9<TAG>	scanf("%d",&n);<CHANGETO>	while(~scanf("%d",&n))
+add<TAG>9<TAG>	{
+modify<TAG>13<TAG>		printf("%f\n",a[n]);<CHANGETO>		printf("%.6lf\n",a[n]);
+add<TAG>13<TAG>	}

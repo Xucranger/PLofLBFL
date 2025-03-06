@@ -1,0 +1,7 @@
+55123.cpp
+356006.cpp
+4
+del<TAG>6<TAG>	double c;
+modify<TAG>11<TAG>		else <CHANGETO>		else
+modify<TAG>12<TAG>		cout<<a/b<<endl;<CHANGETO>		cout<<(a+(b/2))/b<<endl;
+modify<TAG>15<TAG>}<CHANGETO> } 

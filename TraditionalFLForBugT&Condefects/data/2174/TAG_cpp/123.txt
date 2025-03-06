@@ -1,0 +1,5 @@
+160621.cpp
+160625.cpp
+2
+modify<TAG>9<TAG>	{cout<<"ERROR"<<endl;}<CHANGETO>	cout<<"error"<<endl;
+modify<TAG>10<TAG>	else<CHANGETO>	if(b!=0)

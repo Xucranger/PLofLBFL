@@ -1,0 +1,10 @@
+347201.py
+347523.py
+7
+modify<TAG>2<TAG>s=raw_input()<CHANGETO>from __future__ import division
+modify<TAG>3<TAG>while s !='':<CHANGETO>while True:
+modify<TAG>4<TAG>    a,b=s.split()<CHANGETO>    a, b = map(int, raw_input().split())
+modify<TAG>5<TAG>    if int(b)==0:<CHANGETO>    if b == 0:
+modify<TAG>6<TAG>        print "error"<CHANGETO>        print('error')
+modify<TAG>7<TAG>    else:print int(round(int(a)/int(b)))<CHANGETO>    else:
+modify<TAG>8<TAG>    s=raw_input()<CHANGETO>        print(int(round(a / b)))

@@ -1,0 +1,5 @@
+305760.cpp
+305771.cpp
+2
+modify<TAG>11<TAG>			printf("%d",c);<CHANGETO>			printf("%d\n",c);
+add<TAG>13<TAG>	return 0;

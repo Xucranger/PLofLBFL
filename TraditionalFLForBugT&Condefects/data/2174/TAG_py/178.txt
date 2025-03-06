@@ -1,0 +1,11 @@
+397013.py
+400252.py
+8
+modify<TAG>2<TAG>str = input()<CHANGETO>while True:
+modify<TAG>3<TAG>ls = str.split(" ")<CHANGETO>    try:
+modify<TAG>4<TAG>ans = ""<CHANGETO>        a,b = map(float,raw_input().strip().split())
+modify<TAG>5<TAG>if int(ls[1]) == 0:<CHANGETO>        if(b==0):print('error')
+modify<TAG>6<TAG>    ans = "error"<CHANGETO>        else:
+modify<TAG>7<TAG>else:<CHANGETO>            print(int(a/b+0.5))
+modify<TAG>8<TAG>    ans = round(int(ls[0])/int(ls[1]))<CHANGETO>    except EOFError:
+modify<TAG>9<TAG>print(ans)<CHANGETO>        break

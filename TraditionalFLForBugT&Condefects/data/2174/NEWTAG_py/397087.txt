@@ -1,0 +1,11 @@
+397087.py
+347016.py
+8
+modify<TAG>4<TAG>        a,b = map(int, raw_input().split())<CHANGETO>        a,b = map(float,raw_input().split())
+del<TAG>5<TAG>        b = int(b)
+modify<TAG>7<TAG>            s = 'error'<CHANGETO>            print "error"
+del<TAG>8<TAG>            print s
+modify<TAG>10<TAG>            c = int(round(a/b))<CHANGETO>            print int(round(a / b))
+modify<TAG>11<TAG>            print c<CHANGETO>    except EOFError:
+modify<TAG>12<TAG>    except:<CHANGETO>        exit(0)
+del<TAG>13<TAG>        break

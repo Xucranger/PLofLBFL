@@ -1,0 +1,16 @@
+288277.c
+435797.c
+13
+modify<TAG>3<TAG>int main()<CHANGETO>int main() 
+modify<TAG>6<TAG>    double i;<CHANGETO>    while(scanf("%d",&n)!=EOF)
+del<TAG>7<TAG>    double  f[1000];
+del<TAG>8<TAG>    while (scanf("%d",&n)!=EOF)
+modify<TAG>10<TAG>        f[0]=sin(n);<CHANGETO>        double F[100];
+modify<TAG>11<TAG>        if(n==0)<CHANGETO>        F[0]=sin(n);
+modify<TAG>12<TAG>        printf("%lf",f[0]);<CHANGETO>        for(x=1;x<=n;x++)
+modify<TAG>13<TAG>        else<CHANGETO>          F[x]=sin(F[x-1]);
+modify<TAG>14<TAG>        {<CHANGETO>        printf("%.6f\n",F[n]);
+del<TAG>15<TAG>            for(x=1;x<=n;x++)
+del<TAG>16<TAG>              f[x]=sin(f[x-1]);
+del<TAG>17<TAG>           printf("%lf",f[x]);
+del<TAG>18<TAG>        }

@@ -1,0 +1,4 @@
+358935.cpp
+358939.cpp
+1
+modify<TAG>10<TAG>		else if(1.0*a/b >= 0.5){<CHANGETO>		else if(a%b >= 1.0 * b / 2){

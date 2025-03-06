@@ -1,0 +1,5 @@
+483805.cpp
+483810.cpp
+2
+modify<TAG>5<TAG>float Calculate(int x,int n){<CHANGETO>double Calculate(int x,int n){
+modify<TAG>16<TAG>		printf("%6f",Calculate(a,a));<CHANGETO>		printf("%6lf\n",Calculate(a,a));

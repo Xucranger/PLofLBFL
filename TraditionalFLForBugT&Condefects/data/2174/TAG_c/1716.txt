@@ -1,0 +1,6 @@
+195150.c
+195170.c
+3
+modify<TAG>5<TAG>    float d;<CHANGETO>    int d;
+modify<TAG>12<TAG>            d=((a*1.0)/(b*1.0))+0.5;<CHANGETO>            d=(int)(((a*1.0)/(b*1.0))+0.5);
+modify<TAG>13<TAG>            printf("%.0f\n",d);<CHANGETO>            printf("%d\n",d);

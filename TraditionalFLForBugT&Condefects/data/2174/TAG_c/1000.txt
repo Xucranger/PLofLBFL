@@ -1,0 +1,9 @@
+491817.c
+491822.c
+6
+modify<TAG>4<TAG>int a,b,c,d[10][2],i,s;<CHANGETO>int a,b,c;
+modify<TAG>5<TAG>for(i=0;i<2;i++)<CHANGETO>while(scanf("%d %d",&a,&b)!=EOF)
+modify<TAG>6<TAG>{scanf("%d %d",&d[i][0],&d[i][1]);<CHANGETO>{
+del<TAG>7<TAG>s=i+1;}
+del<TAG>8<TAG>for(i=0;i<s;i++)
+del<TAG>9<TAG>{a=d[i][0];b=d[i][1];

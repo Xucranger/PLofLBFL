@@ -1,0 +1,4 @@
+519164.py
+519170.py
+1
+modify<TAG>7<TAG>        a=round(math.sin(a),7)<CHANGETO>        a=math.sin(a)

@@ -1,0 +1,13 @@
+435682.c
+287622.c
+10
+add<TAG>1<TAG>#include<math.h>
+modify<TAG>4<TAG>    int a[1000],x,y,n,c,i,j;<CHANGETO>	double n,x,i;
+modify<TAG>5<TAG>    scanf("%d",&n);<CHANGETO>	while(scanf("%lf",&n)!=EOF)
+modify<TAG>6<TAG>    for(i=0;i<n;i++)<CHANGETO>	{
+modify<TAG>7<TAG>    {<CHANGETO>		x=n;
+modify<TAG>8<TAG>        scanf("%d %d %d %d",&x,&y,&c,&j);<CHANGETO>     	for(i=0;i<=n;i++)
+modify<TAG>9<TAG>        a[i]=x+y+j+c;<CHANGETO>	    x=sin(x);
+modify<TAG>10<TAG>    }<CHANGETO>	    printf("%.6lf\n",x);
+modify<TAG>11<TAG>    for(i=0;i<n;i++)<CHANGETO>	}
+modify<TAG>12<TAG>    printf("%d\n",a[i]);<CHANGETO>	return 0;

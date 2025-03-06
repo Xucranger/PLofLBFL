@@ -1,0 +1,19 @@
+249949.c
+249961.c
+16
+modify<TAG>11<TAG>		if(a<b)<CHANGETO>		c=(int)(1.0*a/b+0.5);
+modify<TAG>12<TAG>		{<CHANGETO>		printf("%d\n",c);
+del<TAG>13<TAG>		   if(2*a>b)
+del<TAG>14<TAG>			   printf("%d",a/b+1);
+del<TAG>15<TAG>		   else
+del<TAG>16<TAG>			   printf("%d",a/b);
+del<TAG>18<TAG>		if(a>b)
+del<TAG>19<TAG>		{
+del<TAG>20<TAG>			c=a%b;
+del<TAG>21<TAG>			if(2*a>b)
+del<TAG>22<TAG>			   printf("%d",c/b+1+a/b);
+del<TAG>23<TAG>		    else
+del<TAG>24<TAG>			   printf("%d",c/b+a/b);
+del<TAG>25<TAG>		}
+del<TAG>26<TAG>		}
+add<TAG>27<TAG>		return 0;

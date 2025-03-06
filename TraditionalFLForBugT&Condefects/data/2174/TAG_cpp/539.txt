@@ -1,0 +1,8 @@
+305242.cpp
+305244.cpp
+5
+add<TAG>6<TAG>        if(b==0)
+add<TAG>6<TAG>        {
+add<TAG>6<TAG>            cout<<"error"<<endl;
+add<TAG>6<TAG>            continue;
+add<TAG>6<TAG>        }

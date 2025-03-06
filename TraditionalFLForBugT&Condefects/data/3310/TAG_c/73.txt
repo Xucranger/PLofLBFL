@@ -1,0 +1,12 @@
+484034.c
+288935.c
+9
+modify<TAG>3<TAG>int main(void) {<CHANGETO>int main(int argc, char *argv[])
+modify<TAG>4<TAG>	double a,b,c,a2,b2,c2;<CHANGETO>{
+modify<TAG>5<TAG>	scanf("%lf%lf%lf",&a,&b,&c);<CHANGETO>	double x[1000];int n,i;
+modify<TAG>6<TAG>    a2=sin(a);<CHANGETO>	while(scanf("%d",&n)!=EOF)
+modify<TAG>7<TAG>    b2=sin(b);<CHANGETO>	{	x[0]=sin(n);
+modify<TAG>8<TAG>    c2=sin(c);<CHANGETO>		for(i=1;i<=n;i++)
+modify<TAG>9<TAG>    printf("%6lf\n%6lf\n%6lf\n",a2,b2,c2);<CHANGETO>		x[i]=sin(x[i-1]);
+add<TAG>9<TAG>		printf("%6lf\n",x[n]);
+add<TAG>9<TAG>	}

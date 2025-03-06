@@ -1,0 +1,4 @@
+509065.py
+509068.py
+1
+add<TAG>6<TAG>  s= int(s)

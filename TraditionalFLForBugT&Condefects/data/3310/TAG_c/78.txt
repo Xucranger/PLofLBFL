@@ -1,0 +1,8 @@
+441931.c
+442150.c
+5
+modify<TAG>3<TAG>float fact(int m,int b)<CHANGETO>double fact(double m,double b)
+modify<TAG>12<TAG>	float n,a;<CHANGETO>	double n,a;
+modify<TAG>13<TAG>	float res;<CHANGETO>	double res;
+modify<TAG>14<TAG>	while(scanf("%f",&n)!=EOF)<CHANGETO>	while(scanf("%lf",&n)!=EOF)
+modify<TAG>18<TAG>	printf("%.6f\n",res);}<CHANGETO>	printf("%.6lf\n",res);}

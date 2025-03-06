@@ -1,0 +1,4 @@
+397285.py
+397291.py
+1
+modify<TAG>10<TAG>			print(float(n/m+0.5))<CHANGETO>			print(int(n/m+0.5))

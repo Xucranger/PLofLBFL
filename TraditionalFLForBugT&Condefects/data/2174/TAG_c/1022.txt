@@ -1,0 +1,7 @@
+306056.c
+306083.c
+4
+modify<TAG>4<TAG>    int a,b,c,t;<CHANGETO>    int a,b,c;
+add<TAG>4<TAG>    float d;
+modify<TAG>13<TAG>        c=a/b;<CHANGETO>        d=1.00*a/b+0.5;
+add<TAG>13<TAG>        c=d;

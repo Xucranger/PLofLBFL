@@ -1,0 +1,5 @@
+304857.cpp
+304882.cpp
+2
+modify<TAG>9<TAG>        else {c=a/b;<CHANGETO>        else {c=(double)a/b+0.5;
+add<TAG>9<TAG>        c=(int)c;

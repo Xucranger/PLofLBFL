@@ -1,0 +1,4 @@
+489023.cpp
+489026.cpp
+1
+modify<TAG>12<TAG>			cout<<floor((a/b)*1.0+0.5)<<endl;<CHANGETO>			cout<<floor((1.0*a/b)+0.5)<<endl;

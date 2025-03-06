@@ -1,0 +1,5 @@
+397016.py
+397024.py
+2
+modify<TAG>2<TAG>a,b=map(float,input().split())<CHANGETO>a,b=map(float,raw_input().split())
+modify<TAG>10<TAG>	a,b=map(float,input().split())<CHANGETO>	a,b=map(float,raw_input().split())

@@ -1,0 +1,4 @@
+435860.c
+435915.c
+1
+modify<TAG>5<TAG>float fact(int x)<CHANGETO>double fact(int x)

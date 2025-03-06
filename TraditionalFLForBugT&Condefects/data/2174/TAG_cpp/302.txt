@@ -1,0 +1,22 @@
+86083.cpp
+50090.cpp
+19
+modify<TAG>1<TAG>#include<stdio.h><CHANGETO>#include<iostream>
+add<TAG>1<TAG>using namespace std;
+modify<TAG>4<TAG>    int a,b,c;<CHANGETO>    int a,b;
+modify<TAG>5<TAG>    while(scanf("%d%d%d",&a,&b,&c)!=EOF)<CHANGETO>    while(cin>>a>>b)
+modify<TAG>7<TAG>        if((a+b)>c&&(a+c)>b&&(c+b)>a)<CHANGETO>        if(b!=0)
+modify<TAG>9<TAG>            if(a==b&&b==c)<CHANGETO>            if(a*10/b%10>=5)
+modify<TAG>11<TAG>                printf("DB\n");<CHANGETO>                cout<<a/b+1<<endl;
+del<TAG>13<TAG>            else if(a==b&&b!=c||a==c&&c!=a||b==c&&c!=a)
+del<TAG>14<TAG>            {
+del<TAG>15<TAG>                printf("DY\n");
+del<TAG>16<TAG>            }
+del<TAG>17<TAG>            else if(a!=b&&b!=c&&a!=c&&(a*a+b*b)==(c*c))
+del<TAG>18<TAG>            {
+del<TAG>19<TAG>                printf("ZJ\n");
+del<TAG>20<TAG>            }
+modify<TAG>23<TAG>                printf("PT\n");<CHANGETO>                cout<<a/b<<endl;
+modify<TAG>26<TAG>        else <CHANGETO>        else
+modify<TAG>27<TAG>        {   <CHANGETO>        {
+modify<TAG>28<TAG>            printf("ERROR\n");<CHANGETO>            cout<<"error"<<endl;

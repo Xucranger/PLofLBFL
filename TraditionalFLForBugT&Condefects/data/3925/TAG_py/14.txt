@@ -1,0 +1,6 @@
+508440.py
+509024.py
+3
+modify<TAG>4<TAG>    print((a%10)*(b%10))<CHANGETO>    c=a*b
+add<TAG>4<TAG>    x=c%10
+add<TAG>4<TAG>    print(x)

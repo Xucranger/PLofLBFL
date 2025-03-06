@@ -1,0 +1,6 @@
+81719.c
+81720.c
+3
+modify<TAG>7<TAG>    	printf("error");<CHANGETO>    	printf("error\n");
+modify<TAG>10<TAG>		printf("%d ",c);<CHANGETO>		printf("%d\n",c);
+modify<TAG>11<TAG>	 }<CHANGETO>	 }	

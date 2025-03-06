@@ -1,0 +1,6 @@
+347557.py
+347244.py
+3
+modify<TAG>4<TAG>        a,b=(int(x) for x in raw_input().split())<CHANGETO>        a,b=map(float,raw_input().split())
+modify<TAG>9<TAG>    except:<CHANGETO>    except EOFError:
+modify<TAG>10<TAG>        quit()<CHANGETO>        exit(0)

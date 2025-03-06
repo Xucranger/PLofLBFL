@@ -1,0 +1,12 @@
+483749.cpp
+289385.cpp
+9
+modify<TAG>1<TAG>#include <iostream><CHANGETO>#include<bits/stdc++.h>
+del<TAG>2<TAG>#include <cmath>
+del<TAG>3<TAG>#include <iomanip>
+modify<TAG>5<TAG>int main() {<CHANGETO>int main(){
+modify<TAG>8<TAG>    if(n < 0 && n >100) return -1;<CHANGETO>        double x=sin(n);
+modify<TAG>9<TAG>    float temp=sin(n);<CHANGETO>        for(int i=1;i<=n;i++)
+modify<TAG>10<TAG>    for(int i=1; i <= n; i++){temp=sin(temp);}<CHANGETO>            x=sin(x);
+modify<TAG>11<TAG>    cout << fixed << setprecision(6) << temp << endl;<CHANGETO>        printf("%.6lf\n",x);
+add<TAG>12<TAG>    return 0;

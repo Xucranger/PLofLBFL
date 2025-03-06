@@ -1,0 +1,6 @@
+210866.c
+210878.c
+3
+modify<TAG>21<TAG>	printf("%d",sum);<CHANGETO>	printf("%d\n",sum);
+add<TAG>21<TAG>}
+del<TAG>24<TAG>}

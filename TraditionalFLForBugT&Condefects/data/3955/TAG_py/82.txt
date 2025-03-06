@@ -1,0 +1,8 @@
+508701.py
+508774.py
+5
+modify<TAG>3<TAG>    str1,str2=input().split()<CHANGETO>    a,b = input().split()
+modify<TAG>4<TAG>    if len(str1)!=len(str2):<CHANGETO>    c = a + a
+modify<TAG>5<TAG>        break<CHANGETO>    if b in c and len(a) == len(b):
+del<TAG>6<TAG>    str_double=str1+str1
+del<TAG>7<TAG>    if str2 in str_double:

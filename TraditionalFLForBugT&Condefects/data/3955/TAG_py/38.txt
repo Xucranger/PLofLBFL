@@ -1,0 +1,4 @@
+508605.py
+508871.py
+1
+modify<TAG>5<TAG>    if a1.find(b)!=-1:<CHANGETO>    if a1.find(b)!=-1 and len(b)==len(a):

@@ -1,0 +1,7 @@
+358933.cpp
+358939.cpp
+4
+add<TAG>9<TAG>		else if(a%b >= 1.0 * b / 2){
+add<TAG>9<TAG>			cout << a / b + 1 << endl;
+add<TAG>9<TAG>			continue;
+add<TAG>9<TAG>		}

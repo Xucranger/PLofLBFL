@@ -1,0 +1,9 @@
+245208.c
+357939.c
+6
+modify<TAG>5<TAG>	while((scanf("%d %d\n",&a,&b))!=EOF)<CHANGETO>	while (scanf("%d %d",&a,&b) != EOF)
+modify<TAG>8<TAG>		{<CHANGETO>			printf("%d\n",(int)(((float)(a))/((float)(b))+0.5));
+del<TAG>9<TAG>			printf("%d\n",a/b);
+del<TAG>10<TAG>		}
+del<TAG>12<TAG>		{
+del<TAG>14<TAG>		}

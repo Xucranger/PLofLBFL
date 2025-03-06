@@ -1,0 +1,8 @@
+346540.py
+347016.py
+5
+modify<TAG>4<TAG>        s = raw_input()<CHANGETO>        a,b = map(float,raw_input().split())
+modify<TAG>5<TAG>        s = [int(x) for x in s.split(' ')]<CHANGETO>        if b == 0:
+modify<TAG>6<TAG>        if s[1] == 0:<CHANGETO>            print "error"
+del<TAG>7<TAG>            print 'error'
+modify<TAG>9<TAG>            print round(s[0] / s[1])<CHANGETO>            print int(round(a / b))

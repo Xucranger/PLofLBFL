@@ -1,0 +1,8 @@
+439468.c
+439488.c
+5
+add<TAG>11<TAG>            {
+add<TAG>11<TAG>                if((a*2)>=b)
+add<TAG>11<TAG>                    printf("1\n");
+add<TAG>11<TAG>            else
+add<TAG>12<TAG>            }

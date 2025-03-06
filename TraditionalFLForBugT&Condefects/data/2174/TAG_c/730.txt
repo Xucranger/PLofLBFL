@@ -1,0 +1,4 @@
+304915.c
+304977.c
+1
+modify<TAG>9<TAG>		printf("error");<CHANGETO>		printf("error\n");

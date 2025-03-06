@@ -1,0 +1,5 @@
+304345.cpp
+304358.cpp
+2
+modify<TAG>6<TAG>	while (cin)<CHANGETO>	while (cin >> a >> b)
+del<TAG>8<TAG>		cin >> a >> b;

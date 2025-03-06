@@ -1,0 +1,18 @@
+86061.c
+86048.c
+15
+modify<TAG>13<TAG>		m[j+1][0]='\0';<CHANGETO>	}
+modify<TAG>14<TAG>		for(k=0;k<j;k++)<CHANGETO>	m[j+1][0]='\0';
+modify<TAG>15<TAG>		{<CHANGETO>	for(k=0;k<j;k++)
+modify<TAG>16<TAG>			if(m[k][1]==0)<CHANGETO>	{
+modify<TAG>17<TAG>			printf("error\n");<CHANGETO>		if(m[k][1]==0)
+modify<TAG>18<TAG>			else <CHANGETO>		  printf("error\n");
+modify<TAG>19<TAG>			{<CHANGETO>		else 
+modify<TAG>20<TAG>				temp=m[k][0]%m[k][1];<CHANGETO>		{
+modify<TAG>21<TAG>				if((2*temp)>=m[k][1])<CHANGETO>			temp=m[k][0]%m[k][1];
+modify<TAG>22<TAG>				{<CHANGETO>			if((2*temp)>=m[k][1])
+modify<TAG>23<TAG>					s=m[k][0]/m[k][1]+1;<CHANGETO>			{
+modify<TAG>24<TAG>				}<CHANGETO>				s=m[k][0]/m[k][1]+1;
+modify<TAG>25<TAG>				else   s=m[k][0]/m[k][1];<CHANGETO>			}
+modify<TAG>26<TAG>				printf("%d\n",s); <CHANGETO>			else   s=m[k][0]/m[k][1];
+modify<TAG>27<TAG>			}<CHANGETO>			printf("%d\n",s); 

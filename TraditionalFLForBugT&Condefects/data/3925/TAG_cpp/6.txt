@@ -1,0 +1,7 @@
+552288.cpp
+552286.cpp
+4
+modify<TAG>35<TAG>//    while(str[h]!='0'){<CHANGETO>    while(str[h]!='\0'){
+modify<TAG>36<TAG>//		++h;<CHANGETO>		++h;
+modify<TAG>37<TAG>//	}<CHANGETO>	}
+modify<TAG>38<TAG>	cout<<str<<endl;<CHANGETO>	cout<<str[h-1]<<endl;

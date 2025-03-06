@@ -1,0 +1,36 @@
+517677.cpp
+525249.cpp
+33
+modify<TAG>2<TAG>#include<string.h><CHANGETO>#include <string.h>
+modify<TAG>3<TAG>int main(void)<CHANGETO>int main()
+modify<TAG>5<TAG>	char a[10000],b[10000];<CHANGETO>  char a[1000],b[1000];
+modify<TAG>6<TAG>	int lena,lenb,j=0,i=0,count=0,count2,num;<CHANGETO>  while(scanf("%s %s",a,b)!=EOF)
+modify<TAG>7<TAG>	int n;<CHANGETO>  {
+modify<TAG>8<TAG>	while(scanf("%s%s",&a,&b)!=EOF)<CHANGETO>      int i,j,c[1000],n=0,s=0,t=0;
+modify<TAG>9<TAG>	{<CHANGETO>    if(strlen(a)!=strlen(b))
+modify<TAG>10<TAG>		lena=strlen(a);<CHANGETO>        printf("No\n");
+modify<TAG>11<TAG>		lenb=strlen(b);<CHANGETO>    else
+modify<TAG>12<TAG>		if(lena!=lenb)<CHANGETO>    {
+modify<TAG>13<TAG>		{<CHANGETO>         for(i=0;i<strlen(b);i++)
+modify<TAG>14<TAG>			printf("NO\n");<CHANGETO>            if(a[0]==b[i]) {
+modify<TAG>15<TAG>		}<CHANGETO>		 	            c[n]=i;
+modify<TAG>16<TAG>		else<CHANGETO>		 	            n=n+1;
+modify<TAG>17<TAG>		{<CHANGETO>		                }
+modify<TAG>18<TAG>			num=0;<CHANGETO>		 for(j=0;j<n;j++){
+modify<TAG>19<TAG>			for(i=0;i<lena;i=i+1)<CHANGETO>		 	               s=0;
+modify<TAG>20<TAG>			{<CHANGETO>		 	               for(i=0;i<strlen(b);i++)
+modify<TAG>21<TAG>				if(a[i]==b[lena-1-i])<CHANGETO>                            {
+modify<TAG>22<TAG>				{<CHANGETO>                                int t=i+c[j];
+modify<TAG>23<TAG>					num=num+1;<CHANGETO>                                if(t>=strlen(b))
+modify<TAG>24<TAG>				}<CHANGETO>                                    t%=strlen(b);
+modify<TAG>25<TAG>			}<CHANGETO>                               if(a[i]==b[t])
+modify<TAG>26<TAG>			if(num==lena)<CHANGETO>                                s=s+1;
+modify<TAG>27<TAG>			{<CHANGETO>                           }
+modify<TAG>28<TAG>				printf("YES\n");<CHANGETO>						   if(s==strlen(b))
+modify<TAG>29<TAG>			}<CHANGETO>                            t=1;
+modify<TAG>30<TAG>			else<CHANGETO>		                  }
+modify<TAG>31<TAG>			{<CHANGETO>		 if(t!=1) printf("No\n");
+modify<TAG>32<TAG>				printf("NO\n");<CHANGETO>		 else printf("Yes\n");
+modify<TAG>33<TAG>			}<CHANGETO>    }
+modify<TAG>34<TAG>		}<CHANGETO>}
+del<TAG>35<TAG>	}	

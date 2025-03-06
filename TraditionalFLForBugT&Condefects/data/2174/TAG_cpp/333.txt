@@ -1,0 +1,13 @@
+161159.cpp
+129061.cpp
+10
+modify<TAG>4<TAG>{   <CHANGETO>{
+modify<TAG>7<TAG>	 {    if(b==0)<CHANGETO>	 {
+modify<TAG>8<TAG>	        cout<<"error"<<endl;<CHANGETO>	 	if(b==0)
+modify<TAG>9<TAG>	      else	{<CHANGETO>	 		cout<<"error"<<endl;
+modify<TAG>10<TAG>			  printf("%.0f\n",a*1.0/b);<CHANGETO>	 	else
+modify<TAG>11<TAG>		  }<CHANGETO>	 	{
+modify<TAG>12<TAG>     }<CHANGETO>	 		int s=a*1.0/b+0.5;
+add<TAG>12<TAG>	 		cout<<s<<endl;
+add<TAG>12<TAG>	 	} 
+add<TAG>12<TAG>	 }

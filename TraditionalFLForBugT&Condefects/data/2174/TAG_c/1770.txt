@@ -1,0 +1,12 @@
+362912.c
+305980.c
+9
+modify<TAG>4<TAG>    int a[2][2],i,j;<CHANGETO>    int a,b,c;
+modify<TAG>5<TAG>    for(i=0;i<2;i++)<CHANGETO>    while(scanf("%d %d",&a,&b)!=EOF)
+del<TAG>6<TAG>        for(j=0;j<2;j++)
+del<TAG>7<TAG>        scanf("%d",&a[i][j]);
+del<TAG>8<TAG>    for(i=0;i<2;i++)
+modify<TAG>10<TAG>        if(a[i][1]==0)<CHANGETO>        if(b==0)
+modify<TAG>13<TAG>            printf("%d\n",a[i][0]/a[i][1]);<CHANGETO>            printf("%d\n",(a+(b/2))/b);
+modify<TAG>14<TAG>}<CHANGETO>        }
+del<TAG>15<TAG>return 0;

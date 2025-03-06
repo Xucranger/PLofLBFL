@@ -1,0 +1,11 @@
+155970.cpp
+156839.cpp
+8
+modify<TAG>1<TAG>#include <iostream><CHANGETO>#include<iostream>
+del<TAG>2<TAG>#include <cstdio>
+modify<TAG>6<TAG>	int a,b;<CHANGETO>	int a,b,s;
+modify<TAG>7<TAG>	while(cin>>a>>b)<CHANGETO>	while (cin>>a>>b)
+modify<TAG>10<TAG>		cout<<"ERROR"<<endl;<CHANGETO>	cout<<"error"<<endl;
+modify<TAG>13<TAG>		float ans=(float)a/(float)b;<CHANGETO>	s=(a+b/2)/b;
+modify<TAG>14<TAG>		printf("%.0f\n",ans);<CHANGETO>	cout<<s<<endl;
+del<TAG>17<TAG>	//system("pause");

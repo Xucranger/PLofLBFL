@@ -1,0 +1,11 @@
+397260.py
+346792.py
+8
+modify<TAG>2<TAG>str = raw_input()<CHANGETO>while 1:
+modify<TAG>3<TAG>ls = str.split(" ")<CHANGETO>    a,b = (float(x) for x in raw_input().split())
+modify<TAG>4<TAG>while ls[0] != '':<CHANGETO>    if b == 0:
+del<TAG>5<TAG>    if int(ls[1]) == 0:
+modify<TAG>8<TAG>        print(int(round(int(ls[0])/int(ls[1]))))<CHANGETO>        if a/b - a//b >= 0.5:
+modify<TAG>9<TAG>    str = raw_input()<CHANGETO>            print(int(a//b + 1))
+modify<TAG>10<TAG>    ls = str.split(" ")<CHANGETO>        else:
+add<TAG>10<TAG>            print(int(a//b))

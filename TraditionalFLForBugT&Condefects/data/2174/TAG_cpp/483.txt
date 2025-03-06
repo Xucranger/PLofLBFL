@@ -1,0 +1,8 @@
+356827.cpp
+356006.cpp
+5
+del<TAG>1<TAG>#include<stdio.h>
+modify<TAG>10<TAG>		cout<<"error";<CHANGETO>		cout<<"error"<<endl;
+modify<TAG>12<TAG>		cout<<a/b;<CHANGETO>		cout<<(a+(b/2))/b<<endl;
+del<TAG>13<TAG>		cout<<"\n";
+add<TAG>14<TAG>	return 0;

@@ -1,0 +1,8 @@
+83319.c
+83333.c
+5
+modify<TAG>2<TAG>void main()<CHANGETO>int main()
+modify<TAG>9<TAG>         printf("error");<CHANGETO>         printf("error\n");
+modify<TAG>12<TAG>            c=(a*1.0)/b;<CHANGETO>            c=a*1.0/b;
+modify<TAG>15<TAG>            printf("%d",d);<CHANGETO>            printf("%d\n",d);
+add<TAG>17<TAG>    return 0;

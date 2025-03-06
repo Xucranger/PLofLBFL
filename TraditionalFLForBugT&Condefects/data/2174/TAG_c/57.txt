@@ -1,0 +1,10 @@
+82484.c
+71066.c
+7
+modify<TAG>6<TAG>	while(scanf("%d %d",&a,&b)!=EOF)<CHANGETO>	while(scanf("%lf%lf",&a,&b)!=EOF)
+modify<TAG>12<TAG>			int d;<CHANGETO>			c=floor(a/b+0.5);
+modify<TAG>13<TAG>			d=floor(c);<CHANGETO>		printf("%.0lf\n",c);
+del<TAG>14<TAG>			if(c-d<0.5)
+del<TAG>15<TAG>				printf("%d",d);
+del<TAG>16<TAG>				else
+del<TAG>17<TAG>				printf("%d",d+1);

@@ -1,0 +1,8 @@
+508322.py
+508335.py
+5
+modify<TAG>8<TAG>    c=a/b<CHANGETO>    elif a/b-a//b>=0.5:
+modify<TAG>9<TAG>    d=a//b<CHANGETO>        print(a//b+1)
+del<TAG>10<TAG>    if c-d>=0.5:
+del<TAG>11<TAG>        print(d+1)
+modify<TAG>13<TAG>        print(d)<CHANGETO>        print(a//b)

@@ -1,0 +1,20 @@
+244437.cpp
+70716.cpp
+17
+modify<TAG>5<TAG>	int a,b,n,c[1000],i=0,t,d[1000];<CHANGETO>	float a,b;
+modify<TAG>6<TAG>	float m;<CHANGETO>	int c;
+modify<TAG>8<TAG>		if(b==0) d[i]=0;<CHANGETO>		if(b==0){
+modify<TAG>9<TAG>		else if(b!=0){<CHANGETO>			cout<<"error"<<endl; 
+modify<TAG>10<TAG>			m=1.0*a/b;<CHANGETO>		}
+modify<TAG>11<TAG>			n=int(m);<CHANGETO>		else {
+modify<TAG>12<TAG>			if((m-n)>=0.5) {c[i]=n+1;<CHANGETO>			c=(int)(a/b+0.5);
+modify<TAG>13<TAG>			d[i]=1;}<CHANGETO>			cout<<c<<endl;
+modify<TAG>14<TAG>			else{d[i]=2;<CHANGETO>		}
+modify<TAG>15<TAG>			c[i]=n;}}<CHANGETO>	}
+modify<TAG>16<TAG>		i++;}<CHANGETO>	return 0;
+del<TAG>17<TAG>    t=i;
+del<TAG>18<TAG>	for(i=0;i<=t;i++){
+del<TAG>19<TAG>		switch(d[i]){case 2:cout<<c[i]<<"\n";break;
+del<TAG>20<TAG>			case 0:cout<<"error"<<"\n";break;
+del<TAG>21<TAG>			case 1:cout<<c[i]<<"\n";break;
+del<TAG>22<TAG>			}}

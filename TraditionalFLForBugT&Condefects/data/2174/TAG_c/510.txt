@@ -1,0 +1,6 @@
+197464.c
+197556.c
+3
+modify<TAG>9<TAG>	else if(a>b)<CHANGETO>	else if((float) a>(float)b)
+modify<TAG>12<TAG>		else printf("%d",a/b);<CHANGETO>		else printf("%d\n",a/b);
+modify<TAG>16<TAG>		if(a/(b*1.0)>=0.5) printf("1\n");<CHANGETO>		if((float)a/(b*1.0)>=0.5) printf("1\n");

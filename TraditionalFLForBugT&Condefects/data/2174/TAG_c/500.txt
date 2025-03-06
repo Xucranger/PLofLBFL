@@ -1,0 +1,31 @@
+245016.c
+356218.c
+28
+modify<TAG>4<TAG>	int a[10],b[10],i,m;<CHANGETO>	int a,b,d;
+modify<TAG>5<TAG>	float s;<CHANGETO>	float c,m;
+modify<TAG>6<TAG>	for(i=0;i<10;i++)<CHANGETO>	while(scanf("%d %d",&a,&b)!=EOF)
+del<TAG>7<TAG>	scanf("%d %d",&a[i],&b[i]);
+del<TAG>8<TAG>	for(i=0;i<10;i++)
+modify<TAG>10<TAG>		if(b[i]==0)<CHANGETO>		if(b==0)
+modify<TAG>12<TAG>		    printf("error");<CHANGETO>			printf("error");
+modify<TAG>13<TAG>		    printf("\n");<CHANGETO>			printf("\n");
+modify<TAG>17<TAG>		if(a[i]<b[i])<CHANGETO>			c=a*1.0/b;
+modify<TAG>18<TAG>		{<CHANGETO>		    d=a/b;
+modify<TAG>19<TAG>		    printf("0");<CHANGETO>			m=c-d;
+modify<TAG>20<TAG>		    printf("\n");<CHANGETO>		    if(m>=1.0/2)
+del<TAG>21<TAG>		}
+del<TAG>22<TAG>		else
+del<TAG>23<TAG>		{
+del<TAG>24<TAG>			s=a[i]/b[i];
+del<TAG>25<TAG>			if((s-(a[i]/b[i]))<0.5)
+modify<TAG>27<TAG>			    printf("%f",s);<CHANGETO>				d=d+1;
+modify<TAG>28<TAG>			    printf("\n");<CHANGETO>				printf("%d",d);
+add<TAG>28<TAG>				printf("\n");
+modify<TAG>32<TAG>			m=a[i]/b[i];<CHANGETO>				printf("%d",d);
+modify<TAG>33<TAG>			{<CHANGETO>				printf("\n");
+del<TAG>34<TAG>			    printf("%f",m+1);
+del<TAG>35<TAG>			    printf("\n");
+del<TAG>37<TAG>			}
+del<TAG>39<TAG>		}
+modify<TAG>41<TAG>	return 0;<CHANGETO>}
+del<TAG>42<TAG> }

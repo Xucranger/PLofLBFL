@@ -1,0 +1,10 @@
+159657.cpp
+159665.cpp
+7
+add<TAG>7<TAG>     float x,y,n;
+add<TAG>9<TAG>         x=a,y=b;
+modify<TAG>14<TAG>         else cout<<a/b<<"\n";<CHANGETO>         else
+add<TAG>14<TAG>         {n=x/y;
+add<TAG>14<TAG>         if(n-a/b>=0.5)
+add<TAG>14<TAG>         cout<<a/b+1<<"\n";
+add<TAG>14<TAG>         else cout<<a/b<<"\n";}

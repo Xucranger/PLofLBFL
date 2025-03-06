@@ -1,0 +1,25 @@
+359614.cpp
+359744.cpp
+22
+modify<TAG>6<TAG>	if(a < b)<CHANGETO>	if(a % b == 0)
+modify<TAG>7<TAG>		cout << "0" << endl;<CHANGETO>		return a / b;
+del<TAG>8<TAG>	else if(a % b == 0)
+del<TAG>9<TAG>		cout << a / b << endl;
+modify<TAG>15<TAG>			if(shang > b / 2)<CHANGETO>			if(shang >= b / 2)
+modify<TAG>16<TAG>				cout << a / b + 1 << endl;<CHANGETO>				return a / b + 1;
+modify<TAG>18<TAG>				cout << a / b << endl;<CHANGETO>				return a / b;
+modify<TAG>23<TAG>				cout << a / b + 1 << endl;<CHANGETO>				return a / b + 1;
+modify<TAG>25<TAG>				cout << a / b << endl;<CHANGETO>				return a / b;
+del<TAG>28<TAG>	return 0;
+modify<TAG>48<TAG>			solve(a, b);<CHANGETO>			int res = solve(a, b);
+add<TAG>48<TAG>			cout << res << endl;
+modify<TAG>53<TAG>			solve(a, b); continue;<CHANGETO>			int res = solve(a, b); 
+add<TAG>53<TAG>			cout << res << endl;
+add<TAG>53<TAG>			continue;
+modify<TAG>58<TAG>			cout << "-"; solve(a, b);<CHANGETO>			int res = solve(a, b);
+add<TAG>58<TAG>			if(res != 0) cout << "-" << res << endl;
+add<TAG>58<TAG>			else cout << "0" << endl;
+modify<TAG>63<TAG>			a = -a; <CHANGETO>			a = -a;
+modify<TAG>64<TAG>			cout << "-"; solve(a, b);<CHANGETO>			int res = solve(a, b);
+add<TAG>64<TAG>			if(res != 0) cout << "-" << res << endl;
+add<TAG>64<TAG>			else cout << "0" << endl;

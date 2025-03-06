@@ -1,0 +1,12 @@
+346689.py
+400252.py
+9
+modify<TAG>3<TAG>    a,b = input().split()<CHANGETO>    try:
+modify<TAG>4<TAG>    a = int(a)<CHANGETO>        a,b = map(float,raw_input().strip().split())
+modify<TAG>5<TAG>    b = int(b)<CHANGETO>        if(b==0):print('error')
+del<TAG>6<TAG>    if b!=0:
+del<TAG>7<TAG>        if a/b ==2.5:
+del<TAG>8<TAG>            print("3")
+modify<TAG>10<TAG>            print(int(round(a/b)))<CHANGETO>            print(int(a/b+0.5))
+modify<TAG>11<TAG>    else:<CHANGETO>    except EOFError:
+modify<TAG>12<TAG>        print("error")<CHANGETO>        break

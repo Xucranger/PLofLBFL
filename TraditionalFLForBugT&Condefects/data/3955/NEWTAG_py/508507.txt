@@ -1,0 +1,16 @@
+508507.py
+508740.py
+13
+modify<TAG>3<TAG>    a,b = input().split()<CHANGETO>    a,b=input().split()
+modify<TAG>4<TAG>    i = len(a)<CHANGETO>    for i in range(len(a)):
+modify<TAG>5<TAG>    while i > 0:<CHANGETO>        d=a[1:len(a)]+a[0]
+modify<TAG>6<TAG>        if a[i-1] == b[0]:<CHANGETO>        a=d
+modify<TAG>7<TAG>            i -= 1<CHANGETO>        if a==b:
+modify<TAG>8<TAG>            while i>0:<CHANGETO>            flag=1
+modify<TAG>9<TAG>                if a[i-1] == b[i]:<CHANGETO>            break
+del<TAG>10<TAG>                    i -= 1
+del<TAG>11<TAG>                else:
+del<TAG>12<TAG>                    break
+modify<TAG>14<TAG>            break<CHANGETO>            flag=0
+modify<TAG>15<TAG>    if i == 0:<CHANGETO>    if flag==1:
+del<TAG>19<TAG>    i = len(a)

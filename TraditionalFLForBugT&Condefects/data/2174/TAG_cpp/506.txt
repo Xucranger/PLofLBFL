@@ -1,0 +1,9 @@
+491359.cpp
+54187.cpp
+6
+modify<TAG>4<TAG>	int a,b;<CHANGETO>	float a,b;
+add<TAG>4<TAG>	int c;
+modify<TAG>6<TAG>		if(b)<CHANGETO>		if(b!=0){
+modify<TAG>7<TAG>			cout<<a/b<<endl;<CHANGETO>			c=a/b+0.5;
+add<TAG>7<TAG>			printf("%d\n",c);
+add<TAG>7<TAG>		}

@@ -1,0 +1,7 @@
+304890.c
+304977.c
+4
+modify<TAG>9<TAG>		printf("error");<CHANGETO>		printf("error\n");
+modify<TAG>16<TAG>				if((temp-result)>0.5)<CHANGETO>				if((temp-result)>=0.5)
+modify<TAG>23<TAG>				if(a==b||a%b==0) <CHANGETO>				if(a%b==0) 
+modify<TAG>29<TAG>			        if((temp-result)>0.5)<CHANGETO>			        if((temp-result)>=0.5)

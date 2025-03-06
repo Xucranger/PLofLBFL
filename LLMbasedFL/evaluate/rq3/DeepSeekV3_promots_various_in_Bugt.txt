@@ -1,0 +1,7 @@
+name:  top1 top3 top5 top10
+all: [15, 17, 21, 22, 27, 37]
+noChain: [18, 23, 24, 24, 25, 36]
+noIntent: [15, 19, 20, 25, 25, 36]
+noNoviceDescription: [13, 16, 21, 24, 25, 35]
+noReason: [12, 17, 18, 21, 23, 35]
+noSort: [10, 15, 18, 21, 24, 36]

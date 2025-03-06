@@ -1,0 +1,4 @@
+304563.c
+304574.c
+1
+modify<TAG>10<TAG>            c=a/b;<CHANGETO>            c=1.0*a/b;

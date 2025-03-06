@@ -1,0 +1,4 @@
+365910.c
+365911.c
+1
+modify<TAG>11<TAG>elshttp://www.buctcoder.com/JudgeOnline/problem.php?cid=1374&pid=3e<CHANGETO>else

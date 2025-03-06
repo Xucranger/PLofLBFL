@@ -1,0 +1,4 @@
+81383.c
+81384.c
+1
+modify<TAG>9<TAG>    {c=a/b+0.5;<CHANGETO>    {c=(a*10/b+5)/10;

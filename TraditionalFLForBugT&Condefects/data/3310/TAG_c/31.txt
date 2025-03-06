@@ -1,0 +1,14 @@
+287951.c
+483819.c
+11
+modify<TAG>4<TAG>	int n,flag=0;<CHANGETO>	int n;
+add<TAG>4<TAG>	double res;
+modify<TAG>6<TAG>		flag++;<CHANGETO>		res=sin(n);
+modify<TAG>7<TAG>		float b,c;<CHANGETO>		while(n>0){
+modify<TAG>8<TAG>		b=sin(n);<CHANGETO>			res=sin(res);
+modify<TAG>9<TAG>		c=sin(b);<CHANGETO>			n--;
+del<TAG>10<TAG>		for(int i=1;i<n;i++){
+del<TAG>11<TAG>			c=sin(c);	
+modify<TAG>13<TAG>		printf("%f\n",c);<CHANGETO>		printf("%f\n",res);
+del<TAG>14<TAG>		if(flag>20) break;
+modify<TAG>17<TAG>}<CHANGETO>} 

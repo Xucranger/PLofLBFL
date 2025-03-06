@@ -1,0 +1,11 @@
+493578.c
+495137.c
+8
+modify<TAG>4<TAG>	int a,b,c,k;<CHANGETO>	int a=0,b=0,d;
+add<TAG>4<TAG>	float c,q;
+modify<TAG>12<TAG>		c=a/b;<CHANGETO>		c=1.0*a/b;
+modify<TAG>13<TAG>		k=a%b;<CHANGETO>		d=a/b;
+modify<TAG>14<TAG>		if(k>=5&&k<=9)<CHANGETO>		q=c-d;
+modify<TAG>15<TAG>			c=c+1;<CHANGETO>		if(q>0.49)
+modify<TAG>16<TAG>		printf("%d\n",c);<CHANGETO>			d++;
+add<TAG>16<TAG>		printf("%d\n",d);

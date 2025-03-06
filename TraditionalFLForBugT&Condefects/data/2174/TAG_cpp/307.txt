@@ -1,0 +1,4 @@
+84191.cpp
+84192.cpp
+1
+modify<TAG>17<TAG>			cout<<i;<CHANGETO>			cout<<i<<endl;

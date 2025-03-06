@@ -1,0 +1,28 @@
+484098.cpp
+610468.cpp
+25
+del<TAG>1<TAG>#include <stdio.h>
+del<TAG>3<TAG>#include <algorithm>
+modify<TAG>5<TAG>#include <string.h><CHANGETO>#include <cstdio>
+modify<TAG>7<TAG>char a[105];<CHANGETO>//Problem E
+del<TAG>8<TAG>double x[105];
+del<TAG>9<TAG>void f(int n)
+del<TAG>10<TAG>{
+del<TAG>11<TAG>    x[0]=cos(n);
+del<TAG>12<TAG>    for (int i=1; i<100; i++)
+del<TAG>13<TAG>        x[i]=cos(x[i-1]);
+del<TAG>14<TAG>}
+add<TAG>16<TAG>    double f[100010];
+modify<TAG>18<TAG>    while (~scanf("%s",a))<CHANGETO>    while (cin >> n)
+modify<TAG>20<TAG>        memset(x,0,sizeof x);<CHANGETO>        f[0] = sin(n);
+modify<TAG>21<TAG>        if (strlen(a)>=3)<CHANGETO>        for (int i = 1; i <= n; i++)
+modify<TAG>23<TAG>            printf("0.739085\n");<CHANGETO>            f[i] = sin(f[i-1]);
+del<TAG>24<TAG>            continue;
+modify<TAG>26<TAG>        else if (strlen(a)<3)<CHANGETO>        printf("%.6f\n", f[n]);
+del<TAG>27<TAG>           n=atoi(a);//将char转化成int
+del<TAG>28<TAG>        if (n<40)//数据有规律 n>35时x[n]的大小不变 为定值
+del<TAG>29<TAG>        {
+del<TAG>30<TAG>            f(n);
+del<TAG>31<TAG>            printf("%lf\n",x[n]);
+del<TAG>32<TAG>        }
+del<TAG>33<TAG>        else printf("0.739085\n");

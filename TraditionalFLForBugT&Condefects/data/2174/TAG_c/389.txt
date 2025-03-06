@@ -1,0 +1,10 @@
+440437.c
+441015.c
+7
+modify<TAG>5<TAG>	int a,b,c;<CHANGETO>	int a,b;
+modify<TAG>9<TAG>		if(b!=0)<CHANGETO>		if(b!=0) printf("%d\n",(a+b/2)/b);
+del<TAG>10<TAG>		{ 
+del<TAG>11<TAG>		  c=a%b;
+del<TAG>12<TAG>		  if(c>=5) printf("%d",a/b+1);
+del<TAG>13<TAG>		  if(c<5) printf("%d\n",a/b);
+del<TAG>15<TAG>	}

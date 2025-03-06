@@ -1,0 +1,7 @@
+155506.cpp
+155520.cpp
+4
+modify<TAG>12<TAG>	 c=int(a/b+0.5);<CHANGETO>	{
+add<TAG>12<TAG>		c=int(a/b+0.5);
+add<TAG>12<TAG>		cout<<c<<endl;
+modify<TAG>14<TAG>	cout<<c<<endl;<CHANGETO>	}

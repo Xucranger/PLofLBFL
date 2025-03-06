@@ -1,0 +1,4 @@
+306233.c
+307271.c
+1
+del<TAG>7<TAG>			return 0;

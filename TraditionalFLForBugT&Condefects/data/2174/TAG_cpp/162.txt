@@ -1,0 +1,6 @@
+489279.cpp
+499956.cpp
+3
+modify<TAG>7<TAG>    while(std::cin >> a >> b)<CHANGETO>    while(scanf("%d%d",&a,&b)!=EOF)
+modify<TAG>10<TAG>        printf("error\0");<CHANGETO>        printf("error\n");
+modify<TAG>12<TAG>		std::cout << a/b << std::endl;<CHANGETO>		printf("%d\n",(a+(b/2))/b);

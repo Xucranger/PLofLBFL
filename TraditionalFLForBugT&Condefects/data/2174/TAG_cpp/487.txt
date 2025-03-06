@@ -1,0 +1,7 @@
+160596.cpp
+160879.cpp
+4
+add<TAG>5<TAG>                float c;
+modify<TAG>9<TAG>	cout<<"ERROR"<<endl;<CHANGETO>	cout<<"error"<<endl;
+modify<TAG>12<TAG>		int c;<CHANGETO>		c=a*1.0/b;
+modify<TAG>13<TAG>		c=a/b;<CHANGETO>		c= (int)(c+ 0.5);

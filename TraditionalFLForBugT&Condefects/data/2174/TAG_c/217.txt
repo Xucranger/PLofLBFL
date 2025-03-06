@@ -1,0 +1,12 @@
+493375.c
+439486.c
+9
+modify<TAG>3<TAG>double round(double x);<CHANGETO>#include<string.h>
+modify<TAG>6<TAG>     int a,b,d;<CHANGETO>	float a,b,s;
+modify<TAG>7<TAG>	while(scanf("%d%d",&a,&b)!=EOF)<CHANGETO>	while(scanf("%f%f",&a,&b)!=EOF)
+modify<TAG>11<TAG>		d=a/b;<CHANGETO>			int s=round(a/b);
+modify<TAG>12<TAG>		printf("%d\n",round(d));<CHANGETO>			printf("%d\n",s);
+modify<TAG>13<TAG>	}<CHANGETO>		}
+modify<TAG>14<TAG>		else <CHANGETO>		if(b==0)
+modify<TAG>15<TAG>		printf("error\n");<CHANGETO>			printf("error\n");
+modify<TAG>17<TAG> } <CHANGETO>}

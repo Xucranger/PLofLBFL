@@ -1,0 +1,13 @@
+305363.cpp
+305376.cpp
+10
+del<TAG>2<TAG>#define N 100
+modify<TAG>5<TAG>	int m,n=1,i=0,t=0,a[i],b[i];<CHANGETO>	int m,n;
+modify<TAG>7<TAG>		if(n==0) b[i]=0;<CHANGETO>		if(n==0) cout<<"error"<<endl;
+modify<TAG>9<TAG>			a[i]=m/n;b[i]=1;<CHANGETO>			if((m%n)*2>=n)
+modify<TAG>10<TAG>		} <CHANGETO>				cout<<m/n+1<<endl;
+modify<TAG>11<TAG>		i++;t++;<CHANGETO>			else cout<<m/n<<endl;
+modify<TAG>12<TAG>	}<CHANGETO>		}
+del<TAG>13<TAG>	for(i=0;i<t;i++){
+del<TAG>14<TAG>		if(b[i]==0) cout<<"error"<<endl;
+del<TAG>15<TAG>		else cout<<a[i]<<endl;

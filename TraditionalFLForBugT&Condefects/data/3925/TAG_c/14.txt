@@ -1,0 +1,9 @@
+520336.c
+520342.c
+6
+modify<TAG>6<TAG>	scanf("%s",a);<CHANGETO>	while(scanf("%s %s",a,b)!=EOF)
+modify<TAG>7<TAG>	scanf("%s",b);<CHANGETO>	{
+modify<TAG>8<TAG>	for(i=0;i<100;i++)<CHANGETO>	 for(i=0;i<100;i++)
+modify<TAG>25<TAG>		printf("%d",((a[c]-48)*(b[d]-48))%10);<CHANGETO>		printf("%d\n",((a[c]-48)*(b[d]-48))%10);
+modify<TAG>27<TAG>		printf("%d",(a[c]-48)*(b[d]-48));<CHANGETO>		printf("%d\n",(a[c]-48)*(b[d]-48));
+add<TAG>27<TAG>   }

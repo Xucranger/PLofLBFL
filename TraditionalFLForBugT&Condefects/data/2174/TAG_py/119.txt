@@ -1,0 +1,13 @@
+346803.py
+400252.py
+10
+modify<TAG>2<TAG>a,b = map(int,input().split())<CHANGETO>while True:
+modify<TAG>3<TAG>c,d = map(int,input().split())<CHANGETO>    try:
+modify<TAG>4<TAG>if b==0:<CHANGETO>        a,b = map(float,raw_input().strip().split())
+modify<TAG>5<TAG>   print("ERORR")<CHANGETO>        if(b==0):print('error')
+modify<TAG>6<TAG>else:<CHANGETO>        else:
+modify<TAG>7<TAG>    print("%d"%(a/b))<CHANGETO>            print(int(a/b+0.5))
+modify<TAG>8<TAG>if d==0:<CHANGETO>    except EOFError:
+modify<TAG>9<TAG>    print("ERROR")<CHANGETO>        break
+del<TAG>10<TAG>else:
+del<TAG>11<TAG>    print("%d"%(c/d))

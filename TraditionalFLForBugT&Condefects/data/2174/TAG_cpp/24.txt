@@ -1,0 +1,6 @@
+71124.cpp
+71126.cpp
+3
+modify<TAG>5<TAG>double s,e;<CHANGETO>float s,e;
+modify<TAG>8<TAG>  cout<<"error";<CHANGETO>  cout<<"error"<<endl;
+modify<TAG>11<TAG>   s=((double)a/(double)b);<CHANGETO>   s=((float)a/(float)b);

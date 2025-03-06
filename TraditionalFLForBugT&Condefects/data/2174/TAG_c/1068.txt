@@ -1,0 +1,10 @@
+152397.c
+305444.c
+7
+modify<TAG>3<TAG>void main()<CHANGETO>int main()
+modify<TAG>6<TAG>    double d;<CHANGETO>    while(scanf("%d%d",&a,&b)!=EOF)
+del<TAG>7<TAG>    while(scanf("%d %d",&a,&b)!=EOF)
+modify<TAG>10<TAG>        printf("error");<CHANGETO>            printf("error\n");
+modify<TAG>13<TAG>            d=a/b;<CHANGETO>            c=round((1.0*a)/b);
+del<TAG>14<TAG>            c=round(d);
+add<TAG>17<TAG>    return 0;

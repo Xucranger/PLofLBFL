@@ -1,0 +1,9 @@
+190682.c
+153876.c
+6
+modify<TAG>4<TAG>int a,b,c,d;<CHANGETO>int a,b;
+modify<TAG>9<TAG>else {c=a/b;d=a%b;<CHANGETO>else
+modify<TAG>10<TAG>if(d>4)<CHANGETO>printf("%d",(a+b/2)/b);
+modify<TAG>11<TAG>c=c+1;<CHANGETO>printf("\n");
+modify<TAG>12<TAG>printf("%d",c);}}}<CHANGETO>}
+add<TAG>12<TAG>}

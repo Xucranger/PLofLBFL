@@ -1,0 +1,4 @@
+359967.c
+359972.c
+1
+modify<TAG>12<TAG>        printf("%.0f\n",c);}<CHANGETO>        printf("%.0f\n",d);}

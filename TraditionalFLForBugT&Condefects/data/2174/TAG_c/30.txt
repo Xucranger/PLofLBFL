@@ -1,0 +1,9 @@
+246841.c
+246843.c
+6
+add<TAG>3<TAG>    double n,m;
+modify<TAG>9<TAG>    	{ c=(double)(a/b);<CHANGETO>    	{ m=(double)a/(double)b;
+modify<TAG>10<TAG>    	  if(c*10>=5)<CHANGETO>    	  c=a/b;
+modify<TAG>11<TAG>    	  c=c+1;<CHANGETO>    	  n=m-c;
+add<TAG>11<TAG>    	  if(n>=0.5)
+add<TAG>11<TAG>    	  c++;

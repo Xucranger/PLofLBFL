@@ -1,0 +1,17 @@
+493570.cpp
+305244.cpp
+14
+modify<TAG>3<TAG>int main(int argc, const char * argv[]) {<CHANGETO>int main() {
+modify<TAG>4<TAG>    int a,b,i=0,x,n=0;<CHANGETO>    double a,b,c;
+del<TAG>5<TAG>    char c[100];
+modify<TAG>9<TAG>           c[i]=x;<CHANGETO>        {
+modify<TAG>10<TAG>        else<CHANGETO>            cout<<"error"<<endl;
+modify<TAG>11<TAG>            c[i]=a/b;<CHANGETO>            continue;
+del<TAG>12<TAG>        i++;
+modify<TAG>14<TAG>    n=i+1;<CHANGETO>        c=a/b+0.5;
+modify<TAG>15<TAG>    for(i=0;i<n;i++)<CHANGETO>        cout<<(int)c<<endl;
+del<TAG>16<TAG>    {
+del<TAG>17<TAG>        if(c[i]==x)
+del<TAG>18<TAG>            printf("error");
+del<TAG>19<TAG>        else
+del<TAG>20<TAG>            printf("%d",c);

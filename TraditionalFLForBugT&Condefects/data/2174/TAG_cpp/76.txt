@@ -1,0 +1,25 @@
+158670.cpp
+158727.cpp
+22
+del<TAG>2<TAG>#include <vector>
+modify<TAG>6<TAG>	int r1;<CHANGETO>	int r1, r2;
+modify<TAG>14<TAG>		if (a%b >= b / 2)<CHANGETO>		r2 = a%b;
+add<TAG>14<TAG>		if (r2 >= b / 2.0)
+modify<TAG>19<TAG>		else r1 = a / b;<CHANGETO>		else
+modify<TAG>20<TAG>		cout << r1 << endl;<CHANGETO>		{
+add<TAG>20<TAG>			r1 = a / b;
+add<TAG>20<TAG>			cout << r1 << endl;
+add<TAG>20<TAG>		}
+modify<TAG>23<TAG>		cout << 0 << endl;<CHANGETO>	{
+modify<TAG>24<TAG>	return true;<CHANGETO>		if (a < b / 2.0)
+modify<TAG>25<TAG>}<CHANGETO>			cout << a / b << endl;
+modify<TAG>26<TAG>int main()<CHANGETO>		else
+modify<TAG>27<TAG>{<CHANGETO>			cout << a / b + 1 << endl;
+modify<TAG>28<TAG>	int temp;<CHANGETO>	}
+modify<TAG>29<TAG>	vector<int> sn;<CHANGETO>	return true;
+modify<TAG>30<TAG>	while(cin>>temp)<CHANGETO>}
+modify<TAG>31<TAG>	{<CHANGETO>int main()
+modify<TAG>32<TAG>		sn.push_back(temp);<CHANGETO>{
+modify<TAG>33<TAG>	}<CHANGETO>	int a, b;
+modify<TAG>34<TAG>	for (vector<int>::iterator i = sn.begin(); i!=sn.end();  i+=2)<CHANGETO>	while(cin>>a>>b)
+modify<TAG>36<TAG>		ca(*i, *(i + 1));<CHANGETO>		ca(a, b);

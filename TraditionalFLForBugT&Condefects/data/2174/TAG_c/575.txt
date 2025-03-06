@@ -1,0 +1,7 @@
+495417.c
+495418.c
+4
+modify<TAG>9<TAG>		printf("error\n");<CHANGETO>		{printf("error\n");}
+modify<TAG>10<TAG>		 else <CHANGETO>			else 
+modify<TAG>11<TAG>		 	flag=(double)(a)/(double)(b);<CHANGETO>			{flag=(double)(a)/(double)(b);
+modify<TAG>13<TAG>		 printf("%d\n",c);<CHANGETO>			printf("%d\n",c);}

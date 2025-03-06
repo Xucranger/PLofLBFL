@@ -1,0 +1,8 @@
+198045.c
+198047.c
+5
+del<TAG>6<TAG>    scanf("%d",&d);
+del<TAG>7<TAG>    scanf("%f",&c);
+modify<TAG>15<TAG>             printf("%d",d);<CHANGETO>             printf("%d\n",d);
+modify<TAG>18<TAG>         printf("error");<CHANGETO>         printf("error\n");
+add<TAG>19<TAG>    return 0;

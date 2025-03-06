@@ -1,0 +1,11 @@
+519169.py
+518555.py
+8
+modify<TAG>4<TAG>    s=input()<CHANGETO>    n=input()
+modify<TAG>5<TAG>    s=float(s)<CHANGETO>    n=int(n)
+modify<TAG>6<TAG>    if s==0:<CHANGETO>    f=n
+modify<TAG>7<TAG>        s=math.sin(s)<CHANGETO>    for i in range(0,n+1):
+modify<TAG>8<TAG>    else:<CHANGETO>        f=math.sin(f)
+modify<TAG>9<TAG>        s=math.sin(s)<CHANGETO>    print('%.6f' %f)
+del<TAG>10<TAG>        s=math.sin(s)
+del<TAG>11<TAG>    print("%.6f"%s)

@@ -1,0 +1,4 @@
+356025.cpp
+356032.cpp
+1
+modify<TAG>15<TAG>		cout << round(a / b) << endl;<CHANGETO>		cout << round(1.0*a / b) << endl;

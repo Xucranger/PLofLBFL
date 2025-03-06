@@ -1,0 +1,50 @@
+250210.c
+250234.c
+47
+modify<TAG>2<TAG>#include <stdlib.h><CHANGETO>int main()
+del<TAG>3<TAG>struct Node
+modify<TAG>5<TAG>	int result;<CHANGETO>	int a, b, c;
+del<TAG>6<TAG>	int c;
+del<TAG>7<TAG>	struct Node *next;
+del<TAG>8<TAG>};
+del<TAG>9<TAG>struct Node *creat()
+del<TAG>10<TAG>{
+del<TAG>11<TAG>	int a, b;
+del<TAG>12<TAG>	struct Node *head, *q, *p;
+del<TAG>13<TAG>	head = NULL;
+del<TAG>16<TAG>		p = (struct Node *)malloc(sizeof(struct Node));
+del<TAG>19<TAG>			p->c = 0;
+del<TAG>20<TAG>		}
+del<TAG>21<TAG>		else
+del<TAG>22<TAG>		{
+del<TAG>23<TAG>			p->c = 1;
+del<TAG>24<TAG>			p->result = (int)((a / b) + 0.5);
+del<TAG>25<TAG>		}
+del<TAG>26<TAG>		if (head == NULL)
+del<TAG>27<TAG>		{
+del<TAG>28<TAG>			head = p;
+del<TAG>29<TAG>		}
+del<TAG>30<TAG>		else
+del<TAG>31<TAG>		{
+del<TAG>32<TAG>			q->next = p;
+del<TAG>33<TAG>		}
+del<TAG>34<TAG>		q = p;
+del<TAG>35<TAG>	}
+del<TAG>36<TAG>	q->next = NULL;
+del<TAG>37<TAG>	return head;
+del<TAG>38<TAG>}
+del<TAG>39<TAG>void print(struct Node *head)
+del<TAG>40<TAG>{
+del<TAG>41<TAG>	struct Node *p = head;
+del<TAG>42<TAG>	while (p != NULL)
+del<TAG>43<TAG>	{
+del<TAG>44<TAG>		if (p->c == 0)
+del<TAG>45<TAG>		{
+del<TAG>47<TAG>			p = p->next;
+modify<TAG>51<TAG>			printf("%d\n", p->result);<CHANGETO>			c =(int) (1.0*a / b + 0.5);
+modify<TAG>52<TAG>			p = p->next;<CHANGETO>			printf("%d\n", c);
+del<TAG>55<TAG>}
+del<TAG>56<TAG>int main()
+del<TAG>57<TAG>{
+del<TAG>58<TAG>	struct Node *head = creat();
+del<TAG>59<TAG>	print(head);

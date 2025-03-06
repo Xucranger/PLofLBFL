@@ -1,0 +1,6 @@
+359732.c
+360011.c
+3
+modify<TAG>14<TAG>            if (right > 0.5)<CHANGETO>            if (right < 0.5)
+modify<TAG>15<TAG>                printf("%d\n", left +1 );<CHANGETO>                printf("%d\n", left  );
+modify<TAG>16<TAG>            else printf("%d\n", left);<CHANGETO>            else printf("%d\n", left+1);

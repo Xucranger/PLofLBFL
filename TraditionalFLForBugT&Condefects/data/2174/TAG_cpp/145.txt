@@ -1,0 +1,10 @@
+159255.cpp
+159263.cpp
+7
+modify<TAG>10<TAG>            cout<<"error";<CHANGETO>            cout<<"error"<<endl;
+del<TAG>11<TAG>            return 0;
+modify<TAG>13<TAG>        t=(a+b/2)/b;<CHANGETO>        else
+modify<TAG>14<TAG>        cout<<t<<endl;<CHANGETO>        {
+add<TAG>14<TAG>            t=(a+b/2)/b;
+add<TAG>14<TAG>            cout<<t<<endl;
+add<TAG>14<TAG>        }

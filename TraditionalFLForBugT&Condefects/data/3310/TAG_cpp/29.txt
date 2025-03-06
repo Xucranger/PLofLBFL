@@ -1,0 +1,14 @@
+288491.cpp
+287508.cpp
+11
+modify<TAG>1<TAG>#include<stdio.h><CHANGETO>#include <stdio.h>
+modify<TAG>2<TAG>#include<math.h><CHANGETO>#include <math.h>
+modify<TAG>3<TAG>int main()<CHANGETO>double f[101];
+add<TAG>3<TAG>int main(int argc, char const *argv[])
+del<TAG>5<TAG>    float a,i;
+modify<TAG>7<TAG>    while(scanf("%d",&n)!=EOF){<CHANGETO>    while(~scanf("%d",&n)){
+modify<TAG>8<TAG>        a=sin(n);<CHANGETO>        f[0]=sin(n);
+modify<TAG>9<TAG>        for(i=0;i<n;i++)<CHANGETO>        for (int i = 1; i <=n; ++i)
+modify<TAG>11<TAG>            a=sin(a);<CHANGETO>            f[i]=sin(f[i-1]);
+modify<TAG>13<TAG>        printf("%.6f\n",a);<CHANGETO>        printf("%.6f\n", f[n]);
+add<TAG>14<TAG>    return 0;

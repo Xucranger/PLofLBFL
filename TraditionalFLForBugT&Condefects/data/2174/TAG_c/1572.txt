@@ -1,0 +1,17 @@
+491947.c
+497735.c
+14
+del<TAG>7<TAG>		int n,c;
+modify<TAG>14<TAG>			c=a/b;<CHANGETO>			if((a%b)>=(1.0*b/2))
+modify<TAG>15<TAG>			n=a%b;<CHANGETO>				printf("%d\n",a/b+1);
+del<TAG>16<TAG>			if(n>=5)
+del<TAG>17<TAG>			{
+del<TAG>18<TAG>				c=c+1;
+del<TAG>19<TAG>				printf("%d\n",c);
+del<TAG>20<TAG>			}
+modify<TAG>22<TAG>			{<CHANGETO>				printf("%d\n",a/b);
+del<TAG>23<TAG>				c=c;
+del<TAG>24<TAG>				printf("%d\n",c);
+del<TAG>25<TAG>			}
+modify<TAG>28<TAG> } <CHANGETO>	return 0;
+add<TAG>28<TAG>}

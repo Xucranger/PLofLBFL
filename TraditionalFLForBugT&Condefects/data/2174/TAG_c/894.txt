@@ -1,0 +1,8 @@
+489710.c
+360786.c
+5
+add<TAG>4<TAG>	float d;
+del<TAG>7<TAG>		;
+add<TAG>12<TAG>		d=(a*1.0)/b;
+add<TAG>12<TAG>		if(d-c>=0.5)
+add<TAG>12<TAG>		c++;

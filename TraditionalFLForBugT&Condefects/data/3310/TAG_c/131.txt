@@ -1,0 +1,19 @@
+484085.c
+440729.c
+16
+modify<TAG>1<TAG>#include<math.h><CHANGETO>#include <stdio.h>
+modify<TAG>2<TAG>#include<stdlib.h><CHANGETO>#include <math.h>
+del<TAG>3<TAG>#include<stdio.h>
+modify<TAG>6<TAG>    int x;<CHANGETO>    double res;
+del<TAG>7<TAG>    int i;
+del<TAG>8<TAG>    double f[200];
+modify<TAG>10<TAG>            if(n==0){<CHANGETO>        res = sin(n);
+modify<TAG>11<TAG>                printf("0.000000");<CHANGETO>        while(n--){
+modify<TAG>12<TAG>            }<CHANGETO>            res = sin(res);
+modify<TAG>13<TAG>            else{<CHANGETO>        }
+modify<TAG>14<TAG>                f[0] = sin(n);<CHANGETO>        printf("%f\n",res);
+del<TAG>15<TAG>                for(i=0;i<=n;i++){
+del<TAG>16<TAG>                    f[i+1] = sin(f[i]);
+del<TAG>17<TAG>                }
+del<TAG>18<TAG>                printf("%.6f",f[n]);
+del<TAG>19<TAG>            }

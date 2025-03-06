@@ -1,0 +1,6 @@
+190603.c
+190606.c
+3
+add<TAG>3<TAG>	float x;
+add<TAG>4<TAG>		x=a/(b*1.0);
+modify<TAG>6<TAG>		else printf("%.0f\n",a/(b*1.0));<CHANGETO>		else printf("%d\n",(int)(x+0.5));

@@ -1,0 +1,12 @@
+156386.c
+156411.c
+9
+add<TAG>3<TAG>	float c;
+add<TAG>3<TAG>	int d;
+modify<TAG>7<TAG>	printf("%d\n",a/b);<CHANGETO>	{
+add<TAG>7<TAG>		c=(a+0.0)/b;
+add<TAG>7<TAG>		d=a/b;
+add<TAG>7<TAG>		if((c-d)>=0.5)	
+add<TAG>7<TAG>		printf("%d\n",d+1);
+add<TAG>7<TAG>		else printf("%d\n",d);
+add<TAG>7<TAG>	}

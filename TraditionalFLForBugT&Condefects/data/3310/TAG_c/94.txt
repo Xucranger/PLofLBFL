@@ -1,0 +1,15 @@
+440713.c
+440718.c
+12
+modify<TAG>4<TAG>float fun(int x)<CHANGETO>double fun(int x)
+modify<TAG>6<TAG>float c;<CHANGETO>double c;
+modify<TAG>12<TAG>if(x>0)<CHANGETO>if(x>0&&n<=100)
+modify<TAG>18<TAG>{float d;<CHANGETO>{double d;
+modify<TAG>19<TAG>scanf("%d",&n);<CHANGETO>int a=0;
+modify<TAG>20<TAG>d=fun(n);<CHANGETO>while(scanf("%d",&n)!=EOF&&a<20)
+modify<TAG>21<TAG>printf("%.6f",d);<CHANGETO>{
+add<TAG>21<TAG>	d=fun(n);
+add<TAG>21<TAG>printf("%.6lf\n",d);
+add<TAG>21<TAG>	a=a+1;
+add<TAG>22<TAG>return 0;
+add<TAG>22<TAG>}

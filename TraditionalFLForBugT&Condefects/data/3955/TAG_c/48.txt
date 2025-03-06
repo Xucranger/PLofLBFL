@@ -1,0 +1,31 @@
+553995.c
+520907.c
+28
+modify<TAG>4<TAG>	char str1[1000]={0},str2[1000]={0};<CHANGETO>	char s1[100],s2[100],temp;
+modify<TAG>5<TAG>	int j,len;<CHANGETO>	int i,j,len_s1,flag=0;
+modify<TAG>6<TAG>    while(scanf("%s%s",str1,str2)!=EOF){<CHANGETO>	while(scanf("%s %s",s1,s2)!=EOF){
+modify<TAG>7<TAG>//    	if(strlen(str1)!=strlen(str2)){<CHANGETO>		flag=0;
+modify<TAG>8<TAG>//    		printf("No\n");<CHANGETO>		len_s1=strlen(s1);
+modify<TAG>9<TAG>//    		memset(str1,'\0',sizeof(str1));<CHANGETO>		for(i=1;i<=len_s1;++i){
+modify<TAG>10<TAG>//			memset(str2,'\0',sizeof(str2));<CHANGETO>			temp=s1[len_s1-1];
+modify<TAG>11<TAG>//			continue;<CHANGETO>			s1[len_s1-1]=s1[0];
+modify<TAG>12<TAG>//		}<CHANGETO>			for(j=0;j<len_s1-2;++j){
+modify<TAG>13<TAG>		len=strlen(str2)-1;<CHANGETO>				s1[j]=s1[j+1];
+modify<TAG>14<TAG>//		if(len==0){<CHANGETO>			}
+modify<TAG>15<TAG>//			if(!strcmp(str1,str2))printf("Yes\n");<CHANGETO>			s1[len_s1-2]=temp;
+modify<TAG>16<TAG>//			else printf("No\n");<CHANGETO>			if(strcmp(s1,s2)==0){
+modify<TAG>17<TAG>//			memset(str1,'\0',sizeof(str1));<CHANGETO>				flag=1;
+del<TAG>18<TAG>//			memset(str2,'\0',sizeof(str2));
+del<TAG>19<TAG>//			continue;
+del<TAG>20<TAG>//		}
+del<TAG>21<TAG>		while(len>=0){
+del<TAG>22<TAG>			str1[strlen(str2)]=str1[0];
+del<TAG>23<TAG>			for(j=0;j<strlen(str2);++j){
+del<TAG>24<TAG>				str1[j]=str1[j+1];
+del<TAG>26<TAG>			str1[strlen(str2)]='\0';
+del<TAG>27<TAG>			if(!strcmp(str1,str2))break;
+del<TAG>28<TAG>			len--;
+modify<TAG>30<TAG>		if(len>=0)printf("Yes\n");<CHANGETO>		if(flag)printf("Yes\n");
+modify<TAG>31<TAG>		else  printf("No\n");<CHANGETO>		else printf("No\n");
+del<TAG>32<TAG>		memset(str1,'\0',sizeof(str1));
+del<TAG>33<TAG>		memset(str2,'\0',sizeof(str2));

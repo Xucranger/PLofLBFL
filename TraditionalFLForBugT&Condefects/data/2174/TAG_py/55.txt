@@ -1,0 +1,9 @@
+346380.py
+397209.py
+6
+modify<TAG>3<TAG>    a,b = raw_input().split()<CHANGETO>    m=raw_input().split()
+modify<TAG>4<TAG>    a = int(a)<CHANGETO>    m[0]=float(m[0])
+modify<TAG>5<TAG>    b = int(b)<CHANGETO>    m[1]=float(m[1])
+modify<TAG>6<TAG>    if b==0:<CHANGETO>    if(m[1]!=0):
+modify<TAG>7<TAG>        print("error")<CHANGETO>        print(int((m[0]/m[1])+0.5))
+modify<TAG>9<TAG>        print(a//b)<CHANGETO>        print 'error'

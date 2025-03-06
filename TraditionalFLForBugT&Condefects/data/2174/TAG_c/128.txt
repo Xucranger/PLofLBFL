@@ -1,0 +1,8 @@
+491287.c
+491326.c
+5
+modify<TAG>11<TAG>			x=a/b;<CHANGETO>			x=(1.0*a/b*10+5)/10;
+del<TAG>12<TAG>			y=a-x*b;
+del<TAG>13<TAG>			if(y>=0.5)
+del<TAG>14<TAG>			printf("%d\n",x+1);
+del<TAG>15<TAG>			else

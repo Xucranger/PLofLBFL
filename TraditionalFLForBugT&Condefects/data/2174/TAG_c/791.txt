@@ -1,0 +1,5 @@
+245508.c
+245516.c
+2
+modify<TAG>3<TAG>{int a,b,c,d,e,f,g;<CHANGETO>{int a,b;
+modify<TAG>7<TAG>else printf("%d",a/b);}<CHANGETO>else printf("%d\n",a/b);}

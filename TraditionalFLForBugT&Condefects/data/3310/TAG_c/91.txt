@@ -1,0 +1,13 @@
+435236.c
+443045.c
+10
+modify<TAG>1<TAG>#include <stdio.h><CHANGETO>#include<stdio.h>
+modify<TAG>2<TAG>#include<math.h> <CHANGETO>#include<math.h>
+modify<TAG>4<TAG>{ <CHANGETO>{   int n,x;
+modify<TAG>5<TAG>  float f;<CHANGETO>double f[105];
+modify<TAG>6<TAG>  int n,a,b,c;<CHANGETO>	while(scanf("%d",&n)!=EOF)
+modify<TAG>7<TAG>  scanf("%d%d%d",&a,&b,&c);<CHANGETO>    {f[0]=sin(n);
+modify<TAG>8<TAG>        printf("0.000000\n");<CHANGETO>	for(x=1;x<=n;x++)
+modify<TAG>9<TAG>         printf("0.745624\n");<CHANGETO>	f[x]=sin(f[x-1]);
+modify<TAG>10<TAG>          printf("0.709700\n");<CHANGETO>	printf("%lf\n",f[n]);}
+modify<TAG>11<TAG>   }<CHANGETO>	}

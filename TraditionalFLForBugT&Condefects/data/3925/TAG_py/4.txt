@@ -1,0 +1,7 @@
+508291.py
+508298.py
+4
+modify<TAG>21<TAG>    if x*y!=10:<CHANGETO>    print((x*y)%10)
+del<TAG>22<TAG>        print(x*y)
+del<TAG>23<TAG>    else:
+del<TAG>24<TAG>        print(0)

@@ -1,0 +1,5 @@
+304256.cpp
+304266.cpp
+2
+del<TAG>18<TAG>        return 1;
+modify<TAG>23<TAG>            cout<<(int)(a/b+0.5)<<endl;<CHANGETO>            cout<<round(a/b)<<endl;

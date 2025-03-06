@@ -1,0 +1,12 @@
+522214.c
+530558.c
+9
+modify<TAG>2<TAG>int main()<CHANGETO>void main()
+modify<TAG>3<TAG>{<CHANGETO>{  int a,b,c,N,i;
+del<TAG>4<TAG>   int N,a,b,sum,i;
+modify<TAG>9<TAG>   	scanf("%d %d",&a,&b);<CHANGETO>	   scanf("%d%d",&a,&b);
+modify<TAG>10<TAG>   	sum=a+b;<CHANGETO>	   c=a+b;
+modify<TAG>11<TAG>   	printf("%d",sum);<CHANGETO>	   printf("%d\n",c);
+modify<TAG>12<TAG>   	i++;<CHANGETO>	   i++;
+modify<TAG>13<TAG>   	sum=0;<CHANGETO>	}
+del<TAG>14<TAG>   }

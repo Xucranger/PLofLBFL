@@ -1,0 +1,11 @@
+153693.c
+210549.c
+8
+modify<TAG>1<TAG>#include <stdio.h><CHANGETO>#include<stdio.h>
+modify<TAG>2<TAG>int main(){<CHANGETO>int main()
+modify<TAG>3<TAG>    int a,b,c;<CHANGETO>{
+add<TAG>3<TAG>    int a,b,y;
+modify<TAG>6<TAG>    if(b==0)<CHANGETO>    if(b==0) printf("error\n");
+modify<TAG>7<TAG>    printf("error\n");<CHANGETO>    else {y=(int)((float)a/(float)b+0.5);
+modify<TAG>8<TAG>    else c=a/b;<CHANGETO>    printf("%d\n",y);}
+modify<TAG>9<TAG>    printf("%d\n",c);}<CHANGETO>    }

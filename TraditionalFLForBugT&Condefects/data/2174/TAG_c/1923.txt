@@ -1,0 +1,8 @@
+365453.c
+365464.c
+5
+modify<TAG>10<TAG>				printf("0\n");<CHANGETO>			{	if(a<0.5*b)
+add<TAG>10<TAG>					printf("0\n");
+add<TAG>10<TAG>				else 
+add<TAG>10<TAG>					printf("1\n");
+add<TAG>10<TAG>			}

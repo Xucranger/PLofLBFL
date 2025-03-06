@@ -1,0 +1,19 @@
+160765.cpp
+156013.cpp
+16
+modify<TAG>1<TAG>#include<stdio.h><CHANGETO>#include<iostream>
+modify<TAG>2<TAG>#include<stdlib.h><CHANGETO>using namespace std;
+modify<TAG>5<TAG>	int a=0;<CHANGETO>	float a,b,c;
+modify<TAG>6<TAG>	int b=0;<CHANGETO>	while(cin>>a>>b)
+del<TAG>7<TAG>	int x=0;
+del<TAG>8<TAG>	int i=0;
+del<TAG>9<TAG>	for(i=1;i<=2;i++)
+modify<TAG>11<TAG>	    scanf("%d %d",&a,&b);<CHANGETO>		if(b==0)
+modify<TAG>12<TAG>	    if(b==0)<CHANGETO>		cout<<"error"<<endl;
+modify<TAG>13<TAG>	    {<CHANGETO>		else
+modify<TAG>14<TAG>	        printf("error");<CHANGETO>		{
+modify<TAG>15<TAG>	    }<CHANGETO>		c=a/b;
+modify<TAG>16<TAG>	    else<CHANGETO>		int d=(int)(c+0.5);
+modify<TAG>17<TAG>	    {<CHANGETO>		cout<<d<<endl;
+del<TAG>18<TAG>	    	x=a/b;
+del<TAG>19<TAG>	        printf("%d ",x);

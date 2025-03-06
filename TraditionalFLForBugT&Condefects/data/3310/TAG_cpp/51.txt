@@ -1,0 +1,5 @@
+434901.cpp
+434908.cpp
+2
+add<TAG>5<TAG>#include<cstdio>
+modify<TAG>16<TAG>		printf("%.6lf", f(n));<CHANGETO>		printf("%.6lf\n", f(n));

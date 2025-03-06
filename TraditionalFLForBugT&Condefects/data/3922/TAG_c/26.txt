@@ -1,0 +1,12 @@
+528510.c
+520313.c
+9
+modify<TAG>1<TAG>#include <stdio.h><CHANGETO>#include<stdio.h>
+modify<TAG>5<TAG>	while((scanf("%f %f",&a,&b))!=EOF)<CHANGETO>	int c;
+add<TAG>5<TAG>	while(scanf("%f %f",&a,&b)!=EOF)
+del<TAG>8<TAG>		{
+modify<TAG>10<TAG>		}<CHANGETO>		else 
+modify<TAG>11<TAG>		else<CHANGETO>			{
+modify<TAG>12<TAG>		printf("%.f\n",a/b);<CHANGETO>				printf("%d\n",c=a/b+0.5);
+add<TAG>12<TAG>			}
+add<TAG>13<TAG>	return 0;

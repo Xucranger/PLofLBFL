@@ -1,0 +1,8 @@
+84033.cpp
+84223.cpp
+5
+modify<TAG>14<TAG>			if((a*10/b)<5)<CHANGETO>			if((a*10/b)%10<5)
+modify<TAG>19<TAG>			cout<<a/b+1<<endl;<CHANGETO>			{
+add<TAG>19<TAG>				cout<<a/b+1<<endl;
+add<TAG>19<TAG>			}
+add<TAG>21<TAG>	return 0;

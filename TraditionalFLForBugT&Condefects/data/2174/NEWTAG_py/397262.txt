@@ -1,0 +1,4 @@
+397262.py
+397249.py
+1
+modify<TAG>5<TAG>        if num[1] == '0':<CHANGETO>        if int(num[1]) == 0:

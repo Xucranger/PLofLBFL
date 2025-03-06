@@ -1,0 +1,9 @@
+155275.cpp
+160453.cpp
+6
+modify<TAG>3<TAG>int main()<CHANGETO>int main(void){
+del<TAG>4<TAG>{
+modify<TAG>6<TAG>	cin>>a>>b;<CHANGETO>	while(cin>>a>>b){
+modify<TAG>7<TAG>	printf("%.0f",a/b);<CHANGETO>		if(b==0) cout<<"error"<<endl;
+add<TAG>7<TAG>		else printf("%d\n",(int)(a/b+0.5));
+add<TAG>7<TAG>	}

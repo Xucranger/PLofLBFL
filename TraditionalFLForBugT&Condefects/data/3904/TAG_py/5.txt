@@ -1,0 +1,10 @@
+492355.py
+493023.py
+7
+modify<TAG>2<TAG>a,b=input().split()<CHANGETO>n=int(input())
+modify<TAG>3<TAG>c=int(a)+int(b)<CHANGETO>for i in range(n):
+modify<TAG>4<TAG>print(c)<CHANGETO>    a,b=input().split()
+modify<TAG>5<TAG>while True:<CHANGETO>    print(int(a)+int(b))
+del<TAG>6<TAG> d,e=input().split()
+del<TAG>7<TAG>f=int(d)+int(e)
+del<TAG>8<TAG>print(f)

@@ -1,0 +1,10 @@
+46114.cpp
+50138.cpp
+7
+modify<TAG>4<TAG>	float a,b,t;<CHANGETO>	float a,b;
+del<TAG>5<TAG>	int c,d;
+add<TAG>6<TAG>		int c=a,d=b;
+modify<TAG>9<TAG>			t=(a)/b;<CHANGETO>			float t = a / b- c/d ;
+modify<TAG>10<TAG>			 c=a;<CHANGETO>			if(t >= 0.5 ) cout<<c/d+1<<endl;
+del<TAG>11<TAG>			d=b;
+del<TAG>12<TAG>			if((t-a/b)>0.5) cout<<c/d+1<<endl;

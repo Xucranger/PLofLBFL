@@ -1,0 +1,10 @@
+50215.cpp
+50243.cpp
+7
+modify<TAG>6<TAG>    int a,b,c;<CHANGETO>    double a,b,c,d;
+add<TAG>9<TAG>            double y;
+modify<TAG>16<TAG>            x=round(c);<CHANGETO>            x=c/1;
+add<TAG>16<TAG>            y=c-x;
+add<TAG>16<TAG>            if(y<0.5)
+add<TAG>17<TAG>            else
+add<TAG>17<TAG>            cout<<x+1<<endl;

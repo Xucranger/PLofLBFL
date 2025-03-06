@@ -1,0 +1,4 @@
+305234.c
+305237.c
+1
+modify<TAG>20<TAG>				d=1;<CHANGETO>				d=a/b;

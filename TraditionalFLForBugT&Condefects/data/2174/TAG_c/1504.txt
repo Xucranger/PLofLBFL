@@ -1,0 +1,25 @@
+160515.c
+39622.c
+22
+modify<TAG>2<TAG>#include<stdlib.h><CHANGETO>#include<math.h>
+modify<TAG>3<TAG>void chufa(int a[2][2])<CHANGETO>void main()
+modify<TAG>5<TAG>	int i;<CHANGETO>	double a,b,c,d;
+modify<TAG>6<TAG>	for(i=0;i<2;i++)<CHANGETO>	while(scanf("%lf%lf",&a,&b)!=EOF)
+modify<TAG>8<TAG>		if(a[i][1]==0)<CHANGETO>		if(b==0)
+modify<TAG>9<TAG>		printf("ERROR");	<CHANGETO>			printf("error\n");
+modify<TAG>10<TAG>        if(a[i][1]!=0)<CHANGETO>		else
+modify<TAG>12<TAG>			int c;<CHANGETO>            c=a/b;
+modify<TAG>13<TAG>			int d,b;<CHANGETO>	        d=(int)c;
+modify<TAG>14<TAG>			d=a[i][0];b=a[i][1];<CHANGETO>			if(c>=(d+0.5))
+modify<TAG>15<TAG>			c=d/b;<CHANGETO>			printf("%.0lf\n",ceil(c));
+modify<TAG>16<TAG>			printf("%d",c);<CHANGETO>			else
+modify<TAG>17<TAG>		}	<CHANGETO>				printf("%.0lf\n",floor(c));
+del<TAG>20<TAG>int main()
+del<TAG>21<TAG>{
+del<TAG>22<TAG>	int a[2][2];
+del<TAG>23<TAG>	for(int i=0;i<2;i++)
+del<TAG>24<TAG>	{
+del<TAG>25<TAG>		for(int j=0;j<2;j++)
+del<TAG>26<TAG>		scanf("%d",&a[i][j]);
+del<TAG>27<TAG>	}
+del<TAG>28<TAG>	chufa((&a)[2]);

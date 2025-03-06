@@ -1,0 +1,4 @@
+508329.py
+508342.py
+1
+modify<TAG>8<TAG>       if a==b or a==c or b==c:<CHANGETO>       if a==b!=c or a==c!=b or b==c!=a:

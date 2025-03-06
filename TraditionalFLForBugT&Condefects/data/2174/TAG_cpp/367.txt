@@ -1,0 +1,6 @@
+198331.cpp
+198414.cpp
+3
+modify<TAG>4<TAG>	int a,b,n;<CHANGETO>	int a,b,e;
+modify<TAG>13<TAG>			n=a/b;<CHANGETO>			e=(a+(b/2))/b;
+modify<TAG>14<TAG>			printf("%d\n",n);<CHANGETO>			printf("%d\n",e);

@@ -1,0 +1,7 @@
+438724.cpp
+438735.cpp
+4
+modify<TAG>5<TAG>float f(int n){<CHANGETO>double f(int n){
+modify<TAG>6<TAG>	float x=sin(n);<CHANGETO>	double x=sin(n);
+modify<TAG>14<TAG>		float y;<CHANGETO>		double y;
+modify<TAG>16<TAG>		printf("%.6f\n",y);<CHANGETO>		printf("%.6lf\n",y);

@@ -1,0 +1,10 @@
+154480.c
+154614.c
+7
+modify<TAG>7<TAG>        cin=a/b;<CHANGETO>        cin=a*1.0/b*1.0;
+modify<TAG>8<TAG>       if((int)(cin+0.5)>(int)cin)<CHANGETO>        if(cin>=0)
+modify<TAG>9<TAG>        c=(int)cin+1;<CHANGETO>       c=(int)(cin+0.5)>(int)cin?(int)cin+1:(int)cin;
+modify<TAG>10<TAG>        else<CHANGETO>       else if(cin<0)
+modify<TAG>11<TAG>        c=(int)cin;<CHANGETO>        c=(int)(cin-0.5)<(int)cin?(int)cin-1:(int)cin;
+modify<TAG>15<TAG>        printf("ERROR");<CHANGETO>        printf("error\n");
+add<TAG>16<TAG>return 0;

@@ -1,0 +1,5 @@
+287588.cpp
+287652.cpp
+2
+modify<TAG>3<TAG>float sinf(int a,int n)<CHANGETO>double sinf(int a,int n)
+modify<TAG>6<TAG>		return sin(n);<CHANGETO>		return sin((double)(n));

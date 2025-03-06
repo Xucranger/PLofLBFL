@@ -1,0 +1,8 @@
+244265.c
+244297.c
+5
+modify<TAG>1<TAG>#include <stdio.h><CHANGETO>#include<stdio.h>
+modify<TAG>4<TAG>    int a,b,c,i;<CHANGETO>    int a,b,c;
+modify<TAG>5<TAG>    for(i=0;i<100;i++)<CHANGETO>    while(scanf("%d%d",&a,&b)!=EOF)
+del<TAG>7<TAG>        scanf("%d %d",&a,&b);
+modify<TAG>15<TAG>            printf("error");break;<CHANGETO>            printf("error\n");

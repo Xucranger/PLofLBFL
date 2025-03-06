@@ -1,0 +1,12 @@
+152643.c
+152665.c
+9
+del<TAG>2<TAG>#include <stdlib.h>
+del<TAG>3<TAG>#include "string.h"
+modify<TAG>10<TAG>    printf("error");<CHANGETO>    printf("error\n");
+modify<TAG>11<TAG>  else<CHANGETO>else if(a>=0&&b>0||a<=0&&b<0)
+del<TAG>12<TAG>  {
+del<TAG>13<TAG>if(a>=0&&b>0||a<=0&&b<0)
+modify<TAG>15<TAG>	else if(a<0&&b>0||a>0&&b<0)<CHANGETO>	else if(a<=0&&b>0||a>=0&&b<0)
+del<TAG>18<TAG>  }
+del<TAG>19<TAG>    return 0;

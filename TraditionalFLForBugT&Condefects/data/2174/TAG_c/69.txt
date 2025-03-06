@@ -1,0 +1,9 @@
+197998.c
+359615.c
+6
+modify<TAG>7<TAG>          if(b==0)<CHANGETO>        if(b==0) printf("error\n");
+modify<TAG>8<TAG>          printf("error");<CHANGETO>        else if(a/b-(int)(a/b)>=0.5) printf("%d\n",(int)(a/b)+1);
+modify<TAG>9<TAG>          else<CHANGETO>        else printf("%d\n",(int)(a/b));
+modify<TAG>10<TAG>          printf("%d",a/b+0.5);<CHANGETO>    }    
+modify<TAG>11<TAG>     }<CHANGETO>}    
+del<TAG>12<TAG>}

@@ -1,0 +1,18 @@
+160795.c
+129147.c
+15
+del<TAG>2<TAG>#include<stdlib.h>
+modify<TAG>5<TAG>	int a=0;<CHANGETO>    float a,b,s;
+modify<TAG>6<TAG>	int b=0;<CHANGETO>    int x;
+modify<TAG>7<TAG>	int x=0;<CHANGETO>	while(scanf("%d %d",&a,&b)!=EOF)
+del<TAG>8<TAG>	int i=1;
+del<TAG>9<TAG>	for(i=1;i<=3;i++)
+modify<TAG>11<TAG>	    scanf("%d %d ",&a,&b);<CHANGETO>		if (b==0)
+modify<TAG>12<TAG>	    if(b==0)<CHANGETO>			printf("error\n");
+modify<TAG>13<TAG>	    {<CHANGETO>	    else 
+modify<TAG>14<TAG>	        printf("error");<CHANGETO>		{
+modify<TAG>15<TAG>	    }<CHANGETO>			s=a/b; 
+modify<TAG>16<TAG>	    else<CHANGETO>         	x=(int)(s+0.5);
+del<TAG>17<TAG>	    {
+del<TAG>18<TAG>	    	x=a/b;
+modify<TAG>20<TAG>	    }<CHANGETO>		}

@@ -1,0 +1,10 @@
+83547.c
+245353.c
+7
+modify<TAG>3<TAG>{ <CHANGETO>{
+modify<TAG>4<TAG>int d,z,k;<CHANGETO>    float a,b;
+modify<TAG>5<TAG> printf("输入两个数字：\n",d,z); <CHANGETO>    while(scanf("%f%f",&a,&b)!=EOF)
+modify<TAG>6<TAG>scanf("%d%d",&d,&z); <CHANGETO>    {if(b==0)
+modify<TAG>7<TAG>k=d/z;<CHANGETO>        printf("error\n");
+modify<TAG>8<TAG> printf("%d/%d=%d\n",d,z,k);<CHANGETO>    else
+add<TAG>8<TAG>        printf("%.0f\n",(a+0.5)/b);}

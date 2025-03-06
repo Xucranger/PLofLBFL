@@ -1,0 +1,8 @@
+491151.c
+491153.c
+5
+del<TAG>8<TAG>		m=a/b;
+modify<TAG>10<TAG>		printf("error");<CHANGETO>		printf("error\n");
+add<TAG>12<TAG>			m=a/b;
+add<TAG>26<TAG>			else
+add<TAG>26<TAG>			n=m;

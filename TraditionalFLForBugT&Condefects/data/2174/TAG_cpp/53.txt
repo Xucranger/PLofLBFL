@@ -1,0 +1,9 @@
+304243.cpp
+73812.cpp
+6
+modify<TAG>1<TAG>#include<bits/stdc++.h><CHANGETO>#include<stdio.h>
+modify<TAG>2<TAG>using namespace std;<CHANGETO>#include<stdlib.h>
+del<TAG>3<TAG>typedef long long ll;
+modify<TAG>6<TAG>    ll a,b;<CHANGETO>    int a,b;
+modify<TAG>7<TAG>    while(~scanf("%lld%lld",&a,&b))<CHANGETO>    while(scanf("%i%i",&a,&b)!=EOF)
+modify<TAG>12<TAG>            printf("%lld\n",a/b);<CHANGETO>           printf("%i\n",(int)((float)a/b+0.5));   //四舍五入 

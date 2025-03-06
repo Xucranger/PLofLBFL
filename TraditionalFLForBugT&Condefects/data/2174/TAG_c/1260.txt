@@ -1,0 +1,14 @@
+443718.c
+246250.c
+11
+modify<TAG>1<TAG>#include<stdio.h><CHANGETO>#include <stdio.h>
+modify<TAG>4<TAG>int a,b,c,d;<CHANGETO>int a,b,x,n;
+modify<TAG>5<TAG>while(scanf("%f %f",&a,&b)!=EOF)<CHANGETO>while(scanf("%d %d",&a,&b)!=EOF)
+modify<TAG>10<TAG>	 {<CHANGETO>	{
+modify<TAG>11<TAG>	 c=a%b;<CHANGETO>	   n=a%b;
+modify<TAG>12<TAG>		d=a/b;<CHANGETO>	   if(2*n>=b) x=a/b+1;
+modify<TAG>13<TAG>		if(c>0.5*b)<CHANGETO>	   else x=a/b;
+modify<TAG>14<TAG>			d=d+1;<CHANGETO>	   printf("%d\n",x);}
+del<TAG>15<TAG>		}
+del<TAG>16<TAG>		printf("%d\n",d);
+modify<TAG>18<TAG>	return 0;	<CHANGETO>return 0;

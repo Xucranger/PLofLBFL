@@ -1,0 +1,10 @@
+85226.c
+85381.c
+7
+del<TAG>2<TAG>#include<stdlib.h>
+modify<TAG>9<TAG>		printf("error");<CHANGETO>		printf("error\n");
+modify<TAG>10<TAG>		else<CHANGETO>		  else
+modify<TAG>11<TAG>		{<CHANGETO>		  {
+modify<TAG>12<TAG>		  a=m*1.0/n+0.5;<CHANGETO>		    a=m*1.0/n+0.5;
+modify<TAG>13<TAG>		  printf("%d",a);<CHANGETO>		    printf("%d\n",a);
+modify<TAG>14<TAG>	    }<CHANGETO>	      }

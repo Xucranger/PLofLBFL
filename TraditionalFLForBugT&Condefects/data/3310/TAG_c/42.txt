@@ -1,0 +1,6 @@
+437953.c
+438027.c
+3
+modify<TAG>5<TAG>	int n,i,m=0;<CHANGETO>	int n,i;
+modify<TAG>6<TAG>	float F_[101];<CHANGETO>	double F_[101];
+modify<TAG>15<TAG>		printf("%.6f\n",F_[0]);<CHANGETO>		printf("%.6lf\n",F_[0]);

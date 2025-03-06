@@ -1,0 +1,6 @@
+397054.py
+397113.py
+3
+modify<TAG>4<TAG>	m[0]=int(m[0])<CHANGETO>	m[0]=float(m[0])
+modify<TAG>5<TAG>	m[1]=int(m[1])<CHANGETO>	m[1]=float(m[1])
+modify<TAG>9<TAG>		x=m[0]/m[1]<CHANGETO>		x=int(m[0]/m[1]+0.5)

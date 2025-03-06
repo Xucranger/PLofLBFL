@@ -1,0 +1,5 @@
+306706.cpp
+306720.cpp
+2
+del<TAG>10<TAG>		//scanf("%d %d",&a,&b);
+modify<TAG>21<TAG>		printf("error") ;<CHANGETO>		printf("error\n") ;

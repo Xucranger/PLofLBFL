@@ -1,0 +1,10 @@
+195183.c
+196996.c
+7
+add<TAG>1<TAG>#include<stdlib.h>
+add<TAG>4<TAG>  float c;
+modify<TAG>6<TAG>  {<CHANGETO>    {
+modify<TAG>9<TAG>          t=0.5+a/b;<CHANGETO>          c=0.5+1.0*a/b;
+modify<TAG>10<TAG>           printf("%d\n",t);<CHANGETO>          t=(int)c;
+add<TAG>10<TAG>          printf("%d\n",t);
+modify<TAG>14<TAG>  }<CHANGETO>    }

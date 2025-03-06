@@ -1,0 +1,6 @@
+159845.c
+196064.c
+3
+modify<TAG>2<TAG>void main()<CHANGETO>int main()
+modify<TAG>9<TAG>			printf("%d\n",a/b);<CHANGETO>			printf("%d\n",(a+(b/2))/b);
+add<TAG>9<TAG>	return 0;

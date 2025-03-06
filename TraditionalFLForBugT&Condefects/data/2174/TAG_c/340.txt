@@ -1,0 +1,7 @@
+307464.c
+307494.c
+4
+add<TAG>1<TAG>#include<math.h>
+modify<TAG>8<TAG>		c=a*1.0/b;<CHANGETO>		c=(double)a/b;
+add<TAG>8<TAG>		c=c+0.5;
+add<TAG>8<TAG>		c=floor(c);

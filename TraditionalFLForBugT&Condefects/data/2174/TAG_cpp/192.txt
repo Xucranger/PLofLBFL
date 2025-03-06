@@ -1,0 +1,7 @@
+159554.cpp
+159568.cpp
+4
+modify<TAG>11<TAG>			cout << "error" << endl; return 0;<CHANGETO>			cout << "error" << endl;
+modify<TAG>14<TAG>			r = a / b;<CHANGETO>		{
+add<TAG>14<TAG>			r = a *1.0/ b;
+add<TAG>15<TAG>		}

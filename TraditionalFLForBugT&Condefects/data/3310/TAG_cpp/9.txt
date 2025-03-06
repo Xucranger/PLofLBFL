@@ -1,0 +1,14 @@
+571437.cpp
+475677.cpp
+11
+modify<TAG>1<TAG>#include <iostream><CHANGETO>#include<iostream>
+add<TAG>1<TAG>#include<math.h>
+modify<TAG>3<TAG>int main ()<CHANGETO>int main()
+modify<TAG>5<TAG>	float a,b,c,sum,sum1,sum2;<CHANGETO>	int n;
+modify<TAG>6<TAG>	cin>>a>>b>>c;<CHANGETO>	while(cin>>n)
+modify<TAG>7<TAG>	sum=0.000000+a-a;<CHANGETO>	{
+modify<TAG>8<TAG>	sum1=0.745624+b-b;<CHANGETO>		double F=sin(n);
+modify<TAG>9<TAG>	sum2=0.709700+c-c;<CHANGETO>		for(int i=0;i<n;i++)
+modify<TAG>10<TAG>cout<<sum<<"\n";<CHANGETO>		F=sin(F);
+modify<TAG>11<TAG>cout<<sum1<<"\n";<CHANGETO>		printf("%.6lf\n",F);
+modify<TAG>12<TAG>cout<<sum2<<"\n";<CHANGETO>	}

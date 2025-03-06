@@ -1,0 +1,14 @@
+439405.c
+439488.c
+11
+modify<TAG>12<TAG>                printf("0");<CHANGETO>            {
+add<TAG>12<TAG>                if((a*2)>=b)
+add<TAG>12<TAG>                    printf("1\n");
+add<TAG>13<TAG>                printf("0\n");
+add<TAG>13<TAG>            }
+add<TAG>13<TAG>            else
+add<TAG>14<TAG>            if(a==b)
+add<TAG>14<TAG>                printf("1\n");
+add<TAG>14<TAG>            else
+add<TAG>14<TAG>            {
+add<TAG>21<TAG>            }

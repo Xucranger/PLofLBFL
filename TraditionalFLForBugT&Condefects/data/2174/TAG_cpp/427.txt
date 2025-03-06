@@ -1,0 +1,7 @@
+159550.cpp
+304358.cpp
+4
+del<TAG>6<TAG>	float r;
+modify<TAG>12<TAG>			r = a / b;<CHANGETO>			cout << int(float(a) / b + 0.5) << endl;
+del<TAG>13<TAG>			cout << int(r + 0.5) << endl;
+add<TAG>14<TAG>	return 0;

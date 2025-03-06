@@ -1,0 +1,8 @@
+363005.c
+363023.c
+5
+modify<TAG>3<TAG>{float a,b;<CHANGETO>{float a,b,c;
+modify<TAG>8<TAG>{b=floor(a/b);<CHANGETO>{c=floor(a*1.0/b);
+modify<TAG>9<TAG>printf("%.0f\n",b);<CHANGETO>if(a*1.0/b-c>=0.5)
+add<TAG>9<TAG>    c++;
+add<TAG>9<TAG>printf("%.0f\n",c);

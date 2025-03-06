@@ -1,0 +1,14 @@
+491777.c
+491822.c
+11
+modify<TAG>4<TAG>int a,b,c,s,d[10][2],i,j;<CHANGETO>int a,b,c;
+del<TAG>5<TAG>i=0;
+modify<TAG>7<TAG>{d[i][0]=a,d[i][1]=b;<CHANGETO>{
+modify<TAG>8<TAG>i=i+1;s=i;}<CHANGETO>if(b==0)
+modify<TAG>9<TAG>for(i=0;i<s;i++)<CHANGETO>printf("error\n");
+del<TAG>10<TAG>{if(d[i][1]==0)
+del<TAG>11<TAG>printf("error");
+modify<TAG>13<TAG>{c=d[i][0]/d[i][1];<CHANGETO>{c=a/b;
+modify<TAG>14<TAG>if(((1.0*d[i][0])/(1.0*d[i][1])-c)>=0.5)<CHANGETO>if(((1.0*a)/(1.0*b)-c)>=0.5)
+modify<TAG>15<TAG>printf("%d",c+1);<CHANGETO>printf("%d\n",c+1);
+modify<TAG>17<TAG>printf("%d",c);}}<CHANGETO>printf("%d\n",c);}}

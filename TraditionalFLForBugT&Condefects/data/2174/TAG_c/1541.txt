@@ -1,0 +1,14 @@
+356708.c
+305802.c
+11
+modify<TAG>2<TAG>int main ()<CHANGETO>int main()
+modify<TAG>4<TAG>	int a,b,n[100],i=0,j;<CHANGETO>	int a,b,c,i,n;
+modify<TAG>5<TAG>	while(scanf("%d %d",&a,&b))<CHANGETO>	while(scanf("%d %d",&a,&b)!=EOF)
+modify<TAG>7<TAG>		if(b==0){n[i]=-1;break;}<CHANGETO>	if(b==0)
+modify<TAG>8<TAG>		else n[i]=a/b;<CHANGETO>	{printf("error\n");
+del<TAG>9<TAG>		i++;
+modify<TAG>11<TAG>	for(j=0;j<=i;j++)<CHANGETO>	else {
+modify<TAG>12<TAG>	{<CHANGETO>	c=(10*a/b+5)/10;
+modify<TAG>13<TAG>		if(n[j]==-1) printf("error");<CHANGETO>	printf("%d\n",c);
+modify<TAG>14<TAG>		else printf("%d\n",n[j]);<CHANGETO>}
+modify<TAG>15<TAG>	}<CHANGETO>}

@@ -1,0 +1,4 @@
+36049.c
+36054.c
+1
+modify<TAG>10<TAG>            printf("%d\n",a/b+(int)(a%b+0.5));<CHANGETO>            printf("%d\n",(int)(a*1.0/b+0.5));

@@ -1,0 +1,31 @@
+196309.c
+190789.c
+28
+modify<TAG>1<TAG> #include <stdio.h><CHANGETO>#include<stdio.h>
+modify<TAG>3<TAG> {<CHANGETO> {int a,b,c,d,e;
+modify<TAG>4<TAG> 	int a,b,c;<CHANGETO> while(scanf("%d%d",&a,&b)!=EOF)
+modify<TAG>5<TAG> 	while (scanf ("%d %d %d\n",&a,&b,&c)!=EOF) <CHANGETO>   {
+modify<TAG>6<TAG> 	{<CHANGETO>     if(b==0)
+modify<TAG>7<TAG>	 if (a+b>c&&a+c>b&&b+c>a)<CHANGETO>     {printf("error\n");}
+modify<TAG>8<TAG>      {<CHANGETO>     else
+modify<TAG>9<TAG>         if (a==b&&a==c)<CHANGETO>     {c=a/b;
+modify<TAG>10<TAG>		     printf ("DB\n");<CHANGETO>     d=a%b;
+modify<TAG>11<TAG>		 else if  (a==b&&a!=c)<CHANGETO>     e=2*d;
+modify<TAG>12<TAG>		     printf ("DY\n");<CHANGETO>     if(e>=b)
+modify<TAG>13<TAG>	     else if  (a==c&&a!=b)<CHANGETO>        {c=c+1;}
+modify<TAG>14<TAG>	         printf ("DY\n");	<CHANGETO>     printf("%d\n",c);}
+modify<TAG>15<TAG>		 else if  (b==c&&b!=a)<CHANGETO>   }
+modify<TAG>16<TAG>	         printf ("DY\n");	<CHANGETO> return 0;
+del<TAG>17<TAG>	     else if (c*c==a*a+b*b&&a!=b)
+del<TAG>18<TAG>	         printf ("ZJ\n");
+del<TAG>19<TAG>	     else if (a*a==c*c+b*b&&c!=b)
+del<TAG>20<TAG>	         printf ("ZJ\n");    
+del<TAG>21<TAG>	     else if (b*b==a*a+c*c&&c!=b)
+del<TAG>22<TAG>	         printf ("ZJ\n");
+del<TAG>23<TAG>	     else 
+del<TAG>24<TAG>	         printf ("PT\n");
+del<TAG>25<TAG>	  }
+del<TAG>26<TAG>	  else
+del<TAG>27<TAG>	  printf ("ERROR\n");
+del<TAG>28<TAG>      }
+del<TAG>29<TAG>	  return 0;

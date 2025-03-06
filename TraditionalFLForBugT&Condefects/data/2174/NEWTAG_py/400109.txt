@@ -1,0 +1,6 @@
+400109.py
+400252.py
+3
+modify<TAG>4<TAG>        a,b = map(int,raw_input().strip().split())<CHANGETO>        a,b = map(float,raw_input().strip().split())
+modify<TAG>6<TAG>        else:print(int(round(a/b)))<CHANGETO>        else:
+add<TAG>6<TAG>            print(int(a/b+0.5))

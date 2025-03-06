@@ -1,0 +1,7 @@
+59317.c
+59368.c
+4
+del<TAG>2<TAG>#include<math.h>
+modify<TAG>13<TAG>			c=(int)(a/b+0.5);<CHANGETO>		{
+add<TAG>13<TAG>			c=a/b+0.5;
+add<TAG>14<TAG>		}

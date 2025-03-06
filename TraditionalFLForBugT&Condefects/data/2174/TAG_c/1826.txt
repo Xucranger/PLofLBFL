@@ -1,0 +1,4 @@
+81747.c
+81751.c
+1
+modify<TAG>6<TAG>printf("ERROR\n");<CHANGETO>printf("error\n");

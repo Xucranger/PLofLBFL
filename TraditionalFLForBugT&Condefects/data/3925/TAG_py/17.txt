@@ -1,0 +1,7 @@
+512706.py
+514542.py
+4
+modify<TAG>2<TAG>N = 5<CHANGETO>import sys
+modify<TAG>3<TAG>for i in range(N):<CHANGETO>for number_str in sys.stdin:
+modify<TAG>4<TAG>    a,b = input().split()<CHANGETO>    a,b = number_str.split()
+modify<TAG>7<TAG>    print(a_last * b_last)<CHANGETO>    print(str(a_last * b_last)[-1])

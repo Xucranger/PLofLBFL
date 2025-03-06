@@ -1,0 +1,5 @@
+154452.cpp
+154455.cpp
+2
+modify<TAG>10<TAG>			cout<<"error";<CHANGETO>			cout<<"error"<<endl;
+modify<TAG>15<TAG>			if (remainder/b >= 0.5)<CHANGETO>			if (remainder/bs >= 0.5)

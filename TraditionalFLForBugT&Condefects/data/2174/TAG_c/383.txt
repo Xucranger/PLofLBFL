@@ -1,0 +1,7 @@
+193233.c
+193234.c
+4
+modify<TAG>5<TAG>	float a,b,d;<CHANGETO>	float a,b,d,e;
+modify<TAG>15<TAG>                   n=(2*d);<CHANGETO>                   e=(2*d);
+modify<TAG>16<TAG>                   if(a<b)<CHANGETO>                   n=e;
+add<TAG>16<TAG>                   if(e<1)

@@ -1,0 +1,10 @@
+245589.c
+250736.c
+7
+modify<TAG>5<TAG>    int c,d;<CHANGETO>    double c;
+del<TAG>8<TAG>        c=((float)a/b+0.5);
+del<TAG>9<TAG>        d=((float)a/b-0.5);
+modify<TAG>14<TAG>            if((a>=0&&b>0)||(a<=0&&b<0))<CHANGETO>            c=1.0*a/b;
+modify<TAG>15<TAG>                printf("%d",c);<CHANGETO>            int d=(int)(c+0.5);
+modify<TAG>16<TAG>            else<CHANGETO>            printf("%d\n",d);
+del<TAG>17<TAG>                printf("%d",d);

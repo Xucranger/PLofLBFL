@@ -1,0 +1,9 @@
+244611.c
+195035.c
+6
+del<TAG>2<TAG>#include<math.h>
+del<TAG>3<TAG>#include<malloc.h>
+del<TAG>4<TAG>#include<string.h>
+del<TAG>5<TAG>#include<stdlib.h>
+modify<TAG>14<TAG>		printf("%d\n",a/b);<CHANGETO>		printf("%d\n",(int)(a*1.0/b+0.5));
+modify<TAG>15<TAG>	 } <CHANGETO>	}

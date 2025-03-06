@@ -1,0 +1,6 @@
+306831.cpp
+306836.cpp
+3
+modify<TAG>7<TAG>		int c;<CHANGETO>		float c;
+modify<TAG>11<TAG>		{c=float(a)/float(c)+0.5;<CHANGETO>		{c=(float)a/b+0.5;
+modify<TAG>12<TAG>		printf("%d\n",c);<CHANGETO>		printf("%d\n",int(c));

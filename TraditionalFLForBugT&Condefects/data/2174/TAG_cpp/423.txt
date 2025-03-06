@@ -1,0 +1,6 @@
+245916.cpp
+245922.cpp
+3
+modify<TAG>9<TAG>        {cout<<"error";goto loop1;}<CHANGETO>        {cout<<"error"<<endl;goto loop1;}
+modify<TAG>12<TAG>        if(d*2>=b)cout<<c+1;<CHANGETO>        if(d*2>=b)cout<<c+1<<endl;
+modify<TAG>13<TAG>        else if(d*2<b)cout<<c;<CHANGETO>        else if(d*2<b)cout<<c<<endl;

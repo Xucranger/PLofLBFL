@@ -1,0 +1,8 @@
+50548.cpp
+160915.cpp
+5
+modify<TAG>3<TAG>int main(){<CHANGETO>int main()
+add<TAG>3<TAG>{
+modify<TAG>5<TAG>	while(cin>>a>>b){<CHANGETO>	while(cin>>a>>b)
+add<TAG>5<TAG>	{
+modify<TAG>7<TAG>			cout<<a/b<<endl;<CHANGETO>			cout<<(a+b/2)/b<<endl;

@@ -1,0 +1,20 @@
+246092.c
+362989.c
+17
+modify<TAG>2<TAG>main()<CHANGETO>int main()
+modify<TAG>4<TAG>    int a,b,c;<CHANGETO>int a,b,m,t;
+modify<TAG>5<TAG>   while(scanf("%d%d%d",&a,&b,&c)!=EOF)<CHANGETO>while(scanf("%d %d",&a,&b)!=EOF)
+modify<TAG>6<TAG>   {<CHANGETO>{
+modify<TAG>7<TAG>      if(a==0||b==0||c==0)<CHANGETO>    if(b!=0)
+del<TAG>8<TAG>    printf("ERROR\n");
+del<TAG>9<TAG>    if(a+b>c||a+c>b||c+b>a)
+modify<TAG>11<TAG>        if(a==b&&b==c)<CHANGETO>        m=a/b;
+modify<TAG>12<TAG>        printf("DB\n");<CHANGETO>        t=a%b;
+modify<TAG>13<TAG>          else if((a==b&&a!=c)||(a==c&&b!=c)||(c==b&&a!=c))<CHANGETO>        if(t*10/b>=5)
+modify<TAG>14<TAG>                printf("DY\n");<CHANGETO>            m=m+1;
+modify<TAG>15<TAG>                else if((a*a+b*b==c*c)||(c*c+b*b==a*a)||(a*a+c*c==b*b))<CHANGETO>        else
+modify<TAG>16<TAG>                     printf("ZJ\n");<CHANGETO>            m=m;
+modify<TAG>17<TAG>                     else<CHANGETO>        printf("%d\n",m);
+del<TAG>18<TAG>                     printf("PT\n");
+modify<TAG>21<TAG>    printf("ERROR");<CHANGETO>        printf("error\n");
+modify<TAG>22<TAG>   }<CHANGETO>}

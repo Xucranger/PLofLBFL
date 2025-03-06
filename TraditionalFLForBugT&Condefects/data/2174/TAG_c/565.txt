@@ -1,0 +1,4 @@
+129135.c
+129139.c
+1
+modify<TAG>6<TAG>    while(scanf("%d%d",&a,&b)!=EOF);<CHANGETO>    while(scanf("%d%d",&a,&b)!=EOF)

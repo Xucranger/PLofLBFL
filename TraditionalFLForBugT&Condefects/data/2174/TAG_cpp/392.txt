@@ -1,0 +1,10 @@
+155353.cpp
+160059.cpp
+7
+del<TAG>2<TAG>#include <cstdio>
+add<TAG>6<TAG>	int  c;
+modify<TAG>9<TAG>		if(b==0.00)<CHANGETO>		if(b==0)
+modify<TAG>10<TAG>			printf("error\n");<CHANGETO>		cout<<"error"<<endl;
+modify<TAG>13<TAG>			float ans=a/b;<CHANGETO>			c=(a/b+0.5);
+modify<TAG>14<TAG>			printf("%.0f\n",ans);<CHANGETO>			cout<<c<<endl;
+modify<TAG>17<TAG>	//system("pause");<CHANGETO>	getchar();

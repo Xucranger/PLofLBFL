@@ -1,0 +1,6 @@
+490549.c
+490556.c
+3
+modify<TAG>10<TAG>			int x=a%b;<CHANGETO>		 printf("%d\n",(a*10/b+5)/10);
+del<TAG>11<TAG>			if(x>4) printf("%d\n",a/b+1);
+del<TAG>12<TAG>			else printf("%d\n",a/b);

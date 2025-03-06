@@ -1,0 +1,10 @@
+197961.c
+305980.c
+7
+del<TAG>5<TAG>    scanf("%d",&c);
+modify<TAG>8<TAG>        c==a/b;<CHANGETO>        if(b==0)
+modify<TAG>9<TAG>        if(c==0)<CHANGETO>            printf("error\n");
+del<TAG>10<TAG>        printf("error");
+modify<TAG>12<TAG>        printf("%d",c);<CHANGETO>            printf("%d\n",(a+(b/2))/b);
+modify<TAG>13<TAG>    }<CHANGETO>        }
+modify<TAG>14<TAG>}    <CHANGETO>}

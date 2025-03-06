@@ -1,0 +1,7 @@
+440859.c
+439486.c
+4
+modify<TAG>6<TAG>	int a,b,s,c;<CHANGETO>	float a,b,s;
+modify<TAG>7<TAG>	while(scanf("%d%d",&a,&b)!=EOF)<CHANGETO>	while(scanf("%f%f",&a,&b)!=EOF)
+modify<TAG>11<TAG>			c=a/b;<CHANGETO>			int s=round(a/b);
+del<TAG>12<TAG>			int s=round(c);

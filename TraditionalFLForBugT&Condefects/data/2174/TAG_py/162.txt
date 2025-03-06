@@ -1,0 +1,10 @@
+397093.py
+397320.py
+7
+modify<TAG>4<TAG>        a,b = map(int, input().split())<CHANGETO>        a,b = map(int, raw_input().split())
+modify<TAG>5<TAG>        b = int(b)<CHANGETO>        a = float(a)
+add<TAG>5<TAG>        b = float(b)
+modify<TAG>10<TAG>            c = int(round(a/b))<CHANGETO>            c = int(a/b)
+add<TAG>10<TAG>            d = float(a/b)
+add<TAG>10<TAG>            if float(d-c)>=0.5:
+add<TAG>10<TAG>                c+=1

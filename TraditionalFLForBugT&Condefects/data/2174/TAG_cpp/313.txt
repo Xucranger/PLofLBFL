@@ -1,0 +1,5 @@
+359865.cpp
+359917.cpp
+2
+modify<TAG>11<TAG>	else{c=(float)a/b;<CHANGETO>	else{c=(float)a/b+0.5;
+modify<TAG>12<TAG>	     printf("%.f\n",c);}<CHANGETO>	     cout<<(int)c<<endl;}

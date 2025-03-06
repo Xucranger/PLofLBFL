@@ -1,0 +1,13 @@
+545310.c
+528194.c
+10
+modify<TAG>2<TAG>void main()<CHANGETO>#include<string.h> 
+add<TAG>2<TAG>int main()
+modify<TAG>4<TAG>	int a,b;<CHANGETO>    int n,n1,n2;
+modify<TAG>5<TAG>	-1e100<a<1e100;<CHANGETO>    char a[105],b[105];
+modify<TAG>6<TAG>	-1e100<a<1e100;<CHANGETO>    while(scanf("%s %s",a,b)!=EOF)
+modify<TAG>7<TAG>	while(scanf("%d%d",&a,&b)!=EOF)<CHANGETO>   {n1=strlen(a);
+modify<TAG>8<TAG>		printf("%d\n",(a*b)%10);<CHANGETO>    n2=strlen(b);
+add<TAG>8<TAG>	n=(a[n1-1]-'0')*(b[n2-1]-'0')%10;
+add<TAG>8<TAG>	printf("%d\n",n);
+add<TAG>8<TAG>	} 

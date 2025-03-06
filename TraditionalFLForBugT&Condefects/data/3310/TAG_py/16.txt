@@ -1,0 +1,8 @@
+519150.py
+519170.py
+5
+del<TAG>2<TAG>g=0
+del<TAG>4<TAG>    g=g+1
+modify<TAG>9<TAG>        a=round(math.sin(a),6)<CHANGETO>        a=math.sin(a)
+del<TAG>11<TAG>    if g==19 :
+del<TAG>12<TAG>        break

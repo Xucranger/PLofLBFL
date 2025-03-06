@@ -1,0 +1,15 @@
+435518.c
+287970.c
+12
+modify<TAG>3<TAG>double F_(int n)<CHANGETO>int n;
+add<TAG>3<TAG>double  f(x)
+modify<TAG>5<TAG>        double m;<CHANGETO>    if(x==0)
+modify<TAG>6<TAG>        if(n==0)<CHANGETO>        return sin(n);
+modify<TAG>7<TAG>                m=sin(0);<CHANGETO>    else
+modify<TAG>8<TAG>        else<CHANGETO>        return sin(f(x-1));
+del<TAG>9<TAG>                m=sin(F_(n-1));
+del<TAG>10<TAG>        return m;
+modify<TAG>14<TAG>        int n;<CHANGETO>    while((scanf("%d",&n))!=EOF )
+modify<TAG>15<TAG>        scanf("%d",&n);<CHANGETO>    {
+modify<TAG>16<TAG>        printf("%.6lf",F_(n));<CHANGETO>        printf("%f\n",f(n));
+modify<TAG>17<TAG>        return 0;<CHANGETO>    }

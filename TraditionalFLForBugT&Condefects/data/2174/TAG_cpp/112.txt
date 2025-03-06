@@ -1,0 +1,9 @@
+160686.cpp
+160707.cpp
+6
+modify<TAG>7<TAG>		{	cout<<"error"<<endl;<CHANGETO>			cout<<"error"<<endl;
+modify<TAG>8<TAG>		break;<CHANGETO>		else{
+modify<TAG>9<TAG>		}<CHANGETO>		float m=(float)a/b;
+del<TAG>10<TAG>		float m=(float)a/(float)b;
+modify<TAG>13<TAG>		if(m-(a/b)<=0.4)<CHANGETO>		else
+add<TAG>14<TAG>		}

@@ -1,0 +1,16 @@
+356497.c
+358387.c
+13
+add<TAG>1<TAG>#include <math.h>
+modify<TAG>3<TAG>{float a,b;<CHANGETO>{int a,b;
+modify<TAG>4<TAG> int count=0;<CHANGETO> while(scanf("%d %d",&a,&b)!=EOF){
+modify<TAG>5<TAG> while(scanf("%f %f",&a,&b)){<CHANGETO> if(b==0){
+modify<TAG>6<TAG> if(b==0) printf("error\n");<CHANGETO> printf("error\n");
+modify<TAG>7<TAG> else{<CHANGETO> continue;
+del<TAG>8<TAG> float s=a/b;
+del<TAG>9<TAG> printf("%.0f\n",s);
+modify<TAG>11<TAG> count++;<CHANGETO> float s=(float)a/b;
+modify<TAG>12<TAG> if(count>99)<CHANGETO> printf("%.0f\n",round(s));	
+del<TAG>13<TAG> break;
+del<TAG>14<TAG> else continue;
+modify<TAG>16<TAG>} <CHANGETO>}

@@ -1,0 +1,7 @@
+306598.c
+306623.c
+4
+del<TAG>5<TAG>float c;
+modify<TAG>8<TAG>else {c=1.0*a/b;<CHANGETO>else if(fmod(a*1.0/b,1)>=0.5) printf("%d\n",a/b+1);
+modify<TAG>9<TAG>printf("%.0f\n",c);<CHANGETO>else printf("%d\n",a/b);
+modify<TAG>10<TAG>}}<CHANGETO>}

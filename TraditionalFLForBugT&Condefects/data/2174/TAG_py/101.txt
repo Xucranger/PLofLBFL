@@ -1,0 +1,13 @@
+396984.py
+397185.py
+10
+del<TAG>2<TAG>#!/usr/bin/env python3
+del<TAG>3<TAG># coding=utf-8
+modify<TAG>6<TAG>		p = input ()<CHANGETO>		s = raw_input()
+modify<TAG>7<TAG>		s = int (p.split (' ')[0])<CHANGETO>		k = s.split()
+modify<TAG>8<TAG>		k = int (p.split (' ')[1])<CHANGETO>		a = float(k[0])
+modify<TAG>9<TAG>		s = int (s)<CHANGETO>		b = float(k[1])
+modify<TAG>10<TAG>		k = int (k)<CHANGETO>		if b == 0:
+modify<TAG>11<TAG>		if k == 0:<CHANGETO>			print("error")
+del<TAG>12<TAG>			print ('error')
+modify<TAG>14<TAG>			print (round (s / k))<CHANGETO>			print(int(a/b + 0.5))

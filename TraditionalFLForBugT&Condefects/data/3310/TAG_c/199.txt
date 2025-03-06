@@ -1,0 +1,10 @@
+287922.c
+288982.c
+7
+modify<TAG>3<TAG>int n;<CHANGETO>double F(int n,int t)
+del<TAG>4<TAG>float F(int t)
+modify<TAG>8<TAG> else<CHANGETO> else if(t>0)
+modify<TAG>9<TAG>    return sin(F(t-1));<CHANGETO>    return sin(F(n,t-1));
+modify<TAG>13<TAG> int limit=20;<CHANGETO> int n;
+modify<TAG>14<TAG> while(scanf("%d",&n)!=EOF && limit--)<CHANGETO> while(scanf("%d",&n)!=EOF)
+modify<TAG>16<TAG>  printf("%.6f\n",F(n));<CHANGETO>  printf("%.6lf\n",F(n,n));

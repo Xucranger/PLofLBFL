@@ -1,0 +1,7 @@
+305262.cpp
+489026.cpp
+4
+add<TAG>1<TAG>#include<cmath>
+del<TAG>9<TAG>		{
+modify<TAG>11<TAG>		}<CHANGETO>		else
+modify<TAG>12<TAG>		else cout<<a/b<<endl;<CHANGETO>			cout<<floor((1.0*a/b)+0.5)<<endl;

@@ -1,0 +1,12 @@
+489032.c
+489061.c
+9
+modify<TAG>9<TAG>	break;} <CHANGETO>	} 
+modify<TAG>11<TAG>		int sum=a+b;<CHANGETO>	float sum=1.0*a/b;int p=a/b; 
+modify<TAG>12<TAG>		if(sum%10<5)<CHANGETO>	sum=sum*10;
+modify<TAG>13<TAG>		sum=sum/10*10;<CHANGETO>	int q=sum;
+modify<TAG>14<TAG>		else<CHANGETO>	q=q%10;
+modify<TAG>15<TAG>		sum=(sum/10+1)*10;<CHANGETO>	if(q>=5)
+modify<TAG>16<TAG>		printf("%d\n",sum);<CHANGETO>	p=p+1;
+add<TAG>16<TAG>	else;
+add<TAG>16<TAG>		printf("%d\n",p);

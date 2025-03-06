@@ -1,0 +1,4 @@
+359586.cpp
+359635.cpp
+1
+modify<TAG>9<TAG>	 {if(10*a/b>4)cout<<a/b+1<<endl;<CHANGETO>	 {if((10*a/b)%10>4)cout<<a/b+1<<endl;

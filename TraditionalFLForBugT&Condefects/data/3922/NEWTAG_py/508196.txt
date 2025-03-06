@@ -1,0 +1,11 @@
+508196.py
+508103.py
+8
+modify<TAG>2<TAG>a=int(input())<CHANGETO># this is a new learning program
+modify<TAG>3<TAG>i=0<CHANGETO>while True:
+modify<TAG>4<TAG>while i<a:<CHANGETO>    a, b = input().split()
+modify<TAG>5<TAG>    i=i+1<CHANGETO>    a, b = int(a), int(b)
+modify<TAG>6<TAG>    str=input()<CHANGETO>    if b == 0:
+modify<TAG>7<TAG>    if str==str[::-1]:<CHANGETO>        print('error')
+modify<TAG>8<TAG>        print('YES')<CHANGETO>        continue
+modify<TAG>10<TAG>        print('NO')<CHANGETO>        print(int(a/b+0.5))

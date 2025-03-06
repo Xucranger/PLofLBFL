@@ -1,0 +1,6 @@
+484032.py
+484031.py
+3
+modify<TAG>3<TAG>import numpy<CHANGETO>import math
+modify<TAG>6<TAG>        return numpy.sin(n)<CHANGETO>        return math.sin(n)
+modify<TAG>7<TAG>    return numpy.sin(solution(n, x - 1))<CHANGETO>    return math.sin(solution(n, x - 1))

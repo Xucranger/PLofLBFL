@@ -1,0 +1,8 @@
+83202.cpp
+83208.cpp
+5
+modify<TAG>5<TAG>    int a,b,c;<CHANGETO>    float a,b;
+modify<TAG>11<TAG>         {<CHANGETO>             cout<<int(a/b+0.5)<<endl;
+del<TAG>12<TAG>             c=0.5+a/b;
+del<TAG>13<TAG>             cout<<c<<endl;
+del<TAG>14<TAG>         }

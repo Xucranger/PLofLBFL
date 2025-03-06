@@ -1,0 +1,11 @@
+155196.cpp
+82095.cpp
+8
+del<TAG>2<TAG>#include <string>
+modify<TAG>7<TAG>	int a,b;<CHANGETO>	int c;
+add<TAG>7<TAG>	float a,b;
+modify<TAG>12<TAG>		else <CHANGETO>		else
+modify<TAG>14<TAG>			float ans=(float)a/(float)b;<CHANGETO>		c=int(a/b+0.5);
+modify<TAG>15<TAG>			printf("%.0f\n",ans);<CHANGETO>		cout<<c<<endl;
+del<TAG>18<TAG>	//system("pause");
+del<TAG>19<TAG>	return 0;

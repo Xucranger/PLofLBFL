@@ -1,0 +1,33 @@
+508307.py
+508363.py
+30
+modify<TAG>2<TAG>a,b,c = input().split()<CHANGETO>while True:
+modify<TAG>3<TAG>d,e,f = input().split()<CHANGETO>  a,b,c = input().split()
+modify<TAG>4<TAG>a = int(a)<CHANGETO>  a = int(a)
+modify<TAG>5<TAG>b = int(b)<CHANGETO>  b = int(b)
+modify<TAG>6<TAG>c = int(c)<CHANGETO>  c = int(c)
+del<TAG>7<TAG>d = int(d)
+del<TAG>8<TAG>e = int(e)
+del<TAG>9<TAG>f = int(f)
+del<TAG>10<TAG>while True:
+del<TAG>13<TAG>    break
+del<TAG>16<TAG>    break
+del<TAG>19<TAG>    break
+del<TAG>22<TAG>    break
+del<TAG>25<TAG>    break
+del<TAG>26<TAG>while True:
+del<TAG>27<TAG>  if d+e<=f or f+e<=d or d+f<=e:
+del<TAG>28<TAG>    print('ERROR')
+del<TAG>29<TAG>    break
+del<TAG>30<TAG>  elif d == e == f:
+del<TAG>31<TAG>    print ('DB')
+del<TAG>32<TAG>    break
+del<TAG>33<TAG>  elif d == e or d==f or e==f:
+del<TAG>34<TAG>    print ('DY')
+del<TAG>35<TAG>    break
+del<TAG>36<TAG>  elif d*d == e*e + f*f or e*e == d*d+ f*f or f*f== d*d + e*e:
+del<TAG>37<TAG>    print ('ZJ')
+del<TAG>38<TAG>    break
+del<TAG>39<TAG>  else:
+del<TAG>40<TAG>    print ('PT')
+del<TAG>41<TAG>    break

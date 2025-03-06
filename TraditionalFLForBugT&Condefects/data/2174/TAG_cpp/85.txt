@@ -1,0 +1,10 @@
+50551.cpp
+491372.cpp
+7
+modify<TAG>4<TAG>	int a,b,c=0;<CHANGETO>	double a,b,r;
+modify<TAG>6<TAG>		if(b!=0){<CHANGETO>		if(b)
+modify<TAG>7<TAG>			c=a/b;<CHANGETO>		{
+modify<TAG>8<TAG>			if(c>=1/2)<CHANGETO>			r=a/b;
+modify<TAG>9<TAG>				cout<<c+1<<endl;<CHANGETO>			if(r-int(r)>=0.5)
+modify<TAG>10<TAG>			else<CHANGETO>				r++;
+modify<TAG>11<TAG>				cout<<c<<endl;<CHANGETO>			cout<<int(r)<<endl;

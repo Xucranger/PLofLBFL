@@ -1,0 +1,6 @@
+397088.py
+397127.py
+3
+modify<TAG>4<TAG>		s = input()<CHANGETO>		s = raw_input()
+modify<TAG>6<TAG>		a = int(k[0])<CHANGETO>		a = float(k[0])
+modify<TAG>7<TAG>		b = int(k[1])<CHANGETO>		b = float(k[1])

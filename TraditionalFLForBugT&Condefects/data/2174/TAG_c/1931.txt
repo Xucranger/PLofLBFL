@@ -1,0 +1,7 @@
+244321.c
+244325.c
+4
+modify<TAG>11<TAG>		if(a>2*b)<CHANGETO>		if(2*a<b)
+modify<TAG>21<TAG>					if(a%b*1.0>=0.5)<CHANGETO>					if(a%b*1.0>=0.5*b)
+modify<TAG>22<TAG>						printf("%d\n",a%b+1);<CHANGETO>						printf("%d\n",a/b+1);
+modify<TAG>24<TAG>						printf("%d\n",a%b);<CHANGETO>						printf("%d\n",a/b);

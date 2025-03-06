@@ -1,0 +1,9 @@
+190649.c
+190789.c
+6
+modify<TAG>3<TAG> {int a,b,c;<CHANGETO> {int a,b,c,d,e;
+modify<TAG>7<TAG>     {printf("ERROR\n");}<CHANGETO>     {printf("error\n");}
+add<TAG>9<TAG>     d=a%b;
+add<TAG>9<TAG>     e=2*d;
+add<TAG>9<TAG>     if(e>=b)
+add<TAG>9<TAG>        {c=c+1;}

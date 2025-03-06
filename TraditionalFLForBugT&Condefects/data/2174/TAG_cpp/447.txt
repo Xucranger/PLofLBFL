@@ -1,0 +1,9 @@
+84994.cpp
+59038.cpp
+6
+modify<TAG>1<TAG>#include <iostream><CHANGETO>#include<iostream>
+add<TAG>5<TAG>int m;
+modify<TAG>11<TAG>cout<<(int)a/b<<endl;<CHANGETO>{
+add<TAG>11<TAG>m=(a*1.0)/b+0.5;
+add<TAG>11<TAG>cout<<m<<endl;
+modify<TAG>13<TAG>return 0;<CHANGETO>}

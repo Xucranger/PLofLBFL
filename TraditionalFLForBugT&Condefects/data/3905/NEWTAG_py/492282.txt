@@ -1,0 +1,5 @@
+492282.py
+492170.py
+2
+del<TAG>2<TAG>//BUCTOJ 3903 Input format-4
+modify<TAG>9<TAG>        print(s-int(m[0]))<CHANGETO>    print(s-int(m[0]))

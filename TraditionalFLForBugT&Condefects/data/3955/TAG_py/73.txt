@@ -1,0 +1,9 @@
+508952.py
+508871.py
+6
+modify<TAG>3<TAG>    n1,n2=input().split( )<CHANGETO>    a,b=input().split()
+modify<TAG>4<TAG>    n1=str(n1)<CHANGETO>    a1=a+a
+modify<TAG>5<TAG>    n2=str(n2)<CHANGETO>    if a1.find(b)!=-1 and len(b)==len(a):
+modify<TAG>6<TAG>    if n2==n1[-1]+n1[:-1]:<CHANGETO>        print("Yes")
+del<TAG>7<TAG>        print('YES')
+modify<TAG>9<TAG>        print('NO')<CHANGETO>        print("No")

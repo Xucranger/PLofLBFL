@@ -1,0 +1,1379 @@
+AnswerID,correctVersion,faultyVersion,faultLocation,reason,Reasonability,Readability,Practicality
+1640854,"#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	int sx,sy,tx,ty;cin>>sx>>sy>>tx>>ty;
+	int y=ty-sy;int x=tx-sx;
+	for(int i=0;i<y;i++)cout<<""U"";
+	for(int i=0;i<x;i++)cout<<""R"";
+	for(int i=0;i<y;i++)cout<<""D"";
+	for(int i=0;i<=x;i++)cout<<""L"";
+	for(int i=0;i<=y;i++)cout<<""U"";
+	for(int i=0;i<=x;i++)cout<<""R"";
+	cout<<""DR"";
+	for(int i=0;i<=y;i++)cout<<""D"";
+	for(int i=0;i<=x;i++)cout<<""L"";
+	cout<<""U"";
+	return 0;
+}","#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+	int sx,sy,tx,ty;cin>>sx>>sy>>tx>>ty;
+	int y=ty-sx;int x=tx-sx;
+	for(int i=0;i<y;i++)cout<<""U"";
+	for(int i=0;i<x;i++)cout<<""R"";
+	for(int i=0;i<y;i++)cout<<""D"";
+	for(int i=0;i<=x;i++)cout<<""L"";
+	for(int i=0;i<=y;i++)cout<<""U"";
+	for(int i=0;i<=x;i++)cout<<""R"";
+	cout<<""DR"";
+	for(int i=0;i<=y;i++)cout<<""D"";
+	for(int i=0;i<=x;i++)cout<<""L"";
+	cout<<""U"";
+	return 0;
+}",7,"Incorrect calculation of 'y': it uses 'ty - sx' instead of 'ty - sy', leading to an incorrect vertical distance between start and target positions.",-1,-1,-1
+1717768,"#include <bits/stdc++.h>
+
+#define endl '\n'
+
+using namespace std;
+
+typedef long long LL;
+
+void solve()
+{
+	LL n;
+	cin >> n;
+	
+	set<LL> S;
+	for (LL i = 2; i <= n / i; i ++ )
+		if (n % i == 0)
+		{
+			LL t = n;
+			while (t % i == 0) t /= i;
+			if (t % i == 1) S.insert(i);
+		}
+		
+	LL m = n - 1;
+	for (LL i = 1; i <= m / i; i ++ )
+		if (m % i == 0)
+		{
+			S.insert(i);
+			S.insert(m / i);
+		}
+		
+	S.erase(1);
+	S.insert(n);
+	
+	cout << S.size() << endl;
+}
+
+int main()
+{
+	ios::sync_with_stdio(false);
+	cin.tie(0), cout.tie(0);
+	
+    int T = 1;
+    // cin >> T;
+    while (T -- ) solve();
+    
+    return 0;
+}
+","#include <bits/stdc++.h>
+
+#define endl '\n'
+
+using namespace std;
+
+typedef long long LL;
+
+void solve()
+{
+	LL n;
+	cin >> n;
+	
+	set<LL> S;
+	for (LL i = 2; i <= n / i; i ++ )
+		if (n % i == 0)
+		{
+			LL t = n;
+			while (t % i == 0) t /= i;
+			if (t % i == 1) S.insert(i);
+		}
+		
+	LL m = n - 1;
+	for (LL i = 1; i <= m / i; i ++ )
+		if (m % i == 0)
+		{
+			S.insert(i);
+			S.insert(m / i);
+		}
+		
+	// S.erase(1);
+	S.insert(n);
+	
+	cout << S.size() << endl;
+}
+
+int main()
+{
+	ios::sync_with_stdio(false);
+	cin.tie(0), cout.tie(0);
+	
+    int T = 1;
+    // cin >> T;
+    while (T -- ) solve();
+    
+    return 0;
+}
+",31,The line that removes 1 from the set S is commented out. Including 1 in the set may be incorrect if 1 should not be counted among the valid k values.,-1,-1,-1
+996392,"#include<iostream>
+using namespace std;
+int f(int x)
+{
+    int n;
+    if(x==1)return 1;
+    if(x==2)return 1;
+    if(x>2)return f(x-1)+f(x-2);
+    
+}
+int main()
+{
+    int m,i;
+    cin>>m;
+    for(i=1;i<=m;i++)
+    {
+        cout<<f(i)<<"" "";
+    }
+}","#include<iostream>
+using namespace std;
+int f(int x)
+{
+    int n;
+    if(x==1)return 1;
+    if(x==2)return 1;
+    if(x>2)return f(x-1)+f(x-2);
+    
+}
+int main()
+{
+    int m,i;
+    cin>>m;
+    for(i-1;i<=m;i++)
+    {
+        cout<<f(i)<<"" "";
+    }
+}",15,"The for loop initialization 'i-1' is incorrect; 'i-1' is an expression, not an assignment. 'i' remains uninitialized, leading to undefined behavior. It should be 'i=1'.",-1,-1,-1
+2070183,"#include <iostream>
+#include <cmath>    
+using namespace std;
+
+int main()
+
+{   int a[10001],n,i;
+    cin>>n;
+    a[1]=1;
+    a[2]=1;
+for(i=3;i<=n;i++){a[i]=a[i-1]+a[i-2];}
+for(i=1;i<=n;i++){cout<<a[i]<<' ';}
+
+                return 0;}","#include <iostream>
+#include <cmath>    
+using namespace std;
+
+int main()
+
+{   int a[10001],n,i;
+    cin>>n;
+    a[1]=1;
+    a[2]=1;
+for(i=3;i<=n;i++){a[1]=a[i-1]+a[i-2];}
+for(i=1;i<=n;i++){cout<<a[i]<<' ';}
+
+                return 0;}",11,Assigns to a[1] instead of a[i]; should be a[i] = a[i-1] + a[i-2]; this causes incorrect calculation of Fibonacci numbers.,-1,-1,-1
+2070158,"#include <iostream>
+#include<iomanip>
+#include<string>
+int main()
+
+{
+    using namespace std;
+    int n,a,b,c;
+    cin>>n;
+    a=1;
+    b=1;
+    if(n==1) 
+        cout <<""1"";
+    else
+        cout<<""1 1 "";
+        for(int i=2;i<n;i++)
+        {
+            c=a+b;
+            a=b;
+            b=c;
+            cout<<c<<"" "";
+        }
+    return 0;
+}
+
+
+","#include <iostream>
+#include<iomanip>
+#include<string>
+int main()
+
+{
+    using namespace std;
+    int n,a,b,c;
+    cin>>n;
+    a=1;
+    b=1;
+    if(n=1) 
+        cout <<""1"";
+    else
+        cout<<""1 1 "";
+        for(int i=2;i<n;i++)
+        {
+            c=a+b;
+            a=b;
+            b=c;
+            cout<<c<<"" "";
+        }
+    return 0;
+}
+
+
+",12,"Uses assignment operator '=' instead of comparison operator '==' in the if condition, causing 'n' to be set to 1 regardless of input.",-1,-1,-1
+994983,"#include <iostream>
+
+using namespace std;
+
+int main()
+{
+int m,N,z=0,x=1,c;
+cin>>N;
+cout<<""1""<<"" "";
+for(m=1;m<N;m++)
+{
+    c=x;
+    x=z+x;
+    z=c;
+    cout<<x<<"" "";
+}return 0;
+}
+","#include <iostream>
+
+using namespace std;
+
+int main()
+{
+int m,N,z=0,x=1,c;
+cin>>N;
+cout<<""1""<<"" "";
+for(m=1;m<=N;m++)
+{
+    c=x;
+    x=z+x;
+    z=c;
+    cout<<x<<"" "";
+}return 0;
+}
+",10,"The loop runs from m=1 to m<=N, which may cause an extra iteration, resulting in N+1 Fibonacci numbers being printed instead of N. Adjusting the loop bounds may fix the issue.",-1,-1,-1
+447093,"#include<iostream>
+using namespace std;
+int main()
+{
+	int N;
+   cin>>N;
+   int c=1,b=0;
+   cout<<1<<"" "";
+   for(int i=1;i<=N-1;i++)
+   {
+   c=c+b;
+   b=c-b;
+   cout<<c<<"" "";}
+} ","#include<iostream>
+using namespace std;
+int main()
+{
+	int N;
+   cin>>N;
+   int c=1,b=0;
+   cout<<1<<"" "";
+   for(int i=1;i<=N-2;i++)
+   {
+   c=c+b;
+   b=c-b;
+   cout<<c<<"" "";}
+} ",9,"The loop bounds are incorrect. Using 'i <= N - 2' causes the program to output fewer than N terms, especially when N is small. It should be 'i <= N - 1' to ensure N terms are printed.",-1,-1,-1
+1593774,"#include <bits/stdc++.h>
+
+int n, m;
+
+std::map<int,int> mp;
+
+int main()
+{
+    std::cin >> n >> m;
+
+    for (int i = 0; i < m; i ++ )
+    {
+        int a, b;
+        std::cin >> a >> b;
+        mp[a] ++ ;
+        mp[b] ++ ;
+    }
+    int t = 0;
+    for (int i = 1; i <= n; i ++ )
+    {
+        if (!mp[i] && n > 1)
+        {
+            std::cout << 0 << '\n';
+            return 0;
+        }
+        if (mp[i] % 2) t ++ ;
+    }
+    
+    if (t) std::cout << 0 << '\n';
+    else std::cout << 1 << '\n';
+
+    return 0;
+}","#include <bits/stdc++.h>
+
+int n, m;
+
+std::map<int,int> mp;
+
+int main()
+{
+    std::cin >> n >> m;
+
+    for (int i = 0; i < m; i ++ )
+    {
+        int a, b;
+        std::cin >> a >> b;
+        mp[a] ++ ;
+        mp[b] ++ ;
+    }
+    int t = 0;
+    for (int i = 1; i <= n; i ++ )
+    {
+        if (!mp[i])
+        {
+            std::cout << 0 << '\n';
+            return 0;
+        }
+        if (mp[i] % 2) t ++ ;
+    }
+    
+    if (t) std::cout << 0 << '\n';
+    else std::cout << 1 << '\n';
+
+    return 0;
+}",21,The code checks for nodes with zero degree but does not ensure the graph is connected; simply checking for isolated nodes is insufficient to confirm connectivity.,-1,-1,-1
+1597133,"#include<bits/stdc++.h>
+#include<iostream>
+#include<stdlib.h>
+#include<string.h>
+#include<stdio.h>
+#include<cstring>
+#include<cstdarg>
+#include<vector>
+#include<cstdio>
+using namespace std;
+#define MAX_SIZE 100
+int main()
+{
+    int N,M,count=0,k=0;
+    cin>>N>>M;
+    int t[N+1]={0};
+    for(int i=0;i<M;i++)
+    {
+        int a,b;
+        cin>>a>>b;
+        t[a]++;
+        t[b]++;
+        k++;
+    }
+    for(int i=1;i<=N;i++)
+    {
+        if(t[i]%2==0)
+        count++;
+        k=count;
+    }
+    if(count!=N||(M==0&&N!=1))
+    {
+        cout<<0<<endl;
+    }
+    else if(count==N)
+    {
+        cout<<1<<endl;
+    } 
+}","#include<bits/stdc++.h>
+#include<iostream>
+#include<stdlib.h>
+#include<string.h>
+#include<stdio.h>
+#include<cstring>
+#include<cstdarg>
+#include<vector>
+#include<cstdio>
+using namespace std;
+#define MAX_SIZE 100
+int main()
+{
+    int N,M,count=0,k=0;
+    cin>>N>>M;
+    int t[N+1]={0};
+    for(int i=0;i<M;i++)
+    {
+        int a,b;
+        cin>>a>>b;
+        t[a]++;
+        t[b]++;
+        k++;
+    }
+    for(int i=1;i<=N;i++)
+    {
+        if(t[i]%2==0)
+        count++;
+        k=count;
+    }
+    if(count!=N||M==0)
+    {
+        cout<<0<<endl;
+    }
+    else if(count==N)
+    {
+        cout<<1<<endl;
+    } 
+}",31,The program fails to check if the graph is connected. An Eulerian circuit requires the graph to be connected and all vertices to have even degrees.,-1,-1,-1
+1598133,"#include<bits/stdc++.h>
+using namespace std;
+int n, m,str[1001][1001]={0};
+int hs(int str[1001][1001]) {
+    int sum = 0;
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= n; j++) {
+            if (str[i][j] == 1)
+                sum++;
+        }
+        if (sum % 2 != 0||sum==0)
+        {
+            return 0;
+            break;
+        }
+        sum = 0;
+    }
+    return 1;
+}
+int main() {
+    cin >> n>>m;
+    int  A, B;
+    for (int i = 0; i < m; i++) {
+        cin >> A >> B;
+        str[A][B] = 1;
+        str[B][A] = 1;
+    }
+    if (n != 1) {
+        cout << hs(str);
+    }
+    else
+        cout << 1;
+    return 0;
+}","#include<bits/stdc++.h>
+using namespace std;
+int n, m,str[1001][1001]={0};
+int hs(int str[1001][1001]) {
+    int sum = 0;
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= n; j++) {
+            if (str[i][j] == 1)
+                sum++;
+        }
+        if (sum % 2 != 0||sum==0)
+        {
+            return 0;
+            break;
+        }
+        sum = 0;
+    }
+   
+}
+int main() {
+    cin >> n>>m;
+    int  A, B;
+    for (int i = 0; i < m; i++) {
+        cin >> A >> B;
+        str[A][B] = 1;
+        str[B][A] = 1;
+    }
+    if (n != 1) {
+        cout << hs(str);
+    }
+    else
+        cout << 1;
+    return 0;
+}",19,"Missing 'return 1;' at the end of the function 'hs', which leads to undefined behavior when all vertex degrees are even.",-1,-1,-1
+1592700,"#include <iostream>
+#include <cstring>
+#include <queue>
+#include <stack>
+#include <vector>
+#include <iterator>
+#include <algorithm>
+using namespace std;
+int m,n; int a[1001][1001];
+void DFS(int v0,int visited[])
+{
+visited[v0]=1;
+for(int k=1;k<=n;k++)
+{
+if(a[v0][k]==1&&visited[k]==0)
+DFS(k,visited);
+}
+}
+#if(1)
+int main()
+{  
+  
+  int *visited;
+   cin>>n>>m;  
+   visited=new int[n+1];
+   memset(visited,0,sizeof(int)*(n+1));
+   int du[n+1];
+   for(int i=1;i<=n;i++)du[i]=0;
+   for(int i=0;i<m;i++)
+    {int s1,s2;
+        cin>>s1>>s2;
+        a[s1][s2]=a[s2][s1]=1;
+        du[s1]++;du[s2]++;
+    }
+    DFS(1,visited);
+    int num=0;
+    for(int i=1;i<=n;++i)
+    if(du[i]%2==1)num++;
+    if(num!=0)
+    {cout<<'0';return 0;}
+    for(int i=1;i<=n;i++)
+    {
+        if(visited[i]==0){cout<<'0';return 0;}
+        
+    }
+    cout<<'1';
+    return 0;
+}
+#endif","#include <iostream>
+#include <cstring>
+#include <queue>
+#include <stack>
+#include <vector>
+#include <iterator>
+#include <algorithm>
+using namespace std;
+int m,n; int a[1001][1001];
+void DFS(int v0,int visited[])
+{
+visited[v0]=1;
+for(int k=1;k<=n;k++)
+{
+if(a[v0][k]==1&&visited[k]==0)
+DFS(k,visited);
+}
+}
+#if(1)
+int main()
+{  
+  
+  int *visited;
+   cin>>n>>m;  
+   visited=new int[n+1];
+   memset(visited,0,sizeof(int)*(n+1));
+   int du[n+1];
+   for(int i=1;i<=n;i++)du[i]=0;
+   for(int i=0;i<m;i++)
+    {int s1,s2;
+        cin>>s1>>s2;
+        a[s1][s2]=a[s2][s1]=1;
+        du[s1]++;du[s2]++;
+    }
+    DFS(1,visited);
+    int num=0;
+    for(int i=1;i<=n;++i)
+    if(du[i]%2==1)num++;
+    if(num%2==1)
+    {cout<<'0';return 0;}
+    for(int i=1;i<=n;i++)
+    {
+        if(visited[i]==0){cout<<'0';return 0;}
+        
+    }
+    cout<<'1';
+    return 0;
+}
+#endif",39,"The condition 'if(num%2==1)' checks if the number of vertices with odd degree is odd. However, in any undirected graph, the number of vertices with odd degree is always even. This condition will never be true, and the correct condition should likely be 'if(num != 0)' to check if there are any vertices with odd degree.",-1,-1,-1
+1592821,"#include<bits/stdc++.h>
+using namespace std;
+int b[2005];
+int n,m;
+int main()
+{
+    cin>>n>>m;
+    if(n>m&&n!=1)
+    {
+        cout<<""0""<<endl;
+    }
+    else{
+        memset(b,0,sizeof(b));
+    for(int i=0;i<m;i++)
+    {
+        int b1,b2;
+        cin>>b1>>b2;
+        b[b1]++;
+        b[b2]++;
+    }
+    for(int i=1;i<=n;i++)
+    {
+        if(b[i]%2==1)
+        {
+            cout<<""0""<<endl;
+            return 0;
+        }
+    }
+    cout<<""1""<<endl;
+    }
+}","#include<bits/stdc++.h>
+using namespace std;
+int b[2005];
+int n,m;
+int main()
+{
+    cin>>n>>m;
+    if(n>m)
+    {
+        cout<<""0""<<endl;
+    }
+    else{
+        memset(b,0,sizeof(b));
+    for(int i=0;i<m;i++)
+    {
+        int b1,b2;
+        cin>>b1>>b2;
+        b[b1]++;
+        b[b2]++;
+    }
+    for(int i=1;i<=n;i++)
+    {
+        if(b[i]%2==1)
+        {
+            cout<<""0""<<endl;
+            return 0;
+        }
+    }
+    cout<<""1""<<endl;
+    }
+}",8,The condition 'if (n > m)' is logically incorrect and may cause the program to output '0' when all degrees are even. Graphs with more nodes than edges can still have all nodes with even degrees.,-1,-1,-1
+2080787,"#include <iostream>
+#include<vector>
+#include<algorithm>
+#include<iomanip>
+using namespace std;
+
+int main()
+
+{
+    long long num;
+    cin>>num;
+    while(num!=1)
+    {
+        if(num%2==0)
+        {
+            cout<<num;
+            num=num/2;
+            cout<<""/2=""<<num<<endl;
+        }
+        if(num%2!=0&&num!=1)
+        {
+            cout<<num;
+            num=num*3+1;
+            cout<<""*3+1=""<<num<<endl;
+        }
+        if(num==1)
+        break;
+    }
+    cout<<""End""<<endl;
+    return 0;
+
+}
+","#include <iostream>
+#include<vector>
+#include<algorithm>
+#include<iomanip>
+using namespace std;
+
+int main()
+
+{
+    long long num;
+    cin>>num;
+    while(num==1)
+    {
+        if(num%2==0)
+        {
+            cout<<num;
+            num=num/2;
+            cout<<""/2=""<<num<<endl;
+        }
+        if(num%2!=0&&num!=1)
+        {
+            cout<<num;
+            num=num*3+1;
+            cout<<""*3+1=""<<num<<endl;
+        }
+        if(num==1)
+        break;
+    }
+    cout<<""End""<<endl;
+    return 0;
+
+}
+",12,The loop condition 'while(num == 1)' is incorrect. It should be 'while(num != 1)' to continue looping until num becomes 1.,-1,-1,-1
+1368495,"#include <iostream>
+using namespace std;
+int main()
+{
+	long long  n;
+	cin >> n;
+
+    while (n != 1)
+    {
+        if (n % 2 == 1)
+        {
+            cout << n << ""*3+1="" << n * 3 + 1 << endl;
+            n = n * 3 + 1;
+        }
+        else
+        {
+            cout << n << ""/2="" << n / 2 << endl;
+            n = n / 2;
+        }
+
+    }
+    
+    cout << ""End"" << endl;
+
+	return 0;
+}","#include <iostream>
+using namespace std;
+int main()
+{
+	long long  n;
+	cin >> n;
+
+    while (n == 1)
+    {
+        if (n % 2 == 1)
+        {
+            cout << n << ""*3+1="" << n * 3 + 1 << endl;
+            n = n * 3 + 1;
+        }
+        else
+        {
+            cout << n << ""/2="" << n / 2 << endl;
+            n = n / 2;
+        }
+
+    }
+    
+    cout << ""End"" << endl;
+
+	return 0;
+}
+",8,"The loop condition is 'while (n == 1)', which causes the loop to execute only when n is 1. It should be 'while (n != 1)' to continue looping until n becomes 1.",-1,-1,-1
+600634,"#include<stdio.h>
+int main()
+{
+	long long n,m;
+	scanf(""%lld"",&n);
+	if(n==1)
+	printf(""End\n"");
+	for(n!=1;n>1;)
+	{
+		if(n%2!=0)
+		  {m=n*3+1;
+		   printf(""%lld*3+1=%lld\n"",n,m);
+		   n=m;
+		  }
+		if(n%2==0)
+		{m=n/2;
+		 printf(""%lld/2=%lld\n"",n,m);
+		 n=m;
+		}
+		if(n==1)
+		{printf(""End\n"");
+		 break;
+		}
+	}
+	return 0;
+}","#include<stdio.h>
+int main()
+{
+	long long n,m;
+	scanf(""%lld"",&n);
+	if(n==1)
+	printf(""End\n"");
+	for(n!=1;n>=1;)
+	{
+		if(n%2!=0)
+		  {m=n*3+1;
+		   printf(""%lld*3+1=%lld\n"",n,m);
+		   n=m;
+		  }
+		if(n%2==0)
+		{m=n/2;
+		 printf(""%lld/2=%lld\n"",n,m);
+		 n=m;
+		}
+		if(n==1)
+		{printf(""End\n"");
+		 break;
+		}
+	}
+	return 0;
+}",8,"Incorrect 'for' loop syntax; 'n!=1' is used in the initialization section but is a condition, not an initialization; this will cause a compilation error.",-1,-1,-1
+1951129,"#include<iostream>
+#include<cstdio>
+using namespace std;
+int main()
+{
+    int a,b,c,x,y,s,k=0,i;
+    long long n,m;
+    cin>>n;
+    if(n==1) cout<<""End"";
+    else
+    {
+     for(i=0;i<=1000000;i++)
+     {
+      if(n==1) 
+      {
+         cout<<""End"";
+         break;
+      }
+      if(n%2==1) 
+      {
+         m=n;
+         n=m*3+1;
+         cout<<m<<""*3+1=""<<n<<endl;;
+      }
+      else if(n%2==0)
+      {
+         m=n;
+         n=m/2;
+         cout<<m<<""/2=""<<n<<endl;
+      }
+     
+     
+     
+     } 
+    } 
+     return 0;
+}","#include<iostream>
+#include<cstdio>
+using namespace std;
+int main()
+{
+    int a,b,c,x,y,s,k=0,i;
+    long long n,m;
+    cin>>n;
+    if(n==1) cout<<""End"";
+    else
+    {
+     for(i=0;i<=1000000;i++)
+     {
+      if(i==1) 
+      {
+         cout<<""End"";
+         break;
+      }
+      if(n%2==1) 
+      {
+         m=n;
+         n=m*3+1;
+         cout<<m<<""*3+1=""<<n<<endl;;
+      }
+      else if(n%2==0)
+      {
+         m=n;
+         n=m/2;
+         cout<<m<<""/2=""<<n<<endl;
+      }
+     
+     
+     
+     } 
+    } 
+     return 0;
+}",14,The condition 'if(i == 1)' is incorrect; it should check 'if(n == 1)' to determine if n has reached 1 and terminate the loop.,-1,-1,-1
+151737,"#include<iostream>
+using namespace std;
+int main(void){
+	int num;
+	while(cin>>num,num){
+		if(num==1) cout<<0<<endl;
+		else if(num%2==0) cout<<num/2<<endl;
+		else cout<<(num-1)/2<<endl;
+	}
+	return 0;
+} ","#include<iostream>
+using namespace std;
+int main(void){
+	int num;
+	while(cin>>num){
+		if(num==1) cout<<0<<endl;
+		else if(num%2==0) cout<<num/2<<endl;
+		else cout<<(num-1)/2<<endl;
+	}
+	return 0;
+} ",5,"No check for invalid input or EOF; 'cin >> num' may fail, causing an infinite loop or unexpected termination.",-1,-1,-1
+1728288,"#include <iostream>
+#include <stdio.h>
+using namespace std;
+int main()
+{
+    int a,b;
+    cin>>a>>b;
+    if (a>b) cout<<a;
+    else cout<<b;
+}","#include <iostream>
+#include <stdio.h>
+using namespace std;
+int main()
+{
+    int a,b;
+    cin>>a,b;
+    if (a>b) cout<<a;
+    else cout<<b;
+}",7,"Incorrect input statement 'cin>>a,b;'. The comma operator causes only 'a' to be read, leaving 'b' uninitialized. It should be 'cin>>a>>b;'.",-1,-1,-1
+1892276,"#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    scanf(""%d %d"",&a,&b);
+    c=a>b?a:b;
+    printf(""%d"",c);
+    return 0;
+}","#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    scanf(""%d %d"",&a,&b);
+    c=a>=b?'a':'b';
+    printf(""%d"",c);
+    return 0;
+}",6,Incorrect use of character constants 'a' and 'b' in the ternary operator; it assigns ASCII codes 97 or 98 to 'c' instead of the values of variables 'a' or 'b'. Should use 'c = a >= b ? a : b;' to assign the larger number.,-1,-1,-1
+2426789,"#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    cin>>a>>b;
+    int c=a>b? a:b;
+    cout<<c;
+    return 0;
+}","#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    cin>>a>>b;
+    int c=a>b? a:c;
+    cout<<c;
+    return 0;
+}",7,"Line 7 uses the variable 'c' before it has been initialized, leading to undefined behavior.",-1,-1,-1
+1895155,"#include<iostream>
+#include<cstdio>
+#include<string>
+#include<string.h>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cin>>a>>b;
+    if(a>b)
+    {
+        c=a;
+    }
+    else c=b;
+    cout<<c<<endl;
+    return 0;
+}","#include<iostream>
+#include<cstdio>
+#include<string>
+#include<string.h>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cin>>a,b;
+    if(a>b)
+    {
+        c=a;
+    }
+    else c=b;
+    cout<<c<<endl;
+    return 0;
+}",10,"Incorrect input operation; 'cin>>a,b;' only reads 'a'. 'b' is not assigned any value.",-1,-1,-1
+1892275,"#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    scanf(""%d %d"",&a,&b);
+    c=a>b?a:b;
+    printf(""%d"",c);
+    return 0;
+}","#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    scanf(""%d %d"",&a,&b);
+    c=a>b?'a':'b';
+    printf(""%d"",c);
+    return 0;
+}",6,Line 6 assigns the character 'a' or 'b' to the integer variable 'c' instead of assigning the greater value between 'a' and 'b'. This likely causes incorrect results.,-1,-1,-1
+1895148,"#include<iostream>
+#include<cstdio>
+#include<string>
+#include<string.h>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cin>>a>>b;
+    if(a>b)
+    {
+        c=a;
+    }
+    else c=b;
+    cout<<c<<endl;
+    return 0;
+}","#include<iostream>
+#include<cstdio>
+#include<string>
+#include<string.h>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cin>>a,b;
+    if(a>b)
+    {
+        c=a;
+    }
+    else c=b;
+    cout<<c<<endl;
+    return 0;
+}",10,"'b' is not assigned a value from input due to misuse of the comma operator; 'cin >> a, b;' should be 'cin >> a >> b;'.",-1,-1,-1
+1728448,"#include <stdio.h>
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+int main()
+{
+    int a,b,c,max;
+    cin>>a>>b>>c;
+    max=a>b?a>c?a:c:b>c?b:c;
+    cout<<max;
+    return 0;
+}","#include <stdio.h>
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+int main()
+{
+    int a,b,c,max;
+    cin>>a>>a>>c;
+    max=a>b?a>c?a:c:b>c?b:c;
+    cout<<max;
+    return 0;
+}",8,"Incorrect input: the code reads into variable 'a' twice and skips 'b', leading to incorrect values for 'b' and potential errors in maximum calculation.",-1,-1,-1
+441673,"#include<stdio.h>
+int main()
+{
+	int a,b,n,s,i;
+	while(~scanf(""%d%d%d"",&a,&b,&n))
+	{
+	i=(a+b)/3;
+	s=((a-i)*n)/i;
+	printf(""%d\n"",s);
+	}
+}","#include<stdio.h>
+int main()
+{
+	int a,b,n,s,i;
+	while(~scanf(""%d%d%d"",&a,&b,&n))
+	{
+	i=(a+b)/3;
+	s=((a-i)/i)*n;
+	printf(""%d\n"",s);
+	}
+}",8,"Possible division by zero when 'i' is zero, causing a runtime error.",-1,-1,-1
+1702029,"#include <cstdio>
+#include <iostream>
+#include <cmath>
+
+typedef long long ll; 
+
+using namespace std;
+
+int main()
+{
+	int n = 100;
+	
+	ll x1,x2;
+	
+	x1 = (n*(n+1))/2;
+	
+	x1=x1*x1;
+	
+	x2=(n*(n+1)*(2*n+1))/6;
+	
+	printf(""%lld"",x1-x2);
+	
+}","#include <cstdio>
+#include <iostream>
+#include <cmath>
+
+typedef long long ll; 
+
+using namespace std;
+
+int main()
+{
+	int n = 100;
+	
+	ll x1,x2;
+	
+	x1 = (n*(n+1))/2;
+	
+	x1=x1*x1;
+	
+	x2=(n*(n+1)*(n+2))/6;
+	
+	printf(""%lld"",x1-x2);
+	
+}",19,Incorrect formula for sum of squares; should use (2n+1) instead of (n+2).,-1,-1,-1
+1701863,"#include<stdio.h>
+int main()
+{
+	long long sum1=0,sum2=0;
+	for(int i=1;i<=100;i++)
+	{
+		sum1 += (i*i);
+		sum2 += i;
+	}
+	long long t=sum2*sum2-sum1;
+	printf(""%lld"",t); 
+}","#include<stdio.h>
+int main()
+{
+	long long sum1=0,sum2=0;
+	for(int i=1;i<=100;i++)
+	{
+		sum1 += (i*i);
+		sum2 += i;
+	}
+	long long t=sum1-sum2*sum2;
+	printf(""%lld"",t); 
+}",10,Order of operations likely incorrect; should compute t = sum2*sum2 - sum1 to get the positive difference.,-1,-1,-1
+1701986,"#include<iostream>
+#include<string>
+#include<algorithm>
+#include<math.h>
+#include<iomanip>
+#include<list>
+#include<vector>
+#include<set>
+#include<queue>
+#include<deque>
+#include<map>
+#include<stack>
+const int constMod = (int)1e9 + 7;
+using namespace std;
+int main() {
+	long long sum1 = 0, sum2 = 0;
+	for(int i=0; i<=100; i++) {
+		sum1 += i;
+		sum2 += i * i;
+	}
+	cout<<sum1 * sum1 - sum2<<endl;
+}","#include<iostream>
+#include<string>
+#include<algorithm>
+#include<math.h>
+#include<iomanip>
+#include<list>
+#include<vector>
+#include<set>
+#include<queue>
+#include<deque>
+#include<map>
+#include<stack>
+const int constMod = (int)1e9 + 7;
+using namespace std;
+int main() {
+	long long sum1, sum2;
+	for(int i=0; i<=100; i++) {
+		sum1 += i;
+		sum2 += i * i;
+	}
+	cout<<sum1 * sum1 - sum2<<endl;
+}",16,"Variables sum1 and sum2 are declared but not initialized before use, leading to undefined behavior.",-1,-1,-1
+1701978,"#include<bits/stdc++.h>
+#include<math.h>
+#define PI acos(-1)
+using namespace std;
+int main()
+{
+    long long int sum1=0;
+    long long int sum2=0;
+    int i,a;
+    for(i=1;i<101;i++)
+    {
+        sum1=sum1+i;
+    }
+    for(i=1;i<101;i++)
+    {
+        a=i*i;
+        sum2=sum2+a;
+    }
+    long long int s=sum1*sum1;
+    long long int result=s-sum2;
+    cout<<result<<endl;
+    return 0;
+}","#include<bits/stdc++.h>
+#include<math.h>
+#define PI acos(-1)
+using namespace std;
+int main()
+{
+    long long int sum1=0;
+    long long int sum2=0;
+    int i,a;
+    for(i=1;i<101;i++)
+    {
+        sum1=sum1+i;
+    }
+    for(i=1;i<101;i++)
+    {
+        a=i*i;
+        sum2=sum2+a;
+    }
+    long long int s=sum1*sum1;
+    long long int result=sum2-s;
+    cout<<result<<endl;
+    return 0;
+}",20,"The calculation subtracts the square of the sum from the sum of the squares, which results in a negative value. It should be 'result = s - sum2;' to get the correct positive difference.",-1,-1,-1
+1712663,"#include <bits/stdc++.h>
+using namespace std;
+#define int long long
+#define forr(i, a, b) for(int i = a; i < b; i++)
+#define _q_q ios::sync_with_stdio(0), cin.tie(0), cout.tie(0)
+#define mem(a, b) memset(a, b, sizeof(a))
+const int inf = 0x3f3f3f3f;
+const int mod = 1e9 + 7;
+const int maxn = 2e5 + 10;
+const int N = 1e5+5;
+signed main()
+{
+    int sum=0;
+    int mx=-10005;
+    int mn=INT_MAX;
+    int n;
+    cin>>n;
+    forr(i,0,n)
+    {
+        int t;
+        cin>>t;
+        mn=min(t,mn);
+        mx=max(mx,t);
+        sum+=t;
+    }
+    cout<<mx<<endl;
+    cout<<mn<<endl;
+    cout<<sum<<endl;
+    return 0;
+}","#include <bits/stdc++.h>
+using namespace std;
+#define int long long
+#define forr(i, a, b) for(int i = a; i < b; i++)
+#define _q_q ios::sync_with_stdio(0), cin.tie(0), cout.tie(0)
+#define mem(a, b) memset(a, b, sizeof(a))
+const int inf = 0x3f3f3f3f;
+const int mod = 1e9 + 7;
+const int maxn = 2e5 + 10;
+const int N = 1e5+5;
+signed main()
+{
+    int sum=0;
+    int mx=0;
+    int mn=INT_MAX;
+    int n;
+    cin>>n;
+    forr(i,0,n)
+    {
+        int t;
+        cin>>t;
+        mn=min(t,mn);
+        mx=max(mx,t);
+        sum+=t;
+    }
+    cout<<mx<<endl;
+    cout<<mn<<endl;
+    cout<<sum<<endl;
+    return 0;
+}",14,"The variable 'mx' is initialized to 0, which may be incorrect if all input numbers are negative. In that case, 'mx' would remain 0, which is not the correct maximum. 'mx' should be initialized to the smallest possible integer value.",-1,-1,-1
+1712629,"#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    int m1=-99999999,m2=10005;
+    int sum=0;
+    for(int i=0;i<n;i++){
+        int x;
+        cin>>x;
+        sum+=x;
+        m1=max(m1,x);
+        m2=min(m2,x);
+    }
+    cout<<m1<<endl;
+    cout<<m2<<endl;
+    cout<<sum<<endl;
+}","#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    int m1=0,m2=10005;
+    int sum=0;
+    for(int i=0;i<n;i++){
+        int x;
+        cin>>x;
+        sum+=x;
+        m1=max(m1,x);
+        m2=min(m2,x);
+    }
+    cout<<m1<<endl;
+    cout<<m2<<endl;
+    cout<<sum<<endl;
+}",6,"Initializing 'm1' to 0 fails when all input numbers are negative, resulting in an incorrect maximum value. Similarly, initializing 'm2' to 10005 fails when inputs are greater than 10005, resulting in an incorrect minimum value.",-1,-1,-1

@@ -1,0 +1,10 @@
+485938.py
+501970.py
+7
+modify<TAG>2<TAG>n=int(input())<CHANGETO>from math import sin
+modify<TAG>3<TAG>x=sin(n)<CHANGETO>while True:
+modify<TAG>4<TAG>for i in range(0,n+1):<CHANGETO>    n = int(input())
+modify<TAG>5<TAG>    y = sin(x)<CHANGETO>    r = sin(n)
+modify<TAG>6<TAG>for j in range(0,i):<CHANGETO>    for i in range(1,n+1):
+modify<TAG>7<TAG>    x=sin(x)<CHANGETO>        r = sin(r)
+modify<TAG>8<TAG>print(format(x,".6f"))<CHANGETO>    print("%.6f" % r)

@@ -1,0 +1,15 @@
+244482.c
+39382.c
+12
+modify<TAG>4<TAG>	int a[100],b[100];<CHANGETO>  double a,b;
+modify<TAG>5<TAG>	int i,c=0;<CHANGETO>	  int c;
+modify<TAG>6<TAG>    scanf("%d%d",&a[0],&b[0]); <CHANGETO>	while(scanf("%lf%lf",&a,&b)!=EOF)
+del<TAG>7<TAG>    for(i=0;a[i]!=0;)
+del<TAG>8<TAG>    {   i++;
+del<TAG>9<TAG>        scanf("%d%d",&a[i],&b[i]);	
+del<TAG>10<TAG>	}
+del<TAG>11<TAG>	for(i=0;a[i]!=0;i++)
+modify<TAG>13<TAG>		if(b[i]!=0)<CHANGETO>		if(b==0)  printf("error\n");
+add<TAG>13<TAG>		else
+modify<TAG>15<TAG>			c=a[i]/b[i];<CHANGETO>			c=a/b+0.5;
+del<TAG>18<TAG>		else printf("error\n");

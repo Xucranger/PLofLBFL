@@ -1,0 +1,4 @@
+519261.py
+519310.py
+1
+del<TAG>8<TAG> s=math.floor(s*10**6)/(10**6)

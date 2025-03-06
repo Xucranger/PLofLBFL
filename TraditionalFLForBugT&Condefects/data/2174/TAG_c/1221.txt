@@ -1,0 +1,6 @@
+439788.c
+439808.c
+3
+add<TAG>8<TAG>		else if(a==0)
+add<TAG>8<TAG>			printf("0\n");
+modify<TAG>15<TAG>		if(c*10-d*10>4)<CHANGETO>		if(c*10-d*10>=5)

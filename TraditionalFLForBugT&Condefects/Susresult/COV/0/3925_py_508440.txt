@@ -1,0 +1,3 @@
+covinfo [[2, 3, 4], [2, 3, 4]]
+resinfo [True, False]
+covnum 1

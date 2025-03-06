@@ -1,0 +1,7 @@
+245376.c
+358173.c
+4
+modify<TAG>7<TAG>		if(b!=0)<CHANGETO>		if(b==0)
+modify<TAG>8<TAG>			printf("%d\n",a/b);<CHANGETO>		printf("error\n");
+modify<TAG>10<TAG>			printf("errror\n");<CHANGETO>		{c=(((a*1.0)/b)+0.5)/1.0;
+modify<TAG>11<TAG>	}<CHANGETO>	    printf("%d\n",c);}}

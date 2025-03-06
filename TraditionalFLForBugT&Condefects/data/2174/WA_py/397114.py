@@ -1,0 +1,12 @@
+# coding=utf-8
+while True:
+    try:
+        nums = raw_input().split()
+        a = int(nums[0])
+        b = int(nums[2])
+        if b == 0:
+            print 'error'
+        else:
+            print int(a / b + 0.5)
+    except EOFError:
+        break

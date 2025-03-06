@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,m;
+	float c;
+	while(scanf("%d %d",&a,&b)!=EOF)
+	if(b==0)
+		printf("error\n");
+	else
+	{
+		c=(float)a/b;
+		c=c+0.5;
+		m=(int)c;
+		printf("%d\n",m);
+	}
+	return 0;
+}

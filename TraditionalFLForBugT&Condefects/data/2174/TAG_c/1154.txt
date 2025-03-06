@@ -1,0 +1,10 @@
+306111.c
+306120.c
+7
+modify<TAG>4<TAG>   int a,b,c;<CHANGETO>   int a,b,d;
+add<TAG>4<TAG>  double c; 
+modify<TAG>10<TAG>	 {<CHANGETO>	 {d=a/b;
+modify<TAG>11<TAG>	 c=a/b;<CHANGETO>	 c=(double)a/b;
+modify<TAG>12<TAG> 	printf("%d\n",c);<CHANGETO>	 if((c-d)>=0.5)
+add<TAG>12<TAG>	   d=d+1;
+add<TAG>12<TAG>	 printf("%d\n",d);

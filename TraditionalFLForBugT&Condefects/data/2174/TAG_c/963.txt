@@ -1,0 +1,6 @@
+360182.c
+360211.c
+3
+modify<TAG>4<TAG>    int a,b;<CHANGETO>    float a,b;
+del<TAG>5<TAG>    float c;
+modify<TAG>12<TAG>            c=a/b;<CHANGETO>            float c=a/b;

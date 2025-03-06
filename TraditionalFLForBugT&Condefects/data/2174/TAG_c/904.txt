@@ -1,0 +1,11 @@
+250274.c
+249668.c
+8
+modify<TAG>4<TAG>	int a,b;<CHANGETO>	int a,b,c;
+del<TAG>5<TAG>	int t;
+modify<TAG>10<TAG>			if((a%b)*10/b>=5)<CHANGETO>			if(a*b>0)
+modify<TAG>11<TAG>			    t=a/b+1;<CHANGETO>			c=(1.0*a)/b+0.5;
+modify<TAG>13<TAG>			    t=a/b;<CHANGETO>			c=(1.0*a)/b-0.5;
+add<TAG>13<TAG>			printf("%d\n",c);
+modify<TAG>16<TAG>		    printf("error");<CHANGETO>		printf("error\n");
+del<TAG>17<TAG>	    printf("%d\n",t);

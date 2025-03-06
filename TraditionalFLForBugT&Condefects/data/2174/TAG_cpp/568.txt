@@ -1,0 +1,9 @@
+35537.cpp
+307501.cpp
+6
+modify<TAG>5<TAG>   int a,b;<CHANGETO>  int a,b;
+modify<TAG>6<TAG>   cin >> a >> b;<CHANGETO>  while(cin>>a>>b)
+modify<TAG>7<TAG>   int c = a/b;<CHANGETO>  {
+modify<TAG>8<TAG>   cout << c << endl;<CHANGETO>     if(b==0) cout<<"error"<<endl;
+modify<TAG>9<TAG>   return 0; <CHANGETO>     else cout<<(int)((float)a/(float)b+0.5)<<endl;
+add<TAG>9<TAG>  }

@@ -1,0 +1,4 @@
+367552.c
+371397.c
+1
+modify<TAG>14<TAG>			if((a-b*c)*2>b)<CHANGETO>			if((a-b*c)*2>=b)

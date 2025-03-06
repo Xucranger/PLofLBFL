@@ -1,0 +1,5 @@
+518603.py
+518611.py
+2
+modify<TAG>5<TAG>    for i in range(n):<CHANGETO>    for i in range(n+1):
+modify<TAG>7<TAG>    print(n)<CHANGETO>    print("%.6f" % n)

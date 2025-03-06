@@ -1,0 +1,5 @@
+437991.c
+438013.c
+2
+modify<TAG>8<TAG>		float f[n];<CHANGETO>		double f[n+1];
+modify<TAG>15<TAG>		printf("%6f",f[i-1]);	<CHANGETO>		printf("%.6f\n",f[i-1]);	

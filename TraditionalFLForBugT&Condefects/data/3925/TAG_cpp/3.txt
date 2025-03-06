@@ -1,0 +1,15 @@
+527683.cpp
+522756.cpp
+12
+modify<TAG>1<TAG>#include<stdio.h> <CHANGETO>#include<stdio.h>
+modify<TAG>2<TAG>int main()<CHANGETO>#include<string.h>
+modify<TAG>3<TAG>{<CHANGETO>int main(){
+modify<TAG>4<TAG>	long long int a,b;<CHANGETO>   char str[1000],str1[1000];
+modify<TAG>5<TAG>	int i=-1,n=-1;<CHANGETO>   int n,i,a,b,n1;
+modify<TAG>6<TAG>	while(scanf("%lld %lld",&a,&b)!=EOF)<CHANGETO>   while(scanf("%s%s",&str,&str1)!=EOF){
+modify<TAG>7<TAG>    {i=a%10;<CHANGETO>   	n=strlen(str);
+modify<TAG>8<TAG>    n=b%10;<CHANGETO>   	n1=strlen(str1);
+modify<TAG>9<TAG>    n=n*i;<CHANGETO>   	a=str[n-1]-48;
+modify<TAG>10<TAG>	printf("%d\n",n%10);<CHANGETO>   	b=str1[n1-1]-48;
+modify<TAG>11<TAG>	}<CHANGETO>	printf("%d\n",a*b%10);}
+modify<TAG>12<TAG>} <CHANGETO>}

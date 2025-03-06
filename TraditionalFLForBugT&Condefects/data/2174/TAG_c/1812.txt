@@ -1,0 +1,7 @@
+359961.c
+359972.c
+4
+modify<TAG>7<TAG>        if(b==0) {printf("error\n");continue;}<CHANGETO>        if(b==0) {printf("error\n");}
+add<TAG>7<TAG>        else
+add<TAG>7<TAG>        {
+modify<TAG>10<TAG>        printf("%.0f\n",c);<CHANGETO>        printf("%.0f\n",d);}

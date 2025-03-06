@@ -1,0 +1,7 @@
+288489.c
+288983.c
+4
+modify<TAG>9<TAG>        float r;<CHANGETO>        double r,m;
+modify<TAG>10<TAG>        r=sin(a);<CHANGETO>        m=a;
+add<TAG>10<TAG>        r=sin(m);
+modify<TAG>13<TAG>        printf("%f\n",r);<CHANGETO>        printf("%.6lf\n",r);

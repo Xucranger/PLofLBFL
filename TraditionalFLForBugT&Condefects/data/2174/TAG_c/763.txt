@@ -1,0 +1,8 @@
+307349.c
+307351.c
+5
+modify<TAG>4<TAG>    int a,b,c;<CHANGETO>    int c;
+modify<TAG>5<TAG>    double d;<CHANGETO>    double a,b,d;
+modify<TAG>6<TAG>    while((scanf("%d%d",&a,&b))!=EOF)<CHANGETO>    while((scanf("%lf%lf",&a,&b))!=EOF)
+modify<TAG>14<TAG>            if((d-c)>=0.5)<CHANGETO>            if((d-c)>=0.5) 
+del<TAG>16<TAG>            else;

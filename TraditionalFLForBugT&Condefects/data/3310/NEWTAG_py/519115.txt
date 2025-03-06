@@ -1,0 +1,11 @@
+519115.py
+518504.py
+8
+modify<TAG>3<TAG>def s(n):<CHANGETO>def result(n,k):
+modify<TAG>4<TAG>    k=0<CHANGETO>    res=0.0
+modify<TAG>6<TAG>        return math.sin(k)<CHANGETO>        res=math.sin(k)
+modify<TAG>8<TAG>        return round(math.sin(s(n-1)),6)<CHANGETO>        res=math.sin(result(n-1,k))
+modify<TAG>9<TAG>    k=k+1<CHANGETO>    return res
+modify<TAG>11<TAG> a=input()<CHANGETO>    num=int(input())
+modify<TAG>12<TAG> m=s(int(a))<CHANGETO>    c=result(num,num)
+modify<TAG>13<TAG> print(m)<CHANGETO>    print("{:.6f}".format(c))

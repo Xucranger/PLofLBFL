@@ -1,0 +1,11 @@
+304526.c
+356554.c
+8
+modify<TAG>7<TAG>	    if(b==0)<CHANGETO>		if(!b)
+modify<TAG>8<TAG>		   printf("error");<CHANGETO>		{
+modify<TAG>9<TAG>		c=a/b;<CHANGETO>			printf("error\n");
+modify<TAG>10<TAG>	    d=a-b*c;<CHANGETO>		}
+modify<TAG>11<TAG>	    if(d>=5)<CHANGETO>		else
+modify<TAG>12<TAG>	       c++;<CHANGETO>		{
+modify<TAG>13<TAG>	    printf("%d\n",c);<CHANGETO>			printf("%d\n",(a+b/2)/b);
+modify<TAG>14<TAG>	    return 0;<CHANGETO>		}

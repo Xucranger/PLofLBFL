@@ -1,0 +1,13 @@
+245007.c
+357757.c
+10
+modify<TAG>4<TAG>	int a[100],b[100],s[100],i;<CHANGETO>	int a,b;
+modify<TAG>5<TAG>	while(scanf("%d%d",&a[i],&b[i])!=EOF);<CHANGETO>	while(scanf("%d %d",&a,&b)!=EOF)
+modify<TAG>7<TAG>		if (b[i]==0) printf("error\n");<CHANGETO>		if(b==0)
+add<TAG>7<TAG>		printf("error\n");
+modify<TAG>10<TAG>			if (a[i]%b[i]>=5)<CHANGETO>			printf("%d\n",(a+b/2)/b);
+del<TAG>11<TAG>				s[i]=a[i]/b[i]+1;
+del<TAG>12<TAG>			else
+del<TAG>13<TAG>				s[i]=a[i]/b[i];
+del<TAG>15<TAG>		printf("%d\n",s[i]); 
+modify<TAG>17<TAG>} <CHANGETO> } 

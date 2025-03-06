@@ -1,0 +1,12 @@
+362464.c
+196219.c
+9
+modify<TAG>2<TAG>int main(){<CHANGETO>int main()
+modify<TAG>3<TAG>	int a,b,c;<CHANGETO>{
+modify<TAG>4<TAG>	while(scanf("%d%d",&a,&b)!=EOF){<CHANGETO>    int a,b;
+modify<TAG>5<TAG>		if (b==0)printf("error\n");<CHANGETO>    while(scanf("%d %d",&a,&b)!=EOF)
+modify<TAG>6<TAG>		else{<CHANGETO>    {
+modify<TAG>7<TAG>			c=a/b;<CHANGETO>        if(b==0) printf("error\n");
+modify<TAG>8<TAG>			printf("%d\n",c);}<CHANGETO>        else printf("%d\n",(a*10/b+5)/10);
+modify<TAG>9<TAG>			}<CHANGETO>    }
+modify<TAG>10<TAG>return 0;}<CHANGETO>}

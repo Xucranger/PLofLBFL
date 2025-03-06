@@ -1,0 +1,15 @@
+508606.py
+508607.py
+12
+modify<TAG>2<TAG>a,b,c=map(int,input().split())<CHANGETO>while True:
+modify<TAG>3<TAG>if a+b<=c or a+c<=b or b+c<=a:<CHANGETO>    a,b,c=map(int,input().split())
+modify<TAG>4<TAG>    print("ERROR")<CHANGETO>    if a+b<=c or a+c<=b or b+c<=a:
+modify<TAG>5<TAG>elif a==b and b==c:<CHANGETO>        print("ERROR")
+modify<TAG>6<TAG>    print("DB")<CHANGETO>    elif a==b and b==c:
+modify<TAG>7<TAG>elif a==b and a!=c or b==c and b!=a or a==c and a!=b:<CHANGETO>        print("DB")
+modify<TAG>8<TAG>    print("DY")<CHANGETO>    elif a==b and a!=c or b==c and b!=a or a==c and a!=b:
+modify<TAG>9<TAG>elif a*a+b*b==c*c or a*a+c*c==b*b or c*c+b*b==a*a:<CHANGETO>        print("DY")
+modify<TAG>10<TAG>    print("ZJ")<CHANGETO>    elif a*a+b*b==c*c or a*a+c*c==b*b or c*c+b*b==a*a:
+modify<TAG>11<TAG>else:<CHANGETO>        print("ZJ")
+modify<TAG>12<TAG>    print("PT")<CHANGETO>    else:
+add<TAG>12<TAG>        print("PT")

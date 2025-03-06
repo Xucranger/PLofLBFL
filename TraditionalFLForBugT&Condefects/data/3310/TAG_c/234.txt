@@ -1,0 +1,30 @@
+287668.c
+288337.c
+27
+modify<TAG>3<TAG>void work(){<CHANGETO>double work(double in,double data){
+modify<TAG>4<TAG>	int length;<CHANGETO>	if (in == 0) return sin(data);
+modify<TAG>5<TAG>	scanf("%d", &length);<CHANGETO>	else {
+modify<TAG>6<TAG>	int * data = (int*)malloc(sizeof(int)*length);<CHANGETO>		return sin(work(in - 1, data));
+del<TAG>7<TAG>	for (int i = 0; i < length; i++) {
+del<TAG>8<TAG>		scanf("%d", &data[i]);
+modify<TAG>10<TAG>	int *index = (int*)malloc(sizeof(int) * 6);<CHANGETO>}
+del<TAG>11<TAG>	for (int i = 0; i <6; i++) {
+del<TAG>12<TAG>		index[i] = 0;
+del<TAG>13<TAG>	}
+del<TAG>14<TAG>	for (int i = 0; i < length; i++) {
+del<TAG>15<TAG>		index[data[i]]++;
+del<TAG>16<TAG>	}
+del<TAG>17<TAG>	if (index[0] == 0) {
+del<TAG>18<TAG>		printf("-1"); return;
+del<TAG>19<TAG>	}
+del<TAG>20<TAG>}// 5 4 3 2 1 0
+del<TAG>21<TAG>//  x y z m n q  5*x 
+del<TAG>22<TAG>// ret =              q个0
+modify<TAG>24<TAG>	/*int cnt;<CHANGETO>	int i = 0;
+modify<TAG>25<TAG>	scanf("%d", &cnt);<CHANGETO>	while (scanf("%d", &i) != -1) {
+modify<TAG>26<TAG>	for (int i = 0; i < cnt; i++) {<CHANGETO>		double ret = work(i, i);
+del<TAG>27<TAG>		work();
+del<TAG>28<TAG>	}*/
+del<TAG>29<TAG>	double in;
+del<TAG>30<TAG>	while (scanf("%f", &in) != -1) {
+del<TAG>31<TAG>		double ret = sin(in);

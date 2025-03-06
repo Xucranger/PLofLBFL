@@ -1,0 +1,6 @@
+437998.c
+438064.c
+3
+add<TAG>3<TAG>#define pi 3.1415926535
+modify<TAG>10<TAG>    	F[0]=sin(0);<CHANGETO>    	F[0]=sin(n);
+modify<TAG>12<TAG>    	F[i]=sin(F[n-1]);<CHANGETO>    	F[i]=sin(F[i-1]);

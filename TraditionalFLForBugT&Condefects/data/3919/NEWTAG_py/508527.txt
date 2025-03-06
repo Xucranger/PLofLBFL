@@ -1,0 +1,13 @@
+508527.py
+508588.py
+10
+modify<TAG>3<TAG>    if a == b and b ==c:<CHANGETO>	if a*a +b*b == c*c or a*a +c*c == b*b or c*c +b*b == a*a:
+modify<TAG>4<TAG>        print("DB")<CHANGETO>		print('ZJ')
+modify<TAG>5<TAG>    elif a==b or b == c or a ==c:<CHANGETO>	elif a == b and b ==c:
+modify<TAG>6<TAG>        print("DY")<CHANGETO>		print("DB")
+modify<TAG>7<TAG>    elif a*a +b*b == c*c or a*a +c*c == b*b or c*c +b*b == a*a:<CHANGETO>	elif (a==b or b == c or a ==c) and(a+b>c and c+b>a and c+a>b):
+modify<TAG>8<TAG>        print('ZJ')<CHANGETO>		print("DY")
+modify<TAG>9<TAG>    elif a+b>c and c+b>a and c+a>b:<CHANGETO>	elif a+b>c and c+b>a and c+a>b:
+modify<TAG>10<TAG>        print('PT')<CHANGETO>		print('PT')
+modify<TAG>11<TAG>    else :<CHANGETO>	else :
+modify<TAG>12<TAG>        print('ERROR')<CHANGETO>		print('ERROR')

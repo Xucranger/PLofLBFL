@@ -1,0 +1,8 @@
+306204.cpp
+304710.cpp
+5
+modify<TAG>1<TAG>#include <stdio.h><CHANGETO>#include<iostream>
+add<TAG>3<TAG>	using namespace std;
+modify<TAG>5<TAG>	while(scanf("%d %d",&a,&b)!=EOF)<CHANGETO>	while(cin>>a>>b)
+modify<TAG>8<TAG>			printf("error\n");<CHANGETO>			cout<<"error"<<endl;
+modify<TAG>10<TAG>			printf("%d\n",a/b);<CHANGETO>			cout<<int(1.0*a/b+0.5)<<endl;

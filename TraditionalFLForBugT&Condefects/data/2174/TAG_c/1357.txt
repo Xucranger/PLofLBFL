@@ -1,0 +1,4 @@
+250300.c
+250302.c
+1
+modify<TAG>10<TAG>      printf("%d",a);<CHANGETO>      printf("%d\n",a);

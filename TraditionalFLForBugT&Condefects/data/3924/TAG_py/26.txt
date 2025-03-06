@@ -1,0 +1,10 @@
+508944.py
+508982.py
+7
+add<TAG>7<TAG>    s=int(s)
+modify<TAG>9<TAG>    if(a==11 and x==20) or(b==11 and x==20)or m==11:<CHANGETO>    if(a==11 and x==20) or(b==11 and x==20):
+modify<TAG>11<TAG>    if a<=10 and b<=10:<CHANGETO>    elif x<20:
+modify<TAG>12<TAG>        if int(s)/2!=0:<CHANGETO>        if s%2!=0:
+modify<TAG>16<TAG>    if a>10 and b>10:<CHANGETO>    elif x>20:
+add<TAG>22<TAG>    elif a==10 and b==10:
+add<TAG>22<TAG>        print('A')

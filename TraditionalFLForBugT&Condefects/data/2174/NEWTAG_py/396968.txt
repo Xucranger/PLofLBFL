@@ -1,0 +1,8 @@
+396968.py
+347016.py
+5
+modify<TAG>4<TAG>        a,b = map(int,input().split())<CHANGETO>        a,b = map(float,raw_input().split())
+modify<TAG>5<TAG>        if(b == 0):<CHANGETO>        if b == 0:
+modify<TAG>6<TAG>        	print('error')<CHANGETO>            print "error"
+modify<TAG>8<TAG>        	print(round(a / b))<CHANGETO>            print int(round(a / b))
+modify<TAG>10<TAG>        break;<CHANGETO>        exit(0)

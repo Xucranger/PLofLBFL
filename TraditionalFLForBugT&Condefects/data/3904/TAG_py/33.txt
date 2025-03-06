@@ -1,0 +1,4 @@
+492403.py
+492196.py
+1
+modify<TAG>2<TAG>for-in range(int(input())):<CHANGETO>for _ in range(int(input())):

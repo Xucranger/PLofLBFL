@@ -1,0 +1,9 @@
+357138.cpp
+82281.cpp
+6
+del<TAG>1<TAG>#include<cstdio>
+del<TAG>2<TAG>#include<cstring>
+modify<TAG>7<TAG>	int a,b;<CHANGETO>	float a,b;
+modify<TAG>8<TAG>	while(scanf("%d%d",&a,&b)==2)<CHANGETO>	while(cin>>a>>b)
+modify<TAG>11<TAG>		printf("error\n");<CHANGETO>			cout<<"error"<<endl;
+modify<TAG>13<TAG>		printf("%d\n",a/b);<CHANGETO>			cout<<(int)(a/b+0.5)<<endl;

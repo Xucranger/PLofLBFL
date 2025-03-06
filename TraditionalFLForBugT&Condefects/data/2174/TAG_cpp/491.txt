@@ -1,0 +1,6 @@
+357929.cpp
+357933.cpp
+3
+modify<TAG>10<TAG>		cout<<"error";<CHANGETO>		cout<<"error"<<endl;
+modify<TAG>16<TAG>			cout<<d+1;<CHANGETO>			cout<<d+1<<endl;
+modify<TAG>18<TAG>			cout<<d;<CHANGETO>			cout<<d<<endl;

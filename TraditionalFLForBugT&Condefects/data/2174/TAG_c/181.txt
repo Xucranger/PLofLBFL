@@ -1,0 +1,8 @@
+365145.c
+365150.c
+5
+modify<TAG>4<TAG>    int a,b;<CHANGETO>    int a,b,c;
+del<TAG>5<TAG>    float c;
+modify<TAG>10<TAG>            printf("%d",(a/b)+1);<CHANGETO>            printf("%d\n",(a/b)+1);
+modify<TAG>11<TAG>        else printf("%d",a/b);}<CHANGETO>        else printf("%d\n",a/b);}
+modify<TAG>12<TAG>    else printf("error");<CHANGETO>    else printf("error\n");

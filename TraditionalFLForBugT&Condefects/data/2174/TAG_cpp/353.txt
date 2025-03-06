@@ -1,0 +1,8 @@
+197243.cpp
+197335.cpp
+5
+modify<TAG>4<TAG>    int a,b;<CHANGETO>    int a,b,c;
+modify<TAG>6<TAG>	{<CHANGETO>   {
+add<TAG>8<TAG>	  else if(2*(a%b)>=b)
+add<TAG>8<TAG>	  printf("%d\n",(a/b)+1);
+modify<TAG>10<TAG>	  printf("%d\n",a/b);	<CHANGETO>	  printf("%d\n",a/b);

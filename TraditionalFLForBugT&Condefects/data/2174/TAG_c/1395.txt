@@ -1,0 +1,15 @@
+364267.c
+85551.c
+12
+modify<TAG>4<TAG>    float c;<CHANGETO>    int a,b,c;
+modify<TAG>5<TAG>    int A,B;<CHANGETO>    while(scanf("%d %d",&a,&b)!=EOF)
+del<TAG>6<TAG>    while(scanf("%d %d",&A,&B)!=EOF)
+del<TAG>8<TAG>       float a=(float)A;
+del<TAG>9<TAG>       float b=(float)B;
+del<TAG>10<TAG>       c=a/b;
+modify<TAG>12<TAG>        { if(c==0.5)<CHANGETO>       {
+modify<TAG>13<TAG>            printf("1\n");<CHANGETO>          c=a*1.0/b+0.5;
+modify<TAG>14<TAG>          else<CHANGETO>          printf("%d\n",c);
+modify<TAG>15<TAG>            printf("%.f\n",c);<CHANGETO>       }
+del<TAG>16<TAG>         }
+modify<TAG>18<TAG>         printf("error\n");  <CHANGETO>          printf("error\n");     

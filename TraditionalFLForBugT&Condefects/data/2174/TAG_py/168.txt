@@ -1,0 +1,23 @@
+397218.py
+400252.py
+20
+modify<TAG>2<TAG>while(1):<CHANGETO>while True:
+modify<TAG>3<TAG>        num = input()<CHANGETO>    try:
+modify<TAG>4<TAG>        n1 = 0<CHANGETO>        a,b = map(float,raw_input().strip().split())
+modify<TAG>5<TAG>        n2 = 0<CHANGETO>        if(b==0):print('error')
+del<TAG>6<TAG>        j = len(num)
+del<TAG>7<TAG>        error = 0
+del<TAG>8<TAG>        for i in range(0, len(num)):
+del<TAG>9<TAG>            if (num[i] != ' ' and i < j):
+del<TAG>10<TAG>                n1 = n1 * 10 + int(num[i])
+del<TAG>11<TAG>            if (num[i] == ' '):
+del<TAG>12<TAG>                j = i
+del<TAG>13<TAG>            if (i > j and num[i] != ' '):
+del<TAG>14<TAG>                n2 = n2 * 10 + int(num[i])
+del<TAG>15<TAG>        if n2==0 :
+del<TAG>16<TAG>            print("error")
+modify<TAG>18<TAG>            answer = float(n1) / float(n2)<CHANGETO>            print(int(a/b+0.5))
+modify<TAG>19<TAG>            if answer%1>=0.5 :<CHANGETO>    except EOFError:
+modify<TAG>20<TAG>               answer=answer+1<CHANGETO>        break
+del<TAG>21<TAG>            answer = int(answer)
+del<TAG>22<TAG>            print(answer)

@@ -1,0 +1,6 @@
+191144.c
+191152.c
+3
+modify<TAG>7<TAG>  {c=a*1./b;<CHANGETO>  {
+modify<TAG>8<TAG>  c=(c+0.5);<CHANGETO>  c=(a*1./b+0.5);
+modify<TAG>12<TAG>       printf("error");<CHANGETO>       printf("error\n");

@@ -1,0 +1,14 @@
+50188.cpp
+50243.cpp
+11
+add<TAG>1<TAG>#include<cmath>
+modify<TAG>5<TAG>    int a,b,c;<CHANGETO>    double a,b,c,d;
+modify<TAG>8<TAG>            c=a+b;<CHANGETO>            int x;
+add<TAG>8<TAG>            double y;
+modify<TAG>14<TAG>            if(c<5)<CHANGETO>            c=a/b;
+modify<TAG>15<TAG>            cout<<0<<endl;<CHANGETO>            x=c/1;
+modify<TAG>16<TAG>            if(c>=5)<CHANGETO>            y=c-x;
+modify<TAG>17<TAG>            {<CHANGETO>            if(y<0.5)
+modify<TAG>18<TAG>                    cout<<c<<endl;<CHANGETO>            cout<<x<<endl;
+modify<TAG>19<TAG>            }<CHANGETO>            else
+add<TAG>19<TAG>            cout<<x+1<<endl;

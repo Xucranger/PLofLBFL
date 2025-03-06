@@ -1,0 +1,4 @@
+508921.py
+508923.py
+1
+modify<TAG>9<TAG>        if abs(A-B)=2:<CHANGETO>        if abs(A-B)==2:

@@ -1,0 +1,5 @@
+306810.c
+306812.c
+2
+modify<TAG>16<TAG>            d=a*10/b;<CHANGETO>            d=(a-c*b)*10/b;
+modify<TAG>17<TAG>            if(d>=5) c++;<CHANGETO>            if(d>=5&&d<=10) c++;

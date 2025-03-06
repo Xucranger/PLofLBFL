@@ -1,0 +1,21 @@
+71354.cpp
+51001.cpp
+18
+modify<TAG>5<TAG>    int a,b,t; <CHANGETO>    float a,b; 
+add<TAG>5<TAG>    float m,n; 
+modify<TAG>10<TAG>            cout<<'error'<<endl; <CHANGETO>            cout<<"error"<<endl; 
+modify<TAG>12<TAG>        else <CHANGETO>        else
+modify<TAG>13<TAG>        t=a/b;<CHANGETO>        { 
+modify<TAG>14<TAG>        float x,y,z;<CHANGETO>            m=(a/b); 
+modify<TAG>15<TAG>        x=a;<CHANGETO>            n=(int)(a/b); 
+modify<TAG>16<TAG>		y=b;<CHANGETO>            if((m-n)>=0.5) 
+modify<TAG>17<TAG>		z=x/y;<CHANGETO>            { 
+modify<TAG>18<TAG>		if(z-t>=0.5)<CHANGETO>                cout<<(int)(a/b)+1<<endl; 
+modify<TAG>19<TAG>		{<CHANGETO>            } 
+modify<TAG>20<TAG>			t=t+1;<CHANGETO>            else
+modify<TAG>21<TAG>		}<CHANGETO>            { 
+modify<TAG>22<TAG>		else<CHANGETO>                cout<<(int)(a/b)<<endl; 
+modify<TAG>23<TAG>		t=t;<CHANGETO>            } 
+modify<TAG>24<TAG>		cout<<t<<endl;<CHANGETO>        } 
+modify<TAG>26<TAG>} <CHANGETO>    return 0; 
+add<TAG>26<TAG>}

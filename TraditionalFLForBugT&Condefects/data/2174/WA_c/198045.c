@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    float a,b,c;
+    int d;
+    scanf("%d",&d);
+    scanf("%f",&c);
+    while(scanf("%f %f",&a,&b)!=EOF)
+    {
+         if(b!=0)
+         {
+             c=a/b;
+             c=c+0.5;
+             d=c;
+             printf("%d",d);
+         }
+         else
+         printf("error");
+    }
+}

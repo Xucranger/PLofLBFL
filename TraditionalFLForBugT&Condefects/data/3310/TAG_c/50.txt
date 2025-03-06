@@ -1,0 +1,23 @@
+484002.c
+287970.c
+20
+modify<TAG>3<TAG>double SIN(int n,int i)<CHANGETO>int n;
+add<TAG>3<TAG>double  f(x)
+modify<TAG>5<TAG>    if(i == 0)<CHANGETO>    if(x==0)
+modify<TAG>8<TAG>        return sin(SIN(n, i-1));<CHANGETO>        return sin(f(x-1));
+modify<TAG>12<TAG>    int a[20];<CHANGETO>    while((scanf("%d",&n))!=EOF )
+del<TAG>13<TAG>    int i;
+del<TAG>14<TAG>    for (i = 0; i < 20; i++)
+modify<TAG>16<TAG>        scanf("%d", &a[i]);<CHANGETO>        printf("%f\n",f(n));
+del<TAG>17<TAG>        if(i == 2)
+del<TAG>18<TAG>            break;
+del<TAG>20<TAG>    i=0;
+del<TAG>21<TAG>    while(i<20)
+del<TAG>22<TAG>    {
+del<TAG>23<TAG>        double aaa=SIN(a[i],a[i]);
+del<TAG>24<TAG>        printf("%f\n", aaa);
+del<TAG>25<TAG>          if(i == 2)
+del<TAG>26<TAG>            break;
+del<TAG>27<TAG>        i++;
+del<TAG>28<TAG>    }
+del<TAG>29<TAG>    return 0;

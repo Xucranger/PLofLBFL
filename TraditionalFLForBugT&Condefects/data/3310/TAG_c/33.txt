@@ -1,0 +1,11 @@
+438301.c
+438389.c
+8
+modify<TAG>3<TAG>float f(int n,int m)<CHANGETO>double f(int n,int m)
+add<TAG>14<TAG>	float s;
+modify<TAG>16<TAG>	printf("%f\n",f(n,n));<CHANGETO>	{
+add<TAG>16<TAG>		s=f(n,n);
+add<TAG>16<TAG>		if(s<-0.37)
+add<TAG>16<TAG>		s=-0.373983;
+add<TAG>16<TAG>	    printf("%f\n",s);
+add<TAG>16<TAG>	}

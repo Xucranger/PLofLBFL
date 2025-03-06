@@ -1,0 +1,4 @@
+358668.c
+358676.c
+1
+modify<TAG>13<TAG>    		if(c-d<=0.5)<CHANGETO>    		if(c-(float)d<0.5)

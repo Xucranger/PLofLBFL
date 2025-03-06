@@ -1,0 +1,11 @@
+509055.py
+509068.py
+8
+modify<TAG>7<TAG>  if (a==11 and a+b==20)or(a+b==20 and b==11):<CHANGETO>  s= int(s)
+add<TAG>7<TAG>  x = abs(a-b)
+add<TAG>7<TAG>  if (a==11 and (a+b)==20)or((a+b)==20 and b==11):
+modify<TAG>9<TAG>  elif a+b<20:<CHANGETO>  elif (a+b)<20:
+modify<TAG>14<TAG>  elif a+b>20:<CHANGETO>  elif (a+b)>20:
+modify<TAG>15<TAG>    if a-b==1 or b-a==1:<CHANGETO>    if x==1:
+modify<TAG>17<TAG>    elif a-b==0 or b-a==0:<CHANGETO>    elif x==0:
+modify<TAG>19<TAG>    elif a-b==2 or b-a==2:<CHANGETO>    elif x==2:

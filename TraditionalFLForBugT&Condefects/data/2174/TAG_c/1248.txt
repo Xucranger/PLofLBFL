@@ -1,0 +1,7 @@
+365268.c
+365479.c
+4
+add<TAG>1<TAG>#define N 2
+modify<TAG>5<TAG>       for(i=0;i<2;i++)<CHANGETO>             while(scanf("%d%d",&a,&b)!=EOF)
+modify<TAG>6<TAG>       {<CHANGETO>        {
+del<TAG>7<TAG>             scanf("%d%d",&a,&b);

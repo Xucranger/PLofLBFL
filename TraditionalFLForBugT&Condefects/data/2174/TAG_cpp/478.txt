@@ -1,0 +1,6 @@
+85666.cpp
+85707.cpp
+3
+modify<TAG>4<TAG>	 int a,b,n,i,m;<CHANGETO> int a,b,n,i;
+add<TAG>4<TAG>	 float m;
+modify<TAG>12<TAG>			 if(i>=n)<CHANGETO>			 if(i>=m)

@@ -1,0 +1,9 @@
+439356.cpp
+440311.cpp
+6
+modify<TAG>8<TAG>    double i,j;<CHANGETO>    int n,m;
+modify<TAG>9<TAG>    while(cin>>i>>j)<CHANGETO>    while(cin>>n>>m)
+modify<TAG>11<TAG>        if(j==0)<CHANGETO>        if(m==0)
+add<TAG>12<TAG>        else if(double (n%m)<double (m)/2)
+add<TAG>12<TAG>            cout<<n/m<<endl;
+modify<TAG>14<TAG>            cout<<int (i/j)<<endl;<CHANGETO>            cout<<n/m+1<<endl;

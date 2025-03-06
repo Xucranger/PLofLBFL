@@ -1,0 +1,7 @@
+198752.c
+245568.c
+4
+modify<TAG>2<TAG>#include<math.h><CHANGETO>void main()
+del<TAG>3<TAG>int main()
+modify<TAG>6<TAG>	while((scanf("%d%d",&a,&b))!=EOF)<CHANGETO>	while(scanf("%d%d",&a,&b)!=EOF)
+add<TAG>8<TAG>		else if(10*a/b%10>=5) printf("%d\n",a/b+1);

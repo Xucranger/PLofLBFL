@@ -1,0 +1,10 @@
+435316.c
+435658.c
+7
+modify<TAG>16<TAG>	int n,i=0;<CHANGETO>	int a;
+modify<TAG>18<TAG>	while((scanf("%d",&n))!='EOF')<CHANGETO>	for(int i=0;i<20;i++)
+modify<TAG>20<TAG>		i++;<CHANGETO>		if(scanf("%d",&a)!=EOF)
+modify<TAG>21<TAG>		res=digui(n,n);<CHANGETO>		{
+add<TAG>21<TAG>		res=digui(a,a);
+modify<TAG>23<TAG>		if(i==20)<CHANGETO>		}
+add<TAG>23<TAG>		else 

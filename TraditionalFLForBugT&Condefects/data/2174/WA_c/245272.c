@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+	int a,b;
+	double c;
+	scanf("%d %d",&a,&b);
+	c=((double)b*1.00)/2.;
+	if(a%b<c)
+	{printf("%d\n",a/b);}
+	else printf("%d\n",a/b+1);
+	return 0;
+ } 

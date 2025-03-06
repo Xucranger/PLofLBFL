@@ -1,0 +1,13 @@
+439349.c
+439808.c
+10
+del<TAG>7<TAG>		float c;
+del<TAG>9<TAG>		{
+modify<TAG>11<TAG>			break;<CHANGETO>		else if(a==0)
+modify<TAG>12<TAG>		}<CHANGETO>			printf("0\n");
+add<TAG>12<TAG>		else
+add<TAG>12<TAG>		{
+add<TAG>12<TAG>			float c;
+modify<TAG>14<TAG>		c=a*1.0/b*1.0;<CHANGETO>		c=a*1.0/b;
+modify<TAG>16<TAG>		if(c*10-d*10>4)<CHANGETO>		if(c*10-d*10>=5)
+add<TAG>22<TAG>		}

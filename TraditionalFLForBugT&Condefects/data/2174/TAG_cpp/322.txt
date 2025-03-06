@@ -1,0 +1,6 @@
+357927.cpp
+489026.cpp
+3
+add<TAG>1<TAG>#include<cmath>
+modify<TAG>9<TAG>		cout<<"error";<CHANGETO>			cout<<"error"<<endl;
+modify<TAG>11<TAG>		cout<<a/b;<CHANGETO>			cout<<floor((1.0*a/b)+0.5)<<endl;

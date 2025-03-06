@@ -1,0 +1,4 @@
+306334.py
+306337.py
+1
+modify<TAG>10<TAG>    if (remainder >= b/2):<CHANGETO>    if (float(remainder) >= float(b)/2):

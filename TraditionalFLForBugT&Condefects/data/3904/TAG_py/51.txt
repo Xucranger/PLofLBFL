@@ -1,0 +1,5 @@
+492822.py
+492196.py
+2
+modify<TAG>2<TAG>for_in range(int(input())):<CHANGETO>for _ in range(int(input())):
+modify<TAG>3<TAG>    a,b = [int(x) for x in input().split()]<CHANGETO>    a,b=[int(x) for x in input().split()]

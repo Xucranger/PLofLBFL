@@ -1,0 +1,25 @@
+346891.py
+400252.py
+22
+modify<TAG>2<TAG>a1,b1 = raw_input().split(" ")<CHANGETO>while True:
+modify<TAG>3<TAG>a2,b2 = raw_input().split(" ")<CHANGETO>    try:
+modify<TAG>4<TAG>a1=float(a1)<CHANGETO>        a,b = map(float,raw_input().strip().split())
+modify<TAG>5<TAG>b1=float(b1)<CHANGETO>        if(b==0):print('error')
+modify<TAG>6<TAG>a2=float(a2)<CHANGETO>        else:
+modify<TAG>7<TAG>b2=float(b2)<CHANGETO>            print(int(a/b+0.5))
+modify<TAG>8<TAG>if b1==0:<CHANGETO>    except EOFError:
+modify<TAG>9<TAG>   print("error")<CHANGETO>        break
+del<TAG>10<TAG>elif a1/b1-a1//b1>=0.5:
+del<TAG>11<TAG>   c1=a1//b1+1
+del<TAG>12<TAG>   print(int(c1))
+del<TAG>13<TAG>else:
+del<TAG>14<TAG>   c1=a1//b1
+del<TAG>15<TAG>   print(int(c1))
+del<TAG>16<TAG>if b2==0:
+del<TAG>17<TAG>   print("error")
+del<TAG>18<TAG>elif a2/b2-a2//b2>=0.5:
+del<TAG>19<TAG>   c2=a2//b2+1
+del<TAG>20<TAG>   print(int(c2))
+del<TAG>21<TAG>else:
+del<TAG>22<TAG>   c2=a2//b2
+del<TAG>23<TAG>   print(int(c2))

@@ -1,0 +1,7 @@
+508931.py
+508608.py
+4
+modify<TAG>4<TAG>    a_double=a+a<CHANGETO>    a1=a+a
+modify<TAG>5<TAG>    if b in a_double:<CHANGETO>    if a1.find(b)!=-1 and len(b)==len(a):
+modify<TAG>6<TAG>        print("YES")<CHANGETO>        print("Yes")
+modify<TAG>8<TAG>        print("NO")<CHANGETO>        print("No")

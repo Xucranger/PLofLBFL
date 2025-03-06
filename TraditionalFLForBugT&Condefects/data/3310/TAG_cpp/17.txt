@@ -1,0 +1,15 @@
+288792.cpp
+287439.cpp
+12
+modify<TAG>1<TAG>#include <stdio.h><CHANGETO>#include<stdio.h>
+modify<TAG>2<TAG>#include <math.h><CHANGETO>#include<math.h>
+modify<TAG>3<TAG>int n=0;<CHANGETO>#include<iostream>
+add<TAG>3<TAG>#include<algorithm>
+add<TAG>3<TAG>using namespace std;
+modify<TAG>6<TAG>	while(1)<CHANGETO>	int n;
+add<TAG>6<TAG>	while(cin>>n)
+modify<TAG>8<TAG>		float answer=0;<CHANGETO>		double a=n;
+del<TAG>9<TAG>		if(scanf("%d",&n)==EOF) break;
+del<TAG>10<TAG>		answer=n;
+modify<TAG>13<TAG>			answer=sin(answer);<CHANGETO>			a=sin(a);
+modify<TAG>15<TAG>		printf("%.6f\n",answer);<CHANGETO>		printf("%f\n",a);

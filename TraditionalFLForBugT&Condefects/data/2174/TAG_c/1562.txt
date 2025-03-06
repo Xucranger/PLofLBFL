@@ -1,0 +1,7 @@
+191172.c
+191177.c
+4
+modify<TAG>4<TAG>    float a,b;<CHANGETO>    int a,b;
+modify<TAG>9<TAG>        f=a/b;<CHANGETO>        f=(float)a/b;
+modify<TAG>12<TAG>        printf("%d",y);<CHANGETO>        printf("%d\n",y);
+modify<TAG>14<TAG>    else {printf("error");}<CHANGETO>    else {printf("error\n");}

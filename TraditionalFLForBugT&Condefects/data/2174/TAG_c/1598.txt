@@ -1,0 +1,9 @@
+198371.c
+198421.c
+6
+modify<TAG>4<TAG>	int a,b;<CHANGETO>	int a,b,m;
+modify<TAG>11<TAG>		 c=(float)a/b+0.5;<CHANGETO>		{
+modify<TAG>12<TAG>		 c=(int)c;<CHANGETO>			c=(float)a/(float)b+0.5;
+modify<TAG>13<TAG>		 printf("%d\n",c);<CHANGETO>		    m=(int)c;
+add<TAG>13<TAG>		    printf("%d\n",m);
+add<TAG>13<TAG>		}

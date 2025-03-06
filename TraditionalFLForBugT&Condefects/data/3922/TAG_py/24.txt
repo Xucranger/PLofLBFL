@@ -1,0 +1,5 @@
+508247.py
+508265.py
+2
+modify<TAG>8<TAG>        print(round(c))<CHANGETO>        d = c+0.5
+add<TAG>8<TAG>        print(int(d))

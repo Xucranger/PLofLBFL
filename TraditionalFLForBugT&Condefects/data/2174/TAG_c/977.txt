@@ -1,0 +1,8 @@
+359811.c
+359867.c
+5
+modify<TAG>1<TAG>#include<stdio.h><CHANGETO> #include<stdio.h>
+modify<TAG>4<TAG>	int a,b;<CHANGETO>	int a,b,n;
+modify<TAG>12<TAG>			c=a/b;<CHANGETO>			c=(float)a/b;
+modify<TAG>14<TAG>			printf("%1.0f\n",c);<CHANGETO>			n=(int)c;
+add<TAG>14<TAG>			printf("%d\n",n);

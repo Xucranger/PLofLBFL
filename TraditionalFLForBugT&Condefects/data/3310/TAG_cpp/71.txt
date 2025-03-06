@@ -1,0 +1,5 @@
+287682.cpp
+287699.cpp
+2
+modify<TAG>7<TAG>	float a[101];<CHANGETO>	double a[101];
+modify<TAG>13<TAG>	printf("%.6f\n",a[n]);<CHANGETO>	printf("%.6lf\n",a[n]);

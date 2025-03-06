@@ -1,0 +1,8 @@
+73806.cpp
+158035.cpp
+5
+modify<TAG>1<TAG>#include<iostream> <CHANGETO>#include<iostream>
+del<TAG>2<TAG>#include<iomanip> 
+modify<TAG>6<TAG>    double a,b;<CHANGETO>    float a,b,c;
+modify<TAG>12<TAG>           cout<<fixed<<setprecision(0)<<a/b<<endl;<CHANGETO>            cout<<int(a/b+0.5)<<endl;
+add<TAG>13<TAG>    return 0;

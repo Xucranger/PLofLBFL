@@ -1,0 +1,7 @@
+484112.cpp
+484117.cpp
+4
+modify<TAG>13<TAG>    int n=20;<CHANGETO>    while((cin>>N))
+del<TAG>14<TAG>    while(n--)
+del<TAG>17<TAG>    cin>>N;
+modify<TAG>19<TAG>    cout<<setiosflags(ios::fixed)<<setprecision(6)<<result;<CHANGETO>    cout<<setiosflags(ios::fixed)<<setprecision(6)<<result<<endl;

@@ -1,0 +1,6 @@
+305701.cpp
+305702.cpp
+3
+del<TAG>9<TAG>		{
+modify<TAG>11<TAG>			break;<CHANGETO>		else
+del<TAG>12<TAG>		}

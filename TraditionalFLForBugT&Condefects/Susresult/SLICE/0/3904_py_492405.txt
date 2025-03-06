@@ -1,0 +1,4 @@
+Frequency 0 2 0 0
+Union 0 1 0 0
+Intersection 0 1 0 0
+1.5755534172058105

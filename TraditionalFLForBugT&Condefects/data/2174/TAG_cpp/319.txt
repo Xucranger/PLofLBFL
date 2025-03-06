@@ -1,0 +1,11 @@
+50337.cpp
+50339.cpp
+8
+modify<TAG>10<TAG>    m = a/b;<CHANGETO>    else
+modify<TAG>11<TAG>    if((int)(m*10)%10 >= 5)<CHANGETO>    {
+modify<TAG>12<TAG>    cout << int(m)+1 << endl;<CHANGETO>      m = a/b;
+modify<TAG>13<TAG>    else<CHANGETO>      if((int)(m*10)%10 >= 5)
+modify<TAG>14<TAG>    cout << int(m) << endl;<CHANGETO>      cout << int(m)+1 << endl;
+add<TAG>14<TAG>      else
+add<TAG>14<TAG>      cout << int(m) << endl;
+add<TAG>14<TAG>    }

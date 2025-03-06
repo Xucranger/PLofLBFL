@@ -1,0 +1,22 @@
+435739.c
+437610.c
+19
+modify<TAG>3<TAG>int main()<CHANGETO>double hanshu(int n)
+modify<TAG>5<TAG>	int a[20],n,i;<CHANGETO>	int i;
+modify<TAG>6<TAG>	double b[20];<CHANGETO>	double a;
+modify<TAG>7<TAG>	scanf("%d",&n);<CHANGETO>	a=sin(n);
+modify<TAG>9<TAG>	  scanf("%d",&a[i]);<CHANGETO>		a=sin(a);
+modify<TAG>10<TAG>	  double F(int n);<CHANGETO>	return a;
+del<TAG>11<TAG>	for(i=0;i<n;i++)
+del<TAG>12<TAG>	   {
+del<TAG>13<TAG>	   b[i]=F(a[i]);
+modify<TAG>15<TAG>for(i=0;i<n;i++)<CHANGETO>int main()
+modify<TAG>17<TAG>	 printf("%lf\n",b[i]);<CHANGETO>	int n;
+modify<TAG>18<TAG>}<CHANGETO>	double b;
+modify<TAG>19<TAG>}<CHANGETO>	while(scanf("%d",&n)!=EOF)
+modify<TAG>20<TAG>double F(int n)<CHANGETO>	{
+modify<TAG>21<TAG>{<CHANGETO>		b=hanshu(n);
+modify<TAG>22<TAG>  if(n==0)	<CHANGETO>		printf("%lf\n",b);
+modify<TAG>23<TAG>  return sin(n);<CHANGETO>	}
+modify<TAG>24<TAG>  else if(n>0)<CHANGETO>	return 0;
+del<TAG>25<TAG>  return F(n-1);

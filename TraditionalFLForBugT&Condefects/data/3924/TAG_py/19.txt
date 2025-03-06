@@ -1,0 +1,9 @@
+508537.py
+508719.py
+6
+modify<TAG>5<TAG> c = ((a + b) / 2) % 2;<CHANGETO> c=((a+b-(a+b)%2)/2)%2
+modify<TAG>11<TAG> elif a == 11 and b < 10:<CHANGETO> elif a >= 11 and b < 10:
+modify<TAG>13<TAG> elif a < 10 and b == 11:<CHANGETO> elif a < 10 and b >= 11:
+modify<TAG>16<TAG>  if a-b>=2 or b-a>2:<CHANGETO>  if abs(a-b)>=2:
+modify<TAG>19<TAG>   c = (a + b) % 2;<CHANGETO>   d = (a + b) % 2;
+modify<TAG>20<TAG>   if c == 0:<CHANGETO>   if d == 0:

@@ -1,0 +1,4 @@
+194974.c
+194975.c
+1
+modify<TAG>6<TAG>    while(~scanf("%f%f\n%f%f",&a,&b,&c,&d));<CHANGETO>    while(~scanf("%f%f",&a,&b))

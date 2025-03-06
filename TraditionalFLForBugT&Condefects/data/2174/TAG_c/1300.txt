@@ -1,0 +1,6 @@
+195510.c
+195632.c
+3
+modify<TAG>4<TAG>    int a,b;<CHANGETO>    float a,b;
+modify<TAG>7<TAG>        double i;<CHANGETO>        float i;
+modify<TAG>8<TAG>        i=a*1.0/b;<CHANGETO>        i=(int)(a*1.0/b+0.5);

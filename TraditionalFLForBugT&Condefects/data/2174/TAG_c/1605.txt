@@ -1,0 +1,8 @@
+82179.c
+82192.c
+5
+add<TAG>4<TAG>    int m;
+modify<TAG>10<TAG>        printf("%.0f\n",(a/b)+0.5);<CHANGETO>      {
+add<TAG>10<TAG>        m=(a/b)+0.5;
+add<TAG>10<TAG>        printf("%d\n",m);
+add<TAG>10<TAG>      }

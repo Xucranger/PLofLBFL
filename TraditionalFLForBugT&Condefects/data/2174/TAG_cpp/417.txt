@@ -1,0 +1,8 @@
+490745.cpp
+491082.cpp
+5
+add<TAG>0<TAG>#include <string> 
+modify<TAG>9<TAG>		printf("error");<CHANGETO>		printf("error\n");
+modify<TAG>13<TAG>		p=int(1.0*a/b+0.5);<CHANGETO>		p=int(1.0000*a/b+0.5);
+modify<TAG>15<TAG>        p=int(1.0*a/b-0.5);<CHANGETO>        p=int(1.0000*a/b-0.5);
+modify<TAG>16<TAG>	printf("%d",p);}<CHANGETO>	printf("%d\n",p);}

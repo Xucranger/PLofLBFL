@@ -1,0 +1,7 @@
+440716.c
+440718.c
+4
+modify<TAG>4<TAG>float fun(int x)<CHANGETO>double fun(int x)
+modify<TAG>6<TAG>float c;<CHANGETO>double c;
+modify<TAG>18<TAG>{float d;<CHANGETO>{double d;
+modify<TAG>23<TAG>printf("%.6f\n",d);<CHANGETO>printf("%.6lf\n",d);

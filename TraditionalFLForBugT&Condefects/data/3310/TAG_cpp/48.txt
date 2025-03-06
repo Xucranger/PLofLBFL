@@ -1,0 +1,9 @@
+484110.cpp
+484117.cpp
+6
+modify<TAG>13<TAG>    double result;<CHANGETO>    while((cin>>N))
+modify<TAG>14<TAG>    cin>>N;<CHANGETO>    {
+add<TAG>14<TAG>    double result;
+modify<TAG>16<TAG>    cout<<setiosflags(ios::fixed)<<setprecision(6)<<result;<CHANGETO>    cout<<setiosflags(ios::fixed)<<setprecision(6)<<result<<endl;
+modify<TAG>17<TAG>    return 0;<CHANGETO>    }
+add<TAG>17<TAG>     return 0;

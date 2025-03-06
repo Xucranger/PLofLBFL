@@ -1,0 +1,15 @@
+198566.c
+80613.c
+12
+modify<TAG>2<TAG> #include <math.h><CHANGETO>void main()
+modify<TAG>3<TAG> int main(){<CHANGETO>{
+modify<TAG>4<TAG> float a,b,c;<CHANGETO>    int a,b;
+modify<TAG>5<TAG> int k;<CHANGETO>    while(scanf("%d %d",&a,&b)!=EOF)
+modify<TAG>6<TAG>    scanf("%f %f",&a,&b);<CHANGETO>    if(b!=0)
+del<TAG>7<TAG>    if(b)
+modify<TAG>9<TAG>        c=a/b;<CHANGETO>          int c=(a*10/b+5)/10;
+modify<TAG>10<TAG>        k=round(c);<CHANGETO>          printf("%d\n",c);
+del<TAG>11<TAG>        printf("%d",k);
+modify<TAG>13<TAG>    else<CHANGETO>    else printf("error\n");
+del<TAG>14<TAG>        printf("error");
+modify<TAG>16<TAG> }<CHANGETO>}

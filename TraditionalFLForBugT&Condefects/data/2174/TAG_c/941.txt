@@ -1,0 +1,6 @@
+360166.c
+360198.c
+3
+modify<TAG>8<TAG>		printf("error");<CHANGETO>		printf("error\n");
+modify<TAG>11<TAG>		c=a/b ;<CHANGETO>		c=(a+b/2)/b;
+del<TAG>12<TAG>		 c=(c*10+5)/10;

@@ -1,0 +1,5 @@
+508971.py
+508975.py
+2
+modify<TAG>7<TAG>            print('YES')<CHANGETO>            print('Yes')
+modify<TAG>10<TAG>        print('NO')<CHANGETO>        print('No')

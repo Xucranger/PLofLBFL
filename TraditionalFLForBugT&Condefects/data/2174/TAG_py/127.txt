@@ -1,0 +1,9 @@
+396958.py
+397039.py
+6
+modify<TAG>2<TAG>a, b = map(int, input().split())<CHANGETO>a, b = map(int,raw_input().split())
+modify<TAG>4<TAG>    c = int(a)<CHANGETO>    c = float(a)
+modify<TAG>5<TAG>    d = int(b)<CHANGETO>    d = float(b)
+modify<TAG>9<TAG>        e = int(c/d)<CHANGETO>        e = c/d
+modify<TAG>10<TAG>        f = c/d - e<CHANGETO>        f = e - int(a/b)
+modify<TAG>15<TAG>    a, b = map(int, input().split())<CHANGETO>    a, b = map(int,raw_input().split())

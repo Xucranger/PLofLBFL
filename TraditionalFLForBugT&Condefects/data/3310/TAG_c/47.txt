@@ -1,0 +1,12 @@
+287550.c
+287970.c
+9
+modify<TAG>3<TAG>float fun(int n,int x)<CHANGETO>int n;
+add<TAG>3<TAG>double  f(x)
+modify<TAG>8<TAG>        return sin(fun(n,x-1));<CHANGETO>        return sin(f(x-1));
+modify<TAG>12<TAG>    int n;<CHANGETO>    while((scanf("%d",&n))!=EOF )
+del<TAG>13<TAG>    float m;
+del<TAG>14<TAG>    while(scanf("%d",&n)!=EOF)
+modify<TAG>16<TAG>        m=fun(n,n);<CHANGETO>        printf("%f\n",f(n));
+del<TAG>17<TAG>        printf("%0.6f\n",m);
+del<TAG>19<TAG>    return 0;

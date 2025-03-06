@@ -1,0 +1,9 @@
+210107.c
+304429.c
+6
+del<TAG>2<TAG>#include<math.h>
+modify<TAG>6<TAG>    while(scanf("%d%d",&a,&b)==2)<CHANGETO>    while(scanf("%d %d",&a,&b)!=EOF)
+modify<TAG>9<TAG>         printf("error\n");<CHANGETO>            printf("error\n");
+modify<TAG>10<TAG>         else<CHANGETO>        else
+modify<TAG>11<TAG>          printf("%d",a/b);<CHANGETO>            printf("%d\n",(a+b/2)/b);
+modify<TAG>13<TAG>      return 0;<CHANGETO>    return 0;

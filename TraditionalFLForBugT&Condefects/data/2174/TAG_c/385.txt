@@ -1,0 +1,8 @@
+83445.c
+83457.c
+5
+modify<TAG>5<TAG>	float d;<CHANGETO>	double d,e;
+modify<TAG>12<TAG>	d=(float)((a-c*b)/b);<CHANGETO>	d=(double)a/b;
+modify<TAG>13<TAG>	}<CHANGETO>	e=d-c;
+modify<TAG>14<TAG>	if(d>=0.5)<CHANGETO>	if(e>=0.5)
+add<TAG>17<TAG>	}

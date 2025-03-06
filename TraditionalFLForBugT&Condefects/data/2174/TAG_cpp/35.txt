@@ -1,0 +1,7 @@
+490771.cpp
+357793.cpp
+4
+modify<TAG>13<TAG>			int c=a/b;<CHANGETO>			if((a%b)*10/b<=4)
+modify<TAG>14<TAG>			cout<<c<<endl;<CHANGETO>			cout<<a/b<<endl;
+add<TAG>14<TAG>			else
+add<TAG>14<TAG>			cout<<(a/b)+1<<endl;

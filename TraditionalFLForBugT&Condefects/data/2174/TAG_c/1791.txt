@@ -1,0 +1,9 @@
+489814.c
+489861.c
+6
+modify<TAG>4<TAG>	int a,b,dev,sec;<CHANGETO>	int a,b,dev,sec,y;
+modify<TAG>14<TAG>			printf("%d",dev);<CHANGETO>			printf("%d\n",dev);
+modify<TAG>17<TAG>			   int y=b/2;<CHANGETO>			  if(sec>0&&b>sec*2)
+modify<TAG>18<TAG>			   if(sec>0&&sec<y)<CHANGETO>			  printf("%d\n",dev);
+modify<TAG>19<TAG>			   printf("%d\n",dev);	<CHANGETO>			  else
+modify<TAG>20<TAG>			   else printf("%d\n",dev+1);<CHANGETO>			  printf("%d\n",dev+1); 

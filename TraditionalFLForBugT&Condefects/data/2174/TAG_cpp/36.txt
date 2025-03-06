@@ -1,0 +1,15 @@
+66660.cpp
+155520.cpp
+12
+modify<TAG>3<TAG>int main ()<CHANGETO>int main()
+modify<TAG>6<TAG>	float c,d;<CHANGETO>	int c;
+modify<TAG>7<TAG>	int m;<CHANGETO>	while(cin>>a>>b)
+del<TAG>8<TAG>	while(cin>>a>>b)	
+modify<TAG>10<TAG>	if (b==0)<CHANGETO>	if(b==0)
+modify<TAG>14<TAG>	c=a/b;<CHANGETO>		c=int(a/b+0.5);
+modify<TAG>15<TAG>	m=a/b;<CHANGETO>		cout<<c<<endl;
+modify<TAG>16<TAG>    }<CHANGETO>	}
+modify<TAG>17<TAG>	if(c-m>=0.5)<CHANGETO>	}
+del<TAG>18<TAG>	m++;
+del<TAG>19<TAG>	cout<<m<<endl;
+del<TAG>21<TAG>}

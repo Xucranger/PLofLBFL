@@ -1,0 +1,7 @@
+500549.c
+500559.c
+4
+modify<TAG>10<TAG>	printf("%d\n", round(a/b));<CHANGETO>	{
+add<TAG>10<TAG>		int m = round(1.0*a/b);
+add<TAG>10<TAG>		printf("%d\n", m);
+add<TAG>12<TAG>}

@@ -1,0 +1,4 @@
+435758.c
+435759.c
+1
+modify<TAG>3<TAG>	float fact(int n,double x)<CHANGETO>	double fact(int n,double x)

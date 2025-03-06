@@ -1,0 +1,10 @@
+157727.c
+157731.c
+7
+modify<TAG>4<TAG>float a,b;<CHANGETO>float a,b,c;
+modify<TAG>5<TAG>float c;<CHANGETO>int d;
+modify<TAG>9<TAG> else <CHANGETO> else
+add<TAG>9<TAG> { 
+modify<TAG>11<TAG> printf("%d\n",(int)(c+0.5));<CHANGETO> d=(int)(c+0.5);
+add<TAG>11<TAG> printf("%d\n",d);
+add<TAG>11<TAG> }

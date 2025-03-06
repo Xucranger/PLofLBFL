@@ -1,0 +1,16 @@
+435465.c
+438006.c
+13
+modify<TAG>4<TAG>{    int n,i,s;<CHANGETO>{
+modify<TAG>5<TAG>     double f[101],k;<CHANGETO>	int n,i;
+modify<TAG>6<TAG>     scanf("%d",&n);<CHANGETO>	double k;
+modify<TAG>7<TAG>     s=n;<CHANGETO>	while(scanf("%d",&n)!=EOF)
+modify<TAG>8<TAG>     f[0]=sin(n);<CHANGETO>	{
+modify<TAG>9<TAG>     if(n==0)<CHANGETO>		k=sin(n);
+modify<TAG>10<TAG>     f[0]=0;<CHANGETO>		for(i=0;i<n;i++)
+modify<TAG>11<TAG>     if(n!=0)<CHANGETO>		{
+modify<TAG>12<TAG>     {for(i=1;i<n+1;i++)<CHANGETO>			k=sin(k);
+modify<TAG>13<TAG>     {  f[0]=sin(n);<CHANGETO>		}
+modify<TAG>14<TAG>     k=f[i-1];<CHANGETO>		printf("%lf\n",k);
+modify<TAG>15<TAG>    f[i]=sin(k);}}<CHANGETO>	}
+del<TAG>16<TAG>    printf("%.6lf",f[s]);

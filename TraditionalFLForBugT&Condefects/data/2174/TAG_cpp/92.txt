@@ -1,0 +1,6 @@
+210480.cpp
+210485.cpp
+3
+modify<TAG>12<TAG>        printf("error");<CHANGETO>        printf("error\n");
+modify<TAG>16<TAG>        printf("%d",d);<CHANGETO>        printf("%d\n",d);
+modify<TAG>19<TAG>} <CHANGETO>}

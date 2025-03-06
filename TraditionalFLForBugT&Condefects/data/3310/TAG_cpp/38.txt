@@ -1,0 +1,14 @@
+483688.cpp
+289385.cpp
+11
+modify<TAG>1<TAG>#include<stdio.h><CHANGETO>#include<bits/stdc++.h>
+modify<TAG>2<TAG>#include<math.h><CHANGETO>using namespace std;
+del<TAG>3<TAG>double fun(double x){
+del<TAG>4<TAG>        return sin(x);
+del<TAG>5<TAG>    }
+modify<TAG>8<TAG>    while(~scanf("%d", &n)){<CHANGETO>    while(cin>>n){
+modify<TAG>9<TAG>        double a = sin(n);<CHANGETO>        double x=sin(n);
+modify<TAG>10<TAG>        for(int i = 0;i < n;i++){<CHANGETO>        for(int i=1;i<=n;i++)
+modify<TAG>11<TAG>            a = fun(a);<CHANGETO>            x=sin(x);
+modify<TAG>12<TAG>        }<CHANGETO>        printf("%.6lf\n",x);
+del<TAG>13<TAG>        printf("%.6llf\n",a);

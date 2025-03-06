@@ -1,0 +1,7 @@
+155857.cpp
+59125.cpp
+4
+modify<TAG>6<TAG>	while(cin>>a>>b)<CHANGETO>	while(cin>>a >>b)
+modify<TAG>8<TAG>		if(b==0)  cout<<"error"<<endl;<CHANGETO>		if(b==0) cout<<"error"<<endl;
+modify<TAG>9<TAG>		if(b!=0)  printf("%.0f",(float)(a)/(float)(b));<CHANGETO>		else cout<<(int)(a*1.0/b+0.5)<<endl;
+add<TAG>10<TAG>	return 0;

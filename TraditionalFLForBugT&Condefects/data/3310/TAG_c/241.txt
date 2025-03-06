@@ -1,0 +1,10 @@
+483874.c
+483883.c
+7
+modify<TAG>3<TAG>float cal(int ,int );<CHANGETO>double cal(int ,int );
+modify<TAG>6<TAG>	int index[20] = {-1};<CHANGETO>	double res;
+del<TAG>7<TAG>	float res;
+modify<TAG>10<TAG>		printf("%f\n",res);<CHANGETO>		printf("%.6lf\n",res);
+add<TAG>11<TAG>	return 0;
+modify<TAG>13<TAG>float cal(int n,int num){<CHANGETO>double cal(int n,int num){
+modify<TAG>14<TAG>	float x;<CHANGETO>	double x;

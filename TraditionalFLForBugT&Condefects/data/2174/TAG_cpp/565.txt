@@ -1,0 +1,5 @@
+84915.cpp
+84918.cpp
+2
+modify<TAG>10<TAG>            cout<<"erro"<<endl;<CHANGETO>            cout<<"error"<<endl;
+modify<TAG>16<TAG>                if(2*t>=0&&2*t<b)<CHANGETO>                if(2*t>=0 && 2*t<b)

@@ -1,0 +1,7 @@
+397109.py
+397219.py
+4
+modify<TAG>4<TAG>        num = raw_input().split(' ');<CHANGETO>        num = raw_input().split();
+modify<TAG>5<TAG>        a = int(num[0]);<CHANGETO>        a = float(num[0]);
+modify<TAG>6<TAG>        b = int(num[1]);<CHANGETO>        b = float(num[1]);
+modify<TAG>8<TAG>            print('error');<CHANGETO>            print("error");

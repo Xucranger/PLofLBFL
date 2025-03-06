@@ -1,0 +1,21 @@
+81289.c
+82270.c
+18
+modify<TAG>3<TAG>	{<CHANGETO>{
+modify<TAG>4<TAG>		int a,b,c,d,e;<CHANGETO>   	int a,b,c;
+modify<TAG>5<TAG>		scanf("%d %d",&a,&b);<CHANGETO>    while(scanf("%d %d",&a,&b)!=EOF) 
+add<TAG>5<TAG>	{ 
+modify<TAG>9<TAG>			{c=a*10/b;<CHANGETO>		{
+modify<TAG>10<TAG>		     d=c%10;<CHANGETO>			c=(a+b/2) /b;
+modify<TAG>11<TAG>			 if(d<5)<CHANGETO>            printf("%d\n",c);
+modify<TAG>12<TAG>				{<CHANGETO>		}
+del<TAG>13<TAG>				 e=c/10;
+del<TAG>14<TAG>				 printf("%d\n",e);
+del<TAG>15<TAG>				}
+del<TAG>16<TAG>			 else
+del<TAG>17<TAG>				{
+del<TAG>18<TAG>				 e=c/10+1;
+del<TAG>19<TAG>				 printf("%d\n",e);
+del<TAG>20<TAG>				}
+del<TAG>21<TAG>			}
+add<TAG>22<TAG>}

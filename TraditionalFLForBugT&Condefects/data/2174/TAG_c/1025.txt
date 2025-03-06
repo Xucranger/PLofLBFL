@@ -1,0 +1,4 @@
+244323.c
+244325.c
+1
+modify<TAG>11<TAG>		if(a>2*b)<CHANGETO>		if(2*a<b)

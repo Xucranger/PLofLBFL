@@ -1,0 +1,20 @@
+435725.c
+435677.c
+17
+modify<TAG>4<TAG>	{int sum,n,n1,a[20],b[20],i;<CHANGETO>{   int n,x;
+modify<TAG>5<TAG>	float res;<CHANGETO>double f[105];
+modify<TAG>7<TAG>		{n1=n;<CHANGETO>    {f[0]=sin(n);
+modify<TAG>8<TAG>		float cs(int n,int n1);<CHANGETO>	for(x=1;x<=n;x++)
+modify<TAG>9<TAG>		res=cs(n,n1);<CHANGETO>	f[x]=sin(f[x-1]);
+modify<TAG>10<TAG>		printf("%7.6f\n",res);<CHANGETO>	printf("%.6lf\n",f[n]);}
+del<TAG>11<TAG>		}
+del<TAG>14<TAG>float cs(int n,int n1)
+del<TAG>15<TAG>	{
+del<TAG>16<TAG>	if(n==0)
+del<TAG>17<TAG>	return n1;
+del<TAG>18<TAG>	else 
+del<TAG>19<TAG>	{
+del<TAG>20<TAG>	n=n-1;
+del<TAG>21<TAG>	return sin(cs(n,n1));
+del<TAG>22<TAG>	}
+del<TAG>23<TAG>	}

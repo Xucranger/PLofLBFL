@@ -1,0 +1,10 @@
+250526.c
+250617.c
+7
+del<TAG>2<TAG>#include<math.h>
+modify<TAG>5<TAG>   int a,b;<CHANGETO>   int a,b,d;
+modify<TAG>7<TAG>   scanf("%d %d",&a,&b);<CHANGETO>  while(scanf("%d %d",&a,&b)!=EOF)
+modify<TAG>8<TAG>    if(b==0)<CHANGETO>    {if(b==0)
+modify<TAG>13<TAG>   c=a/b;<CHANGETO>   c=a*1.0/b;
+modify<TAG>14<TAG>   int d=round(c);<CHANGETO>   d=(int)(c+0.5);
+modify<TAG>15<TAG>   printf("%d\n",d);}<CHANGETO>   printf("%d\n",d);}}

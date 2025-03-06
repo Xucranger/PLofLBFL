@@ -1,0 +1,7 @@
+198273.c
+198283.c
+4
+modify<TAG>4<TAG>	int a,b;<CHANGETO>	int a,b,m;
+modify<TAG>12<TAG>		printf("%.lf\n",c);<CHANGETO>		c=c+0.5;
+add<TAG>12<TAG>		m=(int)c;
+add<TAG>12<TAG>		printf("%d\n",m);

@@ -1,0 +1,20 @@
+196920.c
+375330.c
+17
+modify<TAG>2<TAG>int main() <CHANGETO>int main()
+modify<TAG>4<TAG>    int a,b,c;<CHANGETO>	int a,b,c;
+modify<TAG>5<TAG>	while(scanf("%d %d %d",&a,&b,&c)!=EOF)<CHANGETO>	while(scanf("%d %d",&a,&b)!=EOF)
+modify<TAG>7<TAG>		if(a+b>c||a+c>b||b+c>a)<CHANGETO>		if(b==0)
+modify<TAG>8<TAG>		    if(a==b==c)<CHANGETO>		printf("error\n");
+modify<TAG>9<TAG>		        printf("DB\n");<CHANGETO>		else
+modify<TAG>10<TAG>		    else<CHANGETO>		{
+modify<TAG>11<TAG>			    if(a==b||b==c||a==c)<CHANGETO>			c=(a+b/2)/b;
+modify<TAG>12<TAG>			        printf("DY\n");<CHANGETO>			printf("%d\n",c);
+modify<TAG>13<TAG>			    else<CHANGETO>		}
+modify<TAG>14<TAG>			        if(a*a+b*b==c*c||a*a+c*c==b*b||b*b+c*c==a*a)<CHANGETO>	}
+del<TAG>15<TAG>			            printf("ZJ\n");
+del<TAG>16<TAG>			        else
+del<TAG>17<TAG>			            printf("PT\n");
+del<TAG>18<TAG>		else
+del<TAG>19<TAG>		    printf("ERROR\n");
+del<TAG>20<TAG>		}	

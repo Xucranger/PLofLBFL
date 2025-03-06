@@ -1,0 +1,6 @@
+397043.py
+397291.py
+3
+modify<TAG>4<TAG>		p=input().split()<CHANGETO>		p=raw_input().split()
+modify<TAG>5<TAG>		n=int(p[0])<CHANGETO>		n=float(p[0])
+modify<TAG>6<TAG>		m=int(p[1])<CHANGETO>		m=float(p[1])

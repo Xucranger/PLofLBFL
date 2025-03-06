@@ -1,0 +1,21 @@
+288503.cpp
+437914.cpp
+18
+modify<TAG>1<TAG>#include<iostream><CHANGETO>#include<stdio.h>
+modify<TAG>3<TAG>#include<stdio.h><CHANGETO>#include<algorithm>
+modify<TAG>4<TAG>#include<stdlib.h><CHANGETO>#include<iostream>
+modify<TAG>6<TAG>float fn;<CHANGETO>double solve(int n)
+del<TAG>7<TAG>float function(float n)
+modify<TAG>9<TAG>    float m;<CHANGETO>    double ans;
+modify<TAG>10<TAG>    if(n <= 0.0)<CHANGETO>    ans=sin(n);
+modify<TAG>11<TAG>    return sin(fn);<CHANGETO>    while(n--)
+modify<TAG>12<TAG>    else<CHANGETO>        ans=sin(ans);
+modify<TAG>13<TAG>    {<CHANGETO>    return ans;
+modify<TAG>14<TAG>        m = function(n - 1.0);<CHANGETO>}
+del<TAG>15<TAG>        return sin(m);
+del<TAG>16<TAG>    }    
+del<TAG>17<TAG>}    
+modify<TAG>20<TAG>    float k;<CHANGETO>    int n;
+modify<TAG>21<TAG>    for(;(scanf("%f", &fn)) != EOF;)<CHANGETO>    while(scanf("%d",&n)!=EOF)
+modify<TAG>23<TAG>        k = fn;<CHANGETO>        double ans=solve(n);
+modify<TAG>24<TAG>        printf("%.6f", function(k));<CHANGETO>        printf("%lf\n",ans);

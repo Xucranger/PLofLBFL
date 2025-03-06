@@ -1,0 +1,4 @@
+443044.c
+443045.c
+1
+modify<TAG>10<TAG>	printf("%lf",f[n]);}<CHANGETO>	printf("%lf\n",f[n]);}

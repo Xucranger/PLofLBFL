@@ -1,0 +1,28 @@
+443441.c
+443603.c
+25
+modify<TAG>8<TAG>    	{<CHANGETO>   	{
+modify<TAG>10<TAG>    		printf("error\n");<CHANGETO>    		{
+modify<TAG>11<TAG>    		else<CHANGETO>			printf("error");
+modify<TAG>12<TAG>    	{<CHANGETO>    		printf("\n");
+modify<TAG>13<TAG>			m=a*1./b;<CHANGETO>    		}
+del<TAG>14<TAG>			n=a/b;
+del<TAG>15<TAG>			if(0<=m<0.5)
+del<TAG>16<TAG>			{
+del<TAG>17<TAG>    		printf("0\n");
+del<TAG>18<TAG>			}
+modify<TAG>20<TAG>			{<CHANGETO>    	{
+modify<TAG>21<TAG>				if(0.5<=m<1)<CHANGETO>			m=a*1./b;
+modify<TAG>22<TAG>				{<CHANGETO>			n=(int)(m+0.5);
+modify<TAG>23<TAG>					printf("1\n");<CHANGETO>			printf("%d\n",n);
+modify<TAG>24<TAG>				}<CHANGETO>    }
+modify<TAG>25<TAG>				else<CHANGETO>}
+del<TAG>26<TAG>				{
+del<TAG>27<TAG>					if(m>=1&&m-n>=0.5)
+del<TAG>28<TAG>					printf("%d\n",n+1);
+del<TAG>29<TAG>					else
+del<TAG>30<TAG>					printf("%d\n",n);
+del<TAG>31<TAG>				}
+del<TAG>32<TAG>			}
+del<TAG>33<TAG>    	}
+del<TAG>34<TAG>    	}

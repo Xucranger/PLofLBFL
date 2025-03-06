@@ -1,0 +1,8 @@
+491293.c
+491405.c
+5
+modify<TAG>18<TAG>		 	if(result>=0){<CHANGETO>		 	if(fresult>=0.0){
+modify<TAG>20<TAG>			 		printf("%d",result+1);<CHANGETO>			 		printf("%d\n",result+1);
+modify<TAG>22<TAG>			 		printf("%d",result);<CHANGETO>			 		printf("%d\n",result);
+modify<TAG>26<TAG>					printf("%d",result-1);<CHANGETO>					printf("%d\n",result-1);
+modify<TAG>28<TAG>					printf("%d",result);<CHANGETO>					printf("%d\n",result);

@@ -1,0 +1,5 @@
+518527.py
+518536.py
+2
+modify<TAG>5<TAG>    m = math.sin(n)<CHANGETO>    m = math.sin(float(n))
+modify<TAG>7<TAG>        m = sin(m)<CHANGETO>        m = math.sin(m)

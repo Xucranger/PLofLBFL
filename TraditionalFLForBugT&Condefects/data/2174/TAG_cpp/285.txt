@@ -1,0 +1,7 @@
+160610.cpp
+160625.cpp
+4
+del<TAG>2<TAG>#include <iomanip>
+modify<TAG>10<TAG>	cout<<"ERROR"<<endl;<CHANGETO>	cout<<"error"<<endl;
+modify<TAG>15<TAG>		cout<<setprecision(0)<<c<<endl;<CHANGETO>		c= (int)(c+ 0.5);
+add<TAG>15<TAG>		cout<<c<<endl;

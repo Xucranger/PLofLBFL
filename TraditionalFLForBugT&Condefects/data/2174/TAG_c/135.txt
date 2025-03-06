@@ -1,0 +1,10 @@
+495147.c
+495151.c
+7
+modify<TAG>4<TAG> int a=0,b=0,p;<CHANGETO> int a=0,b=0,f;
+modify<TAG>5<TAG> float d,m;<CHANGETO> float d,w;
+modify<TAG>14<TAG>  p=a/b;<CHANGETO>  f=a/b;
+modify<TAG>15<TAG>  m=d-p;<CHANGETO>  w=d-f;
+modify<TAG>16<TAG>  if(p>0.49999999)<CHANGETO>  if(w>0.49999999)
+modify<TAG>17<TAG>   p=p+1;<CHANGETO>   f=f+1;
+modify<TAG>18<TAG>  printf("%d\n",p);<CHANGETO>  printf("%d\n",f);

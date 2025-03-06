@@ -1,0 +1,27 @@
+508392.py
+508109.py
+24
+modify<TAG>2<TAG>a=input().split()<CHANGETO>s = input().split()
+modify<TAG>3<TAG>b=input().split()<CHANGETO>while s:
+modify<TAG>4<TAG>a=[int(i) for i in a]<CHANGETO>    a = int(s[0])
+modify<TAG>5<TAG>b=[int(i) for i in b]<CHANGETO>    b = int(s[1])
+modify<TAG>6<TAG>if a[0]+a[1]<a[2] or a[0]+a[2]<a[1] or a[1]+a[2]<a[0]:<CHANGETO>    c = int(s[2])
+modify<TAG>7<TAG>    print("ERROR")<CHANGETO>    if a+b>c and a+c>b and b+c>a:
+modify<TAG>8<TAG>elif a[0]==a[1]==a[2]:<CHANGETO>        if a==b and b==c:
+modify<TAG>9<TAG>    print("DB")<CHANGETO>            print("DB")
+modify<TAG>10<TAG>elif a[0]==a[1]!=a[2] or a[0]==a[2]!=a[1] or a[1]==a[2]!=a[0]:<CHANGETO>        elif a==b or b==c or a==c:
+modify<TAG>11<TAG>    print("DY")<CHANGETO>            print("DY")
+modify<TAG>12<TAG>elif a[0]*a[0]+a[1]*a[1]==a[2]*a[2] or a[0]*a[0]+a[2]*a[2]==a[1]*a[1] or  a[2]*a[2]+a[1]*a[1]==a[0]*a[0]:<CHANGETO>        elif a**2+b**2==c**2 or a**2+c**2==b**2 or b**2+c**2==a**2:
+modify<TAG>13<TAG>    print("ZJ")<CHANGETO>            print("ZJ")
+modify<TAG>14<TAG>else:<CHANGETO>        else :
+modify<TAG>15<TAG>    print("PT")<CHANGETO>            print("PT")
+modify<TAG>16<TAG>if b[0]+b[1]<b[2] or b[0]+b[2]<b[1] or b[1]+b[2]<b[0]:<CHANGETO>    else:
+modify<TAG>17<TAG>    print("ERROR")<CHANGETO>        print("ERROR")
+modify<TAG>18<TAG>elif b[0]==b[1]==b[2]:<CHANGETO>    s = input().split()
+del<TAG>19<TAG>    print("DB")
+del<TAG>20<TAG>elif b[0]==b[1]!=b[2] or b[0]==b[2]!=b[1] or b[1]==b[2]!=b[0]:
+del<TAG>21<TAG>    print("DY")
+del<TAG>22<TAG>elif b[0]*b[0]+b[1]*b[1]==b[2]*b[2] or b[0]*b[0]+b[2]*b[2]==b[1]*b[1] or  b[2]*b[2]+b[1]*b[1]==b[0]*b[0]:
+del<TAG>23<TAG>    print("ZJ")
+del<TAG>24<TAG>else:
+del<TAG>25<TAG>    print("PT")      

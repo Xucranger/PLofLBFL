@@ -1,0 +1,4 @@
+128724.c
+128725.c
+1
+modify<TAG>6<TAG>		printf("ERROR!\n");<CHANGETO>		printf("error\n");

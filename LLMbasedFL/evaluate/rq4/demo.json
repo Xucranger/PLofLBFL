@@ -1,0 +1,20 @@
+{
+    "status": "OK",
+    "result": {
+        "problems": [
+            {
+                "contestId": 2057,
+                "index": "H",
+                "name": "Coffee Break",
+                "type": "PROGRAMMING",
+                "points": 4500,
+                "rating": 3500,
+                "tags": [
+                    "data structures",
+                    "greedy",
+                    "math"
+                ]
+            }
+        ]
+    }
+}

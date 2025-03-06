@@ -1,0 +1,7 @@
+397114.py
+397145.py
+4
+modify<TAG>4<TAG>        nums = raw_input().split()<CHANGETO>        m = raw_input().split()
+modify<TAG>5<TAG>        a = int(nums[0])<CHANGETO>        a = float(m[0])
+modify<TAG>6<TAG>        b = int(nums[2])<CHANGETO>        b = int(m[1])
+modify<TAG>7<TAG>        if b == 0:<CHANGETO>        if(b == 0):

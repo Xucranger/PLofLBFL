@@ -1,0 +1,14 @@
+438533.c
+287622.c
+11
+modify<TAG>5<TAG>	float c,i,n;<CHANGETO>	double n,x,i;
+modify<TAG>6<TAG>	scanf("%f",&n);<CHANGETO>	while(scanf("%lf",&n)!=EOF)
+del<TAG>7<TAG>	if(n==0)
+modify<TAG>9<TAG>		c=0;<CHANGETO>		x=n;
+modify<TAG>10<TAG>	}<CHANGETO>     	for(i=0;i<=n;i++)
+modify<TAG>11<TAG>	else<CHANGETO>	    x=sin(x);
+modify<TAG>12<TAG>	for(i=n;i>=0;i--)<CHANGETO>	    printf("%.6lf\n",x);
+del<TAG>13<TAG>	{
+del<TAG>14<TAG>		c=sin(n);
+del<TAG>15<TAG>		n=c;
+del<TAG>17<TAG>	printf("%.6f",c);

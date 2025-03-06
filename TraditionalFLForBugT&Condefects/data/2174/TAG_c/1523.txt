@@ -1,0 +1,25 @@
+160628.c
+357235.c
+22
+modify<TAG>4<TAG> int a,b,c;<CHANGETO>  float p;
+modify<TAG>5<TAG> while(scanf("%d%d%d",&a,&b,&c)!= EOF)<CHANGETO>  int a,b;
+modify<TAG>6<TAG> {<CHANGETO>while( scanf( "%d %d", &a , &b ) != EOF)
+modify<TAG>7<TAG> if (a+b>c && a+c>b && b+c>a) <CHANGETO>{ if(b==0)
+modify<TAG>9<TAG> if(a==b&&b==c)<CHANGETO>     printf("error\n");
+modify<TAG>10<TAG>   {<CHANGETO> }
+modify<TAG>11<TAG>   printf("DB\n");<CHANGETO> else
+del<TAG>12<TAG>   }
+del<TAG>13<TAG>  else if((a==b&&b!=c)||(b==c&&b!=a)||(a==c&&c!=a))
+del<TAG>14<TAG>  {
+del<TAG>15<TAG>    printf("DY\n");}
+del<TAG>16<TAG>   else if(a*a+b*b==c*c||a*a+c*c==b*b||b*b+c*c==a*a)
+del<TAG>17<TAG>   {
+del<TAG>18<TAG>   printf("ZJ\n");
+del<TAG>19<TAG>   }
+del<TAG>20<TAG> else 
+modify<TAG>22<TAG> printf("PT\n");<CHANGETO>    p=(float)a/(float)b-a/b;
+modify<TAG>23<TAG>  }<CHANGETO>    if(p>=0.5)
+modify<TAG>24<TAG>  }<CHANGETO>   printf( "%d\n", a/b+1);
+modify<TAG>25<TAG>  else<CHANGETO>    else
+modify<TAG>26<TAG> {<CHANGETO>    printf("%d\n",a/b);
+del<TAG>27<TAG>  printf("ERROR\n");

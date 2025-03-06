@@ -1,0 +1,16 @@
+437988.cpp
+287413.cpp
+13
+del<TAG>2<TAG>#include<cmath>
+add<TAG>3<TAG>#include<cmath>
+modify<TAG>5<TAG>int n;<CHANGETO>double n;
+modify<TAG>6<TAG>float fun(int a,int n)<CHANGETO>double f(double x)
+modify<TAG>8<TAG>	if(a==0) return sin(n);<CHANGETO>	if(x==0)
+modify<TAG>9<TAG>	else {<CHANGETO>		return sin(n);
+modify<TAG>10<TAG>		return sin(fun(a-1,n));<CHANGETO>	else 
+modify<TAG>11<TAG>	}<CHANGETO>		return sin(f(x-1)); 
+del<TAG>15<TAG>    int n;
+modify<TAG>18<TAG>		float b=fun(n,n);<CHANGETO>		printf("%.6lf\n",f(n));
+del<TAG>19<TAG>		printf("%.6f\n",b);
+modify<TAG>21<TAG>	return 0;<CHANGETO>}
+del<TAG>22<TAG> } 

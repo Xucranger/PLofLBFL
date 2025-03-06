@@ -1,0 +1,7 @@
+490541.cpp
+490545.cpp
+4
+modify<TAG>9<TAG>			int q = a / b; int w = a % b;<CHANGETO>			float q = (float)a / b; int w = q / 1; float e = q - w;
+modify<TAG>10<TAG>			if (w >= 5)<CHANGETO>			if (e >= 0.5)
+modify<TAG>11<TAG>				q++;<CHANGETO>				w++;
+modify<TAG>12<TAG>			cout << q << endl;<CHANGETO>			cout <<w << endl;

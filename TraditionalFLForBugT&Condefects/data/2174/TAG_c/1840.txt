@@ -1,0 +1,6 @@
+363006.c
+363023.c
+3
+modify<TAG>8<TAG>{c=floor(a/b);<CHANGETO>{c=floor(a*1.0/b);
+modify<TAG>9<TAG>if(b-c>=0.5)<CHANGETO>if(a*1.0/b-c>=0.5)
+modify<TAG>11<TAG>printf("%.0f\n",b);<CHANGETO>printf("%.0f\n",c);

@@ -1,0 +1,11 @@
+438105.c
+437782.c
+8
+modify<TAG>6<TAG>	float a,b;<CHANGETO>	double a;
+modify<TAG>7<TAG>	while(scanf("%d",&n)!=EOF){<CHANGETO>	while(scanf("%d",&n)!=EOF)
+modify<TAG>8<TAG>		for(i=1;i<=n;i++)<CHANGETO>	{
+modify<TAG>9<TAG>		{<CHANGETO>	     a=sin(n);
+modify<TAG>10<TAG>			b=sin(a);<CHANGETO>	     for(i=0;i<n;i++)
+modify<TAG>11<TAG>			a=b;<CHANGETO>		a=sin(a);
+del<TAG>12<TAG>		}
+modify<TAG>16<TAG>} <CHANGETO>}

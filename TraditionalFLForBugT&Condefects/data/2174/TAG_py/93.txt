@@ -1,0 +1,11 @@
+346413.py
+400252.py
+8
+modify<TAG>4<TAG>        a,b = raw_input().split()<CHANGETO>        a,b = map(float,raw_input().strip().split())
+modify<TAG>5<TAG>        a = int(a)<CHANGETO>        if(b==0):print('error')
+del<TAG>6<TAG>        b = int(b)
+del<TAG>7<TAG>        if b==0:
+del<TAG>8<TAG>            print("error")
+modify<TAG>10<TAG>            c = a/b<CHANGETO>            print(int(a/b+0.5))
+modify<TAG>11<TAG>            print("%.0f" %(c))<CHANGETO>    except EOFError:
+del<TAG>12<TAG>    except:

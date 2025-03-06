@@ -1,0 +1,15 @@
+158300.c
+158335.c
+12
+del<TAG>3<TAG>	//int a, b;//定义成整型不行。怎么强制都失败
+modify<TAG>5<TAG>	while(scanf("%d %d", &a, &b) != EOF ) {<CHANGETO>	while(scanf("%d%d", &a, &b) != EOF ) {
+modify<TAG>7<TAG>			printf("error");<CHANGETO>			printf("error\n");
+modify<TAG>8<TAG>		else {<CHANGETO>		else
+modify<TAG>9<TAG>			//c = float(a/b);<CHANGETO>			printf("%d\n", (int)(a/(float)b +0.5));
+del<TAG>10<TAG>			if(a*b>0)
+del<TAG>11<TAG>			printf("%d", (int)(a/(float)b +0.5));//强制类型转换要将数据类型括起来
+del<TAG>12<TAG>			//printf("%d", int(c+0.5));
+del<TAG>13<TAG>			//printf("%d", int(c + 0.5));
+del<TAG>14<TAG>			else
+del<TAG>15<TAG>			printf("%d", (int)(a*1.0/b ));
+del<TAG>16<TAG>		}

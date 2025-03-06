@@ -1,0 +1,6 @@
+483683.c
+484125.c
+3
+modify<TAG>3<TAG>float fun(float x){<CHANGETO>double fun(double x){
+modify<TAG>9<TAG>        float a = sin(n);<CHANGETO>        double a = sin(n);
+modify<TAG>13<TAG>        printf("%.6lf",a);<CHANGETO>        printf("%.6lf\n",a);

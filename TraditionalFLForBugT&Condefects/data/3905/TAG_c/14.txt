@@ -1,0 +1,16 @@
+528772.c
+541080.c
+13
+modify<TAG>4<TAG>	int N,i,j,a[j],b[i],t;<CHANGETO>	int n,m,i,j,s;
+modify<TAG>5<TAG>	scanf("%d",&N);<CHANGETO>	int a[1000],b[100];
+modify<TAG>6<TAG>	b[N]=0;<CHANGETO>	scanf("%d",&m);
+modify<TAG>7<TAG>	for(i=N;i>0;i--)<CHANGETO>	for(i=0;i<m;i++)
+modify<TAG>9<TAG>		scanf("%d",&t);<CHANGETO>		scanf("%d",&n);
+modify<TAG>10<TAG>		for(j=t;j>0;j--)<CHANGETO>		s=0;
+modify<TAG>11<TAG>		{<CHANGETO>		for(j=0;j<n;j++)
+modify<TAG>12<TAG>			scanf("%d",&a[j]);<CHANGETO>		{scanf("%d",&a[j]);
+modify<TAG>13<TAG>			b[i]=b[i]+a[j];<CHANGETO>		s=s+a[j];}
+modify<TAG>14<TAG>		}<CHANGETO>		b[i]=s;
+modify<TAG>16<TAG>	for(i=N;i>0;i--)<CHANGETO>	for(i=0;i<m;i++)
+modify<TAG>20<TAG>	return 0;<CHANGETO> } 
+del<TAG>21<TAG>}

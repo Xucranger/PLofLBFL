@@ -1,0 +1,25 @@
+346844.py
+306337.py
+22
+modify<TAG>2<TAG>a1,b1 = raw_input().split(" ")<CHANGETO>while 1:
+modify<TAG>3<TAG>a2,b2 = raw_input().split(" ")<CHANGETO>    str_1 = raw_input()
+modify<TAG>4<TAG>a1=int(a1)<CHANGETO>    list_1 = str_1.split(' ')
+modify<TAG>5<TAG>b1=int(b1)<CHANGETO>    a,b = int(list_1[0]),int(list_1[1])
+modify<TAG>6<TAG>a2=int(a2)<CHANGETO>    if (b == 0):
+modify<TAG>7<TAG>b2=int(b2)<CHANGETO>        print 'error'
+modify<TAG>8<TAG>if b1==0:<CHANGETO>        continue
+modify<TAG>9<TAG>   print("error")<CHANGETO>    remainder = a%b
+modify<TAG>10<TAG>elif a1/b1-a1//b1>=0.5:<CHANGETO>    if (float(remainder) >= float(b)/2):
+modify<TAG>11<TAG>   c1=a1//b1+1<CHANGETO>        print int(a/b) + 1
+modify<TAG>12<TAG>   print(c1)<CHANGETO>    else:
+modify<TAG>13<TAG>else:<CHANGETO>        print int(a/b)
+del<TAG>14<TAG>   c1=a1//b1
+del<TAG>15<TAG>   print(c1)
+del<TAG>16<TAG>if b2==0:
+del<TAG>17<TAG>   print("error")
+del<TAG>18<TAG>elif a2/b2-a2//b2>=0.5:
+del<TAG>19<TAG>   c2=a2//b2+2
+del<TAG>20<TAG>   print(c2)
+del<TAG>21<TAG>else:
+del<TAG>22<TAG>   c2=a2//b2
+del<TAG>23<TAG>   print(c2)

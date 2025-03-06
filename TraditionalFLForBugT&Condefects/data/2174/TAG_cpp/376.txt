@@ -1,0 +1,7 @@
+244433.cpp
+244436.cpp
+4
+modify<TAG>4<TAG>    while (scanf("%d%d",&a,&b)!=EOF) {<CHANGETO>    while (scanf("%d %d",&a,&b)!=EOF) {
+modify<TAG>6<TAG>            printf("error");<CHANGETO>            printf("error\n");
+modify<TAG>9<TAG>            float t=((float)a)/((float)b);<CHANGETO>            float x=a,y=b;
+modify<TAG>10<TAG>            printf("%d\n",(int)(t+0.5));<CHANGETO>            printf("%d\n",(int)(x/y+0.5));

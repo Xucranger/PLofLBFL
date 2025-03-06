@@ -1,0 +1,8 @@
+59351.c
+59362.c
+5
+del<TAG>12<TAG>			break;
+modify<TAG>14<TAG>		e=a;f=b;<CHANGETO>		else
+add<TAG>14<TAG>		{
+add<TAG>14<TAG>			e=a;f=b;
+add<TAG>20<TAG>		}

@@ -1,0 +1,6 @@
+357160.c
+357497.c
+3
+add<TAG>8<TAG>		else if(2*(a%b)>b||2*(a%b)==b)
+add<TAG>8<TAG>			printf("%d\n",a/b+1);
+modify<TAG>10<TAG>			printf("%.0f\n",a/b);<CHANGETO>			printf("%d\n",a/b);

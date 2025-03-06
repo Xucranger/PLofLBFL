@@ -1,0 +1,14 @@
+288676.c
+443045.c
+11
+modify<TAG>1<TAG>#include<stdio.h>  <CHANGETO>#include<stdio.h>
+modify<TAG>2<TAG>#include<math.h>  <CHANGETO>#include<math.h>
+modify<TAG>3<TAG>int main()  <CHANGETO>int main()
+modify<TAG>4<TAG>{  <CHANGETO>{   int n,x;
+modify<TAG>5<TAG>    double x;  <CHANGETO>double f[105];
+modify<TAG>6<TAG>    double s;  <CHANGETO>	while(scanf("%d",&n)!=EOF)
+modify<TAG>7<TAG>	while(scanf("%lf",&x)!=EOF){<CHANGETO>    {f[0]=sin(n);
+modify<TAG>8<TAG>    s=sin(x);  <CHANGETO>	for(x=1;x<=n;x++)
+modify<TAG>9<TAG>    printf("%.6f\n",s);  }<CHANGETO>	f[x]=sin(f[x-1]);
+modify<TAG>10<TAG>    return 0;  <CHANGETO>	printf("%lf\n",f[n]);}
+modify<TAG>11<TAG>}  <CHANGETO>	}

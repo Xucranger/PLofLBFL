@@ -1,0 +1,8 @@
+346530.py
+346792.py
+5
+modify<TAG>3<TAG>    a,b = (int(x) for x in raw_input().split())<CHANGETO>    a,b = (float(x) for x in raw_input().split())
+modify<TAG>7<TAG>        print(a//b)<CHANGETO>        if a/b - a//b >= 0.5:
+add<TAG>7<TAG>            print(int(a//b + 1))
+add<TAG>7<TAG>        else:
+add<TAG>7<TAG>            print(int(a//b))

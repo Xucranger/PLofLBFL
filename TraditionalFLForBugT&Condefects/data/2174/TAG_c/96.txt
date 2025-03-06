@@ -1,0 +1,11 @@
+443437.c
+494911.c
+8
+modify<TAG>3<TAG>{	float c;<CHANGETO>{
+modify<TAG>4<TAG>	int a,b,d;<CHANGETO>	int a,b;
+modify<TAG>6<TAG>	{	if(b==0) printf("error\n");<CHANGETO>	{
+modify<TAG>7<TAG>		else {c=a*1.0/b;<CHANGETO>	    if(b==0)printf("error\n");
+modify<TAG>8<TAG>		if((c-a/b)>0.5){<CHANGETO>			else printf("%d\n",(a+(b/2))/b );
+modify<TAG>9<TAG>		d=a/b+1;<CHANGETO>	}
+modify<TAG>10<TAG>		printf("%d\n",d);<CHANGETO>	return 0;
+modify<TAG>11<TAG> }} }}<CHANGETO>}

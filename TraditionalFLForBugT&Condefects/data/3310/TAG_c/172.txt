@@ -1,0 +1,5 @@
+436824.c
+436959.c
+2
+modify<TAG>14<TAG>	int j;<CHANGETO>	int j=0;
+modify<TAG>18<TAG>	printf("%f\n",m);<CHANGETO>	printf("%.6f\n",m);

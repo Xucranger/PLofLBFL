@@ -1,0 +1,8 @@
+249947.c
+443689.c
+5
+modify<TAG>2<TAG>int main()<CHANGETO>void main()
+modify<TAG>11<TAG>		   if(2*a>b)<CHANGETO>			int c=(a+(b/2))/b;
+modify<TAG>12<TAG>			   printf("%d",a/b+1);<CHANGETO>			printf("%d\n",c);
+del<TAG>13<TAG>		   else
+del<TAG>14<TAG>			   printf("%d",a/b);

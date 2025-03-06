@@ -1,0 +1,6 @@
+305551.c
+305578.c
+3
+modify<TAG>6<TAG>        printf("error");<CHANGETO>        printf("error\n");
+modify<TAG>7<TAG>    else if((b<=(a-a/b*b)*2))<CHANGETO>    else {if((b<=(a-a/b*b)*2))
+modify<TAG>9<TAG>    else printf("%d\n",a/b);<CHANGETO>    else printf("%d\n",a/b);}

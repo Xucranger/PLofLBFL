@@ -1,0 +1,26 @@
+85467.cpp
+158456.cpp
+23
+add<TAG>1<TAG>#include<math.h>
+modify<TAG>5<TAG>      int a,b,c;<CHANGETO>    float a,b;
+modify<TAG>6<TAG>      int d;<CHANGETO>	int c;
+modify<TAG>8<TAG>      {<CHANGETO>    {
+modify<TAG>9<TAG>      if(b!=0)<CHANGETO>      if(b==0)
+modify<TAG>10<TAG>      {<CHANGETO>      cout<<"error"<<endl;
+del<TAG>11<TAG>          c=a%b;
+del<TAG>12<TAG>          if(c>(b/2))
+del<TAG>13<TAG>          {
+del<TAG>14<TAG>           d=a/b+1;
+del<TAG>15<TAG>          }
+del<TAG>16<TAG>           else
+del<TAG>17<TAG>          {
+del<TAG>18<TAG>            d=a/b;
+del<TAG>19<TAG>          }
+del<TAG>20<TAG>          cout<<d;
+del<TAG>21<TAG>      }
+modify<TAG>24<TAG>          cout<<"error";<CHANGETO>	  c=round(a/b);
+modify<TAG>25<TAG>      }  <CHANGETO>      cout<<c<<endl;
+modify<TAG>26<TAG>      break;  <CHANGETO>      }
+modify<TAG>27<TAG>    }    <CHANGETO>     }
+modify<TAG>28<TAG>}      <CHANGETO>return 0;
+add<TAG>28<TAG>}

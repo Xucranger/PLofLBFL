@@ -1,0 +1,5 @@
+247001.c
+247003.c
+2
+modify<TAG>17<TAG>	}<CHANGETO>	printf("\n");}
+del<TAG>18<TAG>	printf("\n");

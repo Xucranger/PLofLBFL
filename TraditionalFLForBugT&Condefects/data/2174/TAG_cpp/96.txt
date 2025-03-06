@@ -1,0 +1,15 @@
+210025.cpp
+210204.cpp
+12
+modify<TAG>4<TAG>    int x,y;<CHANGETO>    int k;
+modify<TAG>5<TAG>    int  t;<CHANGETO>    float x,y;
+modify<TAG>6<TAG>    while(scanf("%d",&x)!=EOF)<CHANGETO>    float  t;
+add<TAG>6<TAG>    while(scanf("%f",&x)!=EOF)
+modify<TAG>8<TAG>        scanf("%d",&y);<CHANGETO>        scanf("%f",&y);
+modify<TAG>12<TAG>        t=x/y;<CHANGETO>          t=(x/y);
+modify<TAG>13<TAG>        printf("%d\n",t);<CHANGETO>          k=(int)t;
+add<TAG>13<TAG>        if(t-k>=0.5)
+add<TAG>13<TAG>        printf("%d\n",k+1);
+add<TAG>13<TAG>        else
+add<TAG>13<TAG>        printf("%d\n",k);
+modify<TAG>16<TAG>} <CHANGETO>}    

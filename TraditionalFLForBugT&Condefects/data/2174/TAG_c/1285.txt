@@ -1,0 +1,16 @@
+84876.c
+85446.c
+13
+modify<TAG>5<TAG>    int a,b,i,c;<CHANGETO>    int a,b,i,c,d;
+modify<TAG>6<TAG>    for(i=0;i<2;i++)<CHANGETO>    while(scanf("%d %d",&a,&b)!=EOF)
+del<TAG>8<TAG>       scanf("%d %d",&a,&b);
+modify<TAG>11<TAG>           if(a>b)<CHANGETO>           if(a>=b)
+modify<TAG>13<TAG>              c=(a+1)/b;<CHANGETO>              d=a%b;
+modify<TAG>14<TAG>              printf("%d\n",c);<CHANGETO>              if((2*d)>=b)
+add<TAG>14<TAG>              printf("%d\n",a/b+1);
+add<TAG>14<TAG>              else
+add<TAG>14<TAG>               printf("%d\n",a/b);
+modify<TAG>18<TAG>              if(2*a>b)<CHANGETO>              if((2*a)>=b)
+modify<TAG>19<TAG>              c=1;<CHANGETO>                printf("%d\n",a/b+1);
+modify<TAG>21<TAG>              c=0;<CHANGETO>              printf("%d\n",a/b);
+del<TAG>22<TAG>              printf("%d\n",c);

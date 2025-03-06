@@ -1,0 +1,9 @@
+491135.c
+359601.c
+6
+modify<TAG>1<TAG>#include <stdio.h><CHANGETO>#include<stdio.h>
+modify<TAG>2<TAG>void main()<CHANGETO>#include<math.h>
+add<TAG>2<TAG>int main()
+add<TAG>8<TAG>		else if((a%b)*2<b)
+add<TAG>8<TAG>			printf("%d\n",a/b);
+modify<TAG>10<TAG>			printf("%d",(int)(a/b+0.5));<CHANGETO>			printf("%d\n",a/b+1);

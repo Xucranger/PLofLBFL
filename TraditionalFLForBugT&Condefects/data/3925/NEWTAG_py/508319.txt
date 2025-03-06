@@ -1,0 +1,7 @@
+508319.py
+506690.py
+4
+modify<TAG>4<TAG>    if((len(a)>10 and len(a)<=100) and len(b)>10 and len(b)<=100):<CHANGETO>    a, b = int(a[-1]), int(b[-1])
+modify<TAG>5<TAG>        a=int(a[len(a)-1])<CHANGETO>    c = (a * b) % 10
+modify<TAG>6<TAG>        b=int(b[len(b)-1])<CHANGETO>    print(c)
+del<TAG>7<TAG>        print(a*b)

@@ -1,0 +1,9 @@
+346885.py
+347523.py
+6
+add<TAG>1<TAG>from __future__ import division
+modify<TAG>3<TAG> a,b= (int(x) for x in raw_input().split(' '))<CHANGETO>    a, b = map(int, raw_input().split())
+modify<TAG>4<TAG> if b==0:<CHANGETO>    if b == 0:
+modify<TAG>5<TAG>    print("error")<CHANGETO>        print('error')
+modify<TAG>6<TAG> else:<CHANGETO>    else:
+modify<TAG>7<TAG>    print(a/b)<CHANGETO>        print(int(round(a / b)))

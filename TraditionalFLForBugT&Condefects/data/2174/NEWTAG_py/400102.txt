@@ -1,0 +1,11 @@
+400102.py
+346792.py
+8
+modify<TAG>2<TAG>import sys<CHANGETO>while 1:
+modify<TAG>3<TAG>for line in sys.stdin:<CHANGETO>    a,b = (float(x) for x in raw_input().split())
+modify<TAG>4<TAG>    if line == "":break<CHANGETO>    if b == 0:
+modify<TAG>5<TAG>    a,b = map(int,line.strip().split())<CHANGETO>        print("error")
+del<TAG>6<TAG>    if(b == 0):print("error")
+modify<TAG>8<TAG>        if(a/b>0):<CHANGETO>        if a/b - a//b >= 0.5:
+modify<TAG>9<TAG>            print(int(a/b+0.5))<CHANGETO>            print(int(a//b + 1))
+modify<TAG>11<TAG>            print(int(a/b-0.5))<CHANGETO>            print(int(a//b))

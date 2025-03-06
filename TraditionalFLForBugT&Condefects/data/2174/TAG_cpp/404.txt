@@ -1,0 +1,9 @@
+82278.cpp
+82280.cpp
+6
+modify<TAG>8<TAG>    printf("error\n");<CHANGETO>    {
+add<TAG>8<TAG>        printf("error\n");
+add<TAG>8<TAG>    }
+add<TAG>8<TAG>    else if(a==0)
+add<TAG>8<TAG>    printf("0\n");
+modify<TAG>10<TAG>    printf("%d\n",(a+0.5)/b);<CHANGETO>    printf("%.0f\n",(a+0.5)/b);

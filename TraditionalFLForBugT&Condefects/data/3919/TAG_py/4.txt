@@ -1,0 +1,13 @@
+517608.py
+670409.py
+10
+modify<TAG>2<TAG>flag=1<CHANGETO>while True:
+modify<TAG>3<TAG>while(flag==1):<CHANGETO>    a, b, c = map(int, input().split())
+modify<TAG>4<TAG>    Q,W,E=input().split(" ")<CHANGETO>    if a + b > c and a + c > b and b + c > a:
+modify<TAG>5<TAG>    Q,W,E=int(Q),int(W),int(E)<CHANGETO>        if a == b and b == c and c == a:
+modify<TAG>6<TAG>    if Q+W>E and W+E>Q and Q+E>W:<CHANGETO>            print("DB")
+modify<TAG>7<TAG>        if Q==W and W==E and E==Q:<CHANGETO>        elif a == b and a != c or b == c and b != a or c == a and c != b:
+modify<TAG>8<TAG>            print("DB")<CHANGETO>            print("DY")
+modify<TAG>9<TAG>        elif Q*Q==W*W+E*E or W*W=Q*Q+E*E or E*E=Q*Q+W*W:<CHANGETO>        elif a * a + b * b == c * c or b * b + c * c == a * a or a * a + c * c == b * b:
+del<TAG>11<TAG>        elif Q==W and W==E and E==Q:
+del<TAG>12<TAG>            print("DY")

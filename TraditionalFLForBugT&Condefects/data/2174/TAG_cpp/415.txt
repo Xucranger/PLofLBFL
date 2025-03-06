@@ -1,0 +1,8 @@
+51741.cpp
+305376.cpp
+5
+modify<TAG>1<TAG>#include <iostream><CHANGETO>#include<iostream>
+modify<TAG>5<TAG>	while(cin>>m>>n){<CHANGETO>	while(scanf("%d%d",&m,&n)!=EOF){
+modify<TAG>8<TAG>			int k=m/n;<CHANGETO>			if((m%n)*2>=n)
+modify<TAG>9<TAG>			cout<<k<<endl;<CHANGETO>				cout<<m/n+1<<endl;
+add<TAG>9<TAG>			else cout<<m/n<<endl;

@@ -1,0 +1,7 @@
+439366.c
+358309.c
+4
+modify<TAG>5<TAG>	while(scanf("%d%d",&a,&b)!=EOF){<CHANGETO>	while(scanf("%d %d",&a,&b)!=EOF)
+add<TAG>5<TAG>	{
+modify<TAG>10<TAG>			c=a/b;<CHANGETO>			c=(a+(b/2))/b;
+del<TAG>14<TAG>	return 0;

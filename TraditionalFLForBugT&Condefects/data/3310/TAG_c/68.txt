@@ -1,0 +1,14 @@
+435336.c
+435658.c
+11
+modify<TAG>16<TAG>	int n,i=0;<CHANGETO>	int a;
+modify<TAG>17<TAG>	double res[20];<CHANGETO>	double res;
+modify<TAG>18<TAG>	while((scanf("%d",&n))!='EOF')<CHANGETO>	for(int i=0;i<20;i++)
+modify<TAG>20<TAG>		res[i]=digui(n,n);<CHANGETO>		if(scanf("%d",&a)!=EOF)
+modify<TAG>21<TAG>		i++;<CHANGETO>		{
+modify<TAG>22<TAG>		if(i==20)<CHANGETO>		res=digui(a,a);
+modify<TAG>23<TAG>		break;<CHANGETO>		printf("%.6f\n",res);
+modify<TAG>24<TAG>	}<CHANGETO>		}
+modify<TAG>25<TAG>	for(int k=0;k<=i;k++)<CHANGETO>		else 
+modify<TAG>26<TAG>	printf("%.6f ",res[k]);<CHANGETO>		break;
+add<TAG>26<TAG>	}

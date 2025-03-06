@@ -1,0 +1,5 @@
+357239.cpp
+364007.cpp
+2
+modify<TAG>9<TAG>		else if(a==0) cout<<0;<CHANGETO>		else if (a == 0) cout << 0;
+modify<TAG>10<TAG>		else if ((b / a <= 2)&&(a%b!=0)) cout << a / b + 1;<CHANGETO>		else if (float(a)/float(b)-float(a/b)>=0.5) cout << a / b + 1;

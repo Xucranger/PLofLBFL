@@ -1,0 +1,52 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,c,x;
+	float d;
+	while(scanf("%d%d",&a,&b)!=EOF)
+	if(b==0)
+	  printf("error\n");
+    else
+    {
+    	if(b>0)
+	   {   	
+	       c=a%b;
+		   d=b/(2.0);
+		    if(a<b)
+		    {   
+		       if(a<d)
+		       {
+		        	x=0;
+			        printf("%d\n",x);
+	         	}
+                else
+                {
+                	 if(a>=d)
+	    	         {
+	    	    	x=1;
+	    	    	printf("%d\n",x);
+		             }
+				}
+		   }
+           else
+           {
+           			   if(a>=b)
+		   {
+		       if(c<d)
+		       {
+		        	x=a/b;
+		        	printf("%d\n",x);
+		       }
+                else
+                {
+                			       if(c>=d)
+		       {
+		    	x=a/b+1;
+		    	printf("%d\n",x);
+		       }
+				}
+	    	}
+		   }
+	    }
+	}
+}

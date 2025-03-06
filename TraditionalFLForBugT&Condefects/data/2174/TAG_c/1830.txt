@@ -1,0 +1,17 @@
+305044.c
+358309.c
+14
+del<TAG>2<TAG>#include<math.h>
+del<TAG>3<TAG>double ceil(double x);
+del<TAG>4<TAG>float ceilf(float x);
+del<TAG>5<TAG>long double ceill(long double x);
+del<TAG>6<TAG>double floor(double x);
+del<TAG>7<TAG>float floorf(float x);
+del<TAG>8<TAG>long double floorl(long double x);
+del<TAG>12<TAG>	double d;
+modify<TAG>16<TAG>		{<CHANGETO>		printf("error\n");
+del<TAG>17<TAG>			printf("error");
+del<TAG>18<TAG>			printf("\n");
+del<TAG>19<TAG>			}	
+modify<TAG>22<TAG>			c = (int)ceil((float)a / (float)b);<CHANGETO>			c=(a+(b/2))/b;
+del<TAG>26<TAG>	printf("\n");

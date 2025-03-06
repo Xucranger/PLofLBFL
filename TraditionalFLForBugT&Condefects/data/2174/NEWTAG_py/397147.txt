@@ -1,0 +1,5 @@
+397147.py
+397237.py
+2
+modify<TAG>6<TAG>            print 'error'<CHANGETO>            print('error')
+modify<TAG>8<TAG>            print round(a / b)<CHANGETO>            print(int(a/b + 0.5))

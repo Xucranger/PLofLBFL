@@ -1,0 +1,4 @@
+153718.c
+153720.c
+1
+modify<TAG>11<TAG>       x=(int)(y);<CHANGETO>       x=(int)(y+0.5);

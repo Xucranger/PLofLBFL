@@ -1,0 +1,4 @@
+80440.c
+80443.c
+1
+modify<TAG>8<TAG>    		int c = a/b;<CHANGETO>    		int c = (a*10/b+5)/10;

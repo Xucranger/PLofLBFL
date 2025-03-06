@@ -1,0 +1,12 @@
+356776.cpp
+356450.cpp
+9
+modify<TAG>7<TAG>	if(b==0)<CHANGETO>		if(b==0) cout<<"error"<<endl;
+modify<TAG>8<TAG>	cout<<"error"<<endl;<CHANGETO>		else {
+modify<TAG>9<TAG>	else if(a%b==0)<CHANGETO>			float c=(a*1.0)/(b*1.0);
+modify<TAG>10<TAG>	cout<<a/b<<endl;<CHANGETO>			c=int(c+0.5);
+modify<TAG>11<TAG>	else if(b/(a%b)<=2)<CHANGETO>			cout<<c<<endl;
+modify<TAG>12<TAG>	cout<<a/b+1<<endl;<CHANGETO>		}
+modify<TAG>13<TAG>	else<CHANGETO>	}
+del<TAG>14<TAG>	cout<<a/b<<endl;
+del<TAG>15<TAG>}

@@ -1,0 +1,27 @@
+157413.cpp
+306952.cpp
+24
+modify<TAG>1<TAG>#include <iostream><CHANGETO>#include<iostream>
+modify<TAG>5<TAG>	int a, b, c, d;<CHANGETO>	int a[100],b[100];
+modify<TAG>6<TAG>	cin >> a >> b;<CHANGETO>	int i=0,j=0;
+modify<TAG>7<TAG>	cin >> c >> d;<CHANGETO>	while(cin>>a[i]>>b[i])
+del<TAG>8<TAG>	if(b==0)
+modify<TAG>10<TAG>		cout << "error" << endl;<CHANGETO>		i++;
+modify<TAG>12<TAG>	if (d==0)<CHANGETO>	for(;j<i;j++)
+modify<TAG>14<TAG>		cout << "error" << endl;<CHANGETO>		if(b[j]==0) cout<<"error"<<endl;
+modify<TAG>15<TAG>	}<CHANGETO>		else cout<<(int)(1.0*a[j]/b[j]+0.5)<<endl;
+del<TAG>16<TAG>	int r1, r2;
+del<TAG>17<TAG>	if(b!=0)
+del<TAG>18<TAG>	{
+del<TAG>19<TAG>		if (a%b >= b / 2)
+del<TAG>20<TAG>			r1 = a / b + 1;
+del<TAG>21<TAG>		else r1 = a / b;
+del<TAG>22<TAG>		cout << r1 << endl;
+modify<TAG>24<TAG>	if(d!=0)<CHANGETO>	return 0;
+del<TAG>25<TAG>	{
+del<TAG>26<TAG>		if (c%d >= d / 2)
+del<TAG>27<TAG>			r2 = c / d + 1;
+del<TAG>28<TAG>		else r2 = c / d;
+del<TAG>29<TAG>		cout << r2 << endl;
+del<TAG>30<TAG>	}
+del<TAG>31<TAG>    return 0;

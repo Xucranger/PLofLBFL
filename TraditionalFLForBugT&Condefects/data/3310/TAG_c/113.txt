@@ -1,0 +1,17 @@
+288448.c
+288514.c
+14
+del<TAG>3<TAG>/*void F(int n)
+del<TAG>4<TAG>{
+del<TAG>5<TAG>    double t,f;
+del<TAG>6<TAG>    f=sin(t);
+del<TAG>7<TAG>    t=F(n-1);
+del<TAG>8<TAG>}*/
+modify<TAG>14<TAG>        double f,t;<CHANGETO>        double f;
+modify<TAG>15<TAG>        if(n==0)<CHANGETO>        f=sin(n);
+modify<TAG>16<TAG>            f=sin(n);<CHANGETO>        for(i=1;i<=n;i++)
+del<TAG>17<TAG>        else
+del<TAG>18<TAG>       {
+del<TAG>19<TAG>            f=sin(1);
+del<TAG>20<TAG>            for(i=1;i<n-1;i++)
+del<TAG>24<TAG>        }

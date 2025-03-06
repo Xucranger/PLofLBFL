@@ -1,0 +1,6 @@
+153474.c
+153480.c
+3
+modify<TAG>9<TAG>        c=a/b;<CHANGETO>        if(a%b>=b/2.0)
+add<TAG>9<TAG>            c=a/b+1;
+add<TAG>9<TAG>       else c=a/b;

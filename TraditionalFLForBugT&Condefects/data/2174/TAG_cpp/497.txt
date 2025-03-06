@@ -1,0 +1,6 @@
+70701.cpp
+70716.cpp
+3
+add<TAG>5<TAG>	int c;
+modify<TAG>11<TAG>			printf("%.f\n",a/b);<CHANGETO>			c=(int)(a/b+0.5);
+add<TAG>11<TAG>			cout<<c<<endl;

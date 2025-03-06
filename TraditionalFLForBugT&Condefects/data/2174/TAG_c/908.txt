@@ -1,0 +1,15 @@
+491808.c
+489124.c
+12
+del<TAG>4<TAG>{ int a[100][2],i,flag[100];
+del<TAG>5<TAG>for(i=1;i<=2;i++)
+modify<TAG>7<TAG>scanf("%d %d\n",&a[i][1],&a[i][2]);<CHANGETO>    int a, b;
+modify<TAG>8<TAG>    if(a[i][2]==0)<CHANGETO>    while( scanf("%d%d", &a, &b) != EOF){
+modify<TAG>9<TAG>        flag[i]=1;<CHANGETO>        if( b == 0)
+modify<TAG>10<TAG>      else<CHANGETO>            printf("error\n");
+modify<TAG>11<TAG>        flag[i]=0;}<CHANGETO>        else
+modify<TAG>12<TAG>for(i=1;i<=2;i++)<CHANGETO>            printf("%d\n", (a + b / 2) / b);
+modify<TAG>13<TAG>{if(flag[i]==1)<CHANGETO>    }
+del<TAG>14<TAG>   printf("error\n");
+del<TAG>15<TAG>else
+del<TAG>16<TAG>   printf("%d\n",a[i][1]/a[i][2]);}

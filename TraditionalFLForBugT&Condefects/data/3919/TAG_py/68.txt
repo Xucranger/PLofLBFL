@@ -1,0 +1,49 @@
+510769.py
+508215.py
+46
+modify<TAG>2<TAG>def strlist2numlist(strlist,type = 'int'):<CHANGETO>while True:
+modify<TAG>3<TAG>    """将字符列表转化为数值列表"""<CHANGETO>    a,b,c=input().split()
+modify<TAG>4<TAG>    for i in range(len(strlist)):<CHANGETO>    a=int(a)
+modify<TAG>5<TAG>        if type == 'int':<CHANGETO>    b=int(b)
+modify<TAG>6<TAG>            try:<CHANGETO>    c=int(c)
+modify<TAG>7<TAG>                int(strlist[i])<CHANGETO>    if a+b>c and a+c>b and b+c>a:
+modify<TAG>8<TAG>            except ValueError:<CHANGETO>        if a==b and a==c:
+del<TAG>9<TAG>                pass
+del<TAG>10<TAG>            else:
+del<TAG>11<TAG>                strlist[i] = int(strlist[i])
+del<TAG>12<TAG>        elif type == 'float':
+del<TAG>13<TAG>            try:
+del<TAG>14<TAG>                float(strlist[i])
+del<TAG>15<TAG>            except ValueError:
+del<TAG>16<TAG>                pass
+del<TAG>17<TAG>            else:
+del<TAG>18<TAG>                strlist[i] = float(strlist[i])
+del<TAG>19<TAG>    return strlist
+del<TAG>20<TAG>def right_triangle(edges):
+del<TAG>21<TAG>    """判断是否为直角三角形"""
+del<TAG>22<TAG>    flag = False
+del<TAG>23<TAG>    for i in range(len(edges)):
+del<TAG>24<TAG>        edges[i] = edges[i] ** 2
+del<TAG>25<TAG>    for edge in edges:
+del<TAG>26<TAG>        temp = edges[:]
+del<TAG>27<TAG>        temp.remove(edge)
+del<TAG>28<TAG>        if edge == sum(temp):
+del<TAG>29<TAG>            flag = True
+del<TAG>30<TAG>    return flag
+del<TAG>31<TAG>triangle_edges_list = []
+del<TAG>32<TAG>for i in range(2):
+del<TAG>33<TAG>    temp_list = input().split()
+del<TAG>34<TAG>    triangle_edges_list.append(strlist2numlist(temp_list))
+del<TAG>35<TAG>for i in range(2):
+del<TAG>36<TAG>    triangle_edges = triangle_edges_list[i]
+del<TAG>37<TAG>    flag = 1
+del<TAG>38<TAG>    for edge in triangle_edges:
+del<TAG>39<TAG>        edges = triangle_edges[:]
+del<TAG>40<TAG>        edges.remove(edge)
+del<TAG>41<TAG>        if edge >= sum(edges):
+del<TAG>42<TAG>            flag = 0
+del<TAG>43<TAG>    if flag == 1:
+del<TAG>44<TAG>        if len(set(triangle_edges)) == 1:
+modify<TAG>46<TAG>        elif len(set(triangle_edges)) == 2:<CHANGETO>        elif a==b or a==c or b==c:
+modify<TAG>48<TAG>        elif right_triangle(triangle_edges):<CHANGETO>        elif a*a+b*b==c*c or a*a+c*c==b*b or b*b+c*c==a*a:
+modify<TAG>52<TAG>    elif flag == 0:<CHANGETO>    else:

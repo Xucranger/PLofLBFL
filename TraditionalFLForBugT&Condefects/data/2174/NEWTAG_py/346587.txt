@@ -1,0 +1,17 @@
+346587.py
+306337.py
+14
+modify<TAG>2<TAG>a,b=raw_input().split()<CHANGETO>while 1:
+modify<TAG>3<TAG>c,d=raw_input().split()<CHANGETO>    str_1 = raw_input()
+modify<TAG>4<TAG>a = int(a)<CHANGETO>    list_1 = str_1.split(' ')
+modify<TAG>5<TAG>b = int(b)<CHANGETO>    a,b = int(list_1[0]),int(list_1[1])
+modify<TAG>6<TAG>c = int(c)<CHANGETO>    if (b == 0):
+modify<TAG>7<TAG>d = int(d)<CHANGETO>        print 'error'
+modify<TAG>8<TAG>if b!=0:<CHANGETO>        continue
+modify<TAG>9<TAG>    print(int(round(a/b)))<CHANGETO>    remainder = a%b
+modify<TAG>10<TAG>else:<CHANGETO>    if (float(remainder) >= float(b)/2):
+modify<TAG>11<TAG>    print("error")<CHANGETO>        print int(a/b) + 1
+modify<TAG>12<TAG>if d!=0:<CHANGETO>    else:
+modify<TAG>13<TAG>    print(int(round(c/d)))<CHANGETO>        print int(a/b)
+del<TAG>14<TAG>else:
+del<TAG>15<TAG>    print("error")

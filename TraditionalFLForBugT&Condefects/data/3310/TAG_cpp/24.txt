@@ -1,0 +1,21 @@
+288406.cpp
+437567.cpp
+18
+modify<TAG>2<TAG>#include<math.h><CHANGETO>#include<cstdio>
+modify<TAG>3<TAG>#include<stdio.h><CHANGETO>#include<cstring>
+modify<TAG>4<TAG>#include<stdlib.h><CHANGETO>#include<cmath>
+modify<TAG>6<TAG>float fn;<CHANGETO>double la(double a,double n)
+del<TAG>7<TAG>float function(float n)
+modify<TAG>9<TAG>    float m;<CHANGETO>    if(a==0) return sin(n);
+modify<TAG>10<TAG>    if(n == 0.0)<CHANGETO>    return sin(la(a-1,n));
+modify<TAG>11<TAG>    return sin(fn);<CHANGETO>}
+del<TAG>12<TAG>    else
+del<TAG>13<TAG>    {
+del<TAG>14<TAG>        m = function(n - 1.0);
+del<TAG>15<TAG>        return sin(m);
+del<TAG>16<TAG>    }    
+del<TAG>17<TAG>}    
+modify<TAG>20<TAG>    float k;<CHANGETO>    int n;
+modify<TAG>21<TAG>    for(;(scanf("%f", &fn) != EOF);)<CHANGETO>    while(~scanf("%d",&n))
+modify<TAG>23<TAG>        k = fn;<CHANGETO>        double x=(double)n;
+modify<TAG>24<TAG>        printf("%.6f\n", function(k));<CHANGETO>        printf("%.6lf\n",la(x,x));

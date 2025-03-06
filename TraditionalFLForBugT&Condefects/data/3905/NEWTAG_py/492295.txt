@@ -1,0 +1,4 @@
+492295.py
+490822.py
+1
+modify<TAG>8<TAG>        print(s-int(m[0]))<CHANGETO>    print(s-int(m[0]))

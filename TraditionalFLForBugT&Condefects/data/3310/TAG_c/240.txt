@@ -1,0 +1,6 @@
+441030.c
+441031.c
+3
+modify<TAG>6<TAG>	float s;<CHANGETO>	double s;
+modify<TAG>14<TAG>		printf("%f\n",s);<CHANGETO>		printf("%lf\n",s);
+modify<TAG>16<TAG> } <CHANGETO> }

@@ -1,0 +1,6 @@
+520344.c
+520381.c
+3
+add<TAG>7<TAG>		else if(a+b<=c||a+c<=b||c+b<=a) printf("ERROR\n");
+modify<TAG>10<TAG>		else if(a+b<=c||a+c<=b||c+b<=a) printf("ERROR\n");<CHANGETO>		else printf("PT\n");
+del<TAG>11<TAG>		else printf("PT");

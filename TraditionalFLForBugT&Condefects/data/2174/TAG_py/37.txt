@@ -1,0 +1,17 @@
+397105.py
+397393.py
+14
+modify<TAG>3<TAG>    m=raw_input().split()<CHANGETO>    a,b=map(int,raw_input().split())
+del<TAG>4<TAG>    a= int(m[0])
+del<TAG>5<TAG>    b= int(m[1])
+del<TAG>6<TAG>    # a,b=input().split()
+del<TAG>7<TAG>    # a=int(a)
+del<TAG>8<TAG>    # b=int(b)
+modify<TAG>11<TAG>        print s<CHANGETO>        print s   
+modify<TAG>13<TAG>        c=a/b<CHANGETO>        a=float(a)
+modify<TAG>14<TAG>        d=c-int(c)<CHANGETO>        b=float(b)
+modify<TAG>15<TAG>        if d>=0.5:<CHANGETO>        c=a/b+0.5
+modify<TAG>16<TAG>            c=int(c)+1<CHANGETO>        c=int(c)
+modify<TAG>17<TAG>        else:<CHANGETO>        print (c)
+del<TAG>18<TAG>            c=int(c)
+del<TAG>19<TAG>        print c

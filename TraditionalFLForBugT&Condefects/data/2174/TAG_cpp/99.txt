@@ -1,0 +1,8 @@
+305374.cpp
+305376.cpp
+5
+modify<TAG>7<TAG>		else cout<<m/n<<endl;<CHANGETO>		else{
+add<TAG>7<TAG>			if((m%n)*2>=n)
+add<TAG>7<TAG>				cout<<m/n+1<<endl;
+add<TAG>7<TAG>			else cout<<m/n<<endl;
+add<TAG>7<TAG>		}

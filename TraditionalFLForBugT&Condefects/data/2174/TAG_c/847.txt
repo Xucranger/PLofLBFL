@@ -1,0 +1,5 @@
+153872.c
+153876.c
+2
+modify<TAG>10<TAG>printf("%d\n",(a+b/2)/b);<CHANGETO>printf("%d",(a+b/2)/b);
+add<TAG>10<TAG>printf("\n");

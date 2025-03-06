@@ -1,0 +1,5 @@
+347517.py
+347523.py
+2
+add<TAG>1<TAG>from __future__ import division
+modify<TAG>7<TAG>        print(round(a / b))<CHANGETO>        print(int(round(a / b)))

@@ -1,0 +1,6 @@
+359754.cpp
+359917.cpp
+3
+add<TAG>2<TAG>#include<iomanip>
+modify<TAG>10<TAG>	c=(float)a/b;<CHANGETO>	else{c=(float)a/b+0.5;
+modify<TAG>11<TAG>	printf("%.f\n",c);<CHANGETO>	     cout<<(int)c<<endl;}

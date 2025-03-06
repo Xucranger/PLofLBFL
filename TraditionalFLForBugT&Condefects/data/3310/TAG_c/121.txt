@@ -1,0 +1,13 @@
+287788.c
+483819.c
+10
+modify<TAG>4<TAG>	int a,c,d,e,f,g;<CHANGETO>	int n;
+modify<TAG>5<TAG>	float b[101],h,i;<CHANGETO>	double res;
+modify<TAG>6<TAG>	while(scanf("%d",&a)!=EOF){<CHANGETO>	while(scanf("%d",&n)!=EOF){
+modify<TAG>7<TAG>		h=a*1.0;<CHANGETO>		res=sin(n);
+modify<TAG>8<TAG>		b[0]=sin(h);<CHANGETO>		while(n>0){
+modify<TAG>9<TAG>		i=b[0];<CHANGETO>			res=sin(res);
+modify<TAG>10<TAG>		for(c=1;c<=a;c++){<CHANGETO>			n--;
+modify<TAG>11<TAG>			b[c]=sin(b[c-1]);<CHANGETO>		}
+modify<TAG>12<TAG>		}printf("%.6f\n",b[a]);<CHANGETO>		printf("%f\n",res);
+add<TAG>13<TAG>	return 0;

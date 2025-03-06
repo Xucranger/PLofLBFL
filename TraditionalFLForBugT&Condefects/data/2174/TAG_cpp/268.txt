@@ -1,0 +1,10 @@
+490778.cpp
+35502.cpp
+7
+del<TAG>2<TAG>#include <cmath>
+modify<TAG>4<TAG>int main()<CHANGETO>int main(){
+modify<TAG>5<TAG>{ int a,b;<CHANGETO>    int a,b;
+modify<TAG>6<TAG> while(cin>>a>>b)<CHANGETO>    while(cin >> a >> b){
+modify<TAG>7<TAG>       cout<<"round(a) = "<<round(1.0*a/b)<<endl;    <CHANGETO>        if(b == 0) cout << "error" << endl;
+add<TAG>7<TAG>        else cout << (int)(a*1.0/b + 0.5) << endl;
+add<TAG>7<TAG>    }

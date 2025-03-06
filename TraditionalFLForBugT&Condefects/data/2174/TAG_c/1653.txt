@@ -1,0 +1,12 @@
+196596.c
+196614.c
+9
+modify<TAG>4<TAG>    int j,i,b,c,a,n[100];<CHANGETO>    int j,i,c,n[100];
+add<TAG>4<TAG>    float e,a,b;
+add<TAG>17<TAG>            e=a/b;
+add<TAG>18<TAG>            if(n[i]+1<=e+0.5)
+add<TAG>18<TAG>            {
+add<TAG>18<TAG>                n[i]=n[i]+1;
+add<TAG>18<TAG>            }
+modify<TAG>29<TAG>        else printf("%d\n",n[i]);<CHANGETO>        else
+add<TAG>29<TAG>        printf("%d\n",n[i]);

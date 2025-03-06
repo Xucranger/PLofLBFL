@@ -1,0 +1,19 @@
+158972.c
+159175.c
+16
+modify<TAG>1<TAG>#include <stdio.h><CHANGETO>#include<stdio.h>
+modify<TAG>4<TAG>	int a[100],b[100];<CHANGETO>	int a,b;
+modify<TAG>5<TAG>	int shang[100],yushu[100];<CHANGETO>	double c;
+modify<TAG>6<TAG>	int i;<CHANGETO>	int shang,yushu;
+modify<TAG>7<TAG>	double c[100];<CHANGETO>while(scanf("%d%d",&a,&b)!=EOF)
+modify<TAG>8<TAG>	for(i=0;i<100;i++)<CHANGETO>{ 
+modify<TAG>9<TAG>	{<CHANGETO>	if(b==0)
+del<TAG>10<TAG>		scanf("%d%d",&a[i],&b[i]);
+del<TAG>11<TAG>		if(b[i]==0)
+modify<TAG>17<TAG>			shang[i]=a[i]/b[i];<CHANGETO>			shang=a/b;
+modify<TAG>18<TAG>			yushu[i]=a[i]%b[i];<CHANGETO>			yushu=a%b;
+modify<TAG>19<TAG>			c[i]=(double)yushu[i]/(double)b[i];<CHANGETO>			c=(double)yushu/(double)b;
+modify<TAG>20<TAG>			if(c[i]>=0.5)<CHANGETO>			if(c>=0.5)
+modify<TAG>22<TAG>				printf("%d\n",shang[i]+1);<CHANGETO>				printf("%d\n",shang+1);
+modify<TAG>26<TAG>				printf("%d\n",shang[i]);<CHANGETO>				printf("%d\n",shang);
+modify<TAG>29<TAG>	}<CHANGETO>}

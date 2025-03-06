@@ -1,0 +1,12 @@
+356246.cpp
+356267.cpp
+9
+modify<TAG>13<TAG>    int a,b;<CHANGETO>    int a, b;
+modify<TAG>14<TAG>    while(cin>>a>>b)<CHANGETO>    while (cin >> a >> b)
+modify<TAG>16<TAG>        if(b==0)<CHANGETO>        if (b == 0)
+modify<TAG>21<TAG>        printf("%d\n", a/b);<CHANGETO>        int ans = a / b;
+add<TAG>21<TAG>        double tmp = (double)a / b;
+add<TAG>21<TAG>        // printf("%lf\n", tmp);
+add<TAG>21<TAG>        if (((int)(tmp * 10)) % 10 >= 5)
+add<TAG>21<TAG>            ans++;
+add<TAG>21<TAG>        printf("%d\n", ans);

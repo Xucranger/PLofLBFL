@@ -1,0 +1,22 @@
+245230.c
+245233.c
+19
+modify<TAG>4<TAG>	int a,b,c,d,e;<CHANGETO>	int a,b,c,d;
+modify<TAG>5<TAG>	d=a%b;<CHANGETO>	double e;
+del<TAG>6<TAG>	e=d/2;
+modify<TAG>10<TAG>		{<CHANGETO>		{	
+modify<TAG>11<TAG>			if(a%b==0)<CHANGETO>			d=a%b;
+add<TAG>11<TAG>			e=((double)b*1.00)/2.;
+add<TAG>11<TAG>			if(d<e)
+modify<TAG>14<TAG>				printf("%d",c);<CHANGETO>				printf("%d\n",c);
+modify<TAG>18<TAG>				if(d<e)<CHANGETO>					c=a/b+1;
+modify<TAG>19<TAG>				{<CHANGETO>					printf("%d\n",c);
+del<TAG>20<TAG>					c=a/b;
+del<TAG>21<TAG>					printf("%d",c);
+del<TAG>22<TAG>				}
+del<TAG>23<TAG>				else
+del<TAG>24<TAG>				{
+del<TAG>25<TAG>					c=a/b +1;
+del<TAG>26<TAG>					printf("%d",c);
+del<TAG>27<TAG>				}
+modify<TAG>32<TAG>			printf("\nerror\n");<CHANGETO>			printf("error\n");

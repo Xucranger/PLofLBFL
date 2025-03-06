@@ -1,0 +1,7 @@
+80709.c
+80713.c
+4
+modify<TAG>2<TAG>int main()<CHANGETO>void main()
+modify<TAG>8<TAG>   else c=(10*a/b+5)/10;<CHANGETO>   else {c=(10*a/b+5)/10;
+add<TAG>10<TAG>   }
+add<TAG>10<TAG>   return 0;

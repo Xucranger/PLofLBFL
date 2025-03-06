@@ -1,0 +1,13 @@
+70055.cpp
+73812.cpp
+10
+modify<TAG>1<TAG>#include<iostream> <CHANGETO>#include<stdio.h>
+modify<TAG>2<TAG>#include <stdio.h><CHANGETO>#include<stdlib.h>
+del<TAG>3<TAG>using namespace std; 
+modify<TAG>6<TAG>    int a,b,c;<CHANGETO>    int a,b;
+modify<TAG>7<TAG>    while(scanf("%d %d",&a,&b)!=EOF)<CHANGETO>    while(scanf("%i%i",&a,&b)!=EOF)
+modify<TAG>8<TAG>    {   if(b==0) cout<<"error"<<endl;<CHANGETO>    {
+modify<TAG>9<TAG>        else <CHANGETO>        if(b==0)
+modify<TAG>10<TAG>             {c=(int)(a/b+0.5);<CHANGETO>            printf("error\n");
+modify<TAG>11<TAG>              cout<<c<<endl;              <CHANGETO>        else
+modify<TAG>12<TAG>              } <CHANGETO>           printf("%i\n",(int)((float)a/b+0.5));   //四舍五入 

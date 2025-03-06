@@ -1,0 +1,9 @@
+51670.c
+490568.c
+6
+modify<TAG>4<TAG>	double a,b;<CHANGETO>	int jg;
+modify<TAG>5<TAG>	while(scanf("%lf %lf",&a,&b)!=EOF)<CHANGETO>	float a,b;
+add<TAG>5<TAG>	while(scanf("%f%f",&a,&b)!=EOF)
+modify<TAG>11<TAG>			double q;<CHANGETO>			jg=(int)(a/b+0.5);
+modify<TAG>12<TAG>			q=a/b;<CHANGETO>			printf("%d\n",jg);
+del<TAG>13<TAG>			printf("%.0lf\n",q);

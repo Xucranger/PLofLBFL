@@ -1,0 +1,7 @@
+364361.c
+364480.c
+4
+modify<TAG>8<TAG>		else<CHANGETO>		else if(a%b>=0.5*b)
+modify<TAG>9<TAG>			printf("%d\n",a/b);<CHANGETO>		    	printf("%d\n",a/b+1);
+add<TAG>9<TAG>	    	else
+add<TAG>9<TAG>                printf("%d\n",a/b);

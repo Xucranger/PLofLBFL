@@ -1,0 +1,7 @@
+364987.c
+494911.c
+4
+modify<TAG>3<TAG>{   int a,b,s;<CHANGETO>{
+add<TAG>3<TAG>	int a,b;
+modify<TAG>6<TAG>		s=(a+b/2.0)/(1.0*b);<CHANGETO>	    if(b==0)printf("error\n");
+modify<TAG>7<TAG>		printf("%d\n",s);<CHANGETO>			else printf("%d\n",(a+(b/2))/b );

@@ -1,0 +1,4 @@
+71255.cpp
+71257.cpp
+1
+modify<TAG>14<TAG>		if(b>=n/2)<CHANGETO>		if(b>=n/2.0)

@@ -1,0 +1,8 @@
+307469.c
+307494.c
+5
+add<TAG>1<TAG>#include<math.h>
+modify<TAG>8<TAG>		c=a*1.0/b;<CHANGETO>		c=(double)a/b;
+modify<TAG>9<TAG>		if(b==0)printf("error\n");<CHANGETO>		c=c+0.5;
+modify<TAG>10<TAG>		if(c<0&&c>-0.5) printf("%0.f\n",0-c);<CHANGETO>		c=floor(c);
+add<TAG>10<TAG>		if(b==0)printf("error\n");

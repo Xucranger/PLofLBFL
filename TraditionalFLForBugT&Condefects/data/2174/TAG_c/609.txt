@@ -1,0 +1,11 @@
+490397.c
+490398.c
+8
+modify<TAG>4<TAG>	int m,n;<CHANGETO>	int m;
+modify<TAG>12<TAG>			c=a*100/b;<CHANGETO>			c=a*10/b;
+del<TAG>14<TAG>			n=c%100;
+del<TAG>15<TAG>			n=n/10;
+modify<TAG>18<TAG>			}<CHANGETO>			} 
+del<TAG>19<TAG>			else if(m==4&&n>=5){
+del<TAG>20<TAG>				i++;
+del<TAG>21<TAG>			}

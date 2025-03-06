@@ -1,0 +1,9 @@
+438187.c
+438216.c
+6
+modify<TAG>3<TAG>double xs(int a)<CHANGETO>double xs(int a,double m)
+modify<TAG>5<TAG>	if(a==0) return sin(a+1);<CHANGETO>	if(a==0) return m;
+modify<TAG>6<TAG>	else return sin(xs(a-1));<CHANGETO>	else return sin(xs(a-1,m));
+modify<TAG>11<TAG>	double n;<CHANGETO>	double n,m;
+modify<TAG>14<TAG>		n=xs(a);<CHANGETO>		m=sin(a);
+add<TAG>14<TAG>		n=xs(a,m);

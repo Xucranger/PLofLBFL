@@ -1,0 +1,11 @@
+287675.cpp
+287720.cpp
+8
+del<TAG>6<TAG>    if(elem<0)
+del<TAG>7<TAG>    return 1;
+modify<TAG>18<TAG>        if(elem==0)<CHANGETO>        printf("%.6lf\n",getsin(elem,elem));
+del<TAG>19<TAG>            printf("%.6f",sin(elem));
+del<TAG>20<TAG>        else
+del<TAG>21<TAG>        {
+del<TAG>22<TAG>            printf("%.6f",getsin(elem,elem));
+del<TAG>23<TAG>        }

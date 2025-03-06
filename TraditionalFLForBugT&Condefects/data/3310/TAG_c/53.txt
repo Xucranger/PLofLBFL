@@ -1,0 +1,10 @@
+435578.c
+435836.c
+7
+del<TAG>5<TAG>	float m;
+add<TAG>6<TAG>	double a[100];
+modify<TAG>8<TAG>	{<CHANGETO>	{ a[0]=sin(n);
+modify<TAG>9<TAG>		for(i=0,m=n;i<=n;i++)<CHANGETO>	  for(i=1;i<=n;i++)
+modify<TAG>10<TAG>		m=cos(m);<CHANGETO>	   a[i]=sin(a[i-1]);
+modify<TAG>11<TAG>		printf("%0.6f\n",m);<CHANGETO>	  printf("%.6f\n",a[n]);
+modify<TAG>13<TAG>} <CHANGETO> }

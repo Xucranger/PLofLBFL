@@ -1,0 +1,14 @@
+519081.py
+518330.py
+11
+modify<TAG>3<TAG>def calcul(m):<CHANGETO>def f(x,n):
+modify<TAG>4<TAG>    m = int(m)<CHANGETO>    if(x==0):
+modify<TAG>5<TAG>    a = [0 for i in range(m)]<CHANGETO>        return sin(n)
+modify<TAG>6<TAG>    a[0] = sin(m)<CHANGETO>    else:
+modify<TAG>7<TAG>    for i in range (m):<CHANGETO>        return sin(f(x-1,n))
+del<TAG>8<TAG>        a[i] = sin(a[i-1])
+del<TAG>9<TAG>        s = round(a[i],6)
+del<TAG>10<TAG>    return s
+modify<TAG>12<TAG>    a = input()<CHANGETO>    a=float(input())
+modify<TAG>13<TAG>    out = calcul(a)<CHANGETO>    b=a
+modify<TAG>14<TAG>    print(out)<CHANGETO>    print("%.6f"%f(a,b))

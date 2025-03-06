@@ -1,0 +1,7 @@
+159315.cpp
+304358.cpp
+4
+modify<TAG>8<TAG>		if (b != 0)<CHANGETO>		if (b == 0)
+modify<TAG>9<TAG>			cout << a / b<<endl;<CHANGETO>			cout << "error" << endl;
+modify<TAG>10<TAG>		else if (b == 0)<CHANGETO>		else
+modify<TAG>11<TAG>			cout << "error" << endl;<CHANGETO>			cout << int(float(a) / b + 0.5) << endl;

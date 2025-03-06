@@ -1,0 +1,5 @@
+397200.py
+397219.py
+2
+modify<TAG>5<TAG>        a = int(num[0]);<CHANGETO>        a = float(num[0]);
+modify<TAG>6<TAG>        b = int(num[1]);<CHANGETO>        b = float(num[1]);

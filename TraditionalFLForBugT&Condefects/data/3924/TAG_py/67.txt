@@ -1,0 +1,4 @@
+508655.py
+508657.py
+1
+modify<TAG>17<TAG>            if ((a+b)/2)%2==0:<CHANGETO>            if (int((a+b)/2))%2==0:

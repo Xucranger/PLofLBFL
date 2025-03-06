@@ -1,0 +1,6 @@
+356403.cpp
+356404.cpp
+3
+modify<TAG>10<TAG>		else<CHANGETO>		else if((float)a/b<a/b+0.5)
+add<TAG>11<TAG>		else
+add<TAG>11<TAG>		printf("%lld\n",a/b+1);

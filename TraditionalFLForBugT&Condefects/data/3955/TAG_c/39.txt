@@ -1,0 +1,14 @@
+530204.c
+530205.c
+11
+modify<TAG>7<TAG>	scanf("%s %s",&a,&b);<CHANGETO>	while(scanf("%s %s",&a,&b)!=EOF)
+add<TAG>7<TAG>	{
+modify<TAG>11<TAG>		for(i=0;i<=al-1;i++)<CHANGETO>		if(al==bl)
+add<TAG>12<TAG>			for(i=0;i<=al-1;i++)
+add<TAG>12<TAG>		{
+add<TAG>20<TAG>		}
+add<TAG>20<TAG>		else
+add<TAG>20<TAG>		c=1;
+modify<TAG>23<TAG>			printf("No");<CHANGETO>			printf("No\n");
+modify<TAG>27<TAG>			printf("Yes");<CHANGETO>			printf("Yes\n");
+add<TAG>28<TAG>	}

@@ -1,0 +1,6 @@
+84135.py
+84137.py
+3
+modify<TAG>5<TAG>	a=float(a)/float(b)<CHANGETO>	else :
+modify<TAG>6<TAG>	print int(a+0.5)<CHANGETO>		a=float(a)/float(b)	
+add<TAG>6<TAG>		print int(a+0.5)

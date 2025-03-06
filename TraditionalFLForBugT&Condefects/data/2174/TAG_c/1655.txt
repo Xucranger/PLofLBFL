@@ -1,0 +1,10 @@
+245560.c
+245516.c
+7
+modify<TAG>2<TAG>void main()<CHANGETO>int main()
+del<TAG>4<TAG>double c;
+modify<TAG>7<TAG>else<CHANGETO>else {if(10*a/b%10>=5) printf("%d\n",a/b+1);
+modify<TAG>8<TAG>{<CHANGETO>else printf("%d\n",a/b);}
+del<TAG>9<TAG>c=(1.0*a)/b;
+del<TAG>10<TAG>printf("%.lf\n",c);
+modify<TAG>12<TAG>}<CHANGETO>return 0;

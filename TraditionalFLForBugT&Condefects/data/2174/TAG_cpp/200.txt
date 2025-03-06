@@ -1,0 +1,4 @@
+50761.cpp
+50762.cpp
+1
+modify<TAG>16<TAG>         if(yu*2>b) yu=1;<CHANGETO>         if(yu*2>=b) yu=1;

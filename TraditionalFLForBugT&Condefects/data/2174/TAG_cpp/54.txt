@@ -1,0 +1,6 @@
+359962.cpp
+357366.cpp
+3
+modify<TAG>5<TAG>	int a,b;<CHANGETO>	int a,b,c;
+del<TAG>6<TAG>	double c;
+modify<TAG>13<TAG>			c=a/b;<CHANGETO>			c=(a+(b/2.0))/b;

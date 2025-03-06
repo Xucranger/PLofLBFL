@@ -1,0 +1,11 @@
+198576.c
+304327.c
+8
+modify<TAG>4<TAG>	int a,b,c;<CHANGETO>	int a,b;
+modify<TAG>7<TAG>		c=a+b;<CHANGETO>		if(b==0) printf("error\n");
+del<TAG>8<TAG>		if(a==11&&b<=9||b==11&&a<=9)
+del<TAG>9<TAG>		printf("Game Over\n");
+modify<TAG>12<TAG>			if(c%4==0||c%4==1)<CHANGETO>			if(a%b*10/b<=4) printf("%d\n",a/b);
+modify<TAG>13<TAG>			printf("A\n");<CHANGETO>			else printf("%d\n",a/b+1);
+del<TAG>14<TAG>			else if(c%4==2||c%4==3)
+del<TAG>15<TAG>			printf("B\n");

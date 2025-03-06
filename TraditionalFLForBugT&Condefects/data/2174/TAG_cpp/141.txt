@@ -1,0 +1,5 @@
+82094.cpp
+82095.cpp
+2
+modify<TAG>6<TAG>	int a,b,c;<CHANGETO>	int c;
+add<TAG>6<TAG>	float a,b;

@@ -1,0 +1,5 @@
+304294.cpp
+304308.cpp
+2
+modify<TAG>10<TAG>		cout<<"error";<CHANGETO>		cout<<"error"<<endl;
+modify<TAG>15<TAG>		cout<<c;<CHANGETO>		cout<<c<<endl;

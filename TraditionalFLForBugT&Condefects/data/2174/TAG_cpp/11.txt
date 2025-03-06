@@ -1,0 +1,7 @@
+155179.cpp
+82579.cpp
+4
+del<TAG>2<TAG>#include <string>
+modify<TAG>11<TAG>		else cout<<a/b<<endl;<CHANGETO>		else
+add<TAG>11<TAG>			cout<<(int)((double)a/b+0.5)<<endl;
+del<TAG>13<TAG>	//system("pause");

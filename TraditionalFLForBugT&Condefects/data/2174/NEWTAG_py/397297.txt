@@ -1,0 +1,6 @@
+397297.py
+397265.py
+3
+modify<TAG>3<TAG>	m = input().split() <CHANGETO>	m = raw_input().split() 
+modify<TAG>7<TAG>		print('error')<CHANGETO>		print 'error'
+modify<TAG>10<TAG>		print(x)<CHANGETO>		print x

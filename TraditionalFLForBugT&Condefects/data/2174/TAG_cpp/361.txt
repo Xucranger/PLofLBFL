@@ -1,0 +1,10 @@
+359639.cpp
+35502.cpp
+7
+modify<TAG>1<TAG>#include<iostream><CHANGETO>#include <iostream>
+modify<TAG>5<TAG>    while(cin>>a>>b){<CHANGETO>    while(cin >> a >> b){
+modify<TAG>6<TAG>        if(b==0)<CHANGETO>        if(b == 0) cout << "error" << endl;
+modify<TAG>7<TAG>                cout<<"error"<<endl;<CHANGETO>        else cout << (int)(a*1.0/b + 0.5) << endl;
+del<TAG>8<TAG>        else
+del<TAG>9<TAG>                cout<<a/b<<endl;
+modify<TAG>12<TAG>}            <CHANGETO>}

@@ -1,0 +1,13 @@
+59293.c
+59362.c
+10
+modify<TAG>7<TAG>		double d;<CHANGETO>		float d,e,f;
+del<TAG>12<TAG>			break;
+modify<TAG>14<TAG>			d=a/b;<CHANGETO>		else
+modify<TAG>15<TAG>		    c=a/b;<CHANGETO>		{
+add<TAG>15<TAG>			e=a;f=b;
+add<TAG>15<TAG>			d=e/f;
+add<TAG>15<TAG>		    c=e/f;
+modify<TAG>17<TAG>			printf("%d",c);<CHANGETO>			printf("%d\n",c);
+modify<TAG>19<TAG>			printf("%d",c+1);<CHANGETO>			printf("%d\n",c+1);
+add<TAG>19<TAG>		}

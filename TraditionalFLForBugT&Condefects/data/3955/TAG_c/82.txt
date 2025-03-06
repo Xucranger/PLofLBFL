@@ -1,0 +1,19 @@
+520551.c
+554233.c
+16
+modify<TAG>4<TAG>	char a[100],b[100],c[300];<CHANGETO>	char a[10000],b[10000],c[20000];
+modify<TAG>5<TAG>	char *x,*y;<CHANGETO>	while(scanf("%s%s",a,b)!=EOF){
+modify<TAG>6<TAG>	int flag,i;<CHANGETO>		if(strlen(a)!=strlen(b)){
+modify<TAG>7<TAG>	while(scanf("%s%s",a,b)!=EOF){<CHANGETO>			printf("No\n");
+modify<TAG>8<TAG>		i=0;<CHANGETO>			memset(a,'\0',sizeof(a));
+modify<TAG>9<TAG>		while(c[i]!='\0'){<CHANGETO>			memset(b,'\0',sizeof(b));
+modify<TAG>10<TAG>			c[i]='\0';++i;<CHANGETO>			memset(c,'\0',sizeof(c));
+add<TAG>10<TAG>			continue;	
+modify<TAG>12<TAG>		flag=0;<CHANGETO>		strcat(c,a);
+del<TAG>13<TAG>		strcpy(c,a);
+modify<TAG>15<TAG>		x=c;y=b;<CHANGETO>		if(strstr(c,b)==NULL)printf("No\n");
+modify<TAG>16<TAG>		if(strstr(c,b)!=NULL)<CHANGETO>		else printf("Yes\n");
+modify<TAG>17<TAG>			flag=1;	<CHANGETO>		memset(a,'\0',sizeof(a));
+modify<TAG>18<TAG>		if(flag)printf("Yes\n");<CHANGETO>		memset(b,'\0',sizeof(b));
+modify<TAG>19<TAG>		else printf("No\n");<CHANGETO>		memset(c,'\0',sizeof(c));
+modify<TAG>22<TAG>} <CHANGETO>}

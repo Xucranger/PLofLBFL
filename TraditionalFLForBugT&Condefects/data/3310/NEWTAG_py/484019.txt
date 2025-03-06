@@ -1,0 +1,11 @@
+484019.py
+486439.py
+8
+modify<TAG>2<TAG>def solution(self, arg):<CHANGETO>import math
+modify<TAG>3<TAG>    # TODO: write code...<CHANGETO>stopword = ''
+modify<TAG>4<TAG>    nums = input()<CHANGETO>for line in iter(input,stopword):
+modify<TAG>5<TAG>    print(sum(map(int,nums.split(''))))<CHANGETO>    q = eval(line)
+modify<TAG>6<TAG>if __name__ == '__main__':<CHANGETO>    ans = q
+modify<TAG>7<TAG>    n = int(input())<CHANGETO>    for b in range(q+1):
+modify<TAG>8<TAG>    for i in range(n):<CHANGETO>        ans = math.sin(ans)
+modify<TAG>9<TAG>        solution()<CHANGETO>    print("%.6f" %ans)

@@ -1,0 +1,13 @@
+439775.c
+160184.c
+10
+modify<TAG>4<TAG>	int a,b,n,m;<CHANGETO>	int a,b,t;
+modify<TAG>7<TAG>		if(b!=0)<CHANGETO>		if(b==0)
+modify<TAG>8<TAG>		{<CHANGETO>		printf("error\n");
+modify<TAG>9<TAG>			n=a/b;<CHANGETO>		else{
+modify<TAG>10<TAG>			m=a%b;<CHANGETO>			t=a%b;
+modify<TAG>11<TAG>			if(m>=5)<CHANGETO>			if(t>=0.5*b)
+modify<TAG>12<TAG>			printf("%d",n+1);<CHANGETO>				printf("%d\n",a/b+1);
+modify<TAG>14<TAG>			printf("%d",n);<CHANGETO>				printf("%d\n",a/b);
+del<TAG>16<TAG>		if(b==0)
+del<TAG>17<TAG>		printf("error");

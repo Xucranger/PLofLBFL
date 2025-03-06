@@ -1,0 +1,6 @@
+492594.py
+492152.py
+3
+modify<TAG>5<TAG>    s =0<CHANGETO>    s = 0
+modify<TAG>7<TAG>        s + = int(j)<CHANGETO>        s += int(j)
+modify<TAG>8<TAG>        print(s_int(m[0]))<CHANGETO>    print(s-int(m[0]))

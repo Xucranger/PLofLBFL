@@ -1,0 +1,6 @@
+197685.cpp
+197697.cpp
+3
+modify<TAG>8<TAG>            printf("%d\n", a / b);<CHANGETO>            double num = 1.0 * a / b + 0.5;
+add<TAG>8<TAG>            //printf("%lf\n", num);
+add<TAG>8<TAG>            printf("%d\n", int(num));

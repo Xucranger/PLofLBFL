@@ -1,0 +1,11 @@
+490987.cpp
+307501.cpp
+8
+modify<TAG>1<TAG>#include<iostream><CHANGETO>#include <iostream>
+del<TAG>2<TAG>#include<iomanip>
+modify<TAG>6<TAG>	float a, b;<CHANGETO>  int a,b;
+modify<TAG>7<TAG>	cin >> a >> b;<CHANGETO>  while(cin>>a>>b)
+modify<TAG>8<TAG>	if (b == 0)<CHANGETO>  {
+modify<TAG>9<TAG>		cout << "error";<CHANGETO>     if(b==0) cout<<"error"<<endl;
+modify<TAG>10<TAG>	else<CHANGETO>     else cout<<(int)((float)a/(float)b+0.5)<<endl;
+modify<TAG>11<TAG>	cout << fixed << setprecision(0) << a/b << endl;<CHANGETO>  }

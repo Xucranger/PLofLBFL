@@ -1,0 +1,6 @@
+495626.py
+514360.py
+3
+modify<TAG>2<TAG>n=int(input("有几行？"))<CHANGETO>n=int(input())
+modify<TAG>3<TAG>for i in range(0,n,1):<CHANGETO>for i in range(n):
+modify<TAG>5<TAG>    print(str(a+b))<CHANGETO>    print(a+b)

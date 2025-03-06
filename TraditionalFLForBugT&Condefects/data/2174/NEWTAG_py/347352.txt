@@ -1,0 +1,9 @@
+347352.py
+__init__.py
+6
+del<TAG>1<TAG># coding=utf-8
+del<TAG>2<TAG>a,b=map(int,input().split())
+del<TAG>3<TAG>if(b == 0):
+del<TAG>4<TAG>    print("error")
+del<TAG>5<TAG>else:
+del<TAG>6<TAG>    print(round(a/b))

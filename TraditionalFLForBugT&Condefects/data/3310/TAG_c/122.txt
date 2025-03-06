@@ -1,0 +1,12 @@
+287761.c
+435797.c
+9
+modify<TAG>3<TAG>int main(){<CHANGETO>int main() 
+modify<TAG>4<TAG>    float a,i;<CHANGETO>{
+modify<TAG>5<TAG>    int n;<CHANGETO>    int n,x;
+modify<TAG>8<TAG>        a=sin(n);<CHANGETO>        double F[100];
+modify<TAG>9<TAG>        for(i=0;i<n;i++)<CHANGETO>        F[0]=sin(n);
+modify<TAG>10<TAG>            a=sin(a);<CHANGETO>        for(x=1;x<=n;x++)
+modify<TAG>11<TAG>        printf("%.6f",a);<CHANGETO>          F[x]=sin(F[x-1]);
+add<TAG>11<TAG>        printf("%.6f\n",F[n]);
+modify<TAG>13<TAG> }<CHANGETO>}

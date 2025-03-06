@@ -1,0 +1,11 @@
+553809.c
+553832.c
+8
+modify<TAG>6<TAG>		else if(a==10&&b==10)printf("A\n");<CHANGETO>		else if(a>=10&&b>=10&&(a-b==2||b-a==2))printf("Game Over\n");
+modify<TAG>7<TAG>		else if(a>10&&b>10&&(a-b==2||b-2==2))printf("Game Over\n");<CHANGETO>		else if(a>=10&&b>=10&&(a+b)%2==0)printf("A\n");
+modify<TAG>8<TAG>		else if((a+b+1)%4==0)printf("B\n");<CHANGETO>		else if(a>=10&&b>=10&&(a+b)%2==1)printf("B\n");
+modify<TAG>9<TAG>		else if((a+b)%4==0)printf("A\n");<CHANGETO>			else if(a+b==0)printf("A\n");
+modify<TAG>10<TAG>		else if((a+b+3)%4==0)printf("A\n");<CHANGETO>			else if((a+b+1)%4==0)printf("B\n");
+modify<TAG>11<TAG>		else if(a+b==0)printf("A\n");<CHANGETO>			else if((a+b)%4==0)printf("A\n");
+modify<TAG>12<TAG>		else printf("B\n");<CHANGETO>			else if((a+b+3)%4==0)printf("A\n");
+add<TAG>12<TAG>			else if((a+b+2)%4==0)printf("B\n");

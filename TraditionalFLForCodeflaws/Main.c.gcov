@@ -1,0 +1,48 @@
+        -:    0:Source:D:/work/NAS-我的工作/18-实证研究/Codeflaws/Run/Main.c
+        -:    0:Graph:D:\work\NAS-我的工作\18-实证研究\Codeflaws\Run\Main.gcno
+        -:    0:Data:D:\work\NAS-我的工作\18-实证研究\Codeflaws\Run\Main.gcda
+        -:    0:Runs:15
+        -:    0:Programs:1
+        -:    1:#include <stdio.h>
+        -:    2:#include <stdlib.h>
+        -:    3:#include<string.h>>
+       15:    4:int main(int argc, char *argv[])
+        -:    5:{
+        -:    6:    char a[1005],b[1005];
+       15:    7:    int ans=0,s=0,j,l,i,k=0,z;
+       15:    8:    gets (a);
+       15:    9:    l=strlen(a);
+       15:   10:    if (a[1]=='}')
+        -:   11:    {
+    #####:   12:        printf("0");
+    #####:   13:        return 0;
+        -:   14:        ans=1;
+        -:   15:    }
+       15:   16:    if (ans==0)
+        -:   17:    {
+       15:   18:        ans=1;
+       15:   19:        b[0]=a[1];
+       15:   20:        s=1;
+      216:   21:    for (i=4;i<l;i=i+3)
+        -:   22:    {
+      201:   23:        b[s]=a[i];
+      201:   24:        s++;
+      682:   25:        for (j=0;j<s-1;j++)
+        -:   26:        {
+      625:   27:            if (a[i]==b[j])
+        -:   28:            {
+      144:   29:                z=0;
+      144:   30:                break;
+        -:   31:            }
+        -:   32:            else
+        -:   33:                {
+      481:   34:                    z=1;
+        -:   35:                }
+        -:   36:        }
+      201:   37:        if (z==1)
+       57:   38:            ans++;
+        -:   39:    }
+        -:   40:    }
+       15:   41:    printf("%d",ans);
+       15:   42:    return 0;
+        -:   43:}

@@ -1,0 +1,6 @@
+190156.c
+190180.c
+3
+modify<TAG>4<TAG>    int a,b;<CHANGETO>    int a,b,c;
+modify<TAG>5<TAG>    int rst;<CHANGETO>    float rst;
+modify<TAG>10<TAG>            rst=a/b;printf("%d\n",rst);<CHANGETO>            rst=1.0*a/b;c=(int)(rst+0.5);printf("%d\n",c);

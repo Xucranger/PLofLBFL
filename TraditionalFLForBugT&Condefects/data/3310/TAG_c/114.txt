@@ -1,0 +1,10 @@
+435393.c
+438027.c
+7
+modify<TAG>5<TAG>	int n,i,j,m=0;<CHANGETO>	int n,i;
+modify<TAG>6<TAG>	float F_[100],a[20];<CHANGETO>	double F_[101];
+modify<TAG>7<TAG>	for(j=0;j<21;j++)<CHANGETO>	while(scanf("%d",&n)!=EOF)
+del<TAG>9<TAG>		scanf("%d",&n);
+modify<TAG>16<TAG>		a[j]=F_[0];<CHANGETO>		printf("%.6lf\n",F_[0]);
+del<TAG>17<TAG>		printf("%.6f\n",a[j]);
+add<TAG>18<TAG>	return 0;

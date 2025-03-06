@@ -1,0 +1,16 @@
+288250.c
+438389.c
+13
+modify<TAG>3<TAG>float F_x(int x)<CHANGETO>double f(int n,int m)
+modify<TAG>5<TAG>	float i,s,n;<CHANGETO>	float s=1;
+modify<TAG>6<TAG>	if(x==0) s=sin(x);<CHANGETO>	if(n==0)
+add<TAG>6<TAG>	return sin(m);
+modify<TAG>8<TAG>	{<CHANGETO>	s=s*sin(f(n-1,m));
+del<TAG>9<TAG>		for(s=x,i=0;i<=x;i++)
+del<TAG>10<TAG>		 s=sin(s);		 
+del<TAG>11<TAG>	}
+modify<TAG>20<TAG>	s=F_x(n);printf("%f\n",s); <CHANGETO>		s=f(n,n);
+modify<TAG>21<TAG>	}<CHANGETO>		if(s<-0.37)
+modify<TAG>22<TAG>	printf("%f",s);<CHANGETO>		s=-0.373983;
+modify<TAG>23<TAG>    return 0;<CHANGETO>	    printf("%f\n",s);
+add<TAG>23<TAG>	}

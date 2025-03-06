@@ -1,0 +1,30 @@
+197636.c
+491854.c
+27
+modify<TAG>2<TAG>int main(void)<CHANGETO>void main()
+modify<TAG>4<TAG>	int a,b,c,d,n,m;<CHANGETO>int a,b,c,d;
+modify<TAG>5<TAG>	float x,y,p,q;<CHANGETO>while(scanf("%d%d",&a,&b)!=EOF)
+modify<TAG>6<TAG>	scanf("%d%d",&a,&b);<CHANGETO>  {
+del<TAG>7<TAG>	scanf("%d%d",&c,&d);
+modify<TAG>9<TAG>      printf("error\n");<CHANGETO>    printf("error\n");
+modify<TAG>11<TAG>	  {<CHANGETO>    {c=a/b;
+modify<TAG>12<TAG>	  n=a/b;<CHANGETO>    if(2*(a%b)>=b)
+modify<TAG>13<TAG>      x=1.0*a/b;<CHANGETO>    d=1;
+del<TAG>14<TAG>      p=x-n;
+del<TAG>15<TAG>      if(p<=0.4) 
+del<TAG>16<TAG>	    printf("%d\n",n);
+del<TAG>17<TAG>	  else
+del<TAG>18<TAG>        printf("%d\n",n+1);
+del<TAG>19<TAG>      }
+del<TAG>20<TAG>    if(d==0)
+del<TAG>21<TAG>      printf("error\n");
+modify<TAG>23<TAG>	  {<CHANGETO>    d=0;
+modify<TAG>24<TAG>	  m=c/d;<CHANGETO>    c=c+d;
+modify<TAG>25<TAG>      y=1.0*c/d;<CHANGETO>    printf("%d\n",c);}
+modify<TAG>26<TAG>      q=y-m;<CHANGETO>  }
+modify<TAG>27<TAG>      if(q<=0.4) <CHANGETO>}
+del<TAG>28<TAG>	    printf("%d\n",m);
+del<TAG>29<TAG>	  else
+del<TAG>30<TAG>        printf("%d\n",m+1);
+del<TAG>31<TAG>      }
+del<TAG>32<TAG> } 

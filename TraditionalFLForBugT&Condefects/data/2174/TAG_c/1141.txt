@@ -1,0 +1,19 @@
+247529.c
+247545.c
+16
+modify<TAG>7<TAG>		if(b!=0)<CHANGETO>		if(b==0)
+add<TAG>8<TAG>			printf("error\n");
+add<TAG>8<TAG>		}
+add<TAG>8<TAG>		else{
+modify<TAG>13<TAG>			if(c<0)<CHANGETO>				if(c-n>=0.5)
+modify<TAG>14<TAG>			{<CHANGETO>				n=n+1;
+modify<TAG>15<TAG>				if(c-n<=-0.5)<CHANGETO>			printf("%d\n",n);
+del<TAG>16<TAG>				n=n-1;
+del<TAG>18<TAG>			else if(c>=0)
+del<TAG>19<TAG>				{
+del<TAG>20<TAG>					if(c-n>=0.5)
+del<TAG>21<TAG>					n=n+1;
+del<TAG>22<TAG>				}
+del<TAG>23<TAG>			printf("%d",n);
+del<TAG>24<TAG>		}
+del<TAG>25<TAG>		else printf("error");

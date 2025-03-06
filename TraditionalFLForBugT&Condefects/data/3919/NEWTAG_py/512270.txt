@@ -1,0 +1,50 @@
+512270.py
+506700.py
+47
+modify<TAG>2<TAG>def strl2numl(str_list, type_in='int'):<CHANGETO>while True:
+modify<TAG>3<TAG>    """将字符列表转化为数值列表"""<CHANGETO>    a, b, c = input().split()
+modify<TAG>4<TAG>    for i_in in range(len(str_list)):<CHANGETO>    a, b, c = int(a), int(b), int(c)
+modify<TAG>5<TAG>        if type_in == 'int':<CHANGETO>    if a+b > c and a+c > b and b+c > a:
+modify<TAG>6<TAG>            try:<CHANGETO>        if b == a and a == c:
+del<TAG>7<TAG>                int(str_list[i_in])
+del<TAG>8<TAG>            except ValueError:
+del<TAG>9<TAG>                pass
+del<TAG>10<TAG>            else:
+del<TAG>11<TAG>                str_list[i_in] = int(str_list[i_in])
+del<TAG>12<TAG>        elif type_in == 'float':
+del<TAG>13<TAG>            try:
+del<TAG>14<TAG>                float(str_list[i_in])
+del<TAG>15<TAG>            except ValueError:
+del<TAG>16<TAG>                pass
+del<TAG>17<TAG>            else:
+del<TAG>18<TAG>                str_list[i_in] = float(str_list[i_in])
+del<TAG>19<TAG>    return str_list
+del<TAG>20<TAG>def right_triangle(edges_in):
+del<TAG>21<TAG>    """判断是否为直角三角形"""
+del<TAG>22<TAG>    flag_in = False
+del<TAG>23<TAG>    for i_in in range(len(edges_in)):
+del<TAG>24<TAG>        edges_in[i_in] = edges_in[i_in] ** 2
+del<TAG>25<TAG>    for edge_in in edges_in:
+del<TAG>26<TAG>        temp = edges_in[:]
+del<TAG>27<TAG>        temp.remove(edge_in)
+del<TAG>28<TAG>        if edge_in == sum(temp):
+del<TAG>29<TAG>            flag_in = True
+del<TAG>30<TAG>    return flag_in
+del<TAG>31<TAG>def triangle_judgement(triangle_edges):
+del<TAG>32<TAG>    flag = 1
+del<TAG>33<TAG>    for edge in triangle_edges:
+del<TAG>34<TAG>        edges = triangle_edges[:]
+del<TAG>35<TAG>        edges.remove(edge)
+del<TAG>36<TAG>        if edge >= sum(edges):
+del<TAG>37<TAG>            flag = 0
+del<TAG>38<TAG>    if flag == 1:
+del<TAG>39<TAG>        if len(set(triangle_edges)) == 1:
+modify<TAG>41<TAG>        elif len(set(triangle_edges)) == 2:<CHANGETO>        elif a == b or a == c or b == c:
+modify<TAG>43<TAG>        elif right_triangle(triangle_edges):<CHANGETO>        elif a**2+b**2 == c**2 or a**2+c**2 == b**2 or b**2+c**2 == a**2:
+modify<TAG>47<TAG>    elif flag == 0:<CHANGETO>    else:
+del<TAG>49<TAG>if __name__ == '__main__':
+del<TAG>50<TAG>    triangles = []
+del<TAG>51<TAG>    for i in range(3):
+del<TAG>52<TAG>        triangles.append(strl2numl(input().split()))
+del<TAG>53<TAG>    for i in range(3):
+del<TAG>54<TAG>        triangle_judgement(triangles[i])

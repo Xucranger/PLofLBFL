@@ -1,0 +1,14 @@
+287729.c
+288983.c
+11
+modify<TAG>5<TAG>    int n,i,j;<CHANGETO>    int a;
+modify<TAG>6<TAG>    float m;<CHANGETO>    while(scanf("%d",&a)!=EOF)
+del<TAG>7<TAG>    while(n)
+modify<TAG>9<TAG>        scanf("%d",&i);<CHANGETO>        int i;
+modify<TAG>10<TAG>        m=i;<CHANGETO>        double r,m;
+modify<TAG>11<TAG>        for(j=0;j<=i;j++)<CHANGETO>        m=a;
+modify<TAG>12<TAG>        {<CHANGETO>        r=sin(m);
+modify<TAG>13<TAG>            m=sin(m);<CHANGETO>        for(i=0; i<a; i++)
+modify<TAG>14<TAG>        }<CHANGETO>            r=sin(r);
+modify<TAG>15<TAG>        printf("%f\n",m);<CHANGETO>        printf("%.6lf\n",r);
+del<TAG>16<TAG>        n--;

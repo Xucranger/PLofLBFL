@@ -1,0 +1,11 @@
+154551.c
+84449.c
+8
+del<TAG>2<TAG>#include<stdlib.h>
+modify<TAG>6<TAG>	float  sum;<CHANGETO>	int s;
+del<TAG>8<TAG>	if(b==0)
+add<TAG>9<TAG>	if(b==0)
+del<TAG>11<TAG>	}
+modify<TAG>14<TAG>		sum=1.0*a/b;<CHANGETO>	s=a*1.0/b+0.5;
+modify<TAG>15<TAG>		printf("%.f\n",sum);<CHANGETO>	printf("%d\n",s);
+add<TAG>16<TAG>	}

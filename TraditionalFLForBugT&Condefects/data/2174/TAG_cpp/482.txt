@@ -1,0 +1,10 @@
+155262.cpp
+157414.cpp
+7
+del<TAG>2<TAG>#include<math.h>　
+del<TAG>3<TAG>#include<stdio.h>
+modify<TAG>8<TAG>        while(cin >> a >> b){<CHANGETO>        while(cin>>a>>b)
+modify<TAG>9<TAG>                if(b==0)<CHANGETO>        {
+modify<TAG>10<TAG>                        cout<<"error"<<endl;<CHANGETO>                if(b) cout<<(int)(((float)a)/b+0.5)<<endl;
+modify<TAG>11<TAG>                else<CHANGETO>                else cout<<"error"<<endl;
+del<TAG>12<TAG>                        cout<<ceil(a/b)<<endl;

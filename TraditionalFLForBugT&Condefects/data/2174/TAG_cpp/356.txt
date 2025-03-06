@@ -1,0 +1,11 @@
+85180.cpp
+85200.cpp
+8
+modify<TAG>12<TAG>            double c=(float)a/(float)b;<CHANGETO>            double x=(float)a/(float)b;
+modify<TAG>13<TAG>            int x,r;<CHANGETO>            if(x-(a/b)<0.5)
+modify<TAG>14<TAG>            x=int(c*10);<CHANGETO>            c=a/b; 
+modify<TAG>15<TAG>            if(x-(a/b)>=0.5)<CHANGETO>            else 
+modify<TAG>16<TAG>            r=int(c);<CHANGETO>            c=(a/b)+1; 
+modify<TAG>17<TAG>            else<CHANGETO>            cout<<c<<endl;}
+del<TAG>18<TAG>            r=int(c)+1;
+del<TAG>19<TAG>            cout<<r<<endl;}

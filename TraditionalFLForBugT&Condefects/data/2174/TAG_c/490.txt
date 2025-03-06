@@ -1,0 +1,19 @@
+129076.c
+80476.c
+16
+modify<TAG>1<TAG>#include <stdio.h><CHANGETO>#include<stdio.h>
+modify<TAG>2<TAG>int main (){<CHANGETO>int main(){
+modify<TAG>3<TAG>   int a,b,c[10],e[10];<CHANGETO>   int a,b;
+modify<TAG>4<TAG>   char d[10]="error";<CHANGETO>   while(scanf("%d %d",&a,&b)!=EOF){
+modify<TAG>5<TAG>   int i;<CHANGETO>   {if(b==0)
+modify<TAG>6<TAG>   for (i=0;i<2;i++){<CHANGETO>   printf("error\n");
+del<TAG>7<TAG>    e[i]=1;
+del<TAG>8<TAG>   scanf("%d %d",&a,&b);
+del<TAG>9<TAG>   if (b==0)
+del<TAG>10<TAG>     e[i]=0;
+modify<TAG>12<TAG>     c[i]=(1.0)*a/(1.0*b)+0.5;<CHANGETO>   printf("%d\n",(a*2/b+1)/2);
+modify<TAG>14<TAG>   for (i=0;i<2;i++)<CHANGETO>   }
+del<TAG>15<TAG>     if (e[i]==0)
+del<TAG>16<TAG>       printf("%s\n",d);
+del<TAG>17<TAG>     else
+del<TAG>18<TAG>       printf ("%d\n",c[i]);

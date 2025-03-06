@@ -1,0 +1,7 @@
+86045.cpp
+357366.cpp
+4
+modify<TAG>1<TAG>#include<iostream> <CHANGETO>#include<iostream>
+modify<TAG>9<TAG>			cout<<"error";<CHANGETO>			cout<<"error"<<endl;
+modify<TAG>12<TAG>			c=(int)((double)a/b+0.5);<CHANGETO>			c=(a+(b/2.0))/b;
+modify<TAG>14<TAG>		}	<CHANGETO>		}

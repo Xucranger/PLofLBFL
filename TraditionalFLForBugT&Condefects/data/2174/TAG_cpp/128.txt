@@ -1,0 +1,10 @@
+84999.cpp
+59125.cpp
+7
+del<TAG>2<TAG>#include<iomanip>
+modify<TAG>6<TAG>	double a,b;<CHANGETO>	int a,b;
+modify<TAG>7<TAG>	int c;<CHANGETO>	while(cin>>a >>b)
+del<TAG>8<TAG>	while(cin>>a>>b>>c)
+modify<TAG>10<TAG>		cout<<setiosflags(ios::fixed)<<setprecision(c)<<a/b<<endl;<CHANGETO>		if(b==0) cout<<"error"<<endl;
+add<TAG>10<TAG>		else cout<<(int)(a*1.0/b+0.5)<<endl;
+add<TAG>11<TAG>	return 0;

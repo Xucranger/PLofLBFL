@@ -1,0 +1,12 @@
+50835.cpp
+50847.cpp
+9
+modify<TAG>18<TAG>                int m,n;<CHANGETO>                int m;
+modify<TAG>20<TAG>                n=m+1;<CHANGETO>                if(c-m>=0.5)
+modify<TAG>21<TAG>                cout<<n<<endl;<CHANGETO>                {
+add<TAG>21<TAG>                    cout<<m+1<<endl;
+add<TAG>21<TAG>                }
+add<TAG>21<TAG>                else if(c-m<0.5)
+add<TAG>21<TAG>                {
+add<TAG>21<TAG>                    cout<<m<<endl;
+add<TAG>21<TAG>                }

@@ -1,0 +1,11 @@
+517613.py
+508107.py
+8
+modify<TAG>3<TAG>    Q,W,E=input().split(" ")<CHANGETO>    a,b,c=map(int,input().split())
+modify<TAG>4<TAG>    Q=int(Q)<CHANGETO>    if(a+b>c and a+c>b and b+c>a):
+modify<TAG>5<TAG>    E=input(E)<CHANGETO>        if(a==b==c):
+del<TAG>6<TAG>    W=input(W)
+del<TAG>7<TAG>    if Q+W>E and W+E>Q and Q+E>W:
+del<TAG>8<TAG>        if Q==W and W==E and E==Q:
+modify<TAG>10<TAG>        elif Q==W and W==E and E==Q:<CHANGETO>        elif(a==b or a==c or b==c):
+modify<TAG>12<TAG>        elif Q*Q==W*W+E*E or W*W=Q*Q+E*E or E*E=Q*Q+W*W:<CHANGETO>        elif(a*a+b*b==c*c or a*a+c*c==b*b or b*b+c*c==a*a):

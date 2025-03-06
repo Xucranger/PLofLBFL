@@ -1,0 +1,7 @@
+360250.c
+360508.c
+4
+modify<TAG>9<TAG>            printf("ERROR\n");<CHANGETO>            printf("error\n");
+modify<TAG>14<TAG>            if(c<b/2)<CHANGETO>            float s;
+add<TAG>14<TAG>            s=b/2.0;
+add<TAG>14<TAG>            if(c<s)

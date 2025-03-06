@@ -1,0 +1,23 @@
+520327.c
+520907.c
+20
+modify<TAG>4<TAG>	char a[100],b[100],c[300];<CHANGETO>	char s1[100],s2[100],temp;
+modify<TAG>5<TAG>	char *x,*y;<CHANGETO>	int i,j,len_s1,flag=0;
+modify<TAG>6<TAG>	int flag,n,m;<CHANGETO>	while(scanf("%s %s",s1,s2)!=EOF){
+del<TAG>7<TAG>	while(scanf("%s%s",a,b)!=EOF){
+modify<TAG>9<TAG>		n=strlen(a);m=strlen(b);<CHANGETO>		len_s1=strlen(s1);
+modify<TAG>10<TAG>		while(n--)strcat(c,a);<CHANGETO>		for(i=1;i<=len_s1;++i){
+modify<TAG>11<TAG>		x=c;y=b;<CHANGETO>			temp=s1[len_s1-1];
+modify<TAG>12<TAG>		while(*x!=0){<CHANGETO>			s1[len_s1-1]=s1[0];
+modify<TAG>13<TAG>			if(*x==*y){<CHANGETO>			for(j=0;j<len_s1-2;++j){
+modify<TAG>14<TAG>				if(strstr(x,b)!=NULL){<CHANGETO>				s1[j]=s1[j+1];
+modify<TAG>15<TAG>					flag=1;break;	<CHANGETO>			}
+modify<TAG>16<TAG>				}<CHANGETO>			s1[len_s1-2]=temp;
+modify<TAG>17<TAG>			}			<CHANGETO>			if(strcmp(s1,s2)==0){
+modify<TAG>18<TAG>			x++;<CHANGETO>				flag=1;
+add<TAG>18<TAG>			}
+del<TAG>22<TAG>		x=c;
+del<TAG>23<TAG>		while(*x!='\0'){
+del<TAG>24<TAG>			*x='\0';x++;
+del<TAG>25<TAG>		}
+modify<TAG>28<TAG>} <CHANGETO>}

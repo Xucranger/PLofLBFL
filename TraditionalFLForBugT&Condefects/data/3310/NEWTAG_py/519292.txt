@@ -1,0 +1,6 @@
+519292.py
+519310.py
+3
+del<TAG>8<TAG> s=s*10**6
+del<TAG>9<TAG> s=int(s+0.5)
+del<TAG>10<TAG> s=s/(10**6)

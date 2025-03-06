@@ -1,0 +1,7 @@
+250548.c
+250552.c
+4
+modify<TAG>12<TAG>			e=c/10;<CHANGETO>			e=a/b;
+modify<TAG>13<TAG>			c=10*c;<CHANGETO>			a=10*a;
+modify<TAG>14<TAG>		    d=c/10;<CHANGETO>		    d=a/b;
+modify<TAG>15<TAG>		    if(d%10>5)<CHANGETO>		    if(d%10>=5)

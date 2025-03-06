@@ -1,0 +1,17 @@
+437995.cpp
+287652.cpp
+14
+modify<TAG>1<TAG>#include<iostream><CHANGETO>#include <stdio.h>
+modify<TAG>2<TAG>#include<cmath><CHANGETO>#include <math.h>
+modify<TAG>3<TAG>#include<cstdio><CHANGETO>double sinf(int a,int n)
+del<TAG>4<TAG>using namespace std;
+del<TAG>5<TAG>float fun(int a,int n)
+modify<TAG>7<TAG>	if(a==0) return sin(n);<CHANGETO>	if(a==0)
+modify<TAG>8<TAG>	else {<CHANGETO>		return sin((double)(n));
+modify<TAG>9<TAG>		return sin(fun(a-1,n));<CHANGETO>	return sin(sinf(a-1,n));
+del<TAG>10<TAG>	}
+modify<TAG>14<TAG>    int n;<CHANGETO>	int n;
+modify<TAG>15<TAG>	while((scanf("%d",&n))!=EOF )<CHANGETO>	while(scanf("%d",&n)!=EOF)
+modify<TAG>17<TAG>		float b=fun(n,n);<CHANGETO>		printf("%f\n",sinf(n,n));
+del<TAG>18<TAG>		printf("%.6f\n",b);
+modify<TAG>21<TAG> } <CHANGETO>}

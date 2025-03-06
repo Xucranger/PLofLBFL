@@ -1,0 +1,4 @@
+484116.cpp
+484117.cpp
+1
+modify<TAG>17<TAG>    cout<<setiosflags(ios::fixed)<<setprecision(6)<<result;<CHANGETO>    cout<<setiosflags(ios::fixed)<<setprecision(6)<<result<<endl;

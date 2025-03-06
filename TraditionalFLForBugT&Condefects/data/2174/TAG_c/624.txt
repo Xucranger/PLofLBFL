@@ -1,0 +1,6 @@
+198844.c
+198858.c
+3
+modify<TAG>8<TAG>		    printf("error");<CHANGETO>		    printf("error\n");
+modify<TAG>12<TAG>			printf("%d",c);<CHANGETO>			printf("%d\n",c);
+del<TAG>14<TAG>		return 0;

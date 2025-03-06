@@ -1,0 +1,7 @@
+198339.c
+198352.c
+4
+modify<TAG>8<TAG>			printf("error");<CHANGETO>			printf("error\n");
+modify<TAG>10<TAG>			n=1.0*m/q;<CHANGETO>	 {		n=1.0*m/q;
+modify<TAG>15<TAG>		printf("%d",k);<CHANGETO>		printf("%d\n",k);
+add<TAG>16<TAG>	}

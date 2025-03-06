@@ -1,0 +1,7 @@
+198605.c
+198620.c
+4
+del<TAG>5<TAG>	float s;
+modify<TAG>9<TAG>		printf("error");<CHANGETO>		printf("error\n");
+modify<TAG>12<TAG>		s=a*1.0/b+0.5;<CHANGETO>		c=a*1.0/b+0.5;
+del<TAG>13<TAG>		c=s;

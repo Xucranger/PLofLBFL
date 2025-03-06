@@ -1,0 +1,14 @@
+51562.cpp
+51572.cpp
+11
+modify<TAG>10<TAG>			if(a>=0&&b>=0||a<0&&b<0)<CHANGETO>			if(a>0&&b>0||a<0&&b<0)
+modify<TAG>12<TAG>				if(a%b > b/2&&a!=0){<CHANGETO>				int t=(a%b)*2;
+add<TAG>12<TAG>				if(t >=b&&a!=0&&a%b!=0){
+del<TAG>16<TAG>			else if(a==0&&b!=0){
+del<TAG>17<TAG>				cout<<"0"<<endl;
+del<TAG>18<TAG>			}
+add<TAG>21<TAG>		else if(a==0&&b!=0){
+add<TAG>21<TAG>				cout<<"0"<<endl;
+add<TAG>21<TAG>			}
+modify<TAG>23<TAG>			if(a%b>-b/2){<CHANGETO>			int t=(a%b)*2;
+add<TAG>23<TAG>			if(t<=-b&&a%b!=0){

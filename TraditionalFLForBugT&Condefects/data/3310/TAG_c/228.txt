@@ -1,0 +1,9 @@
+435853.c
+435915.c
+6
+modify<TAG>4<TAG>float fact(int x,int n)<CHANGETO>int n;
+add<TAG>4<TAG>double fact(int x)
+modify<TAG>8<TAG>                return sin(fact(x-1,n));<CHANGETO>                return sin(fact(x-1));
+modify<TAG>12<TAG>        int a;<CHANGETO>    while(scanf("%d",&n)!=EOF)
+del<TAG>13<TAG>    while(scanf("%d",&a)!=EOF)
+modify<TAG>15<TAG>            printf("%.6f",fact(a,a));<CHANGETO>            printf("%.6f\n",fact(n));

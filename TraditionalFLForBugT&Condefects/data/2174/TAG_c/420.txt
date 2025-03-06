@@ -1,0 +1,6 @@
+495533.c
+495536.c
+3
+modify<TAG>4<TAG>	float d,a,b,h;<CHANGETO>	float a,b;
+add<TAG>6<TAG>		float d,h;
+modify<TAG>17<TAG>		a++;<CHANGETO>		h++;

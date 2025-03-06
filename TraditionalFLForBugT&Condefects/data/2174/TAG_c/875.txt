@@ -1,0 +1,5 @@
+365903.c
+365911.c
+2
+modify<TAG>9<TAG>printf("%d",e);<CHANGETO>printf("%d\n",e);
+modify<TAG>11<TAG>elshttp://www.buctcoder.com/JudgeOnline/problem.php?cid=1374&pid=3e<CHANGETO>else

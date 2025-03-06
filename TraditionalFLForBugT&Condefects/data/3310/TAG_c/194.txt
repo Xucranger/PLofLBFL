@@ -1,0 +1,7 @@
+437956.c
+438043.c
+4
+modify<TAG>6<TAG>	float y;<CHANGETO>double y;
+del<TAG>9<TAG>		{
+del<TAG>11<TAG>		}
+modify<TAG>13<TAG>		{y=1;<CHANGETO>		{y=sin(n);

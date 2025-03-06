@@ -1,0 +1,15 @@
+491780.cpp
+35541.cpp
+12
+modify<TAG>4<TAG>{  int a,b;<CHANGETO>{
+modify<TAG>5<TAG>int l=0;<CHANGETO>   int a,b;
+modify<TAG>6<TAG>   while(cin>>a>>b)<CHANGETO>   while(cin >> a >> b)
+modify<TAG>8<TAG>    if(b!=0)<CHANGETO>       if(b == 0)  
+modify<TAG>9<TAG>   {<CHANGETO>       {
+modify<TAG>10<TAG>    cout << a/b << endl;<CHANGETO>           cout << "error" << endl;
+modify<TAG>11<TAG>    l=1;break;<CHANGETO>           continue;
+modify<TAG>12<TAG>   }<CHANGETO>       }
+modify<TAG>13<TAG>   }<CHANGETO>       int c = (int)(a*1.0/b + 0.5);
+modify<TAG>14<TAG>   if(l==0)<CHANGETO>       cout << c << endl;
+modify<TAG>15<TAG>    cout<<"error"<<endl;<CHANGETO>   }
+modify<TAG>16<TAG>    return 0;<CHANGETO>   return 0; 

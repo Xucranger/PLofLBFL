@@ -1,0 +1,6 @@
+492189.py
+492666.py
+3
+modify<TAG>2<TAG>n = eval(input())<CHANGETO>n=eval(input())
+modify<TAG>4<TAG>    m = input().strip()<CHANGETO>    a,b=[int(x) for x in input().split()]
+modify<TAG>5<TAG>    print(m)<CHANGETO>    print(a+b)

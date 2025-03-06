@@ -1,0 +1,8 @@
+512245.py
+512252.py
+5
+modify<TAG>17<TAG>if __name__ == '__main__':<CHANGETO>def main():
+modify<TAG>20<TAG>    data1 = input()<CHANGETO>    print(triangle_judge(x1, y1, z1))
+modify<TAG>21<TAG>    x2, y2, z2 = data1.split(' ')<CHANGETO>if __name__ == '__main__':
+modify<TAG>22<TAG>    print(triangle_judge(x1, y1, z1))<CHANGETO>    for i in range(3):
+modify<TAG>23<TAG>    print(triangle_judge(x2, y2, z2))<CHANGETO>        main()

@@ -1,0 +1,5 @@
+245924.c
+245930.c
+2
+modify<TAG>9<TAG>        c=a*1.0/b+0.5;<CHANGETO>        {c=a*1.0/b+0.5;
+modify<TAG>10<TAG>        printf("%d\n",c);<CHANGETO>        printf("%d\n",c);}

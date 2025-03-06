@@ -1,0 +1,4 @@
+438038.c
+438064.c
+1
+modify<TAG>13<TAG>    	F[i]=sin(F[n-1]);<CHANGETO>    	F[i]=sin(F[i-1]);

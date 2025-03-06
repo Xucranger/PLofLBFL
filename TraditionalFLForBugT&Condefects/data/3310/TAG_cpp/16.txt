@@ -1,0 +1,10 @@
+484095.cpp
+484103.cpp
+7
+modify<TAG>7<TAG>    float m,t[20];<CHANGETO>    double m,t[20];
+modify<TAG>9<TAG>    while(1)<CHANGETO>    while(scanf("%d",&a)!=EOF)
+del<TAG>11<TAG>    	scanf("%d",&a);
+del<TAG>12<TAG>    	if(a==0)
+del<TAG>13<TAG>    	break;
+modify<TAG>20<TAG>for(j=0;j<=i;j++)<CHANGETO>for(j=0;j<i;j++)
+modify<TAG>21<TAG>printf("%.6f\n",t[j]);<CHANGETO>printf("%.6lf\n",t[j]);

@@ -1,0 +1,13 @@
+160922.c
+363595.c
+10
+modify<TAG>3<TAG>{  int i;<CHANGETO>{   float x,y;
+modify<TAG>4<TAG>   double sum=0;<CHANGETO>    int z;
+modify<TAG>5<TAG>   double a;<CHANGETO>    while(scanf("%f %f",&x,&y)!=EOF)
+modify<TAG>6<TAG>   for(i=0;i<12;i++)<CHANGETO>    {if(y==0)
+modify<TAG>7<TAG>   {<CHANGETO>    printf("error\n");
+modify<TAG>8<TAG>       scanf("%lf",&a);<CHANGETO>    else
+modify<TAG>9<TAG>       sum+=a;<CHANGETO>    {z=(int)(x/y+0.5)>(int)(x/y)?(int)(x/y)+1:(int)(x/y);
+modify<TAG>10<TAG>   }<CHANGETO>    printf("%d\n",z);}
+modify<TAG>11<TAG>   printf("$%.2lf",sum/12);<CHANGETO>    }
+modify<TAG>12<TAG>   return 0;<CHANGETO>    return 0;

@@ -1,0 +1,4 @@
+70843.cpp
+70846.cpp
+1
+modify<TAG>9<TAG>            if(t>=5) k++;<CHANGETO>            if((t*10)/b>=5) k++;

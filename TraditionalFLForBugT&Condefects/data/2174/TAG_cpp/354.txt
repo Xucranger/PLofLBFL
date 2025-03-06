@@ -1,0 +1,5 @@
+247304.cpp
+247306.cpp
+2
+modify<TAG>9<TAG>			int ans = a / b + 0.5;<CHANGETO>			float c = a*1.0 / b;
+add<TAG>9<TAG>			int ans = c + 0.5;

@@ -1,0 +1,9 @@
+488894.cpp
+488936.cpp
+6
+modify<TAG>6<TAG>    if(b!=0)<CHANGETO>    int cc=a/b;
+modify<TAG>7<TAG>    return a/b;<CHANGETO>    float c=(float)a/(float)b;
+add<TAG>7<TAG>    if(c-cc>=1.0/2)
+add<TAG>7<TAG>        return cc+1;
+add<TAG>7<TAG>    else
+add<TAG>7<TAG>        return cc;

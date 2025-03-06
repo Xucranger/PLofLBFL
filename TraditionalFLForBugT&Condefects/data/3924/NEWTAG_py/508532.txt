@@ -1,0 +1,4 @@
+508532.py
+508578.py
+1
+modify<TAG>18<TAG>        if A==11 and B<=9 or A<=9 and B==11:<CHANGETO>        if A-B>=2 or B-A>=2:

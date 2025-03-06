@@ -1,0 +1,6 @@
+439670.c
+439792.c
+3
+modify<TAG>7<TAG>		printf("error");	<CHANGETO>		printf("error\n");	
+modify<TAG>11<TAG>		if(c-(a/b)<=0.4) r=c;<CHANGETO>		if(c-(a/b)<0.5) r=c;
+modify<TAG>12<TAG>		printf("%d",r);<CHANGETO>		printf("%d\n",r);

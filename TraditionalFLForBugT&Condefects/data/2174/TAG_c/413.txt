@@ -1,0 +1,7 @@
+50529.c
+50535.c
+4
+modify<TAG>5<TAG>	float i;<CHANGETO>	int i;
+modify<TAG>11<TAG>		{i=a/b;<CHANGETO>		{
+modify<TAG>12<TAG>		printf("%.0f\n",i);}<CHANGETO>		i=(int)(a/b+0.5);
+add<TAG>12<TAG>		printf("%d\n",i);}

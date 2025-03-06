@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+		int a,b,sha,yu;
+	float m;
+	while(scanf("%d %d",&a,&b)!=EOF){
+		if(b==0) printf("error\n");
+		else {
+			sha=a/b;
+			m=a*1.0/b;
+			if(m-sha<1.0/2) printf("%d\n",sha);
+			if(m-sha>=1.0/2) printf("%d\n",sha+1);
+		}
+	}
+} 

@@ -1,0 +1,4 @@
+244666.c
+244668.c
+1
+modify<TAG>16<TAG>				printf("%d",s);<CHANGETO>				printf("%d\n",s);

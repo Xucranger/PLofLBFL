@@ -1,0 +1,6 @@
+356431.cpp
+356488.cpp
+3
+modify<TAG>11<TAG>			int s=a%b;<CHANGETO>			float s=1.0*a/b;
+modify<TAG>12<TAG>			if(s<=4)<CHANGETO>			int kk=s;
+add<TAG>12<TAG>			if((s-kk)<0.5)

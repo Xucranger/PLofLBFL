@@ -1,0 +1,4 @@
+50580.cpp
+50582.cpp
+1
+modify<TAG>17<TAG>                  cout<< endl;<CHANGETO>                  cout<< t << endl;

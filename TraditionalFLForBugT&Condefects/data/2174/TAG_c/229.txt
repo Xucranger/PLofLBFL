@@ -1,0 +1,6 @@
+160781.c
+160790.c
+3
+modify<TAG>4<TAG>	int a,b,x,x1;<CHANGETO>	int a,b,x;
+modify<TAG>5<TAG>	float y1,y2,y;<CHANGETO>	float y1,y2,y,x1;
+modify<TAG>18<TAG>        	printf("%d\n",x++);<CHANGETO>        	printf("%d\n",x+1);

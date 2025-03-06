@@ -1,0 +1,8 @@
+356401.cpp
+356404.cpp
+5
+modify<TAG>5<TAG>	int a,b;<CHANGETO>	long long a,b;
+modify<TAG>6<TAG>	while(~scanf("%d%d",&a,&b))<CHANGETO>	while(~scanf("%lld%lld",&a,&b))
+add<TAG>9<TAG>		else if((float)a/b<a/b+0.5)
+add<TAG>9<TAG>		printf("%lld\n",a/b);
+modify<TAG>11<TAG>		printf("%d\n",a/b);<CHANGETO>		printf("%lld\n",a/b+1);

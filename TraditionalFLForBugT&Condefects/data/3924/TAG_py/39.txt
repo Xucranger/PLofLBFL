@@ -1,0 +1,23 @@
+508884.py
+508949.py
+20
+modify<TAG>4<TAG>    a,b=int(a),int(b)<CHANGETO>    a=int(a)
+modify<TAG>5<TAG>    c=a-b<CHANGETO>    b=int(b)
+modify<TAG>6<TAG>    if a==b==0:<CHANGETO>    if (a==11 and b<=9) or (a<=9 and b==11):
+del<TAG>7<TAG>        print("A")
+del<TAG>8<TAG>    if a==11 and b<=9:
+modify<TAG>10<TAG>    if b==11 and a<=9:<CHANGETO>    elif a+b>20 and (a-b==2 or b-a==2):
+modify<TAG>12<TAG>    if a>0 or b>0:<CHANGETO>    elif a+b<20:
+modify<TAG>13<TAG>        if a<10 and b<10:<CHANGETO>        if int((a+b)/2)%2==0:
+modify<TAG>14<TAG>            if c%2==0:<CHANGETO>            print("A")
+modify<TAG>15<TAG>                print("B")<CHANGETO>        else :
+modify<TAG>16<TAG>            if c%2>0 or c%2<0:<CHANGETO>            print("B")
+modify<TAG>17<TAG>                print("A")<CHANGETO>    elif a+b>=20 and (a-b!=2 or b-a!=2):
+modify<TAG>18<TAG>        if a==10 and b==10:<CHANGETO>        if (a+b)%2==0:
+modify<TAG>20<TAG>        if a>10 and b>10:<CHANGETO>        else :
+modify<TAG>21<TAG>            if c==2:<CHANGETO>            print("B")
+del<TAG>22<TAG>                print("Game Over")
+del<TAG>23<TAG>            if c==1:
+del<TAG>24<TAG>                print("A")
+del<TAG>25<TAG>            if c==0:
+del<TAG>26<TAG>                print("B")

@@ -1,0 +1,7 @@
+483965.c
+483972.c
+4
+modify<TAG>6<TAG>	int i = 20;<CHANGETO>	while (scanf("%d", &n)!=EOF) {
+modify<TAG>7<TAG>	while ( i--) {<CHANGETO>		if (0 <= n <= 100) {	
+del<TAG>8<TAG>		scanf("%d", &n);
+del<TAG>9<TAG>		if (0 <= n <= 100) {

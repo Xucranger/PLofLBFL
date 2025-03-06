@@ -1,0 +1,12 @@
+508903.py
+508919.py
+9
+modify<TAG>16<TAG>        elif c<10:<CHANGETO>        else:
+modify<TAG>17<TAG>            if 10*c>=15:<CHANGETO>            if 10*c>=10*d+5:
+modify<TAG>19<TAG>            elif 10*c<15:<CHANGETO>            elif 10*c<10*d+5:
+del<TAG>21<TAG>        elif c>=10:
+del<TAG>22<TAG>            k=c//10
+del<TAG>23<TAG>            if 10*c>=10*k+5:
+del<TAG>24<TAG>                print(d+1)
+del<TAG>25<TAG>            elif 10*c<10*k+5:
+del<TAG>26<TAG>                print(d)

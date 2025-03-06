@@ -1,0 +1,8 @@
+37012.cpp
+84190.cpp
+5
+modify<TAG>6<TAG>    while(cin>>a>>b)<CHANGETO>    while(cin >> a >> b)
+modify<TAG>9<TAG>        {<CHANGETO>        cout<<"error"<<endl;
+del<TAG>10<TAG>            cout<<"error"<<endl;
+del<TAG>11<TAG>        }
+modify<TAG>14<TAG>            cout<<(a/b)<<endl;<CHANGETO>        	cout<<(int)(((double)a/(double)b)+0.5)<<endl;

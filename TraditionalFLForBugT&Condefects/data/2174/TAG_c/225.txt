@@ -1,0 +1,15 @@
+493312.c
+249643.c
+12
+modify<TAG>4<TAG>    int a,b,x;<CHANGETO>    int a,b,c;
+modify<TAG>7<TAG>        if(b==0)<CHANGETO>       if(b==0)
+modify<TAG>9<TAG>        if(a==0)<CHANGETO>       else
+del<TAG>10<TAG>            printf("%d\n",a);
+del<TAG>11<TAG>        if((a>0&&b>0)||(a<0&&b<0))
+modify<TAG>13<TAG>            x = (int)((a/b)+0.5);<CHANGETO>            c=(float)a/(float)b+0.5;
+modify<TAG>14<TAG>            printf("%d\n",x);<CHANGETO>            printf("%d\n",c);
+del<TAG>16<TAG>        if((a<0&&b>0)||(b<0&&a>0))
+del<TAG>17<TAG>            {
+del<TAG>18<TAG>            x = (int)((a/b)-0.5);
+del<TAG>19<TAG>            printf("%d\n",x);
+del<TAG>20<TAG>            }

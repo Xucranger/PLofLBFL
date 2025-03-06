@@ -1,0 +1,13 @@
+159996.c
+50538.c
+10
+modify<TAG>4<TAG>	int a[100],b[100];<CHANGETO>	float a,b;
+modify<TAG>6<TAG>	for(i=0;i<2;i++)<CHANGETO>	while((scanf("%f%f",&a,&b))!=EOF)
+modify<TAG>8<TAG>		scanf("%d%d",&a[i],&b[i]);<CHANGETO>		if(b!=0)
+modify<TAG>9<TAG>		printf("\n");<CHANGETO>		{
+modify<TAG>10<TAG>	}<CHANGETO>		i=(int)(a/b+0.5);
+modify<TAG>11<TAG>	for(i=0;i<2;i++)<CHANGETO>		printf("%d\n",i);}
+modify<TAG>12<TAG>	{<CHANGETO>		else
+del<TAG>13<TAG>		if(b[i]==0)
+del<TAG>15<TAG>		else
+del<TAG>16<TAG>		printf("%d\n",a[i]/b[i]);

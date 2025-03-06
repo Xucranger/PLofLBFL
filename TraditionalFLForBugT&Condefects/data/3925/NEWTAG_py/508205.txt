@@ -1,0 +1,6 @@
+508205.py
+508351.py
+3
+modify<TAG>3<TAG>    s1=[str(i) for i in input()]<CHANGETO>    s1,s2=input().split()
+modify<TAG>4<TAG>    s2=[str(i) for i in input()]<CHANGETO>    c=int(s1[-1])*int(s2[-1])
+modify<TAG>5<TAG>    print(int(s1[len(s1)-1])*int(s2[len(s2)-1]))<CHANGETO>    print(c%10)

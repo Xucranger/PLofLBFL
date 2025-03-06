@@ -1,0 +1,11 @@
+347584.py
+347244.py
+8
+modify<TAG>4<TAG>        a,b=(int(x) for x in input().split())<CHANGETO>        a,b=map(float,raw_input().split())
+modify<TAG>8<TAG>            c=(a%b)/b<CHANGETO>            print int(round(a/b))
+modify<TAG>9<TAG>            if c>=0.5:<CHANGETO>    except EOFError:
+modify<TAG>10<TAG>                print int(a/b)+1<CHANGETO>        exit(0)
+del<TAG>11<TAG>            else:
+del<TAG>12<TAG>                print int(a/b)
+del<TAG>13<TAG>    except:
+del<TAG>14<TAG>        quit()

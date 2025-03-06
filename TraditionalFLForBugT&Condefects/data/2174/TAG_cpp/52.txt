@@ -1,0 +1,8 @@
+360895.cpp
+364550.cpp
+5
+modify<TAG>1<TAG>#include<stdio.h><CHANGETO> #include<stdio.h>  
+modify<TAG>5<TAG>     scanf("%d%d",&a,&b);<CHANGETO>     while(scanf("%d%d",&a,&b)!=-1)
+add<TAG>5<TAG>    {
+modify<TAG>9<TAG>                 printf("%d\n",a/b);<CHANGETO>                 printf("%d\n",((a+(b/2))/b));
+add<TAG>9<TAG>     }

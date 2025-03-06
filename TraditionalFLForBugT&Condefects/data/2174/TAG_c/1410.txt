@@ -1,0 +1,5 @@
+363853.c
+363861.c
+2
+modify<TAG>12<TAG>		c=a/b+0.5;<CHANGETO>		c=a*1.0/b+0.5;
+add<TAG>12<TAG>		//printf("%f\n",c);

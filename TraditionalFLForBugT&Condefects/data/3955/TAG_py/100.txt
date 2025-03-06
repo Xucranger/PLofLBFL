@@ -1,0 +1,16 @@
+508604.py
+509033.py
+13
+modify<TAG>3<TAG>    a,b=input().split(" ")<CHANGETO>    a,b=input().split()
+modify<TAG>4<TAG>    a=str(a)<CHANGETO>    c=""
+modify<TAG>5<TAG>    b=str(b)<CHANGETO>    for i in range(len(a)):
+modify<TAG>6<TAG>    k = ''.join(reversed(a))<CHANGETO>        c=a[i:]+a[:i]
+modify<TAG>7<TAG>    for j in k:<CHANGETO>        if(c==b):
+modify<TAG>8<TAG>        c=j<CHANGETO>            print("Yes")
+modify<TAG>9<TAG>        break<CHANGETO>            break
+del<TAG>10<TAG>    for p in b:
+del<TAG>11<TAG>        d=p
+del<TAG>12<TAG>        break
+del<TAG>13<TAG>    if c==d:
+del<TAG>14<TAG>        print("YES")
+modify<TAG>16<TAG>        print("NO")<CHANGETO>        print("No")

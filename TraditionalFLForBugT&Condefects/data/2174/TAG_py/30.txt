@@ -1,0 +1,13 @@
+346415.py
+397275.py
+10
+modify<TAG>2<TAG>while(1):<CHANGETO>a,b=map(float,raw_input().split())
+modify<TAG>3<TAG>    a, b = map(int, raw_input().split())<CHANGETO>while a!='':
+modify<TAG>4<TAG>    if b == 0 :<CHANGETO>    if b==0.0:
+modify<TAG>5<TAG>        print("error\n")<CHANGETO>        print("error")
+modify<TAG>7<TAG>        c = a / b * 1.0<CHANGETO>        ans=a/b
+modify<TAG>8<TAG>        d = c - (a / b)<CHANGETO>        ans+=0.5
+modify<TAG>9<TAG>        if d < 0.5 :<CHANGETO>        print(int(ans))
+modify<TAG>10<TAG>            print(a / b)<CHANGETO>    a,b=map(float,raw_input().split())
+del<TAG>11<TAG>        else :
+del<TAG>12<TAG>            print((a / b) + 1,'\n')

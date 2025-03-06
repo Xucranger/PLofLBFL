@@ -1,0 +1,6 @@
+155501.c
+155541.c
+3
+modify<TAG>13<TAG>        if(c<b/2)<CHANGETO>        if(c<(b*.5))
+modify<TAG>14<TAG>            printf("%d",e);<CHANGETO>            printf("%d\n",e);
+modify<TAG>18<TAG>                printf("%d",e);<CHANGETO>                printf("%d\n",e);

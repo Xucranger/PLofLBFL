@@ -1,0 +1,5 @@
+397233.py
+397249.py
+2
+modify<TAG>5<TAG>        if num[1] == '0':<CHANGETO>        if int(num[1]) == 0:
+modify<TAG>8<TAG>            res = int(1.0*float(num[0]) / float(num[1]) + 0.5)<CHANGETO>            res = int(float(num[0]) / float(num[1]) + 0.5)

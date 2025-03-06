@@ -1,0 +1,5 @@
+438304.c
+438389.c
+2
+modify<TAG>3<TAG>float f(int n,int m)<CHANGETO>double f(int n,int m)
+modify<TAG>19<TAG>		if(s==-0.373982)<CHANGETO>		if(s<-0.37)

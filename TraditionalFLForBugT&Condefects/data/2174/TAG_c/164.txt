@@ -1,0 +1,9 @@
+199193.c
+82257.c
+6
+del<TAG>2<TAG>#include<string.h>
+modify<TAG>6<TAG>	while (scanf("%d %d",&a,&b)!=EOF)<CHANGETO>	while(scanf("%d %d",&a,&b)==2)
+del<TAG>9<TAG>		{
+del<TAG>11<TAG>			continue;
+del<TAG>12<TAG>		}
+modify<TAG>14<TAG>			printf("%d\n",(a/b)+0.5);<CHANGETO>			printf("%d\n",(int)(a*1.0/b+0.5));

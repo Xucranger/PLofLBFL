@@ -1,0 +1,6 @@
+508458.py
+508463.py
+3
+modify<TAG>9<TAG>    print(c)<CHANGETO>    c=str(c)
+add<TAG>9<TAG>    lc=len(c)
+add<TAG>9<TAG>    print(c[lc-1])

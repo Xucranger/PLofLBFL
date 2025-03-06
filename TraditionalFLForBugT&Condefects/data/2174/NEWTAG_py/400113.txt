@@ -1,0 +1,8 @@
+400113.py
+400252.py
+5
+modify<TAG>4<TAG>        a,b = map(int,raw_input().strip().split())<CHANGETO>        a,b = map(float,raw_input().strip().split())
+modify<TAG>7<TAG>            if(a/b>0):<CHANGETO>            print(int(a/b+0.5))
+del<TAG>8<TAG>                print(int(a/b+0.5))
+del<TAG>9<TAG>            else:
+del<TAG>10<TAG>                print(int(a/b-0.5))

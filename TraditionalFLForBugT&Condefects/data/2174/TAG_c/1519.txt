@@ -1,0 +1,5 @@
+210495.c
+210500.c
+2
+modify<TAG>11<TAG>			printf("%d",a/b+1);<CHANGETO>			printf("%d\n",a/b+1);
+modify<TAG>12<TAG>			else printf("%d",a/b);<CHANGETO>			else printf("%d\n",a/b);

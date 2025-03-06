@@ -1,0 +1,6 @@
+435348.cpp
+435382.cpp
+3
+add<TAG>2<TAG>int x;
+del<TAG>5<TAG>    int x=n;
+add<TAG>14<TAG>        x=n;

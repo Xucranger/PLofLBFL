@@ -1,0 +1,13 @@
+347213.py
+400252.py
+10
+modify<TAG>2<TAG>s=raw_input()<CHANGETO>while True:
+modify<TAG>3<TAG>a,b=s.split()<CHANGETO>    try:
+modify<TAG>4<TAG>if int(b)==0:<CHANGETO>        a,b = map(float,raw_input().strip().split())
+modify<TAG>5<TAG>   print("error")<CHANGETO>        if(b==0):print('error')
+modify<TAG>6<TAG>else:print(int(round(1.0*int(a)/int(b))))<CHANGETO>        else:
+modify<TAG>7<TAG>s=raw_input()<CHANGETO>            print(int(a/b+0.5))
+modify<TAG>8<TAG>a,b=s.split()<CHANGETO>    except EOFError:
+modify<TAG>9<TAG>if int(b)==0:<CHANGETO>        break
+del<TAG>10<TAG>   print("error")
+del<TAG>11<TAG>else:print(int(round(1.0*int(a)/int(b))))

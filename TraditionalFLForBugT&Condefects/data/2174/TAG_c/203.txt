@@ -1,0 +1,6 @@
+196659.c
+196666.c
+3
+modify<TAG>12<TAG>		c=a*1.00/b;<CHANGETO>		c=(a*1.0)/b;
+add<TAG>12<TAG>		c=c+0.5;
+add<TAG>12<TAG>c=(int)c;

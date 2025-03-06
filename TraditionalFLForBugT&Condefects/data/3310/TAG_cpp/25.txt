@@ -1,0 +1,7 @@
+288033.cpp
+288100.cpp
+4
+modify<TAG>4<TAG>float Fx(int n){<CHANGETO>double Fx(int n){
+modify<TAG>5<TAG>	float s[max];<CHANGETO>	double s[max];
+modify<TAG>15<TAG>	float result;<CHANGETO>	double result;
+modify<TAG>18<TAG>		printf("%f\n",result);<CHANGETO>		printf("%.6f\n",result);

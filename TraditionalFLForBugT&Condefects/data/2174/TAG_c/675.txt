@@ -1,0 +1,11 @@
+247505.c
+357757.c
+8
+modify<TAG>1<TAG>#include <stdio.h><CHANGETO>#include<stdio.h>
+del<TAG>5<TAG>	double c;
+modify<TAG>9<TAG>		{<CHANGETO>		printf("error\n");
+modify<TAG>10<TAG>			printf("error");<CHANGETO>		else 
+del<TAG>11<TAG>		}
+del<TAG>12<TAG>		if(b!=0)
+modify<TAG>14<TAG>		c=1.0*a/b;<CHANGETO>			printf("%d\n",(a+b/2)/b);
+del<TAG>15<TAG>		printf("%.0lf",c);

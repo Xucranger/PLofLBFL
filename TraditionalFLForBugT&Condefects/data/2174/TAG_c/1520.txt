@@ -1,0 +1,6 @@
+197971.c
+304429.c
+3
+modify<TAG>8<TAG>        printf("error");<CHANGETO>            printf("error\n");
+modify<TAG>10<TAG>        printf("%d",a/b);<CHANGETO>            printf("%d\n",(a+b/2)/b);
+modify<TAG>13<TAG>}    <CHANGETO>}

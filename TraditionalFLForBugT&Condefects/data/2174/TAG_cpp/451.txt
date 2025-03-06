@@ -1,0 +1,4 @@
+36763.cpp
+36764.cpp
+1
+modify<TAG>9<TAG>        else cout<<a/b<<endl;<CHANGETO>        else cout<<(int)(a*1.0/b+0.5)<<endl;

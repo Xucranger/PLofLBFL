@@ -1,0 +1,6 @@
+84633.cpp
+84636.cpp
+3
+modify<TAG>4<TAG>	int a,b,c;<CHANGETO>	int c;
+add<TAG>4<TAG>	float a,b;
+modify<TAG>8<TAG>			c=a/b;<CHANGETO>			c=a/b+0.5;

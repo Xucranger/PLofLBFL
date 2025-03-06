@@ -1,0 +1,17 @@
+440085.c
+358309.c
+14
+del<TAG>2<TAG>#include<math.h>
+modify<TAG>5<TAG>	char ch;<CHANGETO>	int a,b,c;
+modify<TAG>6<TAG>	float a[1000],b[1000],c;<CHANGETO>	while(scanf("%d %d",&a,&b)!=EOF)
+del<TAG>7<TAG>	int i,j=0,d;
+del<TAG>8<TAG>	for(i=0;ch!=EOF;i++)
+modify<TAG>10<TAG>		scanf("%f%f",&a[i],&b[i]);<CHANGETO>		if(b==0)
+del<TAG>11<TAG>		ch=getchar();
+del<TAG>12<TAG>		j++;
+del<TAG>13<TAG>	}
+del<TAG>14<TAG>	for(i=0;i<j;i++)
+del<TAG>15<TAG>	{
+del<TAG>16<TAG>		if(b[i]==0)
+modify<TAG>20<TAG>			c=a[i]/b[i];<CHANGETO>			c=(a+(b/2))/b;
+del<TAG>21<TAG>			d=round(c);

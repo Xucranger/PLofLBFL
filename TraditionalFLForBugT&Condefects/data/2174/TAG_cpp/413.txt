@@ -1,0 +1,13 @@
+358483.cpp
+50138.cpp
+10
+modify<TAG>1<TAG>#include<iostream> <CHANGETO>#include<iostream>
+del<TAG>5<TAG>	float c;
+modify<TAG>7<TAG>		if(b==0){<CHANGETO>		int c=a,d=b;
+modify<TAG>8<TAG>			cout<<"error"<<endl;<CHANGETO>		if(b==0) cout<<"error"<<endl;
+modify<TAG>9<TAG>			return 0;<CHANGETO>		else {
+modify<TAG>10<TAG>		} <CHANGETO>			float t = a / b- c/d ;
+modify<TAG>11<TAG>		if(a/b-int(a/b)>=0.5){<CHANGETO>			if(t >= 0.5 ) cout<<c/d+1<<endl;
+modify<TAG>12<TAG>			cout<<int(a/b)+1<<endl;<CHANGETO>			else cout<<c/d<<endl;
+del<TAG>13<TAG>		}else{
+del<TAG>14<TAG>			cout<<int(a/b)<<endl;

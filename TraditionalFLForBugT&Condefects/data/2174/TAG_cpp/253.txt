@@ -1,0 +1,10 @@
+490977.cpp
+160453.cpp
+7
+del<TAG>2<TAG>#include<iomanip>
+modify<TAG>4<TAG>int main()<CHANGETO>int main(void){
+modify<TAG>5<TAG>{<CHANGETO>	float a,b;
+modify<TAG>6<TAG>	float a, b;<CHANGETO>	while(cin>>a>>b){
+modify<TAG>7<TAG>	cin >> a >> b;<CHANGETO>		if(b==0) cout<<"error"<<endl;
+modify<TAG>8<TAG>	cout << fixed << setprecision(0) << a/b;<CHANGETO>		else printf("%d\n",(int)(a/b+0.5));
+add<TAG>8<TAG>	}

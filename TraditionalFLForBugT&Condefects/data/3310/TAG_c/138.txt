@@ -1,0 +1,17 @@
+288163.c
+288935.c
+14
+modify<TAG>3<TAG>float water(int a);<CHANGETO>int main(int argc, char *argv[])
+del<TAG>4<TAG>int n=0;
+del<TAG>5<TAG>int main()
+modify<TAG>7<TAG>	while(1)<CHANGETO>	double x[1000];int n,i;
+modify<TAG>8<TAG>	{<CHANGETO>	while(scanf("%d",&n)!=EOF)
+modify<TAG>9<TAG>	float answer=0;<CHANGETO>	{	x[0]=sin(n);
+modify<TAG>10<TAG>	if(scanf("%d",&n)==EOF) break;<CHANGETO>		for(i=1;i<=n;i++)
+modify<TAG>11<TAG>	answer=water(n);<CHANGETO>		x[i]=sin(x[i-1]);
+modify<TAG>12<TAG>	printf("%.6f\n",answer);<CHANGETO>		printf("%6lf\n",x[n]);
+del<TAG>16<TAG>float water(int a)
+del<TAG>17<TAG>{
+del<TAG>18<TAG>	if(a==0) return sin(n);
+del<TAG>19<TAG>	else return sin(water(a-1));
+del<TAG>20<TAG>}

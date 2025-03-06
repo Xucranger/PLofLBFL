@@ -1,0 +1,10 @@
+364494.cpp
+357366.cpp
+7
+modify<TAG>1<TAG>#include<iostream>  <CHANGETO>#include<iostream>
+modify<TAG>2<TAG>using namespace std;  <CHANGETO>using namespace std;
+modify<TAG>3<TAG>int main()  <CHANGETO>int main()
+modify<TAG>4<TAG>{  <CHANGETO>{
+modify<TAG>5<TAG>    int a,b;<CHANGETO>	int a,b,c;
+del<TAG>6<TAG>	float c;
+modify<TAG>13<TAG>			c= a/b;<CHANGETO>			c=(a+(b/2.0))/b;

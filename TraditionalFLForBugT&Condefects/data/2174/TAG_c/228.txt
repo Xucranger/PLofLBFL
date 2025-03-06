@@ -1,0 +1,6 @@
+247000.c
+247003.c
+3
+modify<TAG>13<TAG>		if(d>b*0.5)<CHANGETO>		if(d>=b*0.5)
+modify<TAG>17<TAG>	}<CHANGETO>	printf("\n");}
+del<TAG>18<TAG>	printf("\n");

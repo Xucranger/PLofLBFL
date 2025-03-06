@@ -1,0 +1,6 @@
+356324.c
+356328.c
+3
+modify<TAG>6<TAG>	int a,b;<CHANGETO>	float a,b;
+modify<TAG>7<TAG>	while(scanf("%d%d",&a,&b)!=EOF)<CHANGETO>	while(scanf("%f%f",&a,&b)!=EOF)
+modify<TAG>14<TAG>		printf("%d\n",a/b);<CHANGETO>		printf("%d\n",(int)(a/b+0.5));

@@ -1,0 +1,16 @@
+534400.c
+531704.c
+13
+modify<TAG>4<TAG>  int m,n,i,a,s,j;<CHANGETO>	int a,b=0,i,n,m,j;
+modify<TAG>5<TAG>  scanf("%d\n",&n);<CHANGETO>	scanf("%d",&m);
+modify<TAG>6<TAG>  for(i=0;i<n;i++)<CHANGETO>	for(i=1;i<=m;i++){
+modify<TAG>7<TAG>  {<CHANGETO>		scanf("%d",&n);
+modify<TAG>8<TAG>  	s=0;<CHANGETO>		b=0;
+modify<TAG>9<TAG>  	scanf("%d",&m);<CHANGETO>		for(j=1;j<=n;j++)
+modify<TAG>10<TAG>  	for(j=1;j<=m;j++)<CHANGETO>	{
+modify<TAG>11<TAG>  	{<CHANGETO>	scanf("%d",&a);
+modify<TAG>12<TAG>  		scanf("%d",&a);<CHANGETO>	b+=a;}
+modify<TAG>13<TAG>  		s=s+a;<CHANGETO>	printf("%d\n",b);}
+del<TAG>14<TAG>	  }
+del<TAG>15<TAG>	  printf("%d",s);
+del<TAG>16<TAG>  }

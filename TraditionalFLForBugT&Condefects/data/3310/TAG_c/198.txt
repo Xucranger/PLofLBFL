@@ -1,0 +1,12 @@
+435855.c
+287622.c
+9
+modify<TAG>5<TAG>	float m;<CHANGETO>	double n,x,i;
+modify<TAG>6<TAG>	int n,i,j=0;<CHANGETO>	while(scanf("%lf",&n)!=EOF)
+del<TAG>7<TAG>	while(scanf("%d",&n)!=EOF&&j<=20)
+modify<TAG>9<TAG>		for(i=0,m=n;i<=n;i++)<CHANGETO>		x=n;
+modify<TAG>10<TAG>		m=sin(m);<CHANGETO>     	for(i=0;i<=n;i++)
+modify<TAG>11<TAG>		printf("%.6lf\n",m);<CHANGETO>	    x=sin(x);
+modify<TAG>12<TAG>		j++;<CHANGETO>	    printf("%.6lf\n",x);
+modify<TAG>14<TAG>} <CHANGETO>	return 0;
+add<TAG>14<TAG>}

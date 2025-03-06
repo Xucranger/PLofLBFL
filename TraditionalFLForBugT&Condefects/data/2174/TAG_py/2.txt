@@ -1,0 +1,15 @@
+396994.py
+397024.py
+12
+modify<TAG>2<TAG>a,b=map(int,input().split())<CHANGETO>a,b=map(float,raw_input().split())
+modify<TAG>4<TAG>	if b==0:<CHANGETO>	if b==0.0:
+modify<TAG>7<TAG>		str2=str(a/b)<CHANGETO>		ans=a/b
+modify<TAG>8<TAG>		ans=a/b;<CHANGETO>		ans+=0.5
+modify<TAG>9<TAG>		x=str2.find('.')<CHANGETO>		print(int(ans))
+modify<TAG>10<TAG>		if x==-1:<CHANGETO>	a,b=map(float,raw_input().split())
+del<TAG>11<TAG>			print(str2)
+del<TAG>12<TAG>		else :
+del<TAG>13<TAG>			if str2[x+1]>='5':
+del<TAG>14<TAG>				ans+=1;
+del<TAG>15<TAG>			print(int(ans))
+del<TAG>16<TAG>	a,b=map(int,input().split())

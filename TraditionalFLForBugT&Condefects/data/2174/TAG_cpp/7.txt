@@ -1,0 +1,8 @@
+161095.cpp
+365986.cpp
+5
+modify<TAG>1<TAG>#include <iostream><CHANGETO>#include<iostream>
+modify<TAG>8<TAG>        if( b == 0)<CHANGETO>        if(b==0)
+modify<TAG>11<TAG>            cout << a/b << endl;<CHANGETO>        {
+add<TAG>11<TAG>            cout << (int)((float)a/(float)b+0.5) << endl;
+add<TAG>11<TAG>        }           

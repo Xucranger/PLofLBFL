@@ -1,0 +1,17 @@
+83298.cpp
+59038.cpp
+14
+modify<TAG>4<TAG>{double a,b,c,x;<CHANGETO>{
+modify<TAG>5<TAG> int z;<CHANGETO>int a,b;
+modify<TAG>6<TAG> cin>>a>>b;<CHANGETO>int m;
+modify<TAG>7<TAG> if(b!=0)<CHANGETO>while(cin>>a>>b)
+modify<TAG>9<TAG> c=(double)a/b;<CHANGETO>if(b==0)
+modify<TAG>10<TAG> z=a/b;<CHANGETO>cout<<"error"<<endl;
+modify<TAG>11<TAG> x=c-z;<CHANGETO>else
+modify<TAG>12<TAG>if(2*x>=1)<CHANGETO>{
+modify<TAG>13<TAG>cout<<(z+1)<<"\n"<<endl;<CHANGETO>m=(a*1.0)/b+0.5;
+modify<TAG>14<TAG>else<CHANGETO>cout<<m<<endl;
+modify<TAG>15<TAG>cout<<z<<"\n"<<endl;<CHANGETO>}
+del<TAG>17<TAG>else
+del<TAG>18<TAG>cout<<"error"<<"\n"<<endl;
+del<TAG>19<TAG>return 0;

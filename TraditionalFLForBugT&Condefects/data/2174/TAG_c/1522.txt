@@ -1,0 +1,9 @@
+439414.c
+304327.c
+6
+del<TAG>2<TAG>#include<stdlib.h>
+modify<TAG>5<TAG>	int a,b,c;<CHANGETO>	int a,b;
+modify<TAG>9<TAG>		if(b!=0)<CHANGETO>		else
+modify<TAG>11<TAG>		c=1.0*a/b;<CHANGETO>			if(a%b*10/b<=4) printf("%d\n",a/b);
+modify<TAG>12<TAG>		printf("%d\n",c);<CHANGETO>			else printf("%d\n",a/b+1);
+modify<TAG>13<TAG>	    }<CHANGETO>		}

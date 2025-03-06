@@ -1,0 +1,26 @@
+508264.py
+508051.py
+23
+del<TAG>3<TAG>d,e,f=input().split()
+modify<TAG>7<TAG>d=int(d)<CHANGETO>while True:
+modify<TAG>8<TAG>e=int(e)<CHANGETO>    if a+b<=c or a+c<=b or c+b<=a:
+modify<TAG>9<TAG>f=int(f)<CHANGETO>        print("ERROR")
+modify<TAG>10<TAG>if a==b==c:<CHANGETO>    elif a*a==b*b and b*b==c*c:
+del<TAG>11<TAG>    print("DB")
+del<TAG>12<TAG>elif a==b or a==c or b==c:
+del<TAG>13<TAG>    print("DY")
+del<TAG>14<TAG>elif a*a+b*b==c*c or a*a+c*c==b*b or b*b+c*c==a*a:
+del<TAG>15<TAG>    print("ZJ")
+del<TAG>16<TAG>elif a+b>c and a+c>b and c+b>a:
+del<TAG>17<TAG>    print("PT")
+del<TAG>18<TAG>else:
+del<TAG>19<TAG>    print("ERROR")
+del<TAG>20<TAG>while True:
+del<TAG>21<TAG>    if d==e==f:
+modify<TAG>23<TAG>    elif d==e or d==f or e==f:<CHANGETO>    elif a*a==b*b or a*a==c*c or c*c==b*b:
+modify<TAG>25<TAG>    elif d*d+e*e==f*f or d*d+f*f==e*e or f*f+e*e==d*d:<CHANGETO>    elif a*a+b*b==c*c or c*c+b*b==a*a or a*a+c*c==b*b:
+modify<TAG>27<TAG>    elif d+e>f and d+f>e and e+f>d:<CHANGETO>    else:
+modify<TAG>29<TAG>    else:<CHANGETO>    a,b,c=input().split()
+modify<TAG>30<TAG>        print("ERROR")<CHANGETO>    a=int(a)
+modify<TAG>31<TAG>    break<CHANGETO>    b=int(b)
+add<TAG>31<TAG>    c=int(c)

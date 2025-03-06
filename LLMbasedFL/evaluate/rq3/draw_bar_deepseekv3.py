@@ -1,0 +1,109 @@
+import matplotlib.pyplot as plt
+from matplotlib import rcParams
+import numpy as np
+from matplotlib.backends.backend_pdf import PdfPages
+
+config = {
+    "font.family": 'Times New Roman',
+    "mathtext.fontset": 'stix',
+    "font.serif": ['SimSun'],
+}
+rcParams.update(config)
+color1 = (51/255, 57/255, 91/255)  # 红色
+color2  = (93/255, 116/255, 162/255)  # 绿色
+color3 = (196/255, 216/255, 242/255)  # 蓝色
+
+
+# Categories
+categories = ['StuFLP', 'StuFLP$_{noC}$', 'StuFLP$_{noI}$', 'StuFLP$_{noN}$', 'StuFLP$_{noR}$', 'StuFLP$_{noS}$']
+
+# Data
+# mytitle = 'Codeflaws_prompt_various.pdf'
+# top_1 = np.array([13, 11, 8, 8, 10, 11])
+# top_3 = np.array([24, 23, 21, 18, 20, 19])
+# top_5 = np.array([33, 32, 31, 28, 28, 27])
+
+# Condefects
+mytitle = '/home/xuhexiang/llmInNoviceProgramFL/CodeArrange/evaluate/rq3/Condefects_prompt_various_ds.pdf'
+top_1 = np.array([14, 14, 16, 8, 11, 7])
+top_3 = np.array([27, 23, 24, 24, 23, 25])
+top_5 = np.array([30, 27, 27, 29, 28, 31])
+# Codeflaws
+mytitle = '/home/xuhexiang/llmInNoviceProgramFL/CodeArrange/evaluate/rq3/Codeflaws_prompt_various_ds.pdf'
+top_1 = np.array([10, 10, 9, 6, 11, 10])
+top_3 = np.array([19, 25, 19, 17, 24, 18])
+top_5 = np.array([28, 33, 28, 28, 31, 25])
+# # BugT
+# mytitle = '/home/xuhexiang/llmInNoviceProgramFL/CodeArrange/evaluate/rq3/BugT_prompt_various_ds.pdf'
+# top_1 = np.array([15, 18, 15, 13, 12, 10])
+# top_3 = np.array([21, 24, 20, 21, 18, 18])
+# top_5 = np.array([27, 25, 25, 25, 23, 24])
+
+# X locations for the groups
+ind = np.arange(len(categories))
+
+# Bar width
+width = 0.25
+
+# Increase the figure size to make it wider
+plt.figure(figsize=(48, 10))
+
+# Create the subplot
+ax = plt.subplot(111)
+
+
+# Create bars
+rects1 = ax.bar(ind - width, top_1, width, label='Top-1', color=color1, edgecolor='black', linewidth=2)
+rects2 = ax.bar(ind, top_3, width, label='Top-3', color=color2, edgecolor='black', linewidth=2)
+rects3 = ax.bar(ind + width, top_5, width, label='Top-5', color=color3, edgecolor='black', linewidth=2)
+
+# Adjust the font sizes
+label_size = 30  # size for x and y labels
+title_size = 30  # size for the title
+ticks_size = 30  # size for the x and y ticks
+# Add some text for labels, title, and custom x-axis tick labels, etc.
+ax.set_xlabel('Prompts', fontsize=34)
+ax.set_ylabel('', fontsize=label_size)
+# ax.set_title('Scores by category and top count', fontsize=title_size)
+ax.set_xticks(ind)
+ax.set_xticklabels(categories, fontsize=ticks_size)  # Rotate the category labels to prevent overlap
+# ax.set_yticklabels(fontsize=ticks_size)
+# 调整图表的布局，为图例留出空间
+# ax.legend(fontsize=ticks_size,loc='upper left')
+ax.tick_params(axis='y', labelsize=ticks_size, width=2)  # 设置y轴刻度字体大小
+ax.tick_params(axis='x', width=2)  # 加粗y轴刻度线
+ax.yaxis.grid(True, linestyle='--', linewidth=0.5, color='gray')
+ax.spines['bottom'].set_linewidth(2)  # 加粗x轴
+ax.spines['left'].set_linewidth(2)    # 加粗y轴
+ax.spines['right'].set_linewidth(2)    # 加粗y轴
+ax.spines['top'].set_linewidth(2)    # 加粗y轴
+# Function to attach a text label above each bar, displaying its height.
+y_max = max(top_1.max(), top_3.max(), top_5.max())
+ax.set_ylim(0, y_max * 1.1)  # 为数字标签留出空间
+def autolabel(rects):
+    for rect in rects:
+        height = rect.get_height()
+        ax.annotate('{}'.format(height),
+                    xy=(rect.get_x() + rect.get_width() / 2, height),
+                    xytext=(0, 3),  # 3 points vertical offset
+                    textcoords="offset points",
+                    ha='center', va='bottom', fontsize=ticks_size)
+
+# Call the function for each set of bars.
+autolabel(rects1)
+autolabel(rects2)
+autolabel(rects3)
+
+# plt.subplots_adjust(top=0.90)  # 留出足够的空间给图例
+# 显示图例，并指定位置在图表上方的中央
+# plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.14), ncol=len(categories), fontsize=ticks_size)
+
+# Adjust layout to accommodate the legend and labels properly
+plt.subplots_adjust(top=0.85, bottom=0.12)  # Adjust the top and bottom margin
+plt.legend(loc='upper center', bbox_to_anchor=(0.5, 1.14), ncol=3, fontsize=ticks_size)  # Legend position
+
+plt.tight_layout()  # Adjust the layout to fit everything
+
+
+plt.savefig(mytitle)
+# plt.show()  # Display the plot

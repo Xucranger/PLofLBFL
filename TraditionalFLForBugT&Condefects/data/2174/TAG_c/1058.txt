@@ -1,0 +1,5 @@
+358052.c
+358064.c
+2
+add<TAG>7<TAG>	else if(a%b>=(b+1)/2)
+add<TAG>7<TAG>	printf("%d\n",a/b+1);

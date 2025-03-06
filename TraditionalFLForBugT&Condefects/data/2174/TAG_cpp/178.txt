@@ -1,0 +1,17 @@
+83549.cpp
+306952.cpp
+14
+modify<TAG>1<TAG>#include<stdio.h><CHANGETO>#include<iostream>
+modify<TAG>2<TAG>#define N 2<CHANGETO>using namespace std;
+modify<TAG>5<TAG>     float a[N],b[N];<CHANGETO>	int a[100],b[100];
+modify<TAG>6<TAG>	int i;<CHANGETO>	int i=0,j=0;
+modify<TAG>7<TAG>	int S[N];<CHANGETO>	while(cin>>a[i]>>b[i])
+del<TAG>8<TAG>    for (i=0;i<N;i++)
+modify<TAG>10<TAG>		scanf("%d %d",&a[i],&b[i]);<CHANGETO>		i++;
+modify<TAG>12<TAG>    for (i=0;i<N;i++)<CHANGETO>	for(;j<i;j++)
+modify<TAG>14<TAG>		if(b[i]==0)<CHANGETO>		if(b[j]==0) cout<<"error"<<endl;
+modify<TAG>15<TAG>			printf("error\n");<CHANGETO>		else cout<<(int)(1.0*a[j]/b[j]+0.5)<<endl;
+del<TAG>16<TAG>		else
+del<TAG>17<TAG>		{ S[i]=a[i]/b[i]+0.5;     
+del<TAG>18<TAG>	      printf("%d\n",S[i]);
+del<TAG>19<TAG>		}

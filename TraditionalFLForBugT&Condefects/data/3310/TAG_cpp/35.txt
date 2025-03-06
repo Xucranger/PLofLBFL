@@ -1,0 +1,17 @@
+441815.cpp
+287652.cpp
+14
+modify<TAG>1<TAG>#include<stdio.h><CHANGETO>#include <stdio.h>
+modify<TAG>2<TAG>#include<math.h><CHANGETO>#include <math.h>
+modify<TAG>3<TAG>float fact(int m,int b)<CHANGETO>double sinf(int a,int n)
+modify<TAG>5<TAG>    if(b==0)	<CHANGETO>	if(a==0)
+modify<TAG>6<TAG>    return sin(m);<CHANGETO>		return sin((double)(n));
+modify<TAG>7<TAG>    else<CHANGETO>	return sin(sinf(a-1,n));
+del<TAG>8<TAG>    return sin(fact(m,b-1));
+modify<TAG>12<TAG>	int n,a;<CHANGETO>	int n;
+del<TAG>13<TAG>	float res;
+modify<TAG>15<TAG>{<CHANGETO>	{
+modify<TAG>16<TAG>	a=n;<CHANGETO>		printf("%f\n",sinf(n,n));
+modify<TAG>17<TAG>	res=fact(n,a);<CHANGETO>	}
+del<TAG>18<TAG>	printf("%.6f",res);}
+modify<TAG>20<TAG> } <CHANGETO>}

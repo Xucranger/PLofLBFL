@@ -1,0 +1,4 @@
+247914.c
+247917.c
+1
+modify<TAG>12<TAG>		c=(int)(a+0.5)/b;<CHANGETO>		c=(int)(a/b+0.5);

@@ -1,0 +1,14 @@
+83146.cpp
+357933.cpp
+11
+del<TAG>10<TAG>		{		
+modify<TAG>12<TAG>		}	 <CHANGETO>		else
+modify<TAG>13<TAG>		c=(a+0.0)/b;<CHANGETO>		{
+modify<TAG>14<TAG>		d=a/b;<CHANGETO>			c=a*1.0/b;
+modify<TAG>15<TAG>		if(c-d>0.4)<CHANGETO>			d=a/b;
+modify<TAG>16<TAG>		{<CHANGETO>			if((c-d)>=0.5)
+modify<TAG>17<TAG>			d=d+1;<CHANGETO>			cout<<d+1<<endl;
+modify<TAG>18<TAG>		} <CHANGETO>			else
+modify<TAG>19<TAG>		cout<<d<<endl;<CHANGETO>			cout<<d<<endl;
+modify<TAG>20<TAG>		return(0);<CHANGETO>		}
+modify<TAG>22<TAG>} <CHANGETO>}

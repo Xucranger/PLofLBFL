@@ -1,0 +1,12 @@
+66737.cpp
+83203.cpp
+9
+modify<TAG>5<TAG>{  int c,a,b,d,e;<CHANGETO>{  int a,b,d;
+add<TAG>5<TAG>    float c,e;
+modify<TAG>8<TAG>     cout<<"error";<CHANGETO>     cout<<"error"<<endl;
+modify<TAG>10<TAG>    { c=a/b;<CHANGETO>    { c=(a+0.0)/b; 
+modify<TAG>11<TAG>     d=a%b;<CHANGETO>       d=a/b;
+modify<TAG>12<TAG>     e=10*d/b;<CHANGETO>       e=c-d;
+modify<TAG>13<TAG>     if(e>=5)<CHANGETO>       if(e>=0.5)
+modify<TAG>14<TAG>     c++;<CHANGETO>        d++;
+modify<TAG>15<TAG>	 cout<<c<<endl;}}<CHANGETO>	 cout<<d<<endl;}}

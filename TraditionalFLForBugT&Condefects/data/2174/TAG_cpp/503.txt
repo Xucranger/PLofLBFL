@@ -1,0 +1,10 @@
+195219.cpp
+197941.cpp
+7
+add<TAG>2<TAG>#include<algorithm>
+add<TAG>2<TAG>#include<math.h>
+add<TAG>2<TAG>using namespace std;
+del<TAG>9<TAG>        {
+del<TAG>11<TAG>            continue;
+del<TAG>12<TAG>        }
+modify<TAG>14<TAG>            printf("%.0f\n",a/b);<CHANGETO>            printf("%.0f\n",round(a/b));

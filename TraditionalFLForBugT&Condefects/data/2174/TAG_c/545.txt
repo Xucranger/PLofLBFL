@@ -1,0 +1,6 @@
+443967.c
+444027.c
+3
+modify<TAG>5<TAG>	int a,b,c,d;<CHANGETO>	double a,b;
+modify<TAG>6<TAG>	while(scanf("%d %d",&a,&b)!=EOF)<CHANGETO>	int c;
+add<TAG>6<TAG>	while(scanf("%lf %lf",&a,&b)!=EOF)

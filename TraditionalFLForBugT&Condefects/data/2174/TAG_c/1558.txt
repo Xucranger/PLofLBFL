@@ -1,0 +1,8 @@
+85206.c
+153876.c
+5
+modify<TAG>2<TAG>#include<stdlib.h><CHANGETO>void main()
+del<TAG>3<TAG>int main()
+modify<TAG>11<TAG>printf("%.0f",(float)a/b);<CHANGETO>printf("%d",(a+b/2)/b);
+modify<TAG>12<TAG>}    <CHANGETO>printf("\n");
+add<TAG>13<TAG>}

@@ -1,0 +1,6 @@
+287891.c
+287921.c
+3
+modify<TAG>3<TAG>float dg(int *a, int n, int x)<CHANGETO>double dg(int *a, int n, int x)
+modify<TAG>12<TAG>    float f;<CHANGETO>    double f;
+modify<TAG>20<TAG>        printf("%.6f\n", f);<CHANGETO>        printf("%.6lf\n", f);

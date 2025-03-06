@@ -1,0 +1,13 @@
+493528.c
+495340.c
+10
+modify<TAG>3<TAG>{int a[2],b[2],c[2],i;<CHANGETO>{int a,b,c;
+modify<TAG>4<TAG>for(i=0;i<2;i++)<CHANGETO>while(scanf("%d%d",&a,&b)!=EOF)
+modify<TAG>5<TAG>scanf("%d%d",&a[i],&b[i]);<CHANGETO>{if(b==0)
+del<TAG>6<TAG>for(i=0;i<2;i++)
+del<TAG>7<TAG>{if(b[i]==0)
+modify<TAG>9<TAG>if(b[i]!=0)<CHANGETO>else
+modify<TAG>10<TAG>{if(a[i]%b[i]>b[i]/2)<CHANGETO>{if(a%b>=1.0*b/2)
+modify<TAG>11<TAG>c[i]=1.0*a[i]/b[i]+1;<CHANGETO>c=a/b+1;
+modify<TAG>13<TAG>c[i]=1.0*a[i]/b[i];<CHANGETO>c=a/b;
+modify<TAG>14<TAG>printf("%d\n",c[i]);<CHANGETO>printf("%d\n",c);

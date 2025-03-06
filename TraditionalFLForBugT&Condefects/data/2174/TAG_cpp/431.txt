@@ -1,0 +1,8 @@
+194607.cpp
+194635.cpp
+5
+modify<TAG>3<TAG>{             float a,b;<CHANGETO>{
+add<TAG>3<TAG>              float a,b;
+modify<TAG>6<TAG>                            if(b==0) printf("error");<CHANGETO>                            if(b==0) printf("error\n");
+modify<TAG>9<TAG>                                printf("%.0f\n",a/b);<CHANGETO>                                          printf("%.0f\n",(a+0.5)/b);
+modify<TAG>12<TAG>return 0;<CHANGETO>              return 0;

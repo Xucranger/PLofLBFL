@@ -1,0 +1,12 @@
+84912.cpp
+195733.cpp
+9
+del<TAG>2<TAG>#include<math.h>
+modify<TAG>5<TAG>	float a,x0,x1;<CHANGETO>	float a,b;
+modify<TAG>6<TAG>	scanf("%f",&a);<CHANGETO>	while(scanf("%f%f",&a,&b)!=EOF)
+del<TAG>7<TAG>	x1=a/2;
+del<TAG>8<TAG>	do
+modify<TAG>10<TAG>		x0=x1;<CHANGETO>		if(b==0)printf("error\n");
+modify<TAG>11<TAG>		x1=(x0+a/x0)/2.0;<CHANGETO>		else printf("%d\n",(int)(a/b+0.5));
+modify<TAG>12<TAG>	}while(fabs(x0-x1)>=0.00001);<CHANGETO>	}
+del<TAG>13<TAG>	printf("%.3f",x1);

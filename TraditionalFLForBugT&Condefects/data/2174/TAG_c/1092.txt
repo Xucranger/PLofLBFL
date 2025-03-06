@@ -1,0 +1,10 @@
+439561.c
+440489.c
+7
+modify<TAG>16<TAG>	              printf("%d",d);<CHANGETO>	              printf("%d\n",d);
+modify<TAG>17<TAG>	           printf("%d",d+1);<CHANGETO>	            else
+add<TAG>17<TAG>	               printf("%d\n",d+1);
+modify<TAG>22<TAG>	               printf("%d",d);<CHANGETO>	        	     printf("%d\n",d);
+modify<TAG>23<TAG>	           printf("%d",d+1);<CHANGETO>	        	else
+add<TAG>23<TAG>	                 printf("%d\n",d+1);
+del<TAG>25<TAG>	    printf("\n");

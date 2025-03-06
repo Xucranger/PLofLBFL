@@ -1,0 +1,5 @@
+195165.c
+195169.c
+2
+modify<TAG>10<TAG>            printf("%.0f\n",m);<CHANGETO>            printf("%0.f\n",m);
+modify<TAG>13<TAG>        printf("error");<CHANGETO>        printf("error\n");

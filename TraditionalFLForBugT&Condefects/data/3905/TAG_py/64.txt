@@ -1,0 +1,7 @@
+492316.py
+492688.py
+4
+modify<TAG>2<TAG>m=input().strip().split()<CHANGETO>n=eval(input())
+add<TAG>2<TAG>for i in range(0,n):
+add<TAG>2<TAG>    m=input().strip().split()
+modify<TAG>6<TAG>        print(s-int(m[0]))<CHANGETO>    print(s-int(m[0]))

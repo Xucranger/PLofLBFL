@@ -1,0 +1,5 @@
+359909.c
+359918.c
+2
+modify<TAG>9<TAG>        printf("error");<CHANGETO>        printf("error\n");
+modify<TAG>13<TAG>   printf("%d",n);}<CHANGETO>   printf("%d\n",n);}

@@ -1,0 +1,4 @@
+35540.cpp
+35541.cpp
+1
+modify<TAG>13<TAG>       int c = a/b;<CHANGETO>       int c = (int)(a*1.0/b + 0.5);

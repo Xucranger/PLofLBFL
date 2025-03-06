@@ -1,0 +1,12 @@
+287642.cpp
+288825.cpp
+9
+del<TAG>2<TAG>#include <math.h>
+modify<TAG>9<TAG>	float a[101];<CHANGETO>	double a[1010];
+modify<TAG>10<TAG>		while(~scanf("%d",&n))<CHANGETO>	while(~scanf("%d",&n))
+modify<TAG>11<TAG>		{<CHANGETO>	{
+modify<TAG>12<TAG>			a[0] = sin(n);<CHANGETO>		a[0] = sin(n);
+modify<TAG>13<TAG>			for(int j = 1;j <= n;j ++)<CHANGETO>		for(int i = 1;i <= n;i ++)
+modify<TAG>14<TAG>				a[j] = sin(a[j - 1]);<CHANGETO>			a[i] = sin(a[i - 1]);
+modify<TAG>15<TAG>			printf("%.6f\n",a[n]);<CHANGETO>		printf("%.6lf\n",a[n]);
+modify<TAG>16<TAG>		}<CHANGETO>	}

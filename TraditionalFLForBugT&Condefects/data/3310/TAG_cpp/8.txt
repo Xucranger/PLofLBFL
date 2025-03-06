@@ -1,0 +1,6 @@
+484100.cpp
+484103.cpp
+3
+modify<TAG>7<TAG>    float m,t[20];<CHANGETO>    double m,t[20];
+modify<TAG>17<TAG>for(j=0;j<=i;j++)<CHANGETO>for(j=0;j<i;j++)
+modify<TAG>18<TAG>printf("%.6f\n",t[j]);<CHANGETO>printf("%.6lf\n",t[j]);

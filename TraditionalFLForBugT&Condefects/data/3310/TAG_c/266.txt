@@ -1,0 +1,5 @@
+435260.c
+435468.c
+2
+modify<TAG>16<TAG>		if(x[n]==-0.373982)<CHANGETO>		if(x[n]<=-0.373981&&x[n]>=-0.373984)
+modify<TAG>17<TAG>		printf("-0.373983");<CHANGETO>		printf("-0.373983\n");

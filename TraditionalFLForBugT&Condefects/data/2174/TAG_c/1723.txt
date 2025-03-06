@@ -1,0 +1,50 @@
+83525.c
+59021.c
+47
+del<TAG>2<TAG>#include<string.h> 
+del<TAG>3<TAG>int flag = 0;
+del<TAG>4<TAG>char addInteger(const char a, const char b); 
+modify<TAG>7<TAG>        int n = 0; <CHANGETO>    int a,b; 
+modify<TAG>8<TAG>        int i,j,s; <CHANGETO>    while(scanf("%d %d",&a,&b)!=EOF) 
+modify<TAG>9<TAG>        char a[201]; // 最多200位,预留一个结尾符 <CHANGETO>    {  
+modify<TAG>10<TAG>        char b[201]; // 同上 <CHANGETO>        int c=0; 
+modify<TAG>11<TAG>        char sum[202]; // 最多201位,预留一个结尾符 <CHANGETO>        if(b==0) printf("error\n"); 
+modify<TAG>12<TAG>        scanf("%d",&n); <CHANGETO>        else 
+del<TAG>13<TAG>        for (; n > 0; n--) 
+modify<TAG>15<TAG>                scanf("%s%s",&a,&b); // 读取输入 <CHANGETO>             c=(int)(1.*a/b+0.5); 
+modify<TAG>16<TAG>                i = strlen(a); <CHANGETO>             printf("%d\n",c); 
+del<TAG>17<TAG>                j = strlen(b); 
+del<TAG>18<TAG>                s = ((i > j) ? (i + 1) : (j + 1)); // 获取i,j中最大值，并+1用来标 
+del<TAG>19<TAG>                sum[s] = '\0'; 
+del<TAG>20<TAG>                flag = 0; 
+del<TAG>21<TAG>                while (s > 0) 
+del<TAG>22<TAG>                { 
+del<TAG>23<TAG>                        char c1 = ((--i < 0) ? '0' : a[i]); 
+del<TAG>24<TAG>                        char c2 = ((--j < 0) ? '0' : b[j]); 
+del<TAG>25<TAG>                        sum[--s]=addInteger(c1, c2); 
+del<TAG>26<TAG>                } 
+del<TAG>27<TAG>                if (sum[0] == '0')
+del<TAG>28<TAG>                {
+del<TAG>29<TAG>                        sum[0] = ' ';
+del<TAG>30<TAG>                }
+del<TAG>31<TAG>                printf("%s+%s = %s\n", a, b, sum); 
+modify<TAG>33<TAG>        return 0; <CHANGETO>    } 
+del<TAG>35<TAG>char addInteger(const char a, const char b) 
+del<TAG>36<TAG>{ 
+del<TAG>37<TAG>        int s; 
+del<TAG>38<TAG>        char sum;
+del<TAG>39<TAG>        int num1,num2; 
+del<TAG>40<TAG>        num1 = a - '0'; 
+del<TAG>41<TAG>        num2 = b - '0'; 
+del<TAG>42<TAG>        if ((num1 < 0) || (num1 > 9) || (num2 < 0) || (num2 > 9)) 
+del<TAG>43<TAG>        { 
+del<TAG>44<TAG>                printf("输入有误，该位置0。\n"); 
+del<TAG>45<TAG>                sum = '0'; 
+del<TAG>46<TAG>                flag = 0; 
+del<TAG>47<TAG>                return sum; 
+del<TAG>48<TAG>        } 
+del<TAG>49<TAG>        s = num1+num2+flag; 
+del<TAG>50<TAG>        sum = '0' + s % 10; 
+del<TAG>51<TAG>        flag = s/10; 
+del<TAG>52<TAG>        return sum; 
+del<TAG>53<TAG>}

@@ -1,0 +1,11 @@
+59144.c
+59332.c
+8
+modify<TAG>3<TAG>{int c;<CHANGETO>{float a,b,d;
+modify<TAG>4<TAG>float a,b,d;<CHANGETO>int c;
+modify<TAG>6<TAG>{<CHANGETO>{if(b==0)
+del<TAG>7<TAG>if(b==0)
+modify<TAG>10<TAG>{d=a/b;<CHANGETO>{d=a/b+0.5;
+modify<TAG>11<TAG>d=(c*1000)/1000;<CHANGETO>c=(int)d;
+modify<TAG>12<TAG>printf("%d\n",d);<CHANGETO>printf("%d\n",c);
+modify<TAG>14<TAG>}	<CHANGETO>}

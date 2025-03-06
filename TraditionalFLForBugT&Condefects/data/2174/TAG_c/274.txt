@@ -1,0 +1,7 @@
+305634.c
+305640.c
+4
+modify<TAG>8<TAG>		printf("error");<CHANGETO>		printf("error\n");
+add<TAG>10<TAG>			if(a*b>0)
+add<TAG>11<TAG>			else
+add<TAG>11<TAG>			c=(int)(a*1.0/b-0.5);

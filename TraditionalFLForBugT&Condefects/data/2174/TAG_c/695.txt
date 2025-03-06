@@ -1,0 +1,6 @@
+244619.c
+244647.c
+3
+add<TAG>4<TAG>	float c;
+add<TAG>8<TAG>	else if((1.0*a/b-a/b)*10>=5)
+add<TAG>8<TAG>	printf("%d\n",a/b+1);

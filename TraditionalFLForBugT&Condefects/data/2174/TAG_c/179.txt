@@ -1,0 +1,7 @@
+250231.c
+250234.c
+4
+modify<TAG>4<TAG>	int a, b,c;<CHANGETO>	int a, b, c;
+modify<TAG>9<TAG>			printf("error");<CHANGETO>			printf("error\n");
+modify<TAG>13<TAG>			c = 1.0*a / b + 0.5;<CHANGETO>			c =(int) (1.0*a / b + 0.5);
+modify<TAG>14<TAG>			printf("%d", c);<CHANGETO>			printf("%d\n", c);

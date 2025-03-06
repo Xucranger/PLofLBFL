@@ -1,0 +1,9 @@
+571708.c
+571730.c
+6
+modify<TAG>3<TAG>{	int a,b;<CHANGETO>{	int a,b,c;
+modify<TAG>6<TAG>		printf("%d\n",a%b);<CHANGETO>	{   if(a%b*2>=b)
+add<TAG>6<TAG>	    printf("%d\n",a/b+1);
+add<TAG>6<TAG>	    if(a%b*2<b)
+add<TAG>6<TAG>	    printf("%d\n",a/b);
+add<TAG>6<TAG>	}

@@ -1,0 +1,5 @@
+307487.c
+307494.c
+2
+modify<TAG>11<TAG>		floor(c);<CHANGETO>		c=floor(c);
+modify<TAG>16<TAG> }<CHANGETO> } 

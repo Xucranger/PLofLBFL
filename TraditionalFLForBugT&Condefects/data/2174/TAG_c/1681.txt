@@ -1,0 +1,8 @@
+245447.c
+80698.c
+5
+modify<TAG>1<TAG>#include<stdio.h><CHANGETO>#include <stdio.h>
+modify<TAG>6<TAG>       if(b==0)<CHANGETO>        if(b==0)
+modify<TAG>9<TAG>            printf("%.1d\n",a/b);<CHANGETO>            printf("%d\n",(a*10/b+5)/10);
+modify<TAG>10<TAG>     return 0;<CHANGETO>    return 0;
+modify<TAG>11<TAG>    }<CHANGETO>}

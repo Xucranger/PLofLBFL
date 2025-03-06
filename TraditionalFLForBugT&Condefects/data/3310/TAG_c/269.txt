@@ -1,0 +1,25 @@
+439445.c
+287622.c
+22
+del<TAG>3<TAG>//#define L 3
+modify<TAG>6<TAG>	int i=0,t,n;<CHANGETO>	double n,x,i;
+modify<TAG>7<TAG>    float y[20];<CHANGETO>	while(scanf("%lf",&n)!=EOF)
+del<TAG>8<TAG>	//length=sizeof(a[20][1])/sizeof(a[0][0]);
+del<TAG>9<TAG>//	for(i=0;i<L;i++)
+del<TAG>10<TAG>	int m;
+del<TAG>11<TAG>		while(scanf("%d",&n)!=EOF)
+modify<TAG>13<TAG>		m=n;<CHANGETO>		x=n;
+modify<TAG>14<TAG>		float F_(int n,int m);<CHANGETO>     	for(i=0;i<=n;i++)
+modify<TAG>15<TAG>		y[i]=F_(n,m);<CHANGETO>	    x=sin(x);
+modify<TAG>16<TAG>		i++;<CHANGETO>	    printf("%.6lf\n",x);
+del<TAG>17<TAG>		t=i;
+del<TAG>19<TAG>	for(i=0;i<t;i++)
+del<TAG>20<TAG>	{
+del<TAG>21<TAG>		float F_(i);
+del<TAG>22<TAG>	    printf("%.6f\n",y[i]);
+del<TAG>23<TAG>	}
+del<TAG>26<TAG>float F_(int n,int m)
+del<TAG>27<TAG>{
+del<TAG>28<TAG>	if(m==0) return sin(n);
+del<TAG>29<TAG>	else     return sin(F_(n,m-1));	
+del<TAG>30<TAG>}

@@ -1,0 +1,8 @@
+244511.c
+244703.c
+5
+modify<TAG>4<TAG>  int a[10],b[10],c[10],i;<CHANGETO>  int a[100],b[100],c[100],i;
+modify<TAG>5<TAG>  for(i=0;i<=9;i++)<CHANGETO>  while(scanf("%d%d",&a[i],&b[i])!=EOF)
+del<TAG>6<TAG>  scanf("%d%d",&a[i],&b[i]);
+del<TAG>7<TAG>  for(i=0;i<=9;i++)
+modify<TAG>27<TAG>   return 0;<CHANGETO> return 0;

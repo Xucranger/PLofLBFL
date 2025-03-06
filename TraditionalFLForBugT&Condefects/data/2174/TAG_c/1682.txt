@@ -1,0 +1,6 @@
+250531.c
+250617.c
+3
+modify<TAG>6<TAG>   scanf("%d %d",&a,&b);<CHANGETO>  while(scanf("%d %d",&a,&b)!=EOF)
+modify<TAG>7<TAG>    if(b==0)<CHANGETO>    {if(b==0)
+modify<TAG>14<TAG>   printf("%d\n",d);}<CHANGETO>   printf("%d\n",d);}}

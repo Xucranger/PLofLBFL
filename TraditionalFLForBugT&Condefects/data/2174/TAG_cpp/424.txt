@@ -1,0 +1,20 @@
+500380.cpp
+59038.cpp
+17
+del<TAG>2<TAG>#include<math.h>
+modify<TAG>6<TAG>double a,b,c;<CHANGETO>int a,b;
+modify<TAG>7<TAG>double v,p;<CHANGETO>int m;
+modify<TAG>8<TAG>cout<<""<<endl;<CHANGETO>while(cin>>a>>b)
+del<TAG>9<TAG>while(cin>>a>>b>>c){
+del<TAG>10<TAG>if(a+b>c&&a+c>b&&b+c>a)
+modify<TAG>12<TAG>if(a==b&&a==c)<CHANGETO>if(b==0)
+modify<TAG>13<TAG>cout<<"DB"<<endl;<CHANGETO>cout<<"error"<<endl;
+modify<TAG>15<TAG>if(a==b&&a!=c||a==c&&a!=b||b==c&&b!=a)<CHANGETO>{
+modify<TAG>16<TAG>cout<<"DY"<<endl;<CHANGETO>m=(a*1.0)/b+0.5;
+modify<TAG>17<TAG>if((a*a+b*b==c*c)||(a*a+c*c==b*b)||(c*c+b*b==a*a))<CHANGETO>cout<<m<<endl;
+modify<TAG>18<TAG>cout<<"ZJ"<<endl;<CHANGETO>}
+del<TAG>19<TAG>else 
+del<TAG>20<TAG>cout<<"PT"<<endl;
+del<TAG>22<TAG>else
+del<TAG>23<TAG>cout<<"ERROR"<<endl;}
+del<TAG>24<TAG>return 0;

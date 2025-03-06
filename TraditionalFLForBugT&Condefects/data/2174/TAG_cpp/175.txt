@@ -1,0 +1,20 @@
+85134.cpp
+159263.cpp
+17
+modify<TAG>5<TAG>    int a,b,c;<CHANGETO>    int a,b,t=0;
+del<TAG>6<TAG>    int d;
+modify<TAG>9<TAG>    if(b!=0)<CHANGETO>        if(b==0)
+del<TAG>10<TAG>    {
+del<TAG>11<TAG>        c=a%b;
+del<TAG>12<TAG>        if(c>(b/2))
+modify<TAG>14<TAG>            d=a/b+1;<CHANGETO>            cout<<"error"<<endl;
+modify<TAG>18<TAG>              d=a/b;<CHANGETO>            t=(a+b/2)/b;
+add<TAG>18<TAG>            cout<<t<<endl;
+modify<TAG>20<TAG>        cout<<d;<CHANGETO>   }
+modify<TAG>21<TAG>    }<CHANGETO>    return 0;
+modify<TAG>22<TAG>    else<CHANGETO>}
+del<TAG>23<TAG>    {
+del<TAG>24<TAG>        cout<<"error";
+del<TAG>25<TAG>    }
+del<TAG>26<TAG>   }           
+del<TAG>27<TAG>}      

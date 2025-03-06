@@ -1,0 +1,6 @@
+250056.c
+250060.c
+3
+modify<TAG>9<TAG>            printf("error");<CHANGETO>            printf("error\n");
+add<TAG>13<TAG>             printf("%d\n",d);
+del<TAG>15<TAG>     printf("%d",d);

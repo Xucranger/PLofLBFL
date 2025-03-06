@@ -1,0 +1,4 @@
+439517.c
+439520.c
+1
+del<TAG>14<TAG>			printf("%f\n",n);

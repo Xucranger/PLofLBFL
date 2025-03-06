@@ -1,0 +1,9 @@
+305656.c
+195327.c
+6
+modify<TAG>4<TAG>    int a,b,s;<CHANGETO>    int a,b;
+modify<TAG>8<TAG>                printf("error");<CHANGETO>        printf("error\n");
+modify<TAG>11<TAG>                s=a/b;<CHANGETO>            printf("%.0f\n",(a+0.5)/b);
+del<TAG>12<TAG>        printf("%d",s);
+del<TAG>14<TAG>         printf("\n");
+del<TAG>16<TAG>    return 0;

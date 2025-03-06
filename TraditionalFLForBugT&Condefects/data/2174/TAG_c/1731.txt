@@ -1,0 +1,8 @@
+498975.c
+498978.c
+5
+modify<TAG>11<TAG>        e=2*e;<CHANGETO>       if(2*e>=b)
+modify<TAG>12<TAG>        if(e>=a){printf("%d\n",c+1);}<CHANGETO>        printf("%d\n",c+1);
+modify<TAG>13<TAG>        else {printf("%d\n",c);}<CHANGETO>        else
+add<TAG>13<TAG>          printf("%d\n",c);
+del<TAG>16<TAG>    return 0;

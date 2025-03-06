@@ -1,0 +1,7 @@
+82614.cpp
+82936.cpp
+4
+add<TAG>2<TAG>#include <iomanip>
+modify<TAG>6<TAG>    int a,b,c;<CHANGETO>    float a,b,c;
+modify<TAG>14<TAG>        cout<<c<<endl;<CHANGETO>            int d=c+0.5;
+add<TAG>14<TAG>        cout<<d<<endl;

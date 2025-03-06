@@ -1,0 +1,9 @@
+54939.cpp
+155127.cpp
+6
+del<TAG>5<TAG>	double x;
+add<TAG>6<TAG>	float c;
+modify<TAG>10<TAG>		cout<<"error";<CHANGETO>			printf("error\n");
+modify<TAG>13<TAG>		x=a/b;<CHANGETO>			c=(float)a/(float)b;
+modify<TAG>14<TAG>		cout<<x<<endl;	<CHANGETO>			printf("%d\n",(int)(c+0.5));
+modify<TAG>18<TAG>} <CHANGETO>}

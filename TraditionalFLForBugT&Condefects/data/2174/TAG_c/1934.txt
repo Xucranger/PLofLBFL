@@ -1,0 +1,10 @@
+250402.c
+196219.c
+7
+modify<TAG>4<TAG>    int a,b,i=0;<CHANGETO>    int a,b;
+del<TAG>5<TAG>    char str[1000];
+modify<TAG>8<TAG>      if(b==0)<CHANGETO>        if(b==0) printf("error\n");
+modify<TAG>9<TAG>        str[i]='error';<CHANGETO>        else printf("%d\n",(a*10/b+5)/10);
+del<TAG>10<TAG>      else str[i]=a/b;
+del<TAG>12<TAG>    for(i=0;str[i]!='\0';i++)
+del<TAG>13<TAG>        printf("%c\n",str[i]);

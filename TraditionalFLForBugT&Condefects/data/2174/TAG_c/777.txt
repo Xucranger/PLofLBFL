@@ -1,0 +1,7 @@
+198969.c
+304327.c
+4
+modify<TAG>5<TAG>	float s;<CHANGETO>	while(scanf("%d %d",&a,&b)!=EOF)
+del<TAG>6<TAG>	while(scanf("%d %d",&a,&b)!=EOF) 
+modify<TAG>11<TAG>			s=(float)a/b;<CHANGETO>			if(a%b*10/b<=4) printf("%d\n",a/b);
+modify<TAG>12<TAG>			printf("%.f",s);<CHANGETO>			else printf("%d\n",a/b+1);

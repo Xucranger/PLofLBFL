@@ -1,0 +1,5 @@
+490089.cpp
+490130.cpp
+2
+modify<TAG>11<TAG>            printf("error");<CHANGETO>            printf("error\n");
+modify<TAG>14<TAG>        printf("%1.f",a/b+0.5);<CHANGETO>        printf("%d\n",(int)(a/b+0.5));

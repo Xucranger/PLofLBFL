@@ -1,0 +1,9 @@
+287621.cpp
+288825.cpp
+6
+modify<TAG>8<TAG>	float a[101];<CHANGETO>	double a[1010];
+modify<TAG>9<TAG>	for(int i = 0;i < 20;i ++)<CHANGETO>	while(~scanf("%d",&n))
+del<TAG>11<TAG>		scanf("%d",&n);
+modify<TAG>13<TAG>		for(int j = 1;j <= n;j ++)<CHANGETO>		for(int i = 1;i <= n;i ++)
+modify<TAG>14<TAG>			a[j] = sin(a[j - 1]);<CHANGETO>			a[i] = sin(a[i - 1]);
+modify<TAG>15<TAG>		printf("%.6f\n",a[n]);<CHANGETO>		printf("%.6lf\n",a[n]);

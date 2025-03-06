@@ -1,0 +1,9 @@
+347779.py
+347148.py
+6
+modify<TAG>10<TAG>        c = int(round(a/b))<CHANGETO>        c = float(a) / b
+modify<TAG>11<TAG>        print(c)<CHANGETO>        d = int(c)
+add<TAG>11<TAG>        if c - d < 0.5 :
+add<TAG>11<TAG>            print d
+add<TAG>11<TAG>        else :
+add<TAG>11<TAG>            print d + 1

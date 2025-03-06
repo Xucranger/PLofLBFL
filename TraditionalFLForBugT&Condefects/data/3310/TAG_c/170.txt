@@ -1,0 +1,16 @@
+435599.c
+435993.c
+13
+modify<TAG>5<TAG>	double i,n,a,b;<CHANGETO>	double i,n,c;
+modify<TAG>6<TAG>	double h(double n);<CHANGETO>	double h(double n, double c);
+modify<TAG>7<TAG>	scanf("%lf",&n);<CHANGETO>	while(~scanf("%lf",&n)){
+modify<TAG>8<TAG>	i=h(n);<CHANGETO>	c=sin(n);
+modify<TAG>9<TAG>	printf("%lf",i);<CHANGETO>	i=h(n,c);
+add<TAG>9<TAG>	printf("%lf\n",i);
+add<TAG>9<TAG>	}
+modify<TAG>12<TAG>double h(double n)<CHANGETO>double h(double n, double c)
+del<TAG>14<TAG>	double a;
+del<TAG>15<TAG>	a=sin(n);
+modify<TAG>17<TAG>	 return a;<CHANGETO>		return c;
+modify<TAG>18<TAG>   return sin(sin(n-1));<CHANGETO>	else	
+add<TAG>18<TAG>		return sin(h(n-1,c)) ;

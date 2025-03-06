@@ -1,0 +1,12 @@
+66749.cpp
+151622.cpp
+9
+modify<TAG>4<TAG>{  int c,a,b,d;<CHANGETO>{int a,b;
+modify<TAG>5<TAG>    while(cin >> a >> b)<CHANGETO>    while(cin>>a>>b)
+modify<TAG>6<TAG>    { if(b==0)<CHANGETO>    {if(b==0)
+modify<TAG>8<TAG>     else<CHANGETO>    else if((a*10/b)%10>=5)
+modify<TAG>9<TAG>    { c=a/b;<CHANGETO>    cout<<a/b+1;
+modify<TAG>10<TAG>     d=(10*a%b)/b;<CHANGETO>    else
+modify<TAG>11<TAG>     if(d>=5)<CHANGETO>    cout<<a/b;
+modify<TAG>12<TAG>     c++;<CHANGETO>       cout<<endl;
+modify<TAG>13<TAG>	 cout<<c<<endl;}}<CHANGETO>    }

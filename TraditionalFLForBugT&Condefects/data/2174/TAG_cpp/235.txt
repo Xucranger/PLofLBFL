@@ -1,0 +1,6 @@
+155717.cpp
+155838.cpp
+3
+modify<TAG>4<TAG>{int a,b,c;<CHANGETO>{int a,b,m;float n;
+modify<TAG>6<TAG>{if (b!=0){c=a%b;<CHANGETO>{if (b!=0){n=1.0*a/b;m=n+0.5;
+modify<TAG>7<TAG>cout<<c<<endl;}<CHANGETO>cout<<m<<endl;}

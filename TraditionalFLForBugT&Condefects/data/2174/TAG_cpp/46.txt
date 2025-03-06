@@ -1,0 +1,10 @@
+82157.cpp
+59038.cpp
+7
+add<TAG>5<TAG>int m;
+modify<TAG>8<TAG>if(b)<CHANGETO>if(b==0)
+modify<TAG>9<TAG>cout<<a/b<<endl;<CHANGETO>cout<<"error"<<endl;
+modify<TAG>11<TAG>cout<<"error"<<endl;<CHANGETO>{
+add<TAG>11<TAG>m=(a*1.0)/b+0.5;
+add<TAG>11<TAG>cout<<m<<endl;
+add<TAG>13<TAG>}

@@ -1,0 +1,8 @@
+359621.c
+360642.c
+5
+del<TAG>2<TAG>#include<math.h>
+modify<TAG>5<TAG>	float a,b,c;<CHANGETO>	int a,b;
+add<TAG>5<TAG>	float c;
+modify<TAG>12<TAG>			c=a/b;<CHANGETO>			c=(float)a/b;
+modify<TAG>13<TAG>			printf("%.0f\n",c);<CHANGETO>			printf("%d\n",(int)(c+0.5));

@@ -1,0 +1,7 @@
+519309.py
+519321.py
+4
+modify<TAG>3<TAG>     n=int(input())<CHANGETO>    n=int(input())
+modify<TAG>4<TAG>     import math<CHANGETO>    import math
+modify<TAG>5<TAG>     s=math.sin(n)<CHANGETO>    s=math.sin(n)
+modify<TAG>6<TAG>     for i in range(n):<CHANGETO>    for i in range(n):

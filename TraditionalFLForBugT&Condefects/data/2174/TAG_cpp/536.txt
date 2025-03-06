@@ -1,0 +1,12 @@
+491800.cpp
+154626.cpp
+9
+modify<TAG>1<TAG>#include <iostream><CHANGETO>#include<iostream>
+modify<TAG>3<TAG>int main()<CHANGETO>int main(void)
+modify<TAG>4<TAG>{  int a,b;<CHANGETO>{
+modify<TAG>5<TAG>   while(cin>>a>>b)<CHANGETO>    int a,b,c;
+modify<TAG>6<TAG>   {<CHANGETO>    while(cin>>a>>b)
+del<TAG>7<TAG>    if(b!='?')
+modify<TAG>10<TAG>        cout << a/b << endl;<CHANGETO>        cout<<(a+b/2)/b<<endl;
+del<TAG>14<TAG>   }
+del<TAG>15<TAG>    return 0;

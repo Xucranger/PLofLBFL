@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int a,b;
+	while(cin>>a>>b){
+		if(b==0){
+			cout<<"error"<<endl;
+		}
+		else{
+			if(a>=0&&b>=0||a<0&&b<0)
+			{
+				if(a%b > b/2&&a!=0){
+				int c=(a/b)+1;
+				cout<<c<<endl;
+			}
+			else if(a==0&&b!=0){
+				cout<<"0"<<endl;
+			}
+			else
+			cout<<a/b<<endl;
+		}
+		else if(a>0&&b<0||a<0&&b>0){
+			if(a%b>-b/2){
+				int d=a/b-1;
+				cout<<d<<endl;
+			}
+			else
+			cout<<a/b<<endl;
+		}
+		}
+	}
+	return 0;
+} 

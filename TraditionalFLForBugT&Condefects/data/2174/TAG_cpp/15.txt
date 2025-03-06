@@ -1,0 +1,6 @@
+82507.cpp
+82515.cpp
+3
+add<TAG>10<TAG>		{
+modify<TAG>12<TAG>		cout<<c<<endl;<CHANGETO>			cout<<c<<endl;
+add<TAG>12<TAG>		}

@@ -1,0 +1,7 @@
+435729.c
+435759.c
+4
+modify<TAG>3<TAG>	float fact(int n,float x)<CHANGETO>	double fact(int n,double x)
+modify<TAG>5<TAG>	 		float c,d;<CHANGETO>	 		double c,d;
+modify<TAG>14<TAG>	float b,x;<CHANGETO>	double b,x;
+modify<TAG>19<TAG>	 printf("%8.6f\n",b);<CHANGETO>	 printf("%.6lf\n",b);

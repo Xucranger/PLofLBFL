@@ -1,0 +1,10 @@
+244379.c
+244384.c
+7
+modify<TAG>5<TAG>	scanf("%d%d",&a,&b);<CHANGETO>	while(scanf("%d%d",&a,&b)!=EOF){
+modify<TAG>7<TAG>	printf("error");<CHANGETO>	printf("error\n");
+add<TAG>8<TAG>	{
+modify<TAG>12<TAG>    	printf("%d",d/10);<CHANGETO>    	printf("%d\n",d/10);
+modify<TAG>14<TAG>    printf("%d",d/10+1);<CHANGETO>    printf("%d\n",d/10+1);
+add<TAG>14<TAG>}
+add<TAG>14<TAG>}

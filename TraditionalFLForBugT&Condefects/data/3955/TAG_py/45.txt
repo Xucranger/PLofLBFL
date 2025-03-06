@@ -1,0 +1,8 @@
+508728.py
+508857.py
+5
+modify<TAG>3<TAG>    str1,str2=input().split()<CHANGETO>    a,b=list(input().split())
+modify<TAG>4<TAG>    if len(str1)==len(str2) and str1!='' and str2!='' :<CHANGETO>    if len(a)==len(b):
+modify<TAG>5<TAG>        str_double=str1+str1<CHANGETO>        if a in b*2 or b in a*2:
+del<TAG>6<TAG>        if str2 in str_double:
+modify<TAG>11<TAG>        break<CHANGETO>        print('No')

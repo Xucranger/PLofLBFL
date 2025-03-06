@@ -1,0 +1,16 @@
+435390.cpp
+483840.cpp
+13
+modify<TAG>1<TAG>#include<stdio.h><CHANGETO>#include <bits/stdc++.h>
+modify<TAG>2<TAG>#include<math.h><CHANGETO>using namespace std;
+modify<TAG>4<TAG>{         int n,i,k;<CHANGETO>{
+modify<TAG>5<TAG>     double f[101];<CHANGETO>    double n,temp;
+modify<TAG>6<TAG>     scanf("%d",&n);<CHANGETO>    int a;
+modify<TAG>7<TAG>     k=n;<CHANGETO>    while(scanf("%d",&a)!=EOF)
+modify<TAG>8<TAG>     f[0]=sin(n);<CHANGETO>    {
+modify<TAG>9<TAG>     if(n==0)<CHANGETO>      n=sin(a);
+modify<TAG>10<TAG>     f[0]=0;<CHANGETO>      for (int i=1;i<=a;i++)
+modify<TAG>11<TAG>     else {for(i=1;i<n+1;i++)<CHANGETO>        n=sin(n);
+modify<TAG>12<TAG>          {    f[0]=sin(n);   <CHANGETO>      temp=n;
+modify<TAG>13<TAG>    f[i]=sin(f[i-1]);}<CHANGETO>      printf("%.6lf\n",n);
+modify<TAG>15<TAG>    printf("%.6lf",f[k]);<CHANGETO>    return 0;

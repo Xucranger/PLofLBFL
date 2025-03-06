@@ -1,0 +1,13 @@
+85005.cpp
+55263.cpp
+10
+modify<TAG>4<TAG>	int a,b,c;<CHANGETO>	int a,b;
+modify<TAG>5<TAG>	float d,e;<CHANGETO>	int s;
+modify<TAG>8<TAG>	   if(b==0)<CHANGETO>	if(b==0)
+modify<TAG>9<TAG>          printf("error\n");<CHANGETO>		printf("error\n");
+modify<TAG>10<TAG>       else<CHANGETO>	else
+modify<TAG>11<TAG>          d=a/b;<CHANGETO>	{
+modify<TAG>12<TAG>          e=d+0.5;<CHANGETO>	s=a*1.0/b+0.5;
+modify<TAG>13<TAG>	      c=int(e);<CHANGETO>	printf("%d\n",s);
+modify<TAG>14<TAG>	      printf("%d\n",c);<CHANGETO>	}
+del<TAG>16<TAG>	return 0;

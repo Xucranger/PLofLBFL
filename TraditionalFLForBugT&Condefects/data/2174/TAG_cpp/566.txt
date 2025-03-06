@@ -1,0 +1,5 @@
+360935.cpp
+360940.cpp
+2
+modify<TAG>4<TAG>	int a,b;<CHANGETO>	float a,b;
+modify<TAG>7<TAG>	else cout<<(int)(a+0.5)/b<<endl;<CHANGETO>	else cout<<(int)(a/b+0.5)<<endl;

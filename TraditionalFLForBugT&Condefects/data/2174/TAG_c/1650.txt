@@ -1,0 +1,8 @@
+362947.c
+362976.c
+5
+modify<TAG>4<TAG>	int a,b,x;<CHANGETO>	int a,b;
+modify<TAG>9<TAG>		else {<CHANGETO>		else printf("%d\n",(a+b/2)/b);
+del<TAG>10<TAG>			x=a/b;
+del<TAG>11<TAG>			printf("%d\n",x);
+del<TAG>12<TAG>		}

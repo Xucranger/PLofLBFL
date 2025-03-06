@@ -1,0 +1,7 @@
+360638.c
+360642.c
+4
+del<TAG>13<TAG>			if(c>0)
+del<TAG>15<TAG>			if(c<0)
+del<TAG>16<TAG>			printf("%d\n",(int)(c-0.5));
+modify<TAG>20<TAG> } <CHANGETO> }

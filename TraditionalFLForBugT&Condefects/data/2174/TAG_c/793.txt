@@ -1,0 +1,8 @@
+194606.c
+443689.c
+5
+modify<TAG>1<TAG>#include <stdio.h><CHANGETO>#include<stdio.h>
+modify<TAG>2<TAG>int main(void)<CHANGETO>void main()
+del<TAG>5<TAG>	float c;
+modify<TAG>12<TAG>			c=a/b;<CHANGETO>			int c=(a+(b/2))/b;
+modify<TAG>13<TAG>			printf("%.0f\n",c);<CHANGETO>			printf("%d\n",c);

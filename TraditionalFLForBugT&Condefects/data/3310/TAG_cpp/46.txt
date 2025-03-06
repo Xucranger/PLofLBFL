@@ -1,0 +1,6 @@
+437986.cpp
+438010.cpp
+3
+modify<TAG>9<TAG>	int n;<CHANGETO>	float n;
+modify<TAG>12<TAG>		n++;<CHANGETO>		for(float i=0;i<=n;i++)	a=get(a);
+modify<TAG>13<TAG>		while(n--)	a=get(a);<CHANGETO>		if(n==17)	a-=0.0000005;

@@ -1,0 +1,13 @@
+491544.c
+250234.c
+10
+modify<TAG>1<TAG>//BUCTOJ<CHANGETO>#include <stdio.h>
+modify<TAG>2<TAG>//Contest1535 - 19年数据结构作业一（计科&大数据&信计合班）<CHANGETO>int main()
+del<TAG>3<TAG>//问题 D: 简单除法
+del<TAG>4<TAG>#include<stdio.h>
+del<TAG>5<TAG>int main(void)
+modify<TAG>7<TAG>	int a, b;<CHANGETO>	int a, b, c;
+modify<TAG>8<TAG>	while (scanf("%d %d", &a, &b) != EOF)<CHANGETO>	while (scanf("%d%d", &a, &b) != EOF)
+modify<TAG>16<TAG>			float division = a / b;<CHANGETO>			c =(int) (1.0*a / b + 0.5);
+modify<TAG>17<TAG>			int output = (int)division;<CHANGETO>			printf("%d\n", c);
+del<TAG>18<TAG>			printf("%d\n", output);

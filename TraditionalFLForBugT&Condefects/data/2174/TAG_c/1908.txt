@@ -1,0 +1,5 @@
+357079.c
+357081.c
+2
+modify<TAG>8<TAG>		printf("ERROR\n");<CHANGETO>		printf("error\n");
+modify<TAG>12<TAG>			if((a%b)*2>b)<CHANGETO>			if((a%b)*2>=b)

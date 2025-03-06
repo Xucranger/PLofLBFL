@@ -1,0 +1,4 @@
+360007.c
+360011.c
+1
+modify<TAG>16<TAG>            else printf("%d\n", left-1);<CHANGETO>            else printf("%d\n", left+1);

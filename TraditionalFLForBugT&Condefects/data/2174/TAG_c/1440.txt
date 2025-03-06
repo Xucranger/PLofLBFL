@@ -1,0 +1,8 @@
+154298.c
+154300.c
+5
+modify<TAG>3<TAG>    int a,b,rs;<CHANGETO>    int a,b,y;
+add<TAG>3<TAG>    float rs;
+modify<TAG>9<TAG>            rs=a/b;<CHANGETO>            rs=a*1.0/b;
+modify<TAG>10<TAG>            printf("%d\n",rs);<CHANGETO>            y=(int)(rs+0.5)>(int)rs?(int)rs+1:(int)rs;
+add<TAG>10<TAG>            printf("%d\n",y);

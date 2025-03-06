@@ -1,0 +1,6 @@
+515708.c
+515710.c
+3
+modify<TAG>11<TAG>		else if(a==b&&a!=c||a==c&&a!=b||b==c&&b!=a)<CHANGETO>		else if((a+b>c&&a+c>b&&b+c>a)&&(a==b&&a!=c||a==c&&a!=b||b==c&&b!=a))
+modify<TAG>15<TAG>		else if(a*a==b*b+c*c||b*b==c*c+a*a||c*c==a*a+b*b)<CHANGETO>		else if((a+b>c&&a+c>b&&b+c>a)&&(a*a==b*b+c*c||b*b==c*c+a*a||c*c==a*a+b*b))
+modify<TAG>19<TAG>		else if(a+b<c||a+c<b||b+c<a)<CHANGETO>		else if((a+b>c&&a+c>b&&b+c>a))

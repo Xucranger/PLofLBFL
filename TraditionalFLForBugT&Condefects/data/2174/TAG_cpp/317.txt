@@ -1,0 +1,10 @@
+306095.cpp
+155127.cpp
+7
+del<TAG>1<TAG>#include<stdio.h>
+modify<TAG>6<TAG>	int a,b,c,i,N;<CHANGETO>	int a,b;
+modify<TAG>7<TAG>	N=100;<CHANGETO>	float c;
+modify<TAG>8<TAG>	while(cin >> a >> b)<CHANGETO>	while(cin>>a>>b)
+modify<TAG>11<TAG>		printf("error\n") ;<CHANGETO>			printf("error\n");
+modify<TAG>14<TAG>			c=a/b;<CHANGETO>			c=(float)a/(float)b;
+modify<TAG>15<TAG>			printf("%d\n",c);<CHANGETO>			printf("%d\n",(int)(c+0.5));

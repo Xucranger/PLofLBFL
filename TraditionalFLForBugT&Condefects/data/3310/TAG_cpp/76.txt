@@ -1,0 +1,17 @@
+287926.cpp
+475677.cpp
+14
+modify<TAG>1<TAG>#include <stdio.h><CHANGETO>#include<iostream>
+modify<TAG>2<TAG>#include <math.h><CHANGETO>#include<math.h>
+modify<TAG>3<TAG>float water(int a,int n);<CHANGETO>using namespace std;
+modify<TAG>6<TAG>	int n=0;<CHANGETO>	int n;
+modify<TAG>7<TAG>	while(1)<CHANGETO>	while(cin>>n)
+modify<TAG>9<TAG>	float answer=0;<CHANGETO>		double F=sin(n);
+modify<TAG>10<TAG>	if(scanf("%d",&n)==EOF) break;<CHANGETO>		for(int i=0;i<n;i++)
+modify<TAG>11<TAG>	answer=water(n,n);<CHANGETO>		F=sin(F);
+modify<TAG>12<TAG>	printf("%.6f\n",answer);<CHANGETO>		printf("%.6lf\n",F);
+del<TAG>16<TAG>float water(int a,int n)
+del<TAG>17<TAG>{
+del<TAG>18<TAG>	if(a==0) return sin(n);
+del<TAG>19<TAG>	else return sin(water(a-1,n));
+del<TAG>20<TAG>}

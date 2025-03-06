@@ -1,0 +1,7 @@
+359518.c
+196064.c
+4
+del<TAG>5<TAG>	int s;
+modify<TAG>10<TAG>			s=1.0*a/b+0.5;<CHANGETO>			printf("%d\n",(a+(b/2))/b);
+modify<TAG>11<TAG>			printf("%d\n",s);<CHANGETO>	return 0;
+del<TAG>12<TAG>		return 0;

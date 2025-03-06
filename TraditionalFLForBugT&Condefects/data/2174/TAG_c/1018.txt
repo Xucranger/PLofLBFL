@@ -1,0 +1,4 @@
+197518.c
+197556.c
+1
+modify<TAG>11<TAG>		if(((float)a-(float)b)/(b*1.0)>=0.5) printf("%d\n",a/b+1);<CHANGETO>		if((a%b)/(b*1.0)>=0.5) printf("%d\n",a/b+1);

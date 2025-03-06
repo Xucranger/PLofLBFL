@@ -1,0 +1,5 @@
+437560.cpp
+437567.cpp
+2
+modify<TAG>8<TAG>    if(a==0) return cos(n);<CHANGETO>    if(a==0) return sin(n);
+modify<TAG>9<TAG>    return cos(la(a-1,n));<CHANGETO>    return sin(la(a-1,n));

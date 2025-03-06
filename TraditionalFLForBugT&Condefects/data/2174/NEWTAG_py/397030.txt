@@ -1,0 +1,13 @@
+397030.py
+347397.py
+10
+modify<TAG>3<TAG>    num = raw_input().split(' ');<CHANGETO>    a,b=map(int,raw_input().split( ))
+modify<TAG>4<TAG>    a = int(num[0]);<CHANGETO>    if b==0 :
+modify<TAG>5<TAG>    b = int(num[1]);<CHANGETO>        print("error")
+del<TAG>6<TAG>    if b == 0 :
+del<TAG>7<TAG>        print('error');
+modify<TAG>9<TAG>        res = a/b;<CHANGETO>        a=float(a)
+modify<TAG>10<TAG>        num = int(res*10);<CHANGETO>        b=float(b)
+modify<TAG>11<TAG>        if num % 10 >= 5:<CHANGETO>        p=float(a/b)
+modify<TAG>12<TAG>            res = res +1;<CHANGETO>        q=int(round(p))
+modify<TAG>13<TAG>        print(int(res));<CHANGETO>        print(q)

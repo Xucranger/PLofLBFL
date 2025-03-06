@@ -1,0 +1,6 @@
+508533.py
+508540.py
+3
+modify<TAG>5<TAG>    for i in range(len(a))<CHANGETO>    for i in range(len(a)):
+modify<TAG>7<TAG>        if c==b<CHANGETO>        if c==b:
+modify<TAG>8<TAG>            print("Yse")<CHANGETO>            print("Yes")

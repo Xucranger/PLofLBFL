@@ -1,0 +1,22 @@
+508839.py
+509064.py
+19
+modify<TAG>11<TAG>    for k in range(m-1):<CHANGETO>    if a==b:
+modify<TAG>12<TAG>        j=0<CHANGETO>        print("Yes")
+modify<TAG>13<TAG>        for i in range(1+k,m):<CHANGETO>    else :
+modify<TAG>14<TAG>            c[j]=a[i]<CHANGETO>        for k in range(m-1):
+modify<TAG>15<TAG>            j=j+1<CHANGETO>            j=0
+modify<TAG>16<TAG>        for i in range(0,1+k):<CHANGETO>            for i in range(1+k,m):
+modify<TAG>17<TAG>            c[j]=a[i]<CHANGETO>                c[j]=a[i]
+modify<TAG>18<TAG>            j=j+1<CHANGETO>                j=j+1
+modify<TAG>19<TAG>        if c==b:<CHANGETO>            for i in range(0,1+k):
+modify<TAG>20<TAG>            l=1<CHANGETO>                c[j]=a[i]
+modify<TAG>21<TAG>    if l==1 :<CHANGETO>                j=j+1
+modify<TAG>22<TAG>        print("Yes")<CHANGETO>            if c==b:
+modify<TAG>23<TAG>        l=0<CHANGETO>                l=1
+modify<TAG>24<TAG>    elif l==0 :<CHANGETO>        if l==1 :
+modify<TAG>25<TAG>        print("No")<CHANGETO>            print("Yes")
+add<TAG>25<TAG>            l=0
+add<TAG>25<TAG>        elif l==0 :
+add<TAG>25<TAG>            print("No")
+add<TAG>25<TAG>            l=0

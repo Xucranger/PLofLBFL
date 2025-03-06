@@ -1,0 +1,9 @@
+51571.cpp
+51572.cpp
+6
+del<TAG>17<TAG>			else if(a==0&&b!=0){
+del<TAG>18<TAG>				cout<<"0"<<endl;
+del<TAG>19<TAG>			}
+add<TAG>22<TAG>		else if(a==0&&b!=0){
+add<TAG>22<TAG>				cout<<"0"<<endl;
+add<TAG>22<TAG>			}

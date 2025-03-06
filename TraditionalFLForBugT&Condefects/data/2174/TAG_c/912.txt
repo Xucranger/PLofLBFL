@@ -1,0 +1,11 @@
+83413.c
+83425.c
+8
+modify<TAG>3<TAG>{ int a,b,c,d;<CHANGETO>{ int a,b,d;
+modify<TAG>4<TAG>while(scanf("%d  %d",&a,&b)!=EOF)<CHANGETO>double c,e;
+modify<TAG>5<TAG>{<CHANGETO>while(scanf("%d %d",&a,&b)!=EOF)
+modify<TAG>9<TAG>	{	c=a%b;<CHANGETO>	{	c=(double)a/b;
+modify<TAG>11<TAG>		if(c>5)<CHANGETO>		e=c-d;
+add<TAG>11<TAG>		if(e>=0.5)
+modify<TAG>15<TAG>		}<CHANGETO>	}
+del<TAG>17<TAG>}

@@ -1,0 +1,5 @@
+441012.c
+441015.c
+2
+modify<TAG>9<TAG>		if(b!=0) printf("%d\n",(a+0.5)/b);<CHANGETO>		if(b!=0) printf("%d\n",(a+b/2)/b);
+modify<TAG>12<TAG>} <CHANGETO>}

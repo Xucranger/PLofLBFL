@@ -1,0 +1,64 @@
+159651.cpp
+159665.cpp
+61
+modify<TAG>5<TAG>class panduan<CHANGETO>int main()
+modify<TAG>7<TAG>  public:<CHANGETO>     int a,b;
+modify<TAG>8<TAG>  int p1(int x,int y,int z);<CHANGETO>     float x,y,n;
+modify<TAG>9<TAG>  int x,y,z,n;<CHANGETO>     while(cin>>a>>b)
+del<TAG>10<TAG>  int change(int x,int y,int z);
+del<TAG>11<TAG>};
+del<TAG>12<TAG>int panduan::change(int x,int y,int z)
+del<TAG>13<TAG>{
+del<TAG>14<TAG>    if(x>y)
+modify<TAG>16<TAG>         if(y>z)<CHANGETO>         x=a,y=b;
+modify<TAG>17<TAG>         {<CHANGETO>         if(b==0)
+del<TAG>18<TAG>             n=x;
+del<TAG>19<TAG>             x=z;
+del<TAG>20<TAG>             z=n;
+del<TAG>21<TAG>         }
+del<TAG>22<TAG>         if(x>z)
+modify<TAG>24<TAG>             n=x;<CHANGETO>             cout<<"error\n";
+del<TAG>25<TAG>             x=y;
+del<TAG>26<TAG>             y=n;
+del<TAG>27<TAG>             n=y;
+del<TAG>28<TAG>             y=z;
+del<TAG>29<TAG>             z=n;
+modify<TAG>32<TAG>         {<CHANGETO>         {n=x/y;
+modify<TAG>33<TAG>             n=x;<CHANGETO>         if(n-a/b>=0.5)
+modify<TAG>34<TAG>             x=y;<CHANGETO>         cout<<a/b+1<<"\n";
+modify<TAG>35<TAG>             y=n;<CHANGETO>         else cout<<a/b<<"\n";}
+del<TAG>36<TAG>         }
+del<TAG>38<TAG>     if(y>z)
+del<TAG>39<TAG>     {
+del<TAG>40<TAG>         if(x>z)
+del<TAG>41<TAG>         {
+del<TAG>42<TAG>             n=y;
+del<TAG>43<TAG>             y=z;
+del<TAG>44<TAG>             z=n;
+del<TAG>45<TAG>             n=x;
+del<TAG>46<TAG>             x=y;
+del<TAG>47<TAG>             y=n;
+del<TAG>48<TAG>         }
+del<TAG>49<TAG>         else
+del<TAG>50<TAG>         {
+del<TAG>51<TAG>             n=y;
+del<TAG>52<TAG>             y=z;
+del<TAG>53<TAG>             z=n;
+del<TAG>54<TAG>         }
+del<TAG>55<TAG>     }
+del<TAG>56<TAG>     if(x+y<z||z-y>x||x<=0||y<=0||z<=0)
+del<TAG>57<TAG>     cout<<"ERROR\n";
+del<TAG>58<TAG>     else if(x==y&&y==z)
+del<TAG>59<TAG>     cout<<"DB\n";
+del<TAG>60<TAG>     else if(x==y||x==z||y==z) cout<<"DY\n";
+del<TAG>61<TAG>     else if(x*x+y*y==z*z)     cout<<"ZJ\n";
+del<TAG>62<TAG>     else                      cout<<"PT\n";
+del<TAG>64<TAG>int main()
+del<TAG>65<TAG>{
+del<TAG>66<TAG>     panduan p;
+del<TAG>67<TAG>     int x,y,z;
+del<TAG>68<TAG>     int n,m;
+del<TAG>69<TAG>     int i;
+del<TAG>70<TAG>     while(cin>>x>>y>>z)
+del<TAG>71<TAG>     {p.change(x,y,z);}
+del<TAG>72<TAG>}

@@ -1,0 +1,4 @@
+129059.cpp
+129061.cpp
+1
+modify<TAG>12<TAG>	 		int s=a/b+0.5;<CHANGETO>	 		int s=a*1.0/b+0.5;

@@ -1,0 +1,7 @@
+245911.cpp
+245922.cpp
+4
+modify<TAG>6<TAG>    while(cin>>a>>b)<CHANGETO>    loop1:while(cin>>a>>b)
+modify<TAG>9<TAG>        {cout<<"error";return 1;}<CHANGETO>        {cout<<"error"<<endl;goto loop1;}
+modify<TAG>12<TAG>        if(d*2>=b)cout<<c+1;<CHANGETO>        if(d*2>=b)cout<<c+1<<endl;
+modify<TAG>13<TAG>        else cout<<c;<CHANGETO>        else if(d*2<b)cout<<c<<endl;

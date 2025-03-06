@@ -1,0 +1,11 @@
+448792.c
+449673.c
+8
+modify<TAG>4<TAG>    int a,b,c,cin;<CHANGETO>    int a,b,c;
+add<TAG>4<TAG>    float d;
+modify<TAG>9<TAG>    			printf("error");<CHANGETO>    			printf("error\n");
+modify<TAG>14<TAG>				printf("%d",c);<CHANGETO>				d=a*1.0/b-c;
+add<TAG>14<TAG>				if(d>=0.5)
+add<TAG>14<TAG>				printf("%d\n",c+1);
+add<TAG>14<TAG>				else
+add<TAG>14<TAG>				printf("%d\n",c);

@@ -1,0 +1,12 @@
+483872.c
+483883.c
+9
+modify<TAG>3<TAG>float cal(int ,int );<CHANGETO>double cal(int ,int );
+modify<TAG>6<TAG>	float res;<CHANGETO>	double res;
+modify<TAG>7<TAG>	scanf("%d",&a);<CHANGETO>	while(~scanf("%d",&a)){
+modify<TAG>8<TAG>	res = cal(a,a);<CHANGETO>		res = cal(a,a);
+modify<TAG>9<TAG>	printf("%f",res);<CHANGETO>		printf("%.6lf\n",res);
+add<TAG>9<TAG>	}
+add<TAG>9<TAG>	return 0;
+modify<TAG>11<TAG>float cal(int n,int num){<CHANGETO>double cal(int n,int num){
+modify<TAG>12<TAG>	float x;<CHANGETO>	double x;

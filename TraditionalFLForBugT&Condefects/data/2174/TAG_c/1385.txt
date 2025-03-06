@@ -1,0 +1,7 @@
+304956.c
+358309.c
+4
+del<TAG>2<TAG>#include<math.h>
+modify<TAG>5<TAG>	int a,b,c,f;<CHANGETO>	int a,b,c;
+modify<TAG>9<TAG>			printf("error");<CHANGETO>		printf("error\n");
+del<TAG>16<TAG>	printf("\n");

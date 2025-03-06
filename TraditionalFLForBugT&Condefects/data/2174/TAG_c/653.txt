@@ -1,0 +1,5 @@
+357495.c
+357497.c
+2
+modify<TAG>10<TAG>			printf("%d",a/b+1);<CHANGETO>			printf("%d\n",a/b+1);
+modify<TAG>12<TAG>			printf("%d",a/b);<CHANGETO>			printf("%d\n",a/b);

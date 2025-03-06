@@ -1,0 +1,8 @@
+160606.cpp
+160625.cpp
+5
+del<TAG>2<TAG>#include <iomanip>
+modify<TAG>10<TAG>	cout<<"ERROR"<<endl;<CHANGETO>	cout<<"error"<<endl;
+modify<TAG>14<TAG>		c=a/b*1.0;<CHANGETO>		c=a*1.0/b;
+modify<TAG>15<TAG>		cout.setf(ios::fixed);<CHANGETO>		c= (int)(c+ 0.5);
+del<TAG>16<TAG>		cout.precision(0);

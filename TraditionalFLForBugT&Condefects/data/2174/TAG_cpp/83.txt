@@ -1,0 +1,13 @@
+489730.cpp
+489734.cpp
+10
+modify<TAG>13<TAG>	int m,n,i,t;<CHANGETO>	double m,n,i;
+add<TAG>13<TAG>	int t;
+add<TAG>13<TAG>	double k;
+modify<TAG>21<TAG>		printf("%d\n",m/n);<CHANGETO>		t=m/n;
+add<TAG>21<TAG>		k=m/n;
+add<TAG>21<TAG>		if(k-t>=0.5)
+add<TAG>21<TAG>		{
+add<TAG>21<TAG>			t++;
+add<TAG>21<TAG>		}
+add<TAG>21<TAG>		printf("%d\n",t);

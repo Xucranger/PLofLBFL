@@ -1,0 +1,12 @@
+363501.c
+80698.c
+9
+modify<TAG>2<TAG>void main()<CHANGETO>int main()
+modify<TAG>4<TAG>    int a,b,c;<CHANGETO>    int a,b;
+del<TAG>5<TAG>    float d;
+modify<TAG>7<TAG>        {if(b==0)<CHANGETO>        if(b==0)
+modify<TAG>8<TAG>            printf("error");<CHANGETO>            printf("error\n");
+modify<TAG>10<TAG>            d=a/b;<CHANGETO>            printf("%d\n",(a*10/b+5)/10);
+modify<TAG>11<TAG>            c=(int)(d+0.5);<CHANGETO>    return 0;
+del<TAG>12<TAG>            printf("%d",c);
+del<TAG>13<TAG>        }

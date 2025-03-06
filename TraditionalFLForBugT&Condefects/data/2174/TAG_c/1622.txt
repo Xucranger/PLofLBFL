@@ -1,0 +1,9 @@
+85234.c
+85381.c
+6
+modify<TAG>8<TAG>		printf("error");<CHANGETO>		printf("error\n");
+modify<TAG>9<TAG>		else<CHANGETO>		  else
+modify<TAG>10<TAG>		{<CHANGETO>		  {
+modify<TAG>11<TAG>		  a=m*1.0/n+0.5;<CHANGETO>		    a=m*1.0/n+0.5;
+modify<TAG>12<TAG>		  printf("%d",a);<CHANGETO>		    printf("%d\n",a);
+modify<TAG>13<TAG>	    }<CHANGETO>	      }

@@ -1,0 +1,4 @@
+196845.c
+196855.c
+1
+modify<TAG>12<TAG>			x=a/b;<CHANGETO>			x=(a*1.0)/(b*1.0);

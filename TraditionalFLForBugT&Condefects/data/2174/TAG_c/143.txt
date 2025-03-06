@@ -1,0 +1,6 @@
+129137.c
+129139.c
+3
+add<TAG>5<TAG>    while(scanf("%d%d",&a,&b)!=EOF)
+add<TAG>5<TAG>    {
+add<TAG>12<TAG>    }

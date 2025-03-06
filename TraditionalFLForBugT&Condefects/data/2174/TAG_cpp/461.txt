@@ -1,0 +1,7 @@
+160704.cpp
+160707.cpp
+4
+modify<TAG>7<TAG>		{	cout<<"error"<<endl;<CHANGETO>			cout<<"error"<<endl;
+modify<TAG>8<TAG>		break;<CHANGETO>		else{
+del<TAG>9<TAG>		}
+add<TAG>14<TAG>		}

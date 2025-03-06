@@ -1,0 +1,11 @@
+190208.c
+491756.c
+8
+modify<TAG>1<TAG>#include<stdio.h><CHANGETO>#include <stdio.h>
+modify<TAG>4<TAG>int b;<CHANGETO>    int a,b,c;
+modify<TAG>5<TAG>float a,c;<CHANGETO>    while(scanf("%d%d",&a,&b)!=EOF)
+del<TAG>6<TAG>while(scanf("%f %d",&a,&b)!=EOF)
+modify<TAG>11<TAG>      {c=a/b;<CHANGETO>    {
+modify<TAG>12<TAG>      printf("%.0f\n",c);}<CHANGETO>	c=(a+(b/2))/b;
+add<TAG>12<TAG>	printf("%d\n",c); 
+add<TAG>12<TAG>    }

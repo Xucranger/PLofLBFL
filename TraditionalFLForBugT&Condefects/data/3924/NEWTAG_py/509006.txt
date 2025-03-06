@@ -1,0 +1,18 @@
+509006.py
+509068.py
+15
+modify<TAG>6<TAG>  if (a==11 and b<=9)or(a<=9 and b==11):<CHANGETO>  s = (a+b)/2
+modify<TAG>7<TAG>    print('Game Over')<CHANGETO>  s= int(s)
+modify<TAG>8<TAG>  elif a==b==0:<CHANGETO>  x = abs(a-b)
+modify<TAG>9<TAG>    print('A')<CHANGETO>  if (a==11 and (a+b)==20)or((a+b)==20 and b==11):
+modify<TAG>10<TAG>  elif a<10 and b<10:<CHANGETO>    print('Game Over')
+modify<TAG>11<TAG>    if (a+b)%2==0:<CHANGETO>  elif (a+b)<20:
+add<TAG>11<TAG>    if s%2!=0:
+modify<TAG>15<TAG>  elif a>=10 and b>=10 and (a-b)!=2 and (b-a)!=2:<CHANGETO>  elif (a+b)>20:
+modify<TAG>16<TAG>    if (a+b)%2 ==0:<CHANGETO>    if x==1:
+add<TAG>16<TAG>      print('B')
+add<TAG>16<TAG>    elif x==0:
+modify<TAG>18<TAG>    elif (a+b)%2 !=0:<CHANGETO>    elif x==2:
+modify<TAG>19<TAG>      print('B')<CHANGETO>      print('Game Over')
+modify<TAG>20<TAG>  elif a>=10 and b>=10 and ((a-b)==2 or (b-a)==2):<CHANGETO>  elif a==10 and b==10:
+modify<TAG>21<TAG>    print('Game Over')<CHANGETO>    print('A')

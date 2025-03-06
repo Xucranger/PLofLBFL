@@ -1,0 +1,4 @@
+305158.c
+305172.c
+1
+modify<TAG>12<TAG>			c=a/b;<CHANGETO>			c=(float)a/b;

@@ -1,0 +1,11 @@
+307114.c
+307279.c
+8
+modify<TAG>8<TAG>		int m,d;<CHANGETO>		int m,d;	
+modify<TAG>9<TAG>		c=a/b;<CHANGETO>		if(b==0) 
+modify<TAG>10<TAG>		d=a/b;<CHANGETO>		    printf("error\n");
+modify<TAG>11<TAG>		k=c-d;<CHANGETO>		else 
+modify<TAG>12<TAG>		if(b==0) printf("error");<CHANGETO>		{	c=a/b;
+modify<TAG>13<TAG>		else <CHANGETO>		d=a/b;
+modify<TAG>14<TAG>		{<CHANGETO>		k=c-d;
+del<TAG>25<TAG>		//printf("%f %f",c,k);

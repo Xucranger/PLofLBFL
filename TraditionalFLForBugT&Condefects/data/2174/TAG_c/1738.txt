@@ -1,0 +1,12 @@
+306533.c
+306551.c
+9
+modify<TAG>10<TAG>    		}	<CHANGETO>    		}
+add<TAG>10<TAG>		if(a==0){
+add<TAG>10<TAG>		printf("0\n");
+add<TAG>10<TAG>		continue;
+add<TAG>10<TAG>		}
+modify<TAG>12<TAG>    		double d=b/2;<CHANGETO>    		double d=b/2.0;
+modify<TAG>14<TAG>    			printf("%d\n",a/b+1);<CHANGETO>    			printf("%d",a/b+1);
+modify<TAG>16<TAG>    			printf("%d\n",a/b);<CHANGETO>    			printf("%d",a/b);
+add<TAG>16<TAG>    		printf("\n");

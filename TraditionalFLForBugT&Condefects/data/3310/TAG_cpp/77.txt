@@ -1,0 +1,20 @@
+287946.cpp
+288100.cpp
+17
+modify<TAG>3<TAG>float Fx(float n){<CHANGETO>#define max 100
+modify<TAG>4<TAG>	float temp,s;<CHANGETO>double Fx(int n){
+modify<TAG>5<TAG>	int i=1;<CHANGETO>	double s[max];
+modify<TAG>6<TAG>	if(n==0)<CHANGETO>	int i;
+modify<TAG>7<TAG>	return sin(n);<CHANGETO>	s[0]=sin(n);
+modify<TAG>8<TAG>	else{<CHANGETO>	for(i=1;i<=n;i++){
+modify<TAG>9<TAG>		s=sin(n);<CHANGETO>		s[i]=sin(s[i-1]);
+del<TAG>10<TAG>		while(i<=n){
+del<TAG>11<TAG>			temp=sin(s);	
+del<TAG>12<TAG>			s=temp;
+del<TAG>13<TAG>			i++;
+del<TAG>14<TAG>		}
+del<TAG>15<TAG>		return temp;
+add<TAG>16<TAG>	return s[n];
+modify<TAG>19<TAG>	float n,result;<CHANGETO>	int n;
+modify<TAG>20<TAG>	while(~scanf("%f",&n)){<CHANGETO>	double result;
+add<TAG>20<TAG>	while(~scanf("%d",&n)){

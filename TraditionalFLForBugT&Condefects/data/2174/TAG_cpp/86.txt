@@ -1,0 +1,7 @@
+491847.cpp
+491849.cpp
+4
+modify<TAG>6<TAG>	int a,b,i=0,n;<CHANGETO>	int a,b,i=0,n=0;
+modify<TAG>10<TAG>			printf("error");<CHANGETO>			printf("error\n");
+add<TAG>12<TAG>				n=0;
+modify<TAG>19<TAG>				printf("%d",n);<CHANGETO>				printf("%d\n",n);

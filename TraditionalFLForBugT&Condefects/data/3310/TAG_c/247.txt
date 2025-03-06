@@ -1,0 +1,11 @@
+435675.c
+435896.c
+8
+modify<TAG>3<TAG>double water(int x,int y)<CHANGETO>double water(int x,int n)
+modify<TAG>6<TAG>		return sin(y);<CHANGETO>		return sin(n);
+modify<TAG>8<TAG>		return sin(water(x-1,y));<CHANGETO>		return sin(water(x-1,n));
+modify<TAG>14<TAG>	scanf("%d",&n);<CHANGETO>	while(scanf("%d",&n)!=EOF)
+modify<TAG>15<TAG>	m=n;<CHANGETO>	{	m=n;
+modify<TAG>16<TAG>	y=water(n,m);<CHANGETO>		y=water(n,m);
+modify<TAG>17<TAG>	printf("%.6lf\n",y);<CHANGETO>		printf("%.6f\n",y);
+add<TAG>17<TAG>	}

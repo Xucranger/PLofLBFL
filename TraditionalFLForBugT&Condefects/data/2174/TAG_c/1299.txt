@@ -1,0 +1,11 @@
+499238.c
+499257.c
+8
+modify<TAG>12<TAG> 	sb a,b;<CHANGETO> 	sb a,b,c;
+modify<TAG>18<TAG> 			printf("%d\n",a/b);	<CHANGETO>		{
+add<TAG>18<TAG>			float aa=a*1.0;
+add<TAG>18<TAG>			float bb=b*1.0;
+add<TAG>18<TAG>			float cc=aa/bb;
+add<TAG>18<TAG>			c=cc+0.5;
+add<TAG>18<TAG>			printf("%d\n",c);	
+add<TAG>18<TAG>		}

@@ -1,0 +1,7 @@
+197561.c
+197564.c
+4
+modify<TAG>7<TAG>	  printf("error");<CHANGETO>	  printf("error\n");
+modify<TAG>9<TAG>	  c=((a*10/b)+5)/10;<CHANGETO>	{
+add<TAG>9<TAG>	  c=(a*10/b+5)/10;
+add<TAG>10<TAG>    }

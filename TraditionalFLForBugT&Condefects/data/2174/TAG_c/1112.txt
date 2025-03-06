@@ -1,0 +1,6 @@
+81506.c
+81521.c
+3
+modify<TAG>15<TAG>		int a,b,c,i;<CHANGETO>		int a,b,c;
+modify<TAG>16<TAG>		for(i=1;i<10;i++)<CHANGETO>		while(scanf("%d %d",&a,&b)!=EOF)
+del<TAG>18<TAG>			scanf("%d %d",&a,&b);

@@ -1,0 +1,5 @@
+356011.cpp
+356012.cpp
+2
+add<TAG>5<TAG>int a[10005]={0,1};
+modify<TAG>12<TAG>        else cout<<round(a/b)<<endl;<CHANGETO>        else cout<<round((double)1.0*a/b)<<endl;

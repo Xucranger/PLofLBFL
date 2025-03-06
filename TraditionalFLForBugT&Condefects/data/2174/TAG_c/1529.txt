@@ -1,0 +1,8 @@
+305429.c
+307271.c
+5
+modify<TAG>5<TAG>		if(b==0)<CHANGETO>		if(b==0){
+modify<TAG>6<TAG>		printf("error\n");<CHANGETO>			printf("error\n");
+add<TAG>6<TAG>		}
+modify<TAG>9<TAG>			printf("%d\n",c);<CHANGETO>			if((a%b)*10>=5*b) c++;
+add<TAG>9<TAG>			printf("%d\n",c);		

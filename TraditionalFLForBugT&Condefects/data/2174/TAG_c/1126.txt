@@ -1,0 +1,16 @@
+160802.c
+129147.c
+13
+del<TAG>2<TAG>#include<stdlib.h>
+modify<TAG>5<TAG>	int a=0;<CHANGETO>    float a,b,s;
+modify<TAG>6<TAG>	int b=0;<CHANGETO>    int x;
+del<TAG>7<TAG>	int x=0;
+del<TAG>8<TAG>	int i=1;
+modify<TAG>11<TAG>	    if(b==0)<CHANGETO>		if (b==0)
+modify<TAG>12<TAG>	    {<CHANGETO>			printf("error\n");
+modify<TAG>13<TAG>	        printf("error\n");<CHANGETO>	    else 
+modify<TAG>14<TAG>	    }<CHANGETO>		{
+modify<TAG>15<TAG>	    else<CHANGETO>			s=a/b; 
+modify<TAG>16<TAG>	    {<CHANGETO>         	x=(int)(s+0.5);
+del<TAG>17<TAG>	    	x=a/b;
+modify<TAG>19<TAG>	    }<CHANGETO>		}
