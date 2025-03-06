@@ -4,18 +4,18 @@ from openai import OpenAI
 from zhipuai import ZhipuAI
 
 keysboard = {
-    "gpt-3.5-turbo":"sk-m8FYRkwtaGbZ9ah92c8d2f235eAc4fFbBaC31bDb0b4e9f46",
-    "gpt-4o":"sk-snt9ufdbzzjhStyc76AeA7835fD04039B207703599Fd8a7c",
-    "gpt-4":"sk-DjODLS8rhRzoaW2VPpDYcgTSwhkRh0QCUDbKILVgFD8zglHE",
-    "o1-mini":"sk-WN3NRR2cyUTYMSvW381c9fE33044470aA9AeFe2a1518D7F1",
-    "o1-preview":"sk-RoIzixeRR36VkpUD1d75A6396b1f468a9fFb54D95bAbB74a",
-    "deepseek-chat":"sk-Bc3VOPVbuKKt7T16JpTusecCwTplTs6hyIG4gSzwGU0LoanK",
-    "deepseek-ai/DeepSeek-R1":"sk-onppqnxupqbmmevbjeegxvaexosztksdhebjgrqmvdndfrdr",
-    "llama-3.1-8b":"sk-DSA4OR9AoNjWtomSvW0wvYJ50k9io82LRSmZxDtfv7cGqV7r"
+    "gpt-3.5-turbo":"sk-",
+    "gpt-4o":"sk-",
+    "gpt-4":"sk-",
+    "o1-mini":"sk-",
+    "o1-preview":"sk-",
+    "deepseek-chat":"sk-",
+    "deepseek-ai/DeepSeek-R1":"sk-",
+    "llama-3.1-8b":"sk-"
 }
 
 def send_prompt_zhipu_form(prompt,model):
-    client = ZhipuAI(api_key="c0bfb61d177c472292eb1f25e1840c4b.216igfsJaVfQQJA5")
+    client = ZhipuAI(api_key="...")
     # print(mykey)
     if model == "chatGlm3":
        model = "ChatGLM3-6B"

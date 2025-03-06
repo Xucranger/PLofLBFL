@@ -287,7 +287,7 @@ def run_Codeflaws(prompt,experiment_index,experiment_model,rangeIndex):
 def run_all(prompt):
     # 批量跑实验
     # 
-    experiment_models = ["gpt-4o","gpt-4","deepseekV3","o1-preview"]
+    experiment_models = ["gpt-4o","gpt-4","deepseekV3","o1-preview","o1-mini"]
     for experiment_model in experiment_models:
         # for i in [1]:
         run_BugT(prompt, 6, experiment_model, 503)
